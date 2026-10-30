@@ -1,0 +1,1676 @@
+[
+  {
+    "id": 1,
+    "fase": "Planificar",
+    "titulo": "Prospects and Challenges of Lean Manufacturing Deployment within Manufacturing SMEs in Nigeria: A Literature Review",
+    "anio": 2022,
+    "revista": "Journal of Social Sciences and Management Studies",
+    "doi": "10.56556/jssms.v1i3.159",
+    "resumen_en": "Small and medium enterprises (SMEs) played a vital role in manufacturing goods for consumer and industrial purposes, making them instrumental in business growth and economic development. However, issues of poor quality and substandard products prevail due to limited technical knowledge that hindered them from competing locally and globally in Nigeria—arising from the lack of lean manufacturing deployment and implementation. Therefore, the study aims to provide an insight into the prospect and challenges of manufacturing SMEs in Nigeria as it relates to the deployment of lean manufacturing tools and techniques. The study would aid manufacturing SMEs in better comprehending their potentials and problems, hence, deploying lean manufacturing initiatives successfully. The study applied a literature review approach through past empirical and conceptual studies from reputable journals and reports. Based on the available literature, the study finds that though manufacturing SMEs in Nigeria are faced with numerous issues, e.g., poor leadership, lack of qualified personnel, and inadequate funds , they have shown higher prospects of deploying lean manufacturing successfully. The study concludes that manufacturing SMEs should bank on potentials like flexible organizational culture and structure, easy access to customers and suppliers, and flexible manufacturing system to deploy lean manufacturing, which will further aid in waste elimination, value addition, customer satisfaction, and enhanced performance. The study serves as the foundation for further empirical research on issues related to lean manufacturing deployment within SMEs, thereby proffering solutions to the quality challenges they are facing.",
+    "autores": [
+      "Mohammed Lawal Inuwa",
+      "Aisha Usman"
+    ],
+    "palabras_clave_oa": [
+      "lean manufacturing",
+      "small and medium-sized enterprises",
+      "manufacturing SMEs",
+      "Nigeria",
+      "lean implementation challenges",
+      "waste elimination",
+      "quality improvement",
+      "flexible manufacturing systems",
+      "organizational culture",
+      "leadership",
+      "skilled labor shortage",
+      "SME performance"
+    ],
+    "temas_oa": [
+      "Quality and Supply Management",
+      "Management and Optimization Techniques",
+      "Digital Transformation in Industry"
+    ],
+    "acceso_abierto": true,
+    "pdf": "01.pdf",
+    "pdf_origen": "https://www.jescae.com/index.php/jssms/article/download/159/77"
+  },
+  {
+    "id": 2,
+    "fase": "Planificar",
+    "titulo": "Lean strategy implementation in SME manufacturing in developing countries: a systematic literature review",
+    "anio": 2026,
+    "revista": "International Journal of Lean Six Sigma",
+    "doi": "10.1108/ijlss-06-2025-0161",
+    "resumen_en": "Purpose The review examines how small and medium-sized enterprises (SMEs) in developing nations adopt and implement Lean manufacturing. Despite their central role in economic development, SMEs often face inefficiencies from limited resources, skill shortages and institutional barriers. Although Lean is widely promoted, evidence on the sustained application of Lean in SMEs across diverse contexts remains limited. Design/methodology/approach A systematic review, following the PRISMA 2020 guidelines, synthesized 123 empirical studies (2015–2025) and developed the SME Lean Capability Pathway, a three-phase model of context-driven Lean maturity. The analysis identifies implementation trends, contextual adaptations and performance outcomes, focusing on core Lean tools, such as Kaizen, 5S, just-in-time (JIT), total productive maintenance (TPM) and value stream mapping (VSM). Findings SMEs adopt Lean incrementally through phased, hybrid and locally tailored approaches rather than standardized models. Leadership commitment, workforce engagement and organizational readiness enable progress, while resource shortages and resistance remain key barriers. Regional contrasts are evident: formalized Lean Six Sigma in South Asia, incremental “Lean-Lite” adaptations in Africa and sector-specific Lean–Green in Latin America. Contextual tailoring yields the strongest gains in operational outcomes, followed by sustainability, financial and customer performance. Overall, patterns indicate staged capability building, consistent with the SME Lean capability pathway. Research limitations/implications This review is limited to English-language, peer-reviewed studies, which may have excluded relevant sources. Cross-country and sectoral variation may constrain generalizability. Although single-coder analysis was mitigated through audit trails, memos and an independent peer-coding check, this limitation remains. Future work should use multi-coder designs, expand to under-studied regions and use longitudinal or mixed-methods approaches. Practical implications SMEs should implement Lean as an integrated system, progressing from 5S/Kaizen to TPM/JIT only when discipline, engagement and leadership readiness are evident. Managers should invest in modular, hands-on training and adapt tools to local conditions. Policymakers can accelerate adoption through training support, shared infrastructure, targeted incentives and inclusive programs that engage women and workers transitioning from the informal sector. Social implications Lean adoption can foster job creation, stabilize employment and support transitions from informal to formal work. It also promotes inclusion by expanding opportunities for women and underrepresented groups through targeted training and leadership pathways, contributing to more equitable and sustainable industrial development in developing economies. Originality/value To the best of the author’s knowledge, this is the first cross-national systematic review of Lean implementation in manufacturing SMEs in developing economies. It advances Lean theory by framing capability development as a staged, context-adaptive process. It introduces the SME Lean capability pathway, a three-phase model with actionable guidance for managers and policymakers.",
+    "autores": [
+      "Corrine Keke Chen"
+    ],
+    "palabras_clave_oa": [
+      "manufacturing industry",
+      "small and medium-sized enterprises",
+      "developing countries",
+      "lean implementation",
+      "lean maturity",
+      "Kaizen",
+      "5S",
+      "just-in-time",
+      "total productive maintenance",
+      "value stream mapping",
+      "Lean Six Sigma",
+      "implementation barriers",
+      "employee engagement",
+      "leadership commitment",
+      "women in manufacturing",
+      "sustainability performance",
+      "operational performance"
+    ],
+    "temas_oa": [
+      "Quality and Supply Management",
+      "Management and Optimization Techniques",
+      "Digital Transformation in Industry"
+    ],
+    "acceso_abierto": true,
+    "pdf": "02.pdf"
+  },
+  {
+    "id": 3,
+    "fase": "Planificar",
+    "titulo": "Investigating the barriers to Quality 4.0 adoption in the Indian manufacturing sector: insights and implications for industry and policy-making",
+    "anio": 2024,
+    "revista": "International Journal of Quality & Reliability Management",
+    "doi": "10.1108/ijqrm-09-2023-0277",
+    "resumen_en": "Purpose The research explores the shift to Quality 4.0, examining the move towards a data-focussed transformation within organizational frameworks. This transition is characterized by incorporating Industry 4.0 technological innovations into existing quality management frameworks, signifying a significant evolution in quality control systems. Despite the evident advantages, the practical deployment in the Indian manufacturing sector encounters various obstacles. This research is dedicated to a thorough examination of these impediments. It is structured around a set of pivotal research questions: First, it seeks to identify the key barriers that impede the adoption of Quality 4.0. Second, it aims to elucidate these barriers' interrelations and mutual dependencies. Thirdly, the research prioritizes these barriers in terms of their significance to the adoption process. Finally, it contemplates the ramifications of these priorities for the strategic advancement of manufacturing practices and the development of informed policies. By answering these questions, the research provides a detailed understanding of the challenges faced. It offers actionable insights for practitioners and policymakers implementing Quality 4.0 in the Indian manufacturing sector. Design/methodology/approach Employing Interpretive Structural Modelling and Matrix Impact of Cross Multiplication Applied to Classification, the authors probe the interdependencies amongst fourteen identified barriers inhibiting Quality 4.0 adoption. These barriers were categorized according to their driving power and dependence, providing a richer understanding of the dynamic obstacles within the Technology–Organization–Environment (TOE) framework. Findings The study results highlight the lack of Quality 4.0 standards and Big Data Analytics (BDA) tools as fundamental obstacles to integrating Quality 4.0 within the Indian manufacturing sector. Additionally, the study results contravene dominant academic narratives, suggesting that the cumulative impact of organizational barriers is marginal, contrary to theoretical postulations emphasizing their central significance in Quality 4.0 assimilation. Practical implications This research provides concrete strategies, such as developing a collaborative platform for sharing best practices in Quality 4.0 standards, which fosters a synergistic relationship between organizations and policymakers, for instance, by creating a joint task force, comprised of industry leaders and regulatory bodies, dedicated to formulating and disseminating comprehensive guidelines for Quality 4.0 adoption. This initiative could lead to establishing industry-wide standards, benefiting from the pooled expertise of diverse stakeholders. Additionally, the study underscores the necessity for robust, standardized Big Data Analytics tools specifically designed to meet the Quality 4.0 criteria, which can be developed through public-private partnerships. These tools would facilitate the seamless integration of Quality 4.0 processes, demonstrating a direct route for overcoming the barriers of inadequate standards. Originality/value This research delineates specific obstacles to Quality 4.0 adoption by applying the TOE framework, detailing how these barriers interact with and influence each other, particularly highlighting the previously overlooked environmental factors. The analysis reveals a critical interdependence between “lack of standards for Quality 4.0” and “lack of standardized BDA tools and solutions,” providing nuanced insights into their conjoined effect on stalling progress in this field. Moreover, the study contributes to the theoretical body of knowledge by mapping out these novel impediments, offering a more comprehensive understanding of the challenges faced in adopting Quality 4.0.",
+    "autores": [
+      "Ranjit Roy Ghatak",
+      "Jose Arturo Garza‐Reyes"
+    ],
+    "palabras_clave_oa": [
+      "Quality 4.0",
+      "Indian manufacturing",
+      "big data analytics tools",
+      "quality management standards",
+      "technology-organization-environment framework",
+      "manufacturing policy",
+      "public-private partnerships",
+      "interpretive structural modeling",
+      "quality control system"
+    ],
+    "temas_oa": [
+      "Digital Transformation in Industry",
+      "Impact of AI and Big Data on Business and Society",
+      "Quality and Supply Management"
+    ],
+    "acceso_abierto": false,
+    "pdf": null
+  },
+  {
+    "id": 4,
+    "fase": "Planificar",
+    "titulo": "An intuitionistic fuzzy approach to assessing the barriers to quality 4.0 adoption in the footwear manufacturing industry: Implications for sustainability in emerging economy",
+    "anio": 2025,
+    "revista": "Journal of Open Innovation: Technology, Market, and Complexity",
+    "doi": "10.1016/j.joitmc.2025.100604",
+    "resumen_en": "The footwear manufacturing industry substantially aids global fashion trends and economic growth. Still, it faces challenges such as excessive raw material waste, increased rework, and inadequate quality control, which hinder sustainability and competitiveness. Integrating Industry 4.0 technologies with quality management, known as Quality 4.0 (Q4.0), offers transformative potential through real-time monitoring, predictive analytics, and sustainable practices. However, adopting Q4.0 technologies is impeded by various barriers that require a thorough understanding to devise effective mitigation strategies. For that purpose, this study investigates the key barriers to Q4.0 adoption in the footwear manufacturing sector, focusing on emerging economies like Bangladesh. Using an integrated multi-criteria decision-making (MCDM) approach that combines interval-valued type 2 intuitionistic fuzzy (IVT2IF) theory and the decision-making trial and evaluation laboratory (DEMATEL) method, 16 barriers were identified, validated by experts, and analyzed for interdependencies. The results highlight “uncertainty about Return on Investment (ROI) and insufficient capital investment,” “lack of adaptive technological infrastructure,” and “difficulty in managing Industry 4.0 technologies” as the most prominent barriers, with prominence scores of 9.141, 9.068, and 8.865, respectively. “Lack of adaptive technological infrastructure” emerges as the most critical causal driver, followed by “lack of commitment from top management” and “poor inter-departmental collaboration and communication.” This research provides valuable insights for improving quality management and fostering innovation in the footwear manufacturing industry, which can guide practitioners and policymakers in overcoming barriers, promoting sustainability, and enhancing competitiveness in this manufacturing sector.",
+    "autores": [
+      "Maishat Lubaba",
+      "Md. Imran Hosen",
+      "Md Shihab Shakur",
+      "M. Rahman",
+      "A.B.M. Mainul Bari"
+    ],
+    "palabras_clave_oa": [
+      "Quality 4.0",
+      "footwear manufacturing",
+      "DEMATEL",
+      "multi-criteria decision making",
+      "technological infrastructure",
+      "top management commitment",
+      "inter-departmental collaboration",
+      "sustainability",
+      "emerging markets",
+      "Bangladesh"
+    ],
+    "temas_oa": [
+      "Digital Transformation in Industry",
+      "Multi-Criteria Decision Making",
+      "Impact of AI and Big Data on Business and Society"
+    ],
+    "acceso_abierto": true,
+    "pdf": null
+  },
+  {
+    "id": 5,
+    "fase": "Planificar",
+    "titulo": "Barriers Associated with Total Quality Management Practices: A Comparative Study Between Service- and Manufacturing-based Medium Enterprises",
+    "anio": 2025,
+    "revista": "Journal of Operations and Strategic Planning",
+    "doi": "10.1177/2516600x251337543",
+    "resumen_en": "Total Quality Management (TQM) is essential for the long-term survival of all enterprises, including medium enterprises, as it improves the competitiveness of organizations by focusing on customer satisfaction, streamlining processes, reducing waste, and fostering a culture of continuous improvement. However, there are several barriers associated with the effective implementation of TQM. The study explores the barriers associated with the successful implementation of TQM in service and manufacturing medium enterprises in Kamrup (Rural) and Kamrup (Metropolitan) Districts of Assam in Northeast India. Required primary data were obtained through a survey of owners and employees of 65 service-based and 77 manufacturing-based medium enterprises. A sample of 600 employees, 300 employees from each of these two types of enterprises, was selected using a convenience sampling technique. A descriptive research design was used, and two separate questionnaires were used for gathering information from sample subjects. One-way analysis of variance was utilized to analyze the data. The findings suggested that the top management should address issues related to continuous training and education, as well as a lack of resources. By exploring the barriers of TQM adoption, this study provides insights that can help these enterprises improve quality, enhance operational efficiency, and ultimately contribute to the socio-economic development of the state.",
+    "autores": [
+      "Anindita Tamuli",
+      "Sinmoy Goswami"
+    ],
+    "palabras_clave_oa": [
+      "total quality management",
+      "TQM implementation barriers",
+      "medium-sized enterprises",
+      "service enterprises",
+      "manufacturing companies",
+      "continuous improvement",
+      "employee training",
+      "resource constraints",
+      "top management",
+      "Assam"
+    ],
+    "temas_oa": [
+      "Quality and Supply Management",
+      "Management Systems and Quality Improvement",
+      "Quality and Management Systems"
+    ],
+    "acceso_abierto": true,
+    "pdf": null
+  },
+  {
+    "id": 6,
+    "fase": "Planificar",
+    "titulo": "Barriers in Implementing Six Sigma in Small and Medium Manufacturing Enterprises",
+    "anio": 2022,
+    "revista": "International Journal for Research in Applied Science and Engineering Technology",
+    "doi": "10.22214/ijraset.2022.46003",
+    "resumen_en": "Abstract: Six sigma is a tool that used by organizations to improve quality, Enhance their operation, Improve efficiency as result it helps to increase overall profit, Six sigma remove defects less than 3.4 defects per million, many large companies implement six sigma due to their financial resources ability, that’s why a perception is observed that six sigma is only for large companies, but it can be implemented in small and medium enterprises also with better results. Six sigma is not only for quality but it also helps in increasing productivity, profit, improves whole bottom line of company, this study is for small and medium enterprises that helps to guide for implementation process. Hence Six Sigma is rule which analyzed data and statistics so that industry can focus on primary cause of problem and work accordingly to solve that problem in a simplified manner so that we can get final results improved and better, six Sigma is used in many sectors but gives better result in manufacturing sector also, Small and Medium Enterprises (SMEs) in India operate under typical conditions where a wide variety of products are produced in smaller quantities. For such small batch productions, the production processes including people, machines, materials and methods should be as stable as possible. The quality of the products produced or the services provided must be continuously improved. Whenever possible, inspection should be done at source to avoid quality deviations that would be more costly if found at a later stage.",
+    "autores": [
+      "Rohit Yadav",
+      "Prof. Yudhveer Verma",
+      "Prof. Abhinav Panwar"
+    ],
+    "palabras_clave_oa": [
+      "Six Sigma",
+      "small and medium-sized enterprises",
+      "manufacturing companies",
+      "implementation barriers",
+      "quality improvement",
+      "defect reduction",
+      "productivity",
+      "continuous improvement",
+      "small-batch production",
+      "Indian SMEs"
+    ],
+    "temas_oa": [
+      "Quality and Supply Management",
+      "Management and Optimization Techniques",
+      "Management Systems and Quality Improvement"
+    ],
+    "acceso_abierto": true,
+    "pdf": "06.pdf",
+    "pdf_origen": "https://www.ijraset.com/best-journal/barriers-in-implementing-six-sigma-in-small-and-medium-manufacturing-enterprises"
+  },
+  {
+    "id": 7,
+    "fase": "Planificar",
+    "titulo": "An SEM Approach for the Barrier Analysis in Lean Implementation in Manufacturing Industries",
+    "anio": 2021,
+    "revista": "Sustainability",
+    "doi": "10.3390/su13041978",
+    "resumen_en": "This paper investigates the barriers that hinder the implementation of lean manufacturing in wood and furniture industries as the adoption of this philosophy in such industries is not promising especially in emerging economies. To this end, a comprehensive review of the literature was performed to identify the barriers and develop a conceptual model. Next, structural equation modeling is employed to examine the model using the collected data from 131 wood and furniture companies. The findings revealed a synergetic effect between three key factors—culture and human attitude, knowledge, and resources—which play a crucial role in implementing lean. The analyses indicated the reasons of companies refused or not ready to implement lean on knowledge and culture and human attitudinal issues, particularly in companies that have limited resources. It is believed that resource issues are an obstacle to lean implementation, but not as important as knowledge and culture and human attitudinal issues. Sufficient knowledge is needed to deploy lean practices as well as changes in culture and human attitude. Investigating the relationships between these three key barriers is a contribution that this study intends to become a forward step for promoting lean manufacturing among under-studied industries. This paper also proposes that through adopting the activities for lean implementation, small and medium enterprises can experience and quantify the positive impacts of lean practices. Government agencies, universities, and professional bodies can support such enterprises in this transition through targeted interventions that address the barriers presented.",
+    "autores": [
+      "Falah Abu",
+      "Hamed Gholami",
+      "Muhamad Zameri Mat Saman",
+      "Norhayati Zakuan",
+      "Dalia Štreimikienė",
+      "Grigorios L. Kyriakopoulos"
+    ],
+    "palabras_clave_oa": [
+      "lean manufacturing",
+      "lean implementation barriers",
+      "timber industry",
+      "furniture industry",
+      "organizational culture",
+      "attitudes",
+      "knowledge",
+      "resources",
+      "small and medium-sized enterprises",
+      "emerging markets",
+      "structural equation modeling"
+    ],
+    "temas_oa": [
+      "Quality and Supply Management",
+      "Management and Optimization Techniques",
+      "Digital Transformation in Industry"
+    ],
+    "acceso_abierto": true,
+    "pdf": "07.txt"
+  },
+  {
+    "id": 8,
+    "fase": "Planificar",
+    "titulo": "Advancing lean methodology adoption in Serbian manufacturing SMEs: Empirical insights and a strategic implementation framework",
+    "anio": 2026,
+    "revista": "Serbian Journal of Management",
+    "doi": "10.5937/sjm21-57542",
+    "resumen_en": "As manufacturing industries become more competitive around the world, Lean methodology must be used to improve operations and keep the market stable. However, small and medium-sized businesses (SMEs), have a hard time fully implementing Lean because they don't have enough resources, and their organizations are stuck in their ways. This research provides an empirical analysis of the level of application of Lean in manufacturing SMEs in the Republic of Serbia. A structured survey was conducted in which 54 manufacturing SMEs took part, in order to determine the level of Lean adoption, the main obstacles in the implementation process and the influence of factors, such as company size, quality management system and product diversification. The Mann-Whitney U, the Kruskal-Wallis, the Chi-square test and a binary logistic regression were used for qualitative analysis. The results show that there is a strong link between ISO 9001 certification and Lean implementation. Larger enterprises are more likely to adopt Lean than smaller ones. The study presents a customized Plan-Do-Check-Act (PDCA) model for the Serbian SMEs, offering an approach to overcoming implementation barriers. Future research should be directed towards extending the analysis to the Western Balkans and comparing the results to support evidence-based industrial policy development.",
+    "autores": [
+      "Dragan Pavlović",
+      "Peđa Milosavljević",
+      "Milena Nebojsa Rajić",
+      "Zorana Zoran Stanković",
+      "Aleksandar Takači"
+    ],
+    "palabras_clave_oa": [
+      "lean manufacturing",
+      "lean adoption",
+      "small and medium-sized enterprises",
+      "manufacturing SMEs",
+      "implementation barriers",
+      "ISO 9001 certification",
+      "quality management systems",
+      "firm size",
+      "product diversification",
+      "Plan-Do-Check-Act cycle",
+      "implementation framework"
+    ],
+    "temas_oa": [
+      "Quality and Supply Management",
+      "Management and Optimization Techniques",
+      "Management Systems and Quality Improvement"
+    ],
+    "acceso_abierto": true,
+    "pdf": "08.pdf",
+    "pdf_origen": "https://scindeks-clanci.ceon.rs/data/pdf/1452-4864/2026/1452-48642601049P.pdf"
+  },
+  {
+    "id": 9,
+    "fase": "Planificar",
+    "titulo": "A Model for the Implementation of Lean Manufacturing in Textile SMEs in the Department of Cundinamarca",
+    "anio": 2023,
+    "revista": "Journal of Engineering Science and Technology Review",
+    "doi": "10.25103/jestr.165.15",
+    "resumen_en": "This work presents an adaptation of Lean Manufacturing for the improvement of production systems in small and mediumsized enterprises (SMEs) in the textile sector of the Cundinamarca department in Colombia.The construction of the model was based on the characterization of the production systems of 31 textile companies in the department, from a Lean perspective.The proposed model is tailored to the specific characteristics of these production systems in SMEs, which face difficulties in applying the Lean philosophy due to lack of knowledge, personnel, and economic limitations for implementation.The model involves the study of the tools of the Toyota Production System, as well as some innovations of these tools that have been presented in recent years, leading up to the concept of Lean.The main conclusion is that the proposed model has been methodologically structured to improve the production systems of textile SMEs in the department, generating positive impact for the sector.",
+    "autores": [
+      "Diana Carolina Villamil Sandoval",
+      "Arteaga Sarmiento Wilfrido Javier"
+    ],
+    "palabras_clave_oa": [
+      "lean manufacturing",
+      "textile industry",
+      "small and medium-sized enterprises",
+      "production system improvement",
+      "Toyota Production System",
+      "Cundinamarca"
+    ],
+    "temas_oa": [
+      "Quality and Supply Management",
+      "Management and Optimization Techniques",
+      "Digital Transformation in Industry"
+    ],
+    "acceso_abierto": true,
+    "pdf": "09.pdf",
+    "pdf_origen": "https://jestr.org/downloads/Volume16Issue5/fulltext151652023.pdf"
+  },
+  {
+    "id": 10,
+    "fase": "Planificar",
+    "titulo": "Analyzing Critical Success Factors of Lean 4.0 Implementation in Small and Medium Enterprises for Sustainable Manufacturing Supply Chain for Industry 4.0 Using PLS-SEM",
+    "anio": 2023,
+    "revista": "Sustainability",
+    "doi": "10.3390/su15065528",
+    "resumen_en": "Lean 4.0 (L4.0) is a transformed form of traditional lean to suit Industry 4.0’s (I4.0) requirements. The L4.0 has a great deal of potential to match the I4.0’s challenges in terms of speed, dynamics, and efficacy once it has been digitalized. The study aims to identify and model the L4.0 CSFs for successful lean implementations in SMEs to suit I4.0 needs. The thorough analysis of the literature led to the identification of the L4.0 CSFs. The expert panel from SMEs was involved in selecting the relevant 22 L4.0 CSFs that suited the needs of manufacturing SMEs. Based on the feedback of the expert panel, a questionnaire survey was carried out. Further, collected responses were analyzed using an exploratory factor analysis (EFA). The EFA results identified four major groups: ‘worker-enabled technologies’, ‘IT-enabled technologies’, ‘management’, and ‘L4.0’ related CSFs. Furthermore, the study uses partial least square structural equation modeling (PLS-SEM) to simulate the L4.0 CSFs and identify the influence of each CSF toward successful lean implementation. The PLS-SEM results confirm that the lean CSFs have positive effects on successful lean implementation. The present research contributes to enhancing the knowledge and L4.0 practices of manufacturing SMEs. The results show that successful implementation will promote ‘productivity improvements (PI)’, ‘waste reduction (WR)’, ‘competitive advantage (CA)’, and ‘sustainable manufacturing system (SMS)’.",
+    "autores": [
+      "Karishma M. Qureshi",
+      "Bhavesh G. Mewada",
+      "Mohanad Kamil Buniya",
+      "M.N. Qureshi"
+    ],
+    "palabras_clave_oa": [
+      "Lean 4",
+      "success factors",
+      "small and medium-sized enterprises",
+      "Industry 4.0",
+      "sustainable manufacturing",
+      "supply chain",
+      "lean implementation",
+      "management practices",
+      "productivity improvement",
+      "waste reduction",
+      "competitive advantage"
+    ],
+    "temas_oa": [
+      "Digital Transformation in Industry",
+      "Quality and Supply Management",
+      "Impact of AI and Big Data on Business and Society"
+    ],
+    "acceso_abierto": true,
+    "pdf": "10.txt"
+  },
+  {
+    "id": 11,
+    "fase": "Planificar",
+    "titulo": "Factors determining total quality management in the manufacturing industries: An empirical study",
+    "anio": 2023,
+    "revista": "psychologyandeducation",
+    "doi": "10.48047/pne.2018.55.1.41",
+    "resumen_en": "Total quality management (TQM) is a critical component of the manufacturing industry thataims to provide the highest level of customer satisfaction by continuously improving allprocesses. The goal of this paper is to identify the critical factors influencing TQMimplementation in manufacturing industries. A literature review of various research papers,journals, and books on TQM in manufacturing industries was conducted as part of the study.According to the research findings, various factors such as “leadership commitment,employee involvement, customer focus, continuous improvement, and supplier involvement”influence TQM implementation in manufacturing industries. The study also revealed that theeffective integration of these factors into the manufacturing process is critical to the successof TQM implementation. Furthermore, the research findings suggest that implementing TQMcan result in a variety of benefits for manufacturing industries, such as increased customersatisfaction, improved product quality, and higher profitability. However, several obstacles,such as resistance to change, a lack of resources, and insufficient training, may impede TQMimplementation in manufacturing industries. To summarize, implementing TQM inmanufacturing industries necessitates a thorough understanding of the critical success factors.Manufacturing industries can achieve continuous improvement in all processes and providehigh-quality products and services by addressing challenges and effectively integratingcritical factors.",
+    "autores": [
+      "Bijaya Laxmi Thapliyal"
+    ],
+    "palabras_clave_oa": [
+      "total quality management",
+      "TQM implementation",
+      "manufacturing industry",
+      "leadership commitment",
+      "employee participation",
+      "customer orientation",
+      "continuous improvement",
+      "supplier involvement",
+      "resistance to change",
+      "customer satisfaction",
+      "product quality"
+    ],
+    "temas_oa": [
+      "Quality and Supply Management",
+      "Management Systems and Quality Improvement",
+      "Management and Optimization Techniques"
+    ],
+    "acceso_abierto": true,
+    "pdf": "11.pdf",
+    "pdf_origen": "http://psychologyandeducation.net/pae/index.php/pae/article/download/7792/6180"
+  },
+  {
+    "id": 12,
+    "fase": "Planificar",
+    "titulo": "Perancangan Sistem Manajemen Mutu (SMM) Berdasarkan International Organization for Standardization (ISO) 9001:2015 dan Hasil Gap Analysis pada CV HER-5 Engineering Manufacturing",
+    "anio": 2023,
+    "revista": "Jurnal Riset Teknik Industri",
+    "doi": "10.29313/jrti.v3i1.1943",
+    "resumen_en": "Abstract. The company's ability to deal with developments in the globalization era, needs to strive to continuously improve quality and competitiveness in meeting customer requirements. Quality is one of the keys to winning the competition, to be able to survive in business competition both in the national market and in the global market the company must be able to improve the quality of its products so as to achieve customer satisfaction. One way that companies can do is by implementing QMS. QMS is a series of interacting processes carried out by a company to achieve quality objectives. CV HER-5 Engineering Manufacturing is a company engaged in manufacturing, with the resulting product being a swing arm. Observations at the company found that the company had implemented QMS based on ISO 9001:2008, but not up to the certification stage. In addition, the company experienced problems in the form of product returns by consumers. This is because the resulting product does not comply with the approved requirements. This study aims to determine the current condition of the QMS CV HER-5 Engineering Manufacturing, and provide suggestions for the fulfillment and design of QMS documents in accordance with the requirements of ISO 9001:2015. This study used ISO 9001:2015 as the QMS standard and the gap analysis method was carried out by scoring clauses 4 to 10 of ISO 9001:2015. The percentage of implementation results obtained was 50,15%, and the proposed design of complete QMS documents based on ISO 9001:2015 includes quality guidelines, procedures and forms to fulfill clauses that have not been fulfilled. Abstrak. Kemampuan perusahaan dalam menghadapi perkembangan era globalisasi, perlu berupaya untuk terus-menerus meningkatkan mutu dan daya saing dalam memenuhi persyaratan pelanggan. Mutu merupakan salah satu kunci dalam memenangkan persaingan, untuk dapat bertahan dalam persaingan bisnis baik di pasar nasional maupun pasar global perusahaan harus mampu meningkatkan mutu produknya sehingga tercapai kepuasan pelanggan. Salah satu cara yang dapat dilakukan perusahaan yaitu dengan menerapkan SMM. SMM merupakan rangkaian proses yang saling berinteraksi dilakukan oleh perusahaan untuk mencapai sasaran mutu. CV HER-5 Engineering Manufacturing merupakan perusahaan yang bergerak di bidang manufaktur, dengan produk yang dihasilkan yaitu lengan ayun (swing arm). Hasil pengamatan pada perusahaan diketahui bahwa perusahaan telah menerapkan SMM berdasarkan ISO 9001:2008, namun tidak sampai tahap sertifikasi. Selain itu, perusahaan mengalami masalah berupa adanya pengembalian produk oleh konsumen. Hal tersebut karena produk yang dihasilkan tidak sesuai dengan persyaratan yang telah disetujui. Penelitian ini bertujuan untuk mengetahui kondisi terkini dari SMM CV HER-5 Engineering Manufacturing, dan memberikan usulan pemenuhan dan perancangan dokumen SMM sesuai dengan persyaratan pada ISO 9001:2015. Penelitian ini menggunakan ISO 9001:2015 sebagai standar SMM dan metode gap analysis yang dilakukan pemberian skor pada klausul 4 sampai dengan klausul 10 ISO 9001:2015. Hasil persentase penerapan yang diperoleh sebesar 50,15%, dan usulan perancangan kelengkapan dokumen SMM berdasarkan ISO 9001:2015 mencakup pedoman mutu, prosedur, dan formulir untuk memenuhi klausul yang belum terpenuhi.",
+    "autores": [
+      "Insani Ikhtiar",
+      "Yan Orgianus",
+      "Iyan Bachtiar"
+    ],
+    "palabras_clave_oa": [
+      "quality management systems",
+      "ISO 9001:2015",
+      "gap analysis",
+      "manufacturing companies",
+      "product returns",
+      "customer satisfaction",
+      "quality certification",
+      "automotive parts manufacturing",
+      "quality objectives",
+      "quality manual",
+      "quality records",
+      "quality assurance",
+      "quality improvement"
+    ],
+    "temas_oa": [
+      "Quality and Management Systems",
+      "Management Systems and Quality Improvement",
+      "Quality and Supply Management"
+    ],
+    "acceso_abierto": true,
+    "pdf": null
+  },
+  {
+    "id": 13,
+    "fase": "Planificar",
+    "titulo": "Quality 4.0 transition framework for Tanzanian manufacturing industries",
+    "anio": 2022,
+    "revista": "The TQM Journal",
+    "doi": "10.1108/tqm-01-2022-0036",
+    "resumen_en": "Purpose This research aimed at developing the Quality 4.0 transition framework for Tanzanian manufacturing industries. Design/methodology/approach The survey method was used in this study to gather practitioners' perspectives. The approach included open-ended and closed-ended structured questionnaires to assess respondents' perceptions of Quality 4.0 awareness and manufacturers' readiness to transit to Quality 4.0. The study's objective was to adopt non-probability and purposive sampling strategies. The study focused on fifteen Tanzanian manufacturing industries. The data were analysed qualitatively and quantitatively using MAXQADA 2020 and Minitab 20 software packages, respectively. Findings The study demonstrated a high level of awareness of Quality 4.0 among Tanzanian manufacturing industries (i.e. 100% in Quality 4.0 traditional attributes and 53% in Quality 4.0 modern attributes). Individuals acquire knowledge in various ways, including through quality training, work experience, self-reading and Internet surfing. The result also revealed that most manufacturing industries in Tanzania use Quality 3.0 or a lower approach to manage quality. However, Tanzanian manufacturing industries are ready to embrace Quality 4.0 since practitioners are aware of the concepts and could see benefits such as customer satisfaction, product improvement, process and continuous improvement, waste reduction and decision support when using the Quality 4.0 approach. The challenges hindering Quality 4.0 adoption in Tanzania include reliable electricity, high-speed Internet and infrastructure inadequacy to support the adoption, skilled workforces familiar with Quality 4.0-enabled technologies and a financial set-up to support technology investment. Moreover, the study developed a transition framework for an organisation to transition from traditional quality approaches such as quality control, quality assurance and total quality management to Quality 4.0, a modern quality approach aligned with the fourth industrial revolution era. Research limitations/implications The current study solely looked at manufacturing industries, leaving other medical, service, mining and construction sectors. Furthermore, no focus was laid on the study's Quality 4.0 implementation frameworks. Originality/value This is probably the first Quality 4.0 transition framework for Tanzanian manufacturing industries, perhaps with other developing countries.",
+    "autores": [
+      "Deusdedith Pastory Maganga",
+      "Ismail W. R. Taifa"
+    ],
+    "palabras_clave_oa": [
+      "Quality 4.0",
+      "transition framework",
+      "manufacturing industry",
+      "Tanzania",
+      "practitioner awareness",
+      "barriers to adoption",
+      "Fourth Industrial Revolution",
+      "quality management methods",
+      "technology investment",
+      "developing countries"
+    ],
+    "temas_oa": [
+      "Digital Transformation in Industry",
+      "Quality and Management Systems",
+      "Quality and Supply Management"
+    ],
+    "acceso_abierto": false,
+    "pdf": null
+  },
+  {
+    "id": 14,
+    "fase": "Hacer",
+    "titulo": "Addressing Operational Challenges in Plastic Manufacturing SMEs: A Lean-TPM Model for Improved Efficiency and Quality",
+    "anio": 2025,
+    "revista": "International Journal of Economics and Management Studies",
+    "doi": "10.14445/23939125/ijems-v12i2p101",
+    "resumen_en": "The research investigated the challenges faced by SMEs in the plastic product sector, particularly regarding inefficiencies in machine availability, prolonged setup times, and high defect rates. Previous studies highlighted the potential of Lean Manufacturing and Total Productive Maintenance (TPM) to optimize operations, but limited research focused on their integration in this sector. The research tackled these problems by implementing a Lean-TPM production model that integrates SMED and Poka Yoke with maintenance approaches. Important findings were the average 35.99% reduction in setup times, a 32.66% increase in MTBF, a 39.71% reduction in MTTR, and a 23.19% decrease in defective products. These results prove the effectiveness of the model in enhancing productivity and the quality of products to other SMEs. These results are of great importance in productivity and quality of products for other SMEs, thus contributing greatly to Small Engineering Enterprises. This study significantly contributes to industrial engineering by bridging the theory and practice gaps. Further studies should investigate model adaptability, the integration of technologies of Industry 4.0, and the evaluation of the changes in organizational culture toward competitiveness over time.",
+    "autores": [
+      "Angela Johana Callan-Villanueva",
+      "Sebastián Alejandro Núñez-Gonzales",
+      "Wilson David Calderón-Gonzales"
+    ],
+    "palabras_clave_oa": [
+      "plastic manufacturing",
+      "small and medium-sized enterprises",
+      "lean manufacturing",
+      "total productive maintenance",
+      "SMED",
+      "poka-yoke",
+      "machine availability",
+      "setup time reduction",
+      "mean time between failures",
+      "mean time to repair",
+      "defect reduction",
+      "production efficiency",
+      "product quality"
+    ],
+    "temas_oa": [
+      "Management and Optimization Techniques",
+      "Quality and Supply Management",
+      "Digital Transformation in Industry"
+    ],
+    "acceso_abierto": true,
+    "pdf": "14.pdf",
+    "pdf_origen": "https://www.internationaljournalssrg.org/IJEMS/2025/Volume12-Issue2/IJEMS-V12I2P101.pdf"
+  },
+  {
+    "id": 15,
+    "fase": "Hacer",
+    "titulo": "Application of Kaizen Lean approach to reduce rejections and failure cost at Shop floor of a wire harness manufacturing",
+    "anio": 2022,
+    "revista": "Indian Journal of Engineering and Materials Sciences",
+    "doi": "10.56042/ijems.v29i1.46042",
+    "resumen_en": "Kaizen is a basic tool of lean manufacturing which is useful for better improvement and cost effectiveness in different organizations. This study describes a sequential method that uses kaizen continuous improvement approach to eliminate the lock release problem of band harness in a Wire Harness Manufacturing unit. Due to releasing of this self-locking type tie band, wire harness was not holding properly against the bracket and wires were not properly tightened which results in high rejection level of the product. Further, it also affects overall quality rating and increasing the rework cost significantly. In present study four problems which are responsible for rejections, are identified through brainstorming. Pareto analysis and rating method are used to know the major problem, responsible for highest rejections and why-why analysis is used to find out the root cause of the identified problem. To eliminate this cause, step by step procedure based on lean manufacturing approach, is applied in the case company. Statistical quality control tools are also used to analyze the problem. This study results in total cost saving of 535.20 $ per annum and beyond this some other tangible or intangible benefits were also observed.",
+    "autores": [],
+    "palabras_clave_oa": [
+      "Kaizen",
+      "lean manufacturing",
+      "rework costs",
+      "failure costs",
+      "root cause analysis",
+      "Pareto analysis",
+      "statistical quality control",
+      "cost reduction"
+    ],
+    "temas_oa": [
+      "Quality and Supply Management",
+      "Management and Optimization Techniques",
+      "Management Systems and Quality Improvement"
+    ],
+    "acceso_abierto": true,
+    "pdf": null
+  },
+  {
+    "id": 16,
+    "fase": "Hacer",
+    "titulo": "Overcoming Quality Control Challenges in Car Exhaust Manufacturing",
+    "anio": 2024,
+    "revista": "Indonesian Journal of Innovation Studies",
+    "doi": "10.21070/ijins.v25i4.1188",
+    "resumen_en": "PT. XYZ, a manufacturer of car exhaust components, faces significant defect-related challenges, impacting productivity and market competitiveness, particularly in Europe. Over six months, 3.18% of 184,708 produced components were defective. This study aims to determine the sigma level of quality control and identify root causes of defects using the Six Sigma DMAIC method and Root Cause Analysis (RCA). Observations and interviews revealed human error, machine issues, improper methods, substandard materials, and environmental factors as key contributors to defects. The sigma level was found to be 4, indicating suboptimal quality control. Recommendations for improvement include SOP development, operator training, standardized production methods, regular machine maintenance, and 5S organizational practices. Implementing these could reduce defects and improve productivity. Highlight: Defect Rate: 3.18% in 184,708 components. Sigma Level: Evaluated at level 4. Improvements: Implement SOPs, training, maintenance, 5S practices. Keyword: Quality Control, Six Sigma, Root Cause Analysis, Manufacturing, Car Exhaust Components",
+    "autores": [
+      "Moch. Agung Setiono",
+      "Atikha Sidhi Cahyana"
+    ],
+    "palabras_clave_oa": [
+      "quality control",
+      "manufacturing defects",
+      "sigma level",
+      "Six Sigma DMAIC",
+      "root cause analysis",
+      "defect rate",
+      "standard operating procedures",
+      "operator training",
+      "equipment maintenance",
+      "5S",
+      "automotive manufacturing"
+    ],
+    "temas_oa": [
+      "Management and Optimization Techniques",
+      "Management Systems and Quality Improvement",
+      "Quality and Supply Management"
+    ],
+    "acceso_abierto": true,
+    "pdf": "16.pdf",
+    "pdf_origen": "https://ijins.umsida.ac.id/index.php/ijins/article/download/1188/1561"
+  },
+  {
+    "id": 17,
+    "fase": "Hacer",
+    "titulo": "Challenges in the implementation of lean manufacturing in the wood and furniture industry",
+    "anio": 2021,
+    "revista": "Journal of Manufacturing Technology Management",
+    "doi": "10.1108/jmtm-01-2021-0029",
+    "resumen_en": "Purpose This study analyses the challenges in implementing lean manufacturing (LM) in the wood and furniture industry. In order to facilitate the smooth implementation of LM practices in this industry, the challenges in terms of its deployment need to be analysed and observed. Design/methodology/approach Realizing this importance, this study proposes a model, using PLS-SEM, which focusses on dealing with the challenges faced in the implementation of lean in the wood and furniture industry. The model consists of ten challenges that were determined based on a survey involving 46 SMEs companies in Malaysia. Findings The findings revealed that the implementation of LM is significantly affected by three main issues, namely: knowledge, resources and culture and human attitude. Furthermore, the analyses also highlighted four dominant challenges which are related to culture and human attitude issues – lack of employee commitment, lack of senior management's interest and support, difficult to implement, and LM is viewed as “current trend”. Overall, the ability to deal with the challenges involving factors of knowledge and culture and human attitude determines the success of LM implementation, especially in companies that have limited resources. Practical implications This study would help wood and furniture SMEs, government agencies, professional bodies and academics to better understand the challenges when implementing LM practices. Originality/value Overall, this study aims at investigating the relationships between the three challenges to better promote LM in the scope under study. Therefore, several activities were proposed to overcome the abovementioned challenges and subsequently contribute to the current body of knowledge.",
+    "autores": [
+      "Falah Abu",
+      "Muhamad Zameri Mat Saman",
+      "Jose Arturo Garza‐Reyes",
+      "Hamed Gholami",
+      "Norhayati Zakuan"
+    ],
+    "palabras_clave_oa": [
+      "lean manufacturing",
+      "lean implementation challenges",
+      "wood and furniture industry",
+      "small and medium-sized enterprises",
+      "organizational culture",
+      "employee commitment",
+      "senior management support",
+      "attitudes",
+      "Malaysian SMEs"
+    ],
+    "temas_oa": [
+      "Quality and Supply Management",
+      "Management and Optimization Techniques",
+      "Digital Transformation in Industry"
+    ],
+    "acceso_abierto": true,
+    "pdf": null
+  },
+  {
+    "id": 18,
+    "fase": "Hacer",
+    "titulo": "An Empirical Study Of Lean Manufacturing Practices In Smes Of Uttar Pradesh",
+    "anio": 2023,
+    "revista": "Educational Administration Theory and Practices",
+    "doi": "10.53555/kuey.v29i4.5799",
+    "resumen_en": "The paper thoroughly examines the readiness of small and medium enterprises (SMEs) in Uttar Pradesh, India, for the implementation of Lean manufacturing practices. It delves into the level of understanding these enterprises have regarding Lean practices, the specific challenges they face during implementation, and the benefits they gain from these practices. To gather data, a questionnaire was designed and circulated in SMEs of Uttar Pradesh. A sample of 200 SMEs listed in the Development Commissioner, Ministry of Micro, Small, and Medium Enterprises (DCMSME) database in Uttar Pradesh was considered for the study. The study's findings reveal several critical issues, including a predominant emphasis on cost reduction at the expense of customer satisfaction and a lack of clear procedural guidelines for implementing Lean manufacturing. Additionally, the research indicates that medium-scale industries generally benefit more from Lean practices than their small-scale counterparts. Conversely, small-scale industries tend to encounter more significant challenges in implementing these practices, highlighting a disparity in the readiness and capability of different-sized enterprises within the SME sector. This research is particularly significant as it is one of the few assessments of Lean manufacturing practices within SMEs in Uttar Pradesh. By showcasing the tangible productivity improvements that can be achieved through Lean methodologies, the paper underscores the practical implications and potential benefits of adopting Lean practices. It provides valuable insights into how Lean manufacturing can drive efficiency and competitiveness among SMEs, thereby contributing to the broader discourse on enhancing manufacturing practices in developing regions.",
+    "autores": [
+      "Piyush Tripathi",
+      "Hirendra Singh"
+    ],
+    "palabras_clave_oa": [
+      "lean manufacturing",
+      "small and medium-sized enterprises",
+      "implementation barriers",
+      "cost reduction",
+      "customer satisfaction",
+      "productivity improvement",
+      "competitiveness",
+      "Uttar Pradesh"
+    ],
+    "temas_oa": [
+      "Quality and Supply Management",
+      "Management and Optimization Techniques",
+      "Digital Transformation in Industry"
+    ],
+    "acceso_abierto": true,
+    "pdf": "18.pdf",
+    "pdf_origen": "https://kuey.net/index.php/kuey/article/download/5799/5359"
+  },
+  {
+    "id": 19,
+    "fase": "Hacer",
+    "titulo": "A comparative analysis of lean manufacturing usage in Small and Medium Apparel Enterprises in KwaZulu-Natal, South Africa",
+    "anio": 2025,
+    "revista": "International Journal of Research in Business and Social Science (2147- 4478)",
+    "doi": "10.20525/ijrbs.v14i3.3896",
+    "resumen_en": "Companies in the South African apparel industry are being driven to improve their operational efficiency by implementing Lean Manufacturing Principles (LMPs) as a result of the severe competition that they face both locally and internationally. To evaluate the effectiveness of LMP implementation in small and medium-sized enterprises (SMEs) operating within the apparel sector in KwaZulu-Natal (KZN), this research employed a quantitative methodology. The degree of LMP adoption and its influence on operational performance, quality management, and competitiveness are brought to light through a comparison analysis between a small-sized company (Company A) and a medium-sized company (Company B). The was gathered using a structured survey distributed to employees across different functional levels in both companies. The findings suggest that there are significant differences in the implementation of LMP between the two companies, with Company B reaching a higher degree of adoption and generating more substantial benefits in both efficiency and quality. When it came to smaller businesses, difficulties such as insufficient managerial assistance, limited resources, and knowledge gaps were more noticeable. This study enhances the understanding of LMP application in SMEs and offers recommendations for fostering lean adoption, minimizing waste, and encouraging sustainable practices and continuous improvement within South Africa's apparel industry.",
+    "autores": [
+      "Pushpa Govender",
+      "Winiswa Mavutha",
+      "Tshepo Phuti Mabotja"
+    ],
+    "palabras_clave_oa": [
+      "lean manufacturing",
+      "apparel industry",
+      "small and medium-sized enterprises",
+      "lean adoption",
+      "operational efficiency",
+      "quality management",
+      "competitiveness",
+      "waste reduction",
+      "continuous improvement",
+      "KwaZulu-Natal"
+    ],
+    "temas_oa": [
+      "Quality and Supply Management",
+      "Management and Optimization Techniques",
+      "Digital Transformation in Industry"
+    ],
+    "acceso_abierto": true,
+    "pdf": "19.pdf",
+    "pdf_origen": "https://www.ssbfnet.com/ojs/index.php/ijrbs/article/download/3896/2743"
+  },
+  {
+    "id": 20,
+    "fase": "Hacer",
+    "titulo": "Exploring Lean Production System Adoption in the Moroccan Manufacturing and Non-Manufacturing Industries: Awareness, Benefits and Barriers",
+    "anio": 2021,
+    "revista": "International Journal of Automotive and Mechanical Engineering",
+    "doi": "10.15282/ijame.18.4.2021.14.0717",
+    "resumen_en": "Although lean manufacturing emerged in the 1990s, and since then, it has become known and recognised worldwide, companies still struggle to implement it successfully, especially in less developed countries. The purpose of this paper is to assess the level of maturity of lean production within small and medium-sized companies, identify what the benefits of lean implementation are, and present an exploration and analysis of the barriers that influence the implementation of lean production in these companies.To achieve this objective, items from previous studies were extracted through a systematic literature review and then validated by interviews with Moroccan experts in the manufacturing and non-manufacturing industry; on the other hand, a questionnaire survey was conducted with 78 small and medium enterprises in Morocco. Subsequently, all collected responses were statistically analysed using Statistical Package for Social Sciences (SPSS V21.0). The results show that the lean approach is unfortunately not yet adopted and applied by all Moroccan SMEs (24% of our respondents have not yet tried to apply lean). In addition, the most significant benefits announced by Moroccan small and medium enterprises are ‘the elimination of waste (82.1%)’, ‘the reduction of costs (78.2%)’, and ‘the improvement of efficiency and performance of production units (70.5%)’. Finally, the principal component analysis indicated that the two main difficulties that need to be maintained are poor management (with 63.6 % of the total variance) and lack of financial resources, monitoring, and skilled labours (with 7.7 % of the total variance).",
+    "autores": [
+      "Salma Arabi",
+      "Anas Chafi",
+      "Mohamed Saad Bajjou",
+      "Mohammed El Hammoumi"
+    ],
+    "palabras_clave_oa": [
+      "lean manufacturing",
+      "small and medium-sized enterprises",
+      "lean implementation barriers",
+      "waste elimination",
+      "cost reduction",
+      "production efficiency",
+      "management quality",
+      "financial resources",
+      "skilled labor shortage",
+      "non-manufacturing industries"
+    ],
+    "temas_oa": [
+      "Quality and Supply Management",
+      "Management and Optimization Techniques",
+      "Digital Transformation in Industry"
+    ],
+    "acceso_abierto": true,
+    "pdf": null
+  },
+  {
+    "id": 21,
+    "fase": "Hacer",
+    "titulo": "Quality Control Issues and Improvement Opportunities for Automobile Manufacturing Company in Indonesia",
+    "anio": 2026,
+    "revista": "International Journal of Academic Research in Economics and Management Sciences",
+    "doi": "10.6007/ijarems/v15-i1/27413",
+    "resumen_en": "An effective quality control system is crucial for maintaining customer satisfaction and business success. However, quality control is broad and complex in nature, and there is no single system that fits all manufacturing settings. Hence, it is crucial for manufacturers to explore a quality control system that best suits their specific manufacturing environment. As such, this study aims to identify key quality control steps (RO1), explore quality control problems (RO2), and discover quality improvement opportunities (RO3) for an automobile manufacturing company in Indonesia. The research is qualitative in nature and involved semi-structured interviews with nine quality staff members from the company. Feedback from the interviewees was analysed using Kendall's coefficient of concordance to address RO1, and content analysis was used for RO2 and RO3. The results of the Kendall analysis revealed that establishing quality benchmarks is the most important step in quality control. The content analysis suggested that inconsistencies in quality control practices and procedure are the main quality problem faced by the company. Additionally, the interviewees suggested that quality improvement efforts should focus on the application of digital technology. This study provides valuable insights into the multifaceted nature of quality control in the automotive industry, underscoring the importance of continuous improvement and technological integration in maintaining a competitive edge and ensuring customer satisfaction.",
+    "autores": [
+      "Tan Owee Kowang",
+      "Prathama Iswara",
+      "Goh Chin Fei",
+      "Ong Choon Hee",
+      "Lim Kim Yew"
+    ],
+    "palabras_clave_oa": [
+      "quality control",
+      "automobile manufacturing",
+      "quality standards",
+      "quality control procedures",
+      "continuous improvement",
+      "customer satisfaction"
+    ],
+    "temas_oa": [
+      "Management Systems and Quality Improvement",
+      "Quality and Supply Management",
+      "Management and Optimization Techniques"
+    ],
+    "acceso_abierto": true,
+    "pdf": "21.pdf",
+    "pdf_origen": "https://hrmars.com/papers_submitted/27413/quality-control-issues-and-improvement-opportunities-for-automobile-manufacturing-company-in-indonesia.pdf"
+  },
+  {
+    "id": 22,
+    "fase": "Hacer",
+    "titulo": "Enhancing performance of an apparel manufacturing process in MSME through integrated quality management practices: a hybrid AHP-MICMAC model",
+    "anio": 2026,
+    "revista": "The TQM Journal",
+    "doi": "10.1108/tqm-05-2025-0298",
+    "resumen_en": "Purpose This study aims to improve process performance in micro, small, and medium enterprises (MSMEs), particularly in apparel manufacturing, by identifying and prioritising the root causes of manufacturing critical defects. It integrates quality management practices (QMP) with multicriteria decision-making (MCDM) to support resource-constrained organisations in producing higher-quality outputs. The study is theoretically grounded in socio-technical systems (STS) theory, positioning defect reduction as dependent on both technical optimisation and social system alignment. The integrated framework was validated through a case study of an Indian MSME engaged in block-printed apparel manufacturing. Design/methodology/approach The study adopts the five-phased Six Sigma methodology of Define-Measure-Analyse-Improve-Control, combined with MCDM techniques to identify and prioritise critical defects and their causes. Data were collected through 100% inspection sampling over multiple monitoring cycles to ensure accuracy and reliability. Pareto analysis identified critical defect types, and cause and effect diagrams captured potential root causes. In addition, the Analytic Hierarchy Process (AHP) was employed to prioritise key causes, and MICMAC analysis determined the logical sequence of improvement initiatives for stable implementation. Findings Ten root causes contributing to critical defects, including wrong colour and incorrect placement, were identified using AHP. Improvement efforts were established to address the underlying problems, and the order of their implementation is determined through MICMAC analysis. A 72.6% reduction in defects and an increase in the sigma level from 3.97 to 4.65 in the printing process were achieved through standard operating procedures, 5S and kaizen. Practical implications This framework helps managers systematically prioritise process improvement initiatives, enabling quality improvement even with limited resources. It offers a replicable model for MSMEs to improve product quality, reduce rework, strengthen competitiveness, and achieve quality standards, thereby providing access to government policy benefits, including financial support and expert assistance. Originality/value The research presents a novel integration of QMP with AHP and MICMAC to prioritise root causes and sequence improvement initiatives to reduce defects in Indian MSME apparel manufacturing. It extends the existing literature by embedding STS into Lean Six Sigma implementation, demonstrating that sustainable quality improvement in resource-constrained MSMEs requires joint optimisation of technical tools (core QMPs) and social mechanisms (training, employee involvement, and visual communication). This research contributes a structured, scalable, and empirically validated socio-technical improvement framework.",
+    "autores": [
+      "Reena Nupur",
+      "Elizabeth A. Cudney",
+      "Jiju Antony"
+    ],
+    "palabras_clave_oa": [
+      "apparel manufacturing",
+      "micro, small and medium enterprises",
+      "quality management practices",
+      "socio-technical systems",
+      "Lean Six Sigma",
+      "block printing",
+      "5S",
+      "Kaizen",
+      "standard operating procedures",
+      "process improvement"
+    ],
+    "temas_oa": [
+      "Quality and Supply Management",
+      "Management and Optimization Techniques",
+      "Management Systems and Quality Improvement"
+    ],
+    "acceso_abierto": false,
+    "pdf": null
+  },
+  {
+    "id": 23,
+    "fase": "Hacer",
+    "titulo": "Limitation of Manufacturing Defects of the Selected Product in the Glass Mill",
+    "anio": 2021,
+    "revista": "Multidisciplinary Aspects of Production Engineering",
+    "doi": "10.2478/mape-2021-0041",
+    "resumen_en": "Abstract In the era of global market and internationalization of enterprises, an extremely important element influencing the competitiveness of companies is ensuring high quality of manufactured products, taking into account the requirements and expectations of buyers. At the moment when defects appear in the manufactured product, the production plant ceases to meet the expectations of customers. Not only is this related to the costs of production or complaints, but above all to the loss of credibility and good customer opinion. It is extremely important to identify and analyze the causes of this phenomenon as soon as possible, without allowing it to repeat itself. The problem of manufacturing defects becomes even more important when it poses a threat to the health or life of the customer. This also applies to products manufactured for the purposes of food protection. This article presents the results of the research that enabled the development of a method to reduce the production defects of a selected product in a glass factory. In order to achieve the goal, an analysis of the production process of the selected glass packaging was carried out, which allowed to identify defects and determine the causes and effects of their formation. Based on the presented research results, improvement measures have been proposed, consisting in developing a new organization of work in the area of quality control.",
+    "autores": [
+      "Sonia Konopek",
+      "Joanna Zarębska",
+      "Iwona Żabińska"
+    ],
+    "palabras_clave_oa": [
+      "manufacturing defects",
+      "glass packaging",
+      "glass factories",
+      "quality control",
+      "defect reduction",
+      "production process analysis",
+      "food packaging"
+    ],
+    "temas_oa": [
+      "Management Systems and Quality Improvement",
+      "Management and Optimization Techniques",
+      "Diverse Industrial Engineering Technologies"
+    ],
+    "acceso_abierto": true,
+    "pdf": null
+  },
+  {
+    "id": 24,
+    "fase": "Hacer",
+    "titulo": "An empirical assessment of assembly line productivity constraints in automotive manufacturing systems using statistical analysis",
+    "anio": 2026,
+    "revista": "Frontiers in Mechanical Engineering",
+    "doi": "10.3389/fmech.2026.1896770",
+    "resumen_en": "Introduction Assembly line productivity is a critical performance factor in passenger car manufacturing because it directly affects output stability, production cost and delivery efficiency. Existing studies discuss machine, manpower, supply chain and quality issues separately, but limited empirical work examines these barriers together in passenger car manufacturing units of the Pune region. To address this gap, the present study provides an integrated empirical assessment of productivity constraints by combining barrier ranking, interrelationship analysis and factor-based classification within a single quantitative framework. This study aims to identify, evaluate and classify the major barriers affecting assembly line productivity using quantitative industry responses. Methods A structured questionnaire was used to collect responses from 535 respondents associated with passenger car manufacturing operations. The data were analyzed using frequency analysis, descriptive statistics, correlation analysis and exploratory factor analysis. Results The results showed that lack of modern tools or outdated machinery was the most critical barrier with 97.0% total agreement and the highest mean score of 4.60. Inadequate maintenance followed with 95.5% agreement and a mean score of 4.54. Frequent product defects recorded 93.7% agreement and a mean score of 4.42. Equipment breakdowns recorded 89.3% agreement while customer complaints due to defects recorded 85.3% agreement. Correlation analysis showed strong association between absenteeism or operator delays and poor worker coordination with r = 0.685. Factor analysis extracted four major productivity dimensions with a KMO value of 0.863 and 58.223% total variance explained. Discussion and Conclusion The main contribution of the study is the identification of statistical associations and shared dimensions among technical, workforce, supply-logistics and quality-related barriers. The study concludes that productivity improvement needs integrated action through technology upgradation, preventive maintenance, defect control, logistics improvement and workforce coordination. Beyond the Pune automotive cluster, the findings provide useful guidance for passenger-car assembly units and similar manufacturing systems in emerging industrial regions where perceived productivity constraints are associated with machine, workforce, material-flow and quality-control limitations. The study is limited to questionnaire-based responses from selected units and therefore the results should be generalized cautiously without plant-level longitudinal validation. Future work may apply regression, SEM or machine-learning models for predictive validation.",
+    "autores": [
+      "Avinash Gosavi",
+      "Padmakar I Shahare",
+      "Swapnil Gund",
+      "Prashant Paraye",
+      "Twinkle Choudhary"
+    ],
+    "palabras_clave_oa": [
+      "assembly line productivity",
+      "passenger car manufacturing",
+      "automotive manufacturing",
+      "defective products",
+      "equipment breakdown",
+      "absenteeism",
+      "supply logistics",
+      "quality control"
+    ],
+    "temas_oa": [
+      "Management and Optimization Techniques",
+      "Quality and Supply Management",
+      "Assembly Line Balancing Optimization"
+    ],
+    "acceso_abierto": true,
+    "pdf": "24.pdf",
+    "pdf_origen": "https://www.frontiersin.org/journals/mechanical-engineering/articles/10.3389/fmech.2026.1896770/pdf"
+  },
+  {
+    "id": 25,
+    "fase": "Hacer",
+    "titulo": "Quality system as a mediating variable of the relationship between lean manufacturing and operational performance in the food industry",
+    "anio": 2023,
+    "revista": "SINERGI",
+    "doi": "10.22441/sinergi.2023.2.008",
+    "resumen_en": "The failure to implement lean manufacturing (LM) in the food industry was caused by the overlapping application of LM tools. The application of LM in the food industry is experiencing problems in the form of confusion in the placement of QS or Quality Control (QC). This problem is the background of this research. The objective of this study is to compare two methods of the implementation of LM in improving operational performance (OP), namely (1) making quality control (QC) a part of LM practice and (2) making quality control (QC) a part of the quality system (QS). The applied analytical method was the Structural Equation Modelling (SEM) based on Partial Least Square (PLS). The research findings indicated that \"making QC a part of QS\" can optimally mediate increasing LM against OP. This study's originality is a comparison of the relationship between LM and OP based on the two methods with large sample sizes. The implications of the findings are expected to become recommendations for applying LM in the food industry, especially in terms of placing quality in its implementation.",
+    "autores": [
+      "Budianto Budianto",
+      "Zefki Okta Feri",
+      "Qomarotun Nurlaila",
+      "Helena Sitorus",
+      "Tina Hernawati Suryatman"
+    ],
+    "palabras_clave_oa": [
+      "lean manufacturing",
+      "quality systems",
+      "quality control",
+      "operational performance",
+      "food industry",
+      "mediating effect",
+      "lean tools implementation",
+      "food quality management"
+    ],
+    "temas_oa": [
+      "Quality and Supply Management",
+      "Management and Optimization Techniques",
+      "Management Systems and Quality Improvement"
+    ],
+    "acceso_abierto": true,
+    "pdf": null
+  },
+  {
+    "id": 26,
+    "fase": "Hacer",
+    "titulo": "Lean Manufacturing Development Model for Production Cost Reduction in Small and Medium Industries (SMEs) of Tempeh Food with a Green Manufacturing Approach",
+    "anio": 2026,
+    "revista": "The Eastasouth Management and Business",
+    "doi": "10.58812/esmb.v4i02.777",
+    "resumen_en": "The Small and Medium Industry (SMEs) of tempeh food is a strategic sector in supporting food security and local economic empowerment. However, the main challenges faced are high production costs due to waste and low process efficiency. This research aims to develop a Lean Manufacturing model based on the Green Manufacturing approach to reduce production costs in a sustainable manner. The research method involves identifying the type of waste using the Value Stream Mapping (VSM) approach, analyzing the root of the problem with Fishbone diagrams, and designing solutions through the integration of lean and green principles, such as 5S, Kaizen, and environmentally friendly waste management. A case study was conducted on one of the tempeh SMEs in Sanan, Malang City, East Java, Indonesia. The results of the research showed that weekly production costs decreased from IDR 3,188,000 to IDR 2,998,250 (efficiency ±17%), defective products decreased from 4.7% to 1.5% (68% decrease), total processing time decreased from 2,605 minutes to 1,332 minutes (time savings ±14%). Waiting time is reduced by more than 50%. These findings show that the Lean-Green Manufacturing approach not only improves operational efficiency, but also encourages sustainable production practices that are relevant to the development of food SMEs in Indonesia",
+    "autores": [
+      "Purnomo Purnomo",
+      "Nanta Sigit",
+      "Soetam Rizky Wicaksono",
+      "Rudy Setyawan",
+      "Novenda Kartika Putrianto",
+      "Chandra Wibowo Budiono"
+    ],
+    "palabras_clave_oa": [
+      "lean manufacturing",
+      "green manufacturing",
+      "tempeh production",
+      "small and medium-sized enterprises",
+      "production cost reduction",
+      "waste reduction",
+      "value stream mapping",
+      "5S",
+      "Kaizen",
+      "defect reduction",
+      "food processing",
+      "sustainable production"
+    ],
+    "temas_oa": [
+      "Management and Optimization Techniques",
+      "Quality and Supply Management",
+      "Digital Transformation in Industry"
+    ],
+    "acceso_abierto": true,
+    "pdf": "26.pdf",
+    "pdf_origen": "https://esj.eastasouth-institute.com/index.php/esmb/article/download/777/716"
+  },
+  {
+    "id": 27,
+    "fase": "Verificar",
+    "titulo": "Statistical Process Control (SPC) Implementation in Manufacturing Industry to Improve Quality Performance: A Prisma Systematic Literature Review and Meta Analysi",
+    "anio": 2023,
+    "revista": "E3S Web of Conferences",
+    "doi": "10.1051/e3sconf/202342601066",
+    "resumen_en": "The fundamental need for quality in manufacturing is the production process must be able to generate the product with an acceptable variance from the stated quality index. Statistical process control (SPC) is frequently used to monitor standards, take measurements, and take corrective action. Preferred Reporting Items for Systematics Reviews and Meta-Analyses (PRISMA) methods were used to better inform reviewers and readers about the authors’ actions and findings, speed up the review process, and improve the quality of the reporting. Publish or perish, VOS viewer, and Mendeley Desktop were also used to search related articles and analyze the bibliometric. The conclusion notes that integrating other quality approaches has increased the use of SPC in the manufacturing sector. This was applied within other quality improvement programs such as Six Sigma and TQM. Even though SPC is a statistically based technique, challenge, and limitation factors showed that implementing SPC in the manufacturing industry will be successful if other crucial factors like management, education/training, culture, and the availability of human resources are well-prepared. In conclusion, the authors hope that this review will highlight the value of SPC as a potential tool for quality control and enhancement in the manufacturing sector.",
+    "autores": [
+      "Hadiyanto Hadiyanto",
+      "Elioenai Sitepu"
+    ],
+    "palabras_clave_oa": [
+      "statistical process control",
+      "production quality",
+      "quality performance",
+      "Six Sigma",
+      "total quality management",
+      "quality control",
+      "human resource availability",
+      "management support",
+      "education and training"
+    ],
+    "temas_oa": [
+      "Advanced Statistical Process Monitoring",
+      "Management Systems and Quality Improvement",
+      "Management and Optimization Techniques"
+    ],
+    "acceso_abierto": true,
+    "pdf": null
+  },
+  {
+    "id": 28,
+    "fase": "Verificar",
+    "titulo": "Assessment of quality performance in the Egyptian manufacturing industry",
+    "anio": 2021,
+    "revista": "The TQM Journal",
+    "doi": "10.1108/tqm-06-2021-0161",
+    "resumen_en": "Purpose The purpose of this study was to examine the quality performance of the Egyptian manufacturing industry based on Flynn's quality management practices framework. Design/methodology/approach A literature-based questionnaire was developed to collect the research data. The sample studied included 193 professionals from different manufacturing firms in Egypt. The research model utilized seven first-order constructs to measure infrastructure and core quality practices and the model was analyzed by structural equation modeling. Findings The results of the study showed that infrastructure practices had a positive effect on core quality practices, which in turn, significantly influenced quality performance. The findings confirmed that Egyptian manufacturing firms have a good foundation of quality management practices enabling them to improve quality performance. Practical implications This study provides a foundation for Egyptian manufacturing firms to develop a practical plan for implementing total quality management (TQM). In addition, the results of this study will help managers and policy makers develop a thorough understanding of the current status of TQM initiatives, enablers and barriers in Egypt. Originality/value The study represents one of the few attempts to examine quality practices and quality performance in the manufacturing sector in Egypt. To the best of the author's knowledge, this is the first study to examine these parameters in this context in Egypt.",
+    "autores": [
+      "Ahmed Rashad ElMelegy",
+      "Mohamad Alnajem",
+      "Nour AlBuloushi"
+    ],
+    "palabras_clave_oa": [
+      "quality performance",
+      "quality management practices",
+      "total quality management",
+      "manufacturing industry",
+      "quality infrastructure"
+    ],
+    "temas_oa": [
+      "Quality and Supply Management",
+      "Management Systems and Quality Improvement",
+      "Quality and Management Systems"
+    ],
+    "acceso_abierto": false,
+    "pdf": null
+  },
+  {
+    "id": 29,
+    "fase": "Verificar",
+    "titulo": "AI-Enabled Quality Control in Manufacturing: Evidence from an Empirical Sample of SMEs",
+    "anio": 2025,
+    "revista": "IFAC-PapersOnLine",
+    "doi": "10.1016/j.ifacol.2025.11.865",
+    "resumen_en": "The adoption of artificial intelligence (AI) applications in manufacturing has experienced a growing trend over the last years. The impact of advanced technologies, including AI, on quality management has also gained momentum, leading to the Quality 4.0 stream of research. Despite the potential benefits, several challenges can prevent achieving the expected results in SMEs more than in their larger counterparts. This paper, far from aspiring to deliver a statistical analysis, pursues an explorative aim and provides empirical evidence on adopting AI solutions for quality control in manufacturing SMEs by discussing a sample of 7 pilot cases that participated in the Open Call of an EU-funded project. Pilots are discussed, starting with an analysis of the quality challenges that led to the development of an AI solution. They are then analysed regarding the type of adopted AI, the AI-human interactions approach, and the achieved benefits. The experience gained through these pilots allowed us to discuss practical challenges faced by SMEs and, hence, to derive some guidelines for practitioners. The obtained results can be further refined and categorised to structure empirical knowledge about the use of AI for quality control in larger samples.",
+    "autores": [
+      "Andrea Bettoni",
+      "Donatella Corti",
+      "Sara Masiero",
+      "Zeki Mert Barut",
+      "Krzysztof Ejsmont",
+      "Bartłomiej Gładysz"
+    ],
+    "palabras_clave_oa": [
+      "artificial intelligence adoption",
+      "quality control",
+      "manufacturing SMEs",
+      "Quality 4.0",
+      "human-AI interaction",
+      "implementation barriers",
+      "pilot case studies",
+      "professional guidelines",
+      "manufacturing quality management"
+    ],
+    "temas_oa": [
+      "Digital Transformation in Industry",
+      "Impact of AI and Big Data on Business and Society",
+      "Industrial Vision Systems and Defect Detection"
+    ],
+    "acceso_abierto": true,
+    "pdf": null
+  },
+  {
+    "id": 30,
+    "fase": "Verificar",
+    "titulo": "Quality control planning to minimize waste at a manufacturing company",
+    "anio": 2024,
+    "revista": "Review of Management, Accounting, and Business Studies",
+    "doi": "10.38043/revenue.v5i1.5251",
+    "resumen_en": "In industrial fields that developed very rapidly, the manufacturing industry was no exception. It was characterized by increasing consumer needs and significant competition between companies. With tight connections between one industry and another, high-quality products or services became a requirement for competitive advantage and a company's need to guarantee business process requirements. In companies, quality control had long been established as an important management strategy to achieve competitive advantage. PT Slamet Langgeng was a manufacturing industry producing candy products. According to existing data, many defects occurred, causing waste in operational costs and affecting the output produced. This paper aimed to analyze the causes of Davos Roll defects and formulate quality control plans so that businesses could be more competitive and able to compete in the global industry. After further review, three types of defects were identified: soft candy, broken candy, and packaging defects. Broken candy had the highest defect rate, reaching 53.89%. These results indicated the need for more intense quality control planning. Problem analysis used a fishbone diagram to determine the root causes, which served as a reference in the process of preparing quality control plans.",
+    "autores": [
+      "Najib Salim"
+    ],
+    "palabras_clave_oa": [
+      "quality control planning",
+      "production waste",
+      "confectionery production",
+      "defect analysis",
+      "packaging defects",
+      "root cause analysis",
+      "fishbone diagram",
+      "competitive advantage"
+    ],
+    "temas_oa": [
+      "Management and Optimization Techniques",
+      "Management Systems and Quality Improvement",
+      "Quality and Supply Management"
+    ],
+    "acceso_abierto": true,
+    "pdf": "30.pdf",
+    "pdf_origen": "https://journal.undiknas.ac.id/index.php/revenue/article/download/5251/1554"
+  },
+  {
+    "id": 31,
+    "fase": "Verificar",
+    "titulo": "Quality control of manufacturing enterprises based on computer and big data technology",
+    "anio": 2024,
+    "revista": "Advanced Control for Applications",
+    "doi": "10.1002/adc2.189",
+    "resumen_en": "Abstract The traditional manufacturing industry is facing the impact of Big Data, and all aspects of product research and development, process design, quality management, production and operation are urgently looking forward to the birth of innovative methods to cope with the challenges of big data in the industrial background. Although traditional manufacturing enterprises have initially established quality control information system, there are still many problems and limitations in the existing quality control system, which cannot meet the operation needs of manufacturing enterprises. This paper chooses the quality management of manufacturing enterprises as the research object, and uses advanced technologies such as computer, internet, big data and cloud computing to build a data system model of quality control of manufacturing enterprises. this paper optimizes the quality data processing process by establishing the quality monitoring model, and builds an intelligent quality supervision platform, and sets up the quality alarm rules for manufacturing enterprises. If the deviation between the actual value and the predicted value of the quality monitoring index is mapped between [0,1], the quality monitoring system can generate an outlier probability score. In this study, the traditional manual quality management is transformed into the management mode of the “internet + quality data” in order to realize the information, digital and intelligent quality management of manufacturing enterprises. This comprehensive research method combines modern digital technology and relevant theories of quality management to explore the optimization scheme of quality management of manufacturing enterprises, and also provides reference experience for the information construction of other similar enterprises.",
+    "autores": [
+      "Yu Hong Du"
+    ],
+    "palabras_clave_oa": [
+      "manufacturing quality control",
+      "big data",
+      "cloud computing",
+      "digital quality management",
+      "Internet Plus"
+    ],
+    "temas_oa": [
+      "Digital Transformation in Industry",
+      "Technology and Data Analysis",
+      "AI and Big Data Applications"
+    ],
+    "acceso_abierto": false,
+    "pdf": null
+  },
+  {
+    "id": 32,
+    "fase": "Verificar",
+    "titulo": "Relationship between ISO 9001:2015 and operational and business performance of manufacturing industries in a developing country (Indonesia)",
+    "anio": 2021,
+    "revista": "Heliyon",
+    "doi": "10.1016/j.heliyon.2020.e05537",
+    "resumen_en": "Previous research has emphasized the need to further investigate the impact of ISO 9001 on company performance in the manufacturing sector of developing countries. Indonesia is one of those developing countries where the implementation of ISO 9001 is yet to be adequately researched. The Indonesian automotive manufacturing industry is still unable to compete with Malaysia and Thailand even though many companies have implemented ISO 9001. This study aimed to examine the relationship between ISO 9001 and operational (productivity, customer satisfaction, and product quality) and business (sales growth, profit rate, and market share) performance of Indonesian automotive component manufacturing industries. It also aimed to identify major obstacles in the effective implementation of ISO 9001. Multiple linear regression analyses about operational and business performance were employed for this purpose. The sample size comprised 50 automotive component manufacturing industries located in the Jakarta, Bogor, Tangerang, and Bekasi region of Indonesia. The study demonstrates that the implementation of the ISO 9001:2015 quality management system has a significant positive impact on the operational performance as well as the business performance. Additionally, the operational performance has a significant positive impact on the business performance. This study also reveals the major obstacles in the effective implementation of ISO 9001 in the manufacturing industry, which include a lack of qualified personnel, inadequate training, employee resistance, and lack of commitment among top-level management executives. It offers clear implications for managers who focus on elements that will enhance the effectiveness of ISO 9001 implementation by choosing the correct strategies, allocating sufficient resources, and improving their firm's performance. The novelty of this study lies in filling the existing research gap, which involves a detailed examination of the relationship between the implementation of ISO 9001 and the company's performance, particularly in manufacturing industries of developing countries.",
+    "autores": [
+      "Rahmat Nurcahyo",
+      "Zulfadlillah",
+      "Muhammad Habiburrahman"
+    ],
+    "palabras_clave_oa": [
+      "ISO 9001:2015",
+      "quality management systems",
+      "operational performance",
+      "firm performance",
+      "automotive parts manufacturing",
+      "manufacturing industry",
+      "developing countries",
+      "implementation barriers",
+      "productivity",
+      "customer satisfaction",
+      "product quality",
+      "sales growth",
+      "rate of profit",
+      "market share",
+      "Indonesia"
+    ],
+    "temas_oa": [
+      "Quality and Management Systems",
+      "Quality and Supply Management",
+      "Management Systems and Quality Improvement"
+    ],
+    "acceso_abierto": true,
+    "pdf": "32.txt"
+  },
+  {
+    "id": 33,
+    "fase": "Verificar",
+    "titulo": "Quality 4.0 Framework for Detecting Post-Quality-Gate Rare Failures in Automotive Manufacturing Under Extreme Class Imbalance",
+    "anio": 2026,
+    "revista": "Applied System Innovation",
+    "doi": "10.3390/asi9070132",
+    "resumen_en": "Predictive quality systems are central to Industry 4.0 manufacturing, yet detecting rare defects that pass established quality gates remains an open problem. This study addresses post-quality-gate failure detection in automotive brake manufacturing, where 310 faulty units (1.20%) among 25,756 production records create a naturally occurring extreme class imbalance of 1:82. Fault labels are derived from warranty reports and linked to multi-station production line measurements, while negative samples may include latent failures, motivating a recall-focused evaluation. We propose a Quality 4.0 machine learning framework that compares five resampling methods (ADASYN, SMOTE-Tomek, KMeans-SMOTE, CTGAN, and TVAE) plus a no-resampling baseline across 24 classifiers and stacking ensembles. In total, 504 configurations are tested on a held-out test set. The proposed SVM-RBF model trained on ADASYN-augmented data achieves recall of 0.871, specificity of 0.982, balanced accuracy of 0.926, and ROC-AUC of 0.952, producing only 93 false positives (FPR = 1.8%). Stacking ensembles provide alternative operating points maximizing the detection rate (93.5%) and a separate operating point with the highest discrimination capacity (ROC-AUC = 0.975). Feature importance analysis through Permutation Importance and SHAP identifies Force Increment as the leading feature under both attribution methods. Friedman and Wilcoxon tests confirm statistically significant differences among strategies. The framework offers a practical way to add predictive capability to existing quality control systems.",
+    "autores": [
+      "Muhammed Hakan Yorulmuş",
+      "Hür Bersam Sidal"
+    ],
+    "palabras_clave_oa": [
+      "class imbalance",
+      "quality gates",
+      "resampling",
+      "ADASYN",
+      "SMOTE-Tomek",
+      "CTGAN",
+      "TVAE",
+      "stacking ensemble",
+      "support vector machine",
+      "latent failures",
+      "feature importance",
+      "SHAP",
+      "permutation importance",
+      "Industry 4.0",
+      "predictive quality control"
+    ],
+    "temas_oa": [
+      "Imbalanced Data Classification Techniques",
+      "Fault Detection and Control Systems",
+      "Industrial Vision Systems and Defect Detection"
+    ],
+    "acceso_abierto": true,
+    "pdf": "33.txt"
+  },
+  {
+    "id": 34,
+    "fase": "Verificar",
+    "titulo": "Predictive Analytics Models Improving Supplier Accuracy and Minimizing Rework in Manufacturing",
+    "anio": 2024,
+    "revista": "International Journal of Advanced Multidisciplinary Research and Studies",
+    "doi": "10.62225/2583049x.2024.4.1.4984",
+    "resumen_en": "The increasing complexity of global manufacturing supply chains has intensified the demand for reliable supplier performance and reduced operational inefficiencies. Predictive analytics models, leveraging statistical techniques, machine learning algorithms, and real-time data integration, are emerging as transformative tools for improving supplier accuracy and minimizing rework in manufacturing environments. These models enable organizations to move beyond reactive quality control toward proactive performance management by anticipating supplier-related risks and inefficiencies before they materialize. Predictive analytics enhances supplier accuracy through demand forecasting, historical performance analysis, and anomaly detection. By aligning supplier capacity with production requirements and predicting delivery delays or defect probabilities, manufacturers can identify reliable partners and intervene early to address potential disruptions. Similarly, predictive modeling supports rework reduction by uncovering patterns of recurring defects, tracing root causes to specific materials or processes, and recommending preemptive quality improvements. This proactive approach minimizes costly rework, reduces downtime, and enhances overall product reliability. Applications across industries—including automotive, electronics, and pharmaceuticals—demonstrate measurable benefits, such as reduced recall risks, improved compliance, and strengthened supplier collaboration. The integration of predictive models within manufacturing quality systems further streamlines decision-making and fosters evidence-based supplier development programs. Despite these advantages, challenges persist, including data integration complexities, model interpretability, and organizational resistance to change. Looking forward, combining predictive analytics with digital twins, blockchain-enabled data transparency, and prescriptive optimization frameworks offers promising pathways for future advancements. Overall, predictive analytics models represent a critical enabler of manufacturing competitiveness, enhancing supply chain resilience, reducing operational costs, and improving customer satisfaction through higher-quality outputs. Manufacturers must therefore invest in robust data infrastructures, advanced modeling capabilities, and collaborative supplier ecosystems to fully harness the potential of predictive analytics in minimizing rework and ensuring supplier accuracy.",
+    "autores": [
+      "Oluwagbemisola Faith Akinlade",
+      "Opeyemi Morenike Filani",
+      "Priscilla Samuel Nwachukwu"
+    ],
+    "palabras_clave_oa": [
+      "predictive analytics",
+      "rework reduction",
+      "production quality",
+      "supplier performance",
+      "demand forecasting",
+      "anomaly detection",
+      "fault prediction",
+      "delivery delay prediction",
+      "supply chain resilience",
+      "root cause analysis",
+      "supplier development",
+      "digital twin",
+      "blockchain"
+    ],
+    "temas_oa": [
+      "Impact of AI and Big Data on Business and Society",
+      "Big Data and Business Intelligence",
+      "Quality and Supply Management"
+    ],
+    "acceso_abierto": true,
+    "pdf": "34.pdf",
+    "pdf_origen": "https://www.multiresearchjournal.com/admin/uploads/archives/archive-1759215890.pdf"
+  },
+  {
+    "id": 35,
+    "fase": "Verificar",
+    "titulo": "Influence of Quality on Manufacturing Processes in Enterprises from the Perspective of Generating Value Added For Customers",
+    "anio": 2021,
+    "revista": "Global Conference on Business and Social Sciences Proceeding",
+    "doi": "10.35609/gcbssproceeding.2021.12(128)",
+    "resumen_en": "In the current global dynamic and competitive business environment of Industry 4.0, small and medium-sized enterprises face a major challenge of expanding their market activities and adapt to new conditions in order to survive in times of economic or pandemic crisis. The implementation of comprehensive quality management in business environment within EU organizations is a response to this challenge for global competition (Abdul, Sumantoro, & Maria, 2019). Current problem is the fact that the implementation and monitoring of quality management as a process of business management in the majority of small and medium-sized enterprises (SMEs) is not sufficiently used, underestimated, or even considered to be obsolete (Rigby, Bilodeau, 2018). In an enterprise with good financial health and healthy corporate culture, all transactions and processes are carried out properly and the relationships among all stakeholders (employees, suppliers, and customers) are successful. For other companies, it is necessary to take steps to ensure quality and follow them (Fernandes et al., 2017) in order to move towards the concept of Industry 4.0. According to published professional literature, each research worker has developed their own framework for mapping value production operations based on specific needs and interests in the fields under review. However, the relationship between the quality processes and value stream maps has not been adequately addressed in professional literature, especially in the case of small and medium-sized enterprises. Therefore, for achieving the objective of the contribution, the following research questions have been formulated: To which extent quality participates in generating value added within production process? In which production operations does the quality factor contributes most to generating value added? Keywords: Quality value stream map, Value stream map, quality management, added value for the customer.",
+    "autores": [
+      "Yaroslava Kostiuk"
+    ],
+    "palabras_clave_oa": [
+      "quality management",
+      "value added",
+      "value stream mapping",
+      "production process",
+      "small and medium-sized enterprises",
+      "Industry 4.0",
+      "customer value",
+      "manufacturing operations"
+    ],
+    "temas_oa": [
+      "Quality and Supply Management",
+      "Management Systems and Quality Improvement",
+      "Management and Optimization Techniques"
+    ],
+    "acceso_abierto": false,
+    "pdf": null
+  },
+  {
+    "id": 36,
+    "fase": "Verificar",
+    "titulo": "The decay of Six Sigma and the rise of Quality 4.0 in manufacturing innovation",
+    "anio": 2023,
+    "revista": "Quality Engineering",
+    "doi": "10.1080/08982112.2023.2206679",
+    "resumen_en": "Smart manufacturing (SM) processes exhibit rapidly increasing complexity, nonlinear patterns in hyperdimensional spaces, high volumes of data, transient sources of variations, reduced lifetime, ultrahigh conformance, and non-Gaussian pseudo-chaotic behaviors. Standard quality control techniques and paradigms are not up to handling all these dynamics. Therefore, quality engineers went stagnant, with little innovation to offer to the manufacturing industry. Artificial intelligence (AI), particularly machine learning (ML) and deep learning (DL) have been applied to solve complex engineering problems and drive innovation. This new era where computer science principles are applied to quality control is called Quality 4.0 (Q4.0). However, the Six Sigma five-step problem-solving strategy (define, measure, analyze, improve, and control) does not fit the full ML cycle. The limitations of the Six Sigma techniques and paradigms in driving manufacturing innovation are discussed. A case study where a 3D quality pattern that can be easily detected by an MLA is not detected by traditional process monitoring methods. Early results motivate the development of the new era of Q4.0 without the limitations of Six Sigma and the potential of AI.",
+    "autores": [
+      "Carlos A. Escobar",
+      "Daniela Macías Arregoyta",
+      "Rubén Morales-Menéndez"
+    ],
+    "palabras_clave_oa": [
+      "Quality 4.0",
+      "Six Sigma",
+      "smart manufacturing",
+      "deep learning",
+      "manufacturing innovation",
+      "process monitoring",
+      "nonlinear process dynamics"
+    ],
+    "temas_oa": [
+      "Advanced Statistical Process Monitoring",
+      "Digital Transformation in Industry",
+      "Fault Detection and Control Systems"
+    ],
+    "acceso_abierto": true,
+    "pdf": null
+  },
+  {
+    "id": 37,
+    "fase": "Verificar",
+    "titulo": "Toward Zero Defect Manufacturing with the support of Artificial Intelligence—Insights from an industrial application",
+    "anio": 2023,
+    "revista": "Computers in Industry",
+    "doi": "10.1016/j.compind.2023.103877",
+    "resumen_en": "The Zero Defect Manufacturing (ZDM) concept combined with Artificial Intelligence (AI), a key enabling technology, opens up new opportunities for improved quality management and advanced problem-solving. However, there is a lack of applied research in industrial plants that would allow for the widespread deployment of this framework. Thus, the purpose of this article was to apply AI in an industrial application in order to develop application insights and identify the necessary prerequisites for achieving ZDM. A case study was done at a Swedish manufacturing plant to evaluate the implementation of a defect-detection strategy on products prone to misclassification and on an imbalanced data set with very few defects. A semi-supervised learning approach was used to learn which vibration properties differentiate confirmed defects from approved products. This method enabled the calculation of a defect similarity ratio that was used to predict how similar newly manufactured products are to defective products. This study identified four prerequisites and four insights critical for the development of an AI solution supporting ZDM. The key finding demonstrates how well traditional and innovative quality methods complement one another. The results highlight the importance of starting data science projects quickly to ensure data quality and allow a ZDM detection strategy to build knowledge to allow for the development of more proactive strategies, such as the prediction and prevention of defects.",
+    "autores": [
+      "Nicolas Leberruyer",
+      "Jessica Bruch",
+      "Mats Ahlskog",
+      "Sara Afshar"
+    ],
+    "palabras_clave_oa": [
+      "zero-defect manufacturing",
+      "artificial intelligence in manufacturing",
+      "defect detection",
+      "vibration analysis",
+      "semi-supervised learning",
+      "class imbalance",
+      "quality management",
+      "data quality",
+      "industrial implementation"
+    ],
+    "temas_oa": [
+      "Industrial Vision Systems and Defect Detection",
+      "Fault Detection and Control Systems",
+      "Digital Transformation in Industry"
+    ],
+    "acceso_abierto": true,
+    "pdf": null
+  },
+  {
+    "id": 38,
+    "fase": "Verificar",
+    "titulo": "A Study on Significance of total Quality Management in Manufacturing Company",
+    "anio": 2025,
+    "revista": "INTERNATIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT",
+    "doi": "10.55041/ijsrem45942",
+    "resumen_en": "ABSTRACT This study examines the significance of Total Quality Management (TQM) in manufacturing companies, focusing on its impact on operational efficiency, product quality, and customer satisfaction. TQM, a comprehensive management approach that involves all employees in improving processes, products, and services, is critical for organizations striving to maintain competitive advantage in the manufacturing sector. The research highlights key principles of TQM, such as continuous improvement, customer focus, and employee involvement, and explores how their implementation leads to reduced defects, enhanced productivity, and improved customer loyalty. Through case studies and analysis of manufacturing firms that have adopted TQM practices, the study demonstrates the tangible benefits of TQM, including cost savings, better market positioning, and long-term sustainability. Additionally, the study identifies challenges in the adoption of TQM, such as resistance to change and the need for adequate training and leadership. The findings emphasize that the successful integration of TQM is vital for manufacturing companies aiming for operational excellence and long-term growth in an increasingly competitive global market.",
+    "autores": [
+      "HYDEN NIVAS"
+    ],
+    "palabras_clave_oa": [
+      "total quality management",
+      "manufacturing companies",
+      "operational efficiency",
+      "product quality",
+      "customer satisfaction",
+      "continuous improvement",
+      "employee participation",
+      "defect reduction",
+      "productivity",
+      "customer loyalty",
+      "resistance to change",
+      "competitive advantage",
+      "operational excellence"
+    ],
+    "temas_oa": [
+      "Quality and Supply Management",
+      "Management Systems and Quality Improvement",
+      "Management and Optimization Techniques"
+    ],
+    "acceso_abierto": true,
+    "pdf": "38.pdf",
+    "pdf_origen": "https://ijsrem.com/download/a-study-on-significance-of-total-quality-management-in-manufacturing-company/fulltext.pdf"
+  },
+  {
+    "id": 39,
+    "fase": "Actuar",
+    "titulo": "Quality Improvement of the Forging Process Using Pareto Analysis and 8D Methodology in Automotive Manufacturing: A Case Study",
+    "anio": 2023,
+    "revista": "Standards",
+    "doi": "10.3390/standards3010008",
+    "resumen_en": "A systematic approach to nonconformity management and continuous improvements are the key elements of the quality management system. The objective of this paper is to present quality improvement for a manufacturing company producing forgings through the combination of several statistical methods and quality control techniques. First, Pareto analysis was applied, followed by the 8D (eight disciplines) methodology using a structured eight-step approach to problem solving following the PDCA (plan-do-check-act) method. The aim was to identify the problem and discover the critical causes of failures in the management system that allowed the problem to occur, by modifying and combining appropriate quality management methods and tools. The paper introduces a case study considering the forging process in the production of gearboxes, where customer complaints were identified in the last year, demanding the need to eliminate failures. Using the mentioned methods, the root cause of the problem was identified and permanent corrective action was planned and implemented according to the recommendations of the 8D report, which made it possible to reduce the likelihood of a recurrence of this problem and increase customer satisfaction.",
+    "autores": [
+      "Katarína Lestyánszka Škůrková",
+      "Helena Fidlerová",
+      "Marta Niciejewska",
+      "Adam Idzikowski"
+    ],
+    "palabras_clave_oa": [
+      "forging",
+      "quality improvement",
+      "Pareto analysis",
+      "gearbox manufacturing",
+      "nonconformity management",
+      "root cause analysis",
+      "corrective actions",
+      "customer complaints",
+      "PDCA cycle",
+      "automotive manufacturing"
+    ],
+    "temas_oa": [
+      "Management Systems and Quality Improvement",
+      "Quality and Supply Management",
+      "Management and Optimization Techniques"
+    ],
+    "acceso_abierto": true,
+    "pdf": "39.txt"
+  },
+  {
+    "id": 40,
+    "fase": "Actuar",
+    "titulo": "Root Cause Analysis of Quality Issues in Watch Manufacturing Using Ishikawa and Pareto Diagrams",
+    "anio": 2024,
+    "revista": "ARCHIVES OF ENGINEERING KNOWLEDGE",
+    "doi": "10.30657/aek.2024.10.4",
+    "resumen_en": "This article provides a structured analysis of quality control issues in watch manufacturing using two primary tools: the Ishikawa (Fishbone) Diagram and the Pareto Diagram. The purpose is to identify, categorize, and prioritize the root causes of timekeeping inaccuracies and other defects impacting customer satisfaction. These defects, ranging from assembly errors to material quality issues, were analyzed to understand where targeted interventions could yield the greatest impact. The methodology involved constructing an Ishikawa Diagram to categorize potential causes into six key areas: Material, Human, Machine, Method, Measurement, and Environment. This structured approach helped break down complex problems into manageable sections, facilitating root cause identification. Following this, a Pareto Diagram was employed to apply the 80/20 rule, revealing that a small number of high-frequency defects (assembly errors and material issues) were responsible for the majority of complaints. Main findings indicate that assembly errors, improper procedures, and low-quality materials (e.g., worn cords, unsuitable materials for environmental conditions) are the leading causes of defects. Improvements in these high-impact areas could address over 60% of the issues, enhancing product reliability and customer satisfaction. The originality of this research lies in its integration of two well-established quality control tools in watch manufacturing, an area where precision is critical. By combining the systematic breakdown of the Ishikawa Diagram with the prioritization offered by the Pareto Diagram, the study provides a focused approach to defect reduction in the precision-manufacturing industry. This dual-method approach can be widely applied to industries that require meticulous quality control, as it enables organizations to allocate resources effectively, concentrating on the most impactful areas for improvement.",
+    "autores": [
+      "Aybuke Sahin"
+    ],
+    "palabras_clave_oa": [
+      "watchmaking",
+      "quality control",
+      "root cause analysis",
+      "fishbone diagram",
+      "Pareto diagram",
+      "assembly errors",
+      "timekeeping accuracy",
+      "defect prioritization",
+      "customer satisfaction",
+      "precision manufacturing"
+    ],
+    "temas_oa": [
+      "Management Systems and Quality Improvement",
+      "Management and Optimization Techniques",
+      "Quality and Supply Management"
+    ],
+    "acceso_abierto": true,
+    "pdf": null
+  },
+  {
+    "id": 41,
+    "fase": "Actuar",
+    "titulo": "Integrating ISO 9001 and Industry 4.0. An implementation guideline and PDCA model for manufacturing sector",
+    "anio": 2023,
+    "revista": "Total Quality Management & Business Excellence",
+    "doi": "10.1080/14783363.2023.2192916",
+    "resumen_en": "The main purpose of this paper is to develop an implementation guideline for manufacturing companies integrating ISO 9001 requirements and Industry 4.0 technologies. The implementation guideline follows the Plan-Do-Check-Act model of ISO 9001 standard. We interviewed 25 experts and observed the quality management documentation of seven European manufacturing companies. Results emerged using thematic content analysis and we gained further insights from interviewees, allowing us to propose suggestions garnered from the interviews. The guideline demonstrates how requirements can be integrated with Industry 4.0 technologies such as radiofrequency identification tags, smart sensors, the internet of things, smart human interface, enterprise resource planning modules, artificial intelligence to improve a typical ISO 9001 quality management system. Some issues emerged relating to the fear of losing jobs, validation of quality control equipment based on artificial intelligence, and decision-making and problem-solving processes. The implications of this research are mainly related to the opening of a new debate concerning the integration between ISO 9001 and Industry 4.0 as well as the proposal, to our knowledge, of the first tentative integration. Manufacturing companies can use the guideline for integrating their quality management system with Industry 4.0 technologies while considering also the practical suggestions provided by the experts.",
+    "autores": [
+      "Andrea Chiarini",
+      "Anass Cherrafi"
+    ],
+    "palabras_clave_oa": [
+      "ISO 9001",
+      "Industry 4.0",
+      "quality management systems",
+      "PDCA cycle",
+      "manufacturing companies",
+      "radio frequency identification",
+      "smart sensors",
+      "Internet of Things",
+      "enterprise resource planning",
+      "artificial intelligence",
+      "fear of job loss",
+      "decision-making"
+    ],
+    "temas_oa": [
+      "Quality and Management Systems",
+      "Digital Transformation in Industry",
+      "Management Systems and Quality Improvement"
+    ],
+    "acceso_abierto": false,
+    "pdf": null
+  },
+  {
+    "id": 42,
+    "fase": "Actuar",
+    "titulo": "Empirical investigation of drivers, motivations and barriers for implementation of integrated continuous improvement system: a case of Ethiopian manufacturing industries",
+    "anio": 2024,
+    "revista": "International Journal of Quality & Reliability Management",
+    "doi": "10.1108/ijqrm-12-2021-0437",
+    "resumen_en": "Purpose Continuous improvement in an integrated approach is a philosophy developed over decades based on a set of management practices. It comprises enhancement methodologies that escalate success as well as diminishes letdowns. The state-of-the-art literature finds a variety of practices for the execution of continuous improvement (CI) system. However, it is rare to find an empirical study with an inclusive system that considers various practices in one frame for improving competitiveness. With this outlook, therefore, this study aims originally to identify drivers, motivations and barriers for the application of integrated CI system, and then conduct an empirical investigation within the context of Ethiopian manufacturing industries. Design/methodology/approach Justification of the problem, extensive review of literature, identification of practices, developing research framework, investigational analysis of the empirical study using reliability and descriptive statistical analysis and identifying leading drivers (unique practices and common factors), motivations and barriers are the research approaches used in this study. Furthermore, the primary data were collected through a self-administered questionnaire and were analyzed using a statistical package for social science (SPSS) 23 and the findings were triangulated to relate to the existing state-of-the-art literature. Findings The findings indicate 17 common factors associated with human, strategic, operational, technology, structure, resource and information factors; 21 unique practices of just-in-time (JIT), lean-six sigma (LSS), supply chain management (SCM), total productive maintenance (TPM), and total quality management (TQM) methodologies; 20 barriers connected with internal and external issues and 17 motivations linked to operational, innovation and business results are identified. In general, the empirical analysis discovers the practices are noteworthy and commonly supported by a least of 52% of the respondents. As a result, the first five prominent common factors, barriers, unique practices and motivations are also supported by a minimum of 72%, 73.9%, 65.8% and 75% of the respondents, respectively. Research limitations/implications Even though this is the first-ever study in the Ethiopian manufacturing sector with the focus on integrated CI practices of JIT, TQM, TPM, SCM and LSS initiatives, some limitations have existed and the major limitations of the study are, targeted merely small number manufacturing companies despite the fact that there are hundreds of companies implementing CI system in Ethiopia, and the data collected were only based on the perception of the respondents, and other information’s like annual reports was not employed to support the findings. Practical implications The findings of this study underlined that the implementation of drivers in relation to common factors and unique practices supported by exterminating barriers in manufacturing industries of Ethiopia enables to enhance competitiveness through attaining operational, innovation and business results though it requires a practical case application to prove this perception-based analysis. Originality/value Though there are a number of studies published on integrated continuous improvement, currently it is found that there is no literature focused on the identification and empirical investigation of drivers (common factors and unique practices), motivations and barriers for application of integrated CI system with the focus of JIT, TQM, TPM, SCM and LSS initiatives. Therefore, this is the first-ever study, and the empirical analysis of the study discovered that identified practices are providing valuable insights for manufacturing industries which will be on board on this voyage including institutions, practitioners and other sectors.",
+    "autores": [
+      "Haftu Hailu Berhe",
+      "Hailekiros Sibhato Gebremichael",
+      "Kinfe Tsegay Beyene",
+      "Haileselassie Mehari Gebremedhin"
+    ],
+    "palabras_clave_oa": [
+      "implementation barriers",
+      "implementation motivation",
+      "just-in-time",
+      "Lean Six Sigma",
+      "supply chain management",
+      "total productive maintenance",
+      "total quality management",
+      "manufacturing industry",
+      "Ethiopian manufacturing sector",
+      "competitiveness",
+      "human resource factors",
+      "strategic factors",
+      "operational factors",
+      "technological factors",
+      "structural factors",
+      "resource factors",
+      "information factors",
+      "small and medium-sized enterprises"
+    ],
+    "temas_oa": [
+      "Quality and Supply Management",
+      "Management and Optimization Techniques",
+      "Management Systems and Quality Improvement"
+    ],
+    "acceso_abierto": false,
+    "pdf": null
+  },
+  {
+    "id": 43,
+    "fase": "Actuar",
+    "titulo": "Integrating Artificial Intelligence into Continuous Improvement for Automotive Manufacturing",
+    "anio": 2025,
+    "revista": "International Journal of Advanced Computer Science and Applications",
+    "doi": "10.14569/ijacsa.2025.0161187",
+    "resumen_en": "The integration of Artificial Intelligence (AI) and Machine Learning (ML) into Continuous Improvement (CI) frameworks is redefining the foundations of automotive manufacturing under the Industry 4.0 paradigm. Traditional method-ologies such as Kaizen, Lean Six Sigma, and Total Quality Management (TQM) have long provided structured approaches for quality enhancement, waste reduction, and process stability. However, the emergence of AI introduces new capabilities—advanced analytics, predictive modeling, and intelligent automation—that transform these static frameworks into dynamic, data-driven ecosystems. This study conducts a systematic literature review following the PRISMA protocol, covering publications from 2010 to 2024 across Scopus, Web of Science, and OpenAlex. After filtering and de-duplication, 13,080 documents were analyzed. Data were categorized by AI methodologies (computer vision, neural networks, deep learning), industrial use cases (quality inspection, predictive maintenance, process optimization, scheduling, and supply chain planning), and key performance metrics such as Overall Equipment Effectiveness (OEE), Mean Time Between Failures (MTBF), parts per million (ppm), lead time, and service level. The analysis reveals substantial and measurable performance improvements. AI-driven systems achieve an aver-age 15% gain in production efficiency, while computer vision enables automated defect detection, improving first-pass yield and reducing scrap. Predictive maintenance reduces unplanned downtime, increasing equipment availability and reliability. These benefits depend strongly on digital maturity and integration within enterprise systems—particularly Manufacturing Execution Systems (MES), Enterprise Resource Planning (ERP), and Product Lifecycle Management (PLM) which together ensure real-time data flow, process synchronization, and traceability across production operations. The primary barriers to adoption include data quality and governance issues, lack of workforce expertise, model explainability in safety-critical environments, and the complexity of integrating AI solutions into legacy systems. These factors hinder large-scale deployment despite proven technical advantages. This study proposes an applied framework for integrating AI within CI initiatives, aligned with the DMAIC (Define–Measure–Analyze–Improve–Control) cycle and the emerging Quality 4.0 architecture. It highlights managerial enablers such as data readiness, digital governance, and cross-functional collaboration, while identifying research gaps related to implementation costs, time-to-value, and long-term performance measurement. The findings demonstrate how AI transforms CI from reactive optimization to proactive, self-improving systems capable of sustaining excellence in modern automotive manufacturing.",
+    "autores": [
+      "Sara OULED LAGHZAL",
+      "EL OUADI Abdelmajid"
+    ],
+    "palabras_clave_oa": [
+      "artificial intelligence in manufacturing",
+      "continuous improvement",
+      "automotive manufacturing",
+      "Industry 4.0",
+      "Kaizen",
+      "Lean Six Sigma",
+      "total quality management",
+      "predictive maintenance",
+      "process optimization",
+      "scheduling",
+      "supply chain planning",
+      "overall equipment effectiveness",
+      "manufacturing execution system",
+      "enterprise resource planning",
+      "product lifecycle management",
+      "digital governance",
+      "AI adoption barriers",
+      "Quality 4.0",
+      "DMAIC"
+    ],
+    "temas_oa": [
+      "Digital Transformation in Industry",
+      "Impact of AI and Big Data on Business and Society",
+      "Management and Optimization Techniques"
+    ],
+    "acceso_abierto": true,
+    "pdf": "43.pdf",
+    "pdf_origen": "https://thesai.org/Downloads/Volume16No11/Paper_87-Integrating_Artificial_Intelligence_into_Continuous_Improvement.pdf"
+  },
+  {
+    "id": 44,
+    "fase": "Actuar",
+    "titulo": "Integrated quality 4.0 framework for quality improvement based on Six Sigma and machine learning techniques towards zero-defect manufacturing",
+    "anio": 2024,
+    "revista": "The TQM Journal",
+    "doi": "10.1108/tqm-11-2023-0361",
+    "resumen_en": "Purpose This research paper aims to analyze the scientific and grey literature on Quality 4.0 and zero-defect manufacturing (ZDM) frameworks to develop an integrated quality 4.0 framework (IQ4.0F) for quality improvement (QI) based on Six Sigma and machine learning (ML) techniques towards ZDM. The IQ4.0F aims to contribute to the advancement of defect prediction approaches in diverse manufacturing processes. Furthermore, the work enables a comprehensive analysis of process variables influencing product quality with emphasis on the use of supervised and unsupervised ML techniques in Six Sigma’s DMAIC (Define, Measure, Analyze, Improve and Control) cycle stage of “Analyze.” Design/methodology/approach The research methodology employed a systematic literature review (SLR) based on PRISMA guidelines to develop the integrated framework, followed by a real industrial case study set in the automotive industry to fulfill the objectives of verifying and validating the proposed IQ4.0F with primary data. Findings This research work demonstrates the value of a “stepwise framework” to facilitate a shift from conventional quality management systems (QMSs) to QMSs 4.0. It uses the IDEF0 modeling methodology and Six Sigma’s DMAIC cycle to structure the steps to be followed to adopt the Quality 4.0 paradigm for QI. It also proves the worth of integrating Six Sigma and ML techniques into the “Analyze” stage of the DMAIC cycle for improving defect prediction in manufacturing processes and supporting problem-solving activities for quality managers. Originality/value This research paper introduces a first-of-its-kind Quality 4.0 framework – the IQ4.0F. Each step of the IQ4.0F was verified and validated in an original industrial case study set in the automotive industry. It is the first Quality 4.0 framework, according to the SLR conducted, to utilize the principal component analysis technique as a substitute for “Screening Design” in the Design of Experiments phase and K-means clustering technique for multivariable analysis, identifying process parameters that significantly impact product quality. The proposed IQ4.0F not only empowers decision-makers with the knowledge to launch a Quality 4.0 initiative but also provides quality managers with a systematic problem-solving methodology for quality improvement.",
+    "autores": [
+      "Elisa Gonzalez Santacruz",
+      "David Romero",
+      "Julieta Noguez",
+      "Thorsten Wuest"
+    ],
+    "palabras_clave_oa": [
+      "Quality 4.0",
+      "zero-defect manufacturing",
+      "quality improvement",
+      "Six Sigma",
+      "DMAIC",
+      "machine learning",
+      "fault prediction",
+      "IDEF0 modeling",
+      "principal component analysis",
+      "K-means clustering",
+      "automotive manufacturing",
+      "process parameter optimization",
+      "quality management systems"
+    ],
+    "temas_oa": [
+      "Digital Transformation in Industry",
+      "Management Systems and Quality Improvement",
+      "Quality and Supply Management"
+    ],
+    "acceso_abierto": false,
+    "pdf": null
+  },
+  {
+    "id": 45,
+    "fase": "Actuar",
+    "titulo": "Investigating scope of lean six sigma implementation in automotive manufacturers",
+    "anio": 2022,
+    "revista": "International Journal of Mechanical Engineering",
+    "doi": "10.56452/2022-07-sp/0002",
+    "resumen_en": "A large number of automotive component SMEs are established in India in last 3 decades.These manufacturing units produce automotive components for domestics and exports markets.Recession in automotive sectors, shift towards electrical vehicles and environmental regulations have brought hard time for these manufactures.According to recent survey 34% of such manufacturing units in Vadodara and Rajkot are planning to shift to other businesses.Lean six sigma are proven change method to improve quality and cost effectiveness in manufacturing plants and service sector.It has brought miracles for same sinking ships.The present research was carried out to examine the suitable tools (practices), barriers and expected outcomes of implementing lean and six sigma in automotive component SMEs.A combined approach of literature review and structured questionnaires survey was adopted.Research and papers related to standard journals.A survey questionnaire was designed in consultation with experts who have experience in implementing lean, six sigma in various tools, barriers, criticalsuccess factor and expected performances out come.Total 90 experts having experience in implementing, training and analyzing lean six sigma implementation participated in the survey.Suitable tools, barriers and expected performance outcome for implementing lean six sigma in automotives SMEs were derived.",
+    "autores": [],
+    "palabras_clave_oa": [
+      "Lean Six Sigma",
+      "automotive parts manufacturing",
+      "small and medium-sized enterprises",
+      "implementation barriers",
+      "success factors",
+      "lean tools",
+      "Six Sigma tools",
+      "quality improvement",
+      "cost-effectiveness",
+      "Vadodara",
+      "Rajkot"
+    ],
+    "temas_oa": [
+      "Quality and Supply Management",
+      "Management and Optimization Techniques",
+      "Management Systems and Quality Improvement"
+    ],
+    "acceso_abierto": true,
+    "pdf": null
+  },
+  {
+    "id": 46,
+    "fase": "Actuar",
+    "titulo": "Integration of Six Sigma in Bioinspired Manufacturing: Insights from Indian SMEs",
+    "anio": 2026,
+    "revista": "Smart and Sustainable Manufacturing Systems",
+    "doi": "10.1520/ssms20250019",
+    "resumen_en": "ABSTRACT Small and medium enterprises (SMEs) play a vital role in India’s manufacturing sector but often struggle with quality control, environmental compliance, and global competitiveness. However, they face significant challenges in achieving operational excellence, sustainability, and global competitiveness. This study explores the integration of six sigma methodologies with sustainable bioinspired manufacturing principles to improve performance and minimize environmental impact. Using a literature review and empirical analysis, the study identifies key critical success factors (CSFs) that influence six sigma implementation in Indian SMEs. Statistical analysis shows that CSFs significantly affect performance, offering insights for strategic six sigma adoption. Based on the best-worst method analysis, “selection of the right project” (weight = 0.3287), “employee training” (0.1862), and “infrastructure availability” (0.1076) emerge as the top-ranked CSFs, collectively contributing over 62 % in improving the operational performance of SMEs. This study uniquely contributes by examining the intersection of six sigma and bioinspired manufacturing specifically within Indian SMEs, an area that remains underexplored in the literature. Unlike prior studies that treat these domains separately, the present work investigates how bioinspired design principles can be practically integrated into six sigma’s structured framework to achieve sustainability and quality objectives.",
+    "autores": [
+      "Davinder Singh"
+    ],
+    "palabras_clave_oa": [
+      "Six Sigma",
+      "small and medium-sized enterprises",
+      "success factors",
+      "sustainable manufacturing",
+      "quality control",
+      "operational performance",
+      "environmental impact reduction",
+      "employee training",
+      "project selection",
+      "Indian manufacturing"
+    ],
+    "temas_oa": [
+      "Quality and Supply Management",
+      "Quality and Management Systems",
+      "Management and Optimization Techniques"
+    ],
+    "acceso_abierto": false,
+    "pdf": null
+  },
+  {
+    "id": 47,
+    "fase": "Actuar",
+    "titulo": "A Critical Review of TQM and Zero-Defect Concept in Manufacturing Industries: A Qualitative Study",
+    "anio": 2021,
+    "revista": "Tobacco Regulatory Science (TRS)",
+    "doi": "10.52783/trs.v7i5-1.1378",
+    "resumen_en": "Total Quality Management (TQM) and the Zero-Defect Concept have emerged as prominent strategies in the manufacturing sector, aiming to enhance product quality and customer satisfaction. This critical evaluation seeks to assess the value and implications of TQM and the Zero-Defect Concept through a quantitative analysis. The study explores various aspects of TQM implementation, including process improvement, staff involvement, supplier management, and customer focus, along with the Zero-Defect Concept. The findings indicate that adopting TQM significantly improves overall organizational performance. The application of zero-defect practices demonstrates a strong correlation with TQM dimensions like process improvement and staff involvement, leading to enhanced product quality. However, the study also identifies challenges and limitations associated with the implementation of TQM and the Zero-Defect Concept. These include resistance to change, insufficient staff engagement, suboptimal integration of suppliers, and difficulties in sustaining continuous improvement efforts. Addressing these issues is crucial for organizations to fully benefit from TQM and zero-defect practices, ensuring their successful implementation and yielding desired outcomes.",
+    "autores": [
+      "Jitendra Singh  Chauhan"
+    ],
+    "palabras_clave_oa": [
+      "total quality management",
+      "manufacturing industry",
+      "product quality",
+      "process improvement",
+      "employee participation",
+      "supplier management",
+      "customer orientation",
+      "organizational performance",
+      "resistance to change",
+      "continuous improvement"
+    ],
+    "temas_oa": [
+      "Quality and Supply Management",
+      "Management Systems and Quality Improvement",
+      "Management and Optimization Techniques"
+    ],
+    "acceso_abierto": false,
+    "pdf": null
+  },
+  {
+    "id": 48,
+    "fase": "Actuar",
+    "titulo": "Integrated lean manufacturing and quality management systems at Russian enterprises of the military-industrial complex",
+    "anio": 2022,
+    "revista": "Vestnik NSUEM",
+    "doi": "10.34020/2073-6495-2022-3-140-153",
+    "resumen_en": "The article is devoted to the peculiarities and problems of the introduction and use of lean manufacturing and quality management technologies at Russian defense enterprises. The general concept of quality management systems (QMS) and lean manufacturing management systems (LMMS) is given, the domestic practice of implementing and applying these systems at defense industry enterprises is considered, the main tools of the systems are investigated, problems of implementation are identified, the specifics of personnel training in lean manufacturing and quality management technologies are considered, the issues of standardization and certification of these technologies are studied.",
+    "autores": [
+      "Анна Сергеевна Балдина"
+    ],
+    "palabras_clave_oa": [
+      "lean manufacturing",
+      "quality management systems",
+      "military-industrial complex",
+      "defense industry enterprises",
+      "Russian defense industry",
+      "implementation problems",
+      "employee training",
+      "standardization",
+      "certification",
+      "lean tools"
+    ],
+    "temas_oa": [
+      "Quality and Supply Management",
+      "Quality and Management Systems",
+      "Management Systems and Quality Improvement"
+    ],
+    "acceso_abierto": true,
+    "pdf": "48.pdf",
+    "pdf_origen": "https://nsuem.elpub.ru/jour/article/download/2161/1072"
+  },
+  {
+    "id": 49,
+    "fase": "Actuar",
+    "titulo": "SECI Model Combined with ISO 9001 2015 to Support Organizational KM for Manual Assembly Manufacturing Operations",
+    "anio": 2022,
+    "revista": "International Journal of Knowledge Management",
+    "doi": "10.4018/ijkm.305226",
+    "resumen_en": "In a large number of industrial sectors, manual assembly manufacturing operations highly engage tacit knowledge at an individual level. Companies in these sectors need to effectively manage organizational knowledge since it represents a real performance and sustainability lever. Although knowledge management (KM) specialists developed several models, these latter remain difficult to implement due to several barriers and limitations related to industrial reality and models ambiguity. This paper proposes an organizational knowledge management (OKM) framework for manual assembly manufacturing operations that is based on ISO 9001:2015 and SECI conversion cycle. This framework offers guidance for implementing a KM approach within the quality management system (QMS) allows to manage knowledge differently with regards to its tacitness level and overcomes many of the most common KM limitations. An experimental application based on a single case research design in an aeronautical assembly company is conducted to confirm the applicability and effectiveness of the framework suggested.",
+    "autores": [
+      "Afaf Jghamou",
+      "Aziz Maziri",
+      "El Hassan Mallil",
+      "Jamal Echaabi"
+    ],
+    "palabras_clave_oa": [
+      "organizational knowledge management",
+      "SECI model",
+      "ISO 9001:2015",
+      "tacit knowledge",
+      "quality management systems",
+      "knowledge management framework",
+      "knowledge management implementation"
+    ],
+    "temas_oa": [
+      "Knowledge Management and Sharing",
+      "Innovation and Knowledge Management",
+      "Quality and Management Systems"
+    ],
+    "acceso_abierto": true,
+    "pdf": null
+  },
+  {
+    "id": 50,
+    "fase": "Actuar",
+    "titulo": "Lean Six-Sigma Approach for Sub-Contract Licensing and its Process Improvement across the Manufacturing Supply Chain using GUT Priority Matrix",
+    "anio": 2023,
+    "revista": "Information Management and Business Review",
+    "doi": "10.22610/imbr.v15i2(i)si.3413",
+    "resumen_en": "This study aims to examine how Lean Six Sigma as a quality management tool could enhance productivity in a manufacturing organization, ZITRON. In addition, this study also aims to show how DMAIC (defined, measured, analyzed, improved and controlled) is operationalized for overall process improvement in ZITRON manufacturing. Lean management takes care of waste across all processes and focuses on speed and time within a firm while Six Sigma is a strategy that focuses on eliminating defects, reducing costs and also reduces process variability. As such, this study utilizes the Lean Six-Sigma approach as a tool to ensure more efficiency is achieved in terms of source, make, delivery and process efficiency. Methodologically, there are five phases in the Lean Six Sigma strategies which are defined, measured, analyze, improve and controlled (DMAIC). The findings show that Lean Six Sigma can help to eliminate waste, and cost-reduction, and help eliminate variations in processes within the manufacturing. However, SIX SIGMA tools have been used to solve the problem which is a delay in processes in manufacturing. Based on this research paper, focuses on the manufacturing problem which is a delay in processes. By using Six Sigma, the problem that existed in manufacturing has been solved through process improvement. This work is originally following a self-method in which the data is collected by using observation techniques to identify the existing problem and solution-seeking within the manufacturing.",
+    "autores": [
+      "Veera Pandiyan Kaliani Sundram",
+      "Farha Ghapar",
+      "Mohd Firdaus Osman",
+      "Li Lian Chew",
+      "Azlina Muhammad"
+    ],
+    "palabras_clave_oa": [
+      "Lean Six Sigma",
+      "DMAIC",
+      "process improvement",
+      "manufacturing supply chains",
+      "process delays",
+      "waste elimination",
+      "process variation",
+      "cost reduction"
+    ],
+    "temas_oa": [
+      "Quality and Supply Management",
+      "Management and Optimization Techniques",
+      "Management Systems and Quality Improvement"
+    ],
+    "acceso_abierto": true,
+    "pdf": "50.pdf",
+    "pdf_origen": "https://ojs.amhinternational.com/index.php/imbr/article/download/3413/2166"
+  }
+]

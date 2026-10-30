@@ -1,0 +1,7974 @@
+{
+  "por_fase": {
+    "Planificar": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      51,
+      52,
+      55,
+      56,
+      58,
+      92,
+      93,
+      94,
+      95,
+      96
+    ],
+    "Hacer": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      53,
+      57,
+      59,
+      60,
+      62,
+      64,
+      73,
+      74,
+      75,
+      78,
+      79,
+      80,
+      82,
+      91
+    ],
+    "Verificar": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      54,
+      61,
+      66,
+      67,
+      70,
+      76,
+      81,
+      83,
+      85,
+      86
+    ],
+    "Actuar": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      72,
+      77,
+      87,
+      88,
+      89,
+      90
+    ]
+  },
+  "por_tema": {
+    "Barreras y retos de implementación": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14,
+      18,
+      19,
+      20,
+      24,
+      28,
+      29,
+      32,
+      42,
+      43,
+      45,
+      49,
+      53,
+      54,
+      55,
+      56,
+      64,
+      85,
+      87,
+      95,
+      96
+    ],
+    "Costos de calidad y desperdicio": [
+      1,
+      2,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      13,
+      14,
+      15,
+      18,
+      19,
+      20,
+      22,
+      24,
+      26,
+      30,
+      34,
+      39,
+      43,
+      50,
+      53,
+      56,
+      60,
+      61,
+      62,
+      64,
+      72,
+      73,
+      74,
+      76,
+      77,
+      78,
+      79,
+      81,
+      82,
+      83,
+      87,
+      89,
+      90,
+      91
+    ],
+    "Desempeño operacional": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      14,
+      16,
+      18,
+      19,
+      24,
+      25,
+      32,
+      38,
+      43,
+      46,
+      50,
+      51,
+      52,
+      53,
+      56,
+      60,
+      62,
+      64,
+      72,
+      73,
+      74,
+      77,
+      78,
+      79,
+      80,
+      82,
+      87,
+      89,
+      93,
+      96
+    ],
+    "Kaizen / Mejora continua": [
+      1,
+      2,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14,
+      15,
+      18,
+      19,
+      21,
+      22,
+      26,
+      32,
+      38,
+      39,
+      42,
+      43,
+      47,
+      51,
+      53,
+      56,
+      58,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      79,
+      80,
+      82,
+      85,
+      87,
+      88,
+      89,
+      92,
+      93
+    ],
+    "Lean Six Sigma": [
+      1,
+      2,
+      7,
+      19,
+      22,
+      24,
+      42,
+      43,
+      45,
+      50,
+      72,
+      77,
+      92
+    ],
+    "Lean manufacturing": [
+      1,
+      2,
+      7,
+      8,
+      9,
+      10,
+      14,
+      15,
+      17,
+      18,
+      19,
+      20,
+      22,
+      24,
+      25,
+      26,
+      42,
+      43,
+      45,
+      48,
+      50,
+      53,
+      60,
+      62,
+      64,
+      72,
+      73,
+      74,
+      77,
+      78,
+      79,
+      82,
+      87,
+      88,
+      90,
+      92
+    ],
+    "Liderazgo y cultura organizacional": [
+      1,
+      2,
+      4,
+      5,
+      7,
+      8,
+      10,
+      11,
+      14,
+      17,
+      19,
+      32,
+      38,
+      51,
+      52,
+      53,
+      55,
+      56,
+      58,
+      59,
+      70,
+      72,
+      82,
+      87,
+      89,
+      92,
+      93,
+      95,
+      96
+    ],
+    "PYMES": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      9,
+      10,
+      14,
+      17,
+      18,
+      19,
+      20,
+      22,
+      26,
+      29,
+      32,
+      35,
+      42,
+      45,
+      46,
+      51,
+      52,
+      53,
+      56,
+      60,
+      64,
+      72,
+      73,
+      74,
+      75,
+      82,
+      87,
+      88,
+      92,
+      96
+    ],
+    "Proveedores y cadena de suministro": [
+      1,
+      2,
+      10,
+      11,
+      19,
+      24,
+      32,
+      34,
+      35,
+      42,
+      43,
+      47,
+      50,
+      51,
+      53,
+      54,
+      58,
+      76,
+      89,
+      91,
+      92,
+      93
+    ],
+    "Six Sigma": [
+      1,
+      2,
+      6,
+      7,
+      9,
+      16,
+      19,
+      22,
+      24,
+      27,
+      30,
+      33,
+      36,
+      42,
+      43,
+      44,
+      45,
+      46,
+      50,
+      61,
+      72,
+      77,
+      79,
+      81,
+      82,
+      90,
+      92
+    ],
+    "Sostenibilidad": [
+      1,
+      2,
+      4,
+      7,
+      8,
+      9,
+      10,
+      14,
+      19,
+      22,
+      26,
+      32,
+      34,
+      38,
+      43,
+      46,
+      49,
+      51,
+      52,
+      54,
+      61,
+      64,
+      70,
+      72,
+      73,
+      74,
+      79,
+      82,
+      83,
+      85,
+      87
+    ],
+    "TQM / Calidad total": [
+      1,
+      2,
+      5,
+      11,
+      13,
+      19,
+      27,
+      28,
+      32,
+      33,
+      38,
+      42,
+      43,
+      47,
+      52,
+      55,
+      58,
+      59,
+      66,
+      72,
+      79,
+      85,
+      91,
+      92,
+      93,
+      96
+    ],
+    "Calidad 4.0 / Industria 4.0": [
+      2,
+      3,
+      4,
+      10,
+      13,
+      14,
+      21,
+      29,
+      33,
+      35,
+      36,
+      41,
+      43,
+      44,
+      61,
+      67,
+      72
+    ],
+    "Ciclo PHVA / PDCA": [
+      2,
+      8,
+      39,
+      41,
+      60,
+      75,
+      76,
+      77,
+      86,
+      88,
+      89
+    ],
+    "Control estadístico de procesos (SPC)": [
+      2,
+      27,
+      33,
+      39,
+      60,
+      66,
+      70,
+      72,
+      76,
+      77,
+      81,
+      83
+    ],
+    "Factores críticos de éxito": [
+      2,
+      10,
+      11,
+      45,
+      46,
+      56,
+      92
+    ],
+    "Sector alimentos": [
+      2,
+      14,
+      23,
+      25,
+      26,
+      32,
+      56,
+      72,
+      92
+    ],
+    "Sector automotriz": [
+      2,
+      12,
+      16,
+      19,
+      21,
+      24,
+      32,
+      33,
+      34,
+      39,
+      43,
+      44,
+      45,
+      53,
+      76,
+      82,
+      87,
+      88,
+      89
+    ],
+    "Sector madera y muebles": [
+      2,
+      7,
+      17,
+      19,
+      56,
+      64,
+      66,
+      70
+    ],
+    "Sector metalmecánico / forja": [
+      2,
+      39,
+      56,
+      62,
+      67,
+      70,
+      72,
+      73,
+      74
+    ],
+    "Sector textil y confección": [
+      2,
+      9,
+      19,
+      22,
+      56,
+      77,
+      95
+    ],
+    "Sector vidrio": [
+      2,
+      23
+    ],
+    "TPM / Mantenimiento": [
+      2,
+      9,
+      14,
+      24,
+      42,
+      53,
+      74,
+      82,
+      89
+    ],
+    "Sector calzado": [
+      4
+    ],
+    "ISO 9001 / Sistema de gestión de calidad": [
+      8,
+      12,
+      32,
+      33,
+      39,
+      41,
+      44,
+      48,
+      49,
+      51,
+      52,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      61,
+      85,
+      86,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96
+    ],
+    "Análisis de causa raíz (Pareto, Ishikawa, 8D)": [
+      11,
+      15,
+      16,
+      21,
+      22,
+      26,
+      30,
+      33,
+      34,
+      39,
+      40,
+      50,
+      52,
+      53,
+      60,
+      66,
+      72,
+      74,
+      75,
+      77,
+      81,
+      82,
+      87,
+      88,
+      90
+    ],
+    "Sector plásticos": [
+      14,
+      26,
+      72,
+      88
+    ],
+    "Inteligencia artificial / Machine learning": [
+      24,
+      29,
+      33,
+      34,
+      36,
+      37,
+      41,
+      43,
+      44,
+      64,
+      67,
+      70,
+      72
+    ],
+    "Cero defectos": [
+      37,
+      44,
+      47,
+      61
+    ],
+    "Sector relojería": [
+      40
+    ],
+    "Sector militar / defensa": [
+      48
+    ],
+    "Gestión del conocimiento": [
+      49,
+      96
+    ]
+  },
+  "por_pais": {
+    "Nigeria": [
+      1
+    ],
+    "India": [
+      3,
+      5,
+      6,
+      18,
+      22,
+      45,
+      46,
+      51,
+      79,
+      87,
+      88
+    ],
+    "Bangladesh": [
+      4
+    ],
+    "Serbia": [
+      8
+    ],
+    "Colombia": [
+      9
+    ],
+    "Tanzania": [
+      13
+    ],
+    "Malasia": [
+      17,
+      32
+    ],
+    "Sudáfrica": [
+      19,
+      52,
+      70
+    ],
+    "Marruecos": [
+      20,
+      55
+    ],
+    "Indonesia": [
+      21,
+      26,
+      32,
+      54,
+      64
+    ],
+    "Egipto": [
+      28
+    ],
+    "Etiopía": [
+      42
+    ],
+    "Rusia": [
+      48
+    ],
+    "China": [
+      53
+    ],
+    "México": [
+      56,
+      76,
+      92
+    ],
+    "Polonia": [
+      85
+    ],
+    "Pakistán": [
+      91,
+      95
+    ],
+    "Turquía": [
+      96
+    ]
+  },
+  "por_palabra_clave": {
+    "0.0125 0.0192": [
+      81
+    ],
+    "0.0192 0.0058": [
+      81
+    ],
+    "0.0323 0.0429": [
+      81
+    ],
+    "0.0429 0.0216": [
+      81
+    ],
+    "02 january": [
+      26
+    ],
+    "03.05 2022": [
+      48
+    ],
+    "09 issue": [
+      38
+    ],
+    "10.22201 fi.25940732": [
+      76
+    ],
+    "10.33889 ijmems.2019": [
+      88
+    ],
+    "10.3389 fmech.2026": [
+      24
+    ],
+    "10.3389 fmtec.2022": [
+      61
+    ],
+    "10.3389 frsus.2026": [
+      72
+    ],
+    "10.3926 jiem.2072": [
+      93
+    ],
+    "10.3926 jiem.2412": [
+      55
+    ],
+    "10.3926 jiem.2745": [
+      96
+    ],
+    "10.3926 jiem.3286": [
+      53
+    ],
+    "10.9770 h8339354777": [
+      85
+    ],
+    "10.9790 487x": [
+      59
+    ],
+    "11 64": [
+      82
+    ],
+    "12 num": [
+      77
+    ],
+    "1213 2489": [
+      66
+    ],
+    "13 38": [
+      73
+    ],
+    "13.8 13.9": [
+      83
+    ],
+    "13.9 14.0": [
+      83
+    ],
+    "1311 1728": [
+      67
+    ],
+    "14 2025": [
+      19
+    ],
+    "14.0 14.1": [
+      83
+    ],
+    "14.1 14.0": [
+      83
+    ],
+    "140 153": [
+      48
+    ],
+    "14001 certification": [
+      54
+    ],
+    "1553 6939": [
+      11
+    ],
+    "16 2023": [
+      9
+    ],
+    "1728 printed": [
+      67
+    ],
+    "1798379 frontier": [
+      72
+    ],
+    "2015 quality": [
+      57
+    ],
+    "2015 transition": [
+      96
+    ],
+    "2018 55": [
+      11
+    ],
+    "2019 issue": [
+      79
+    ],
+    "202 211": [
+      56
+    ],
+    "2020 article": [
+      95
+    ],
+    "2021 21": [
+      66
+    ],
+    "2021 58": [
+      95
+    ],
+    "2021 ijsrm": [
+      78
+    ],
+    "2024 68": [
+      60
+    ],
+    "2024 october": [
+      16
+    ],
+    "2025 30": [
+      19
+    ],
+    "2025 pag": [
+      77
+    ],
+    "2025 sjif": [
+      38
+    ],
+    "2026 49": [
+      8
+    ],
+    "2026 592": [
+      26
+    ],
+    "2026 available": [
+      87
+    ],
+    "2026 impact": [
+      51
+    ],
+    "21 2026": [
+      8
+    ],
+    "21 manufacturing": [
+      66
+    ],
+    "211 april": [
+      56
+    ],
+    "213 202": [
+      56
+    ],
+    "2143 page": [
+      79
+    ],
+    "2220 3796": [
+      50
+    ],
+    "2226 3624": [
+      21
+    ],
+    "2236 269x": [
+      94
+    ],
+    "2345 0282": [
+      85
+    ],
+    "2455 2143": [
+      79
+    ],
+    "25 2024": [
+      16
+    ],
+    "25.1 002": [
+      76
+    ],
+    "2582 3930": [
+      38
+    ],
+    "2582 5208": [
+      80
+    ],
+    "28 volume": [
+      30
+    ],
+    "2804034454 www": [
+      59
+    ],
+    "30 41": [
+      19
+    ],
+    "326 335": [
+      11
+    ],
+    "335 issn": [
+      11
+    ],
+    "3624 2026": [
+      21
+    ],
+    "3796 15": [
+      50
+    ],
+    "38 2025": [
+      67
+    ],
+    "38 51": [
+      73
+    ],
+    "3930 2025": [
+      38
+    ],
+    "4.0 adoption": [
+      3
+    ],
+    "4.0 framework": [
+      44
+    ],
+    "4.0 indian": [
+      3
+    ],
+    "4.0 modern": [
+      13
+    ],
+    "4.0 standard": [
+      3
+    ],
+    "4.0 technology": [
+      41
+    ],
+    "4.0 transition": [
+      13
+    ],
+    "4.0 zero": [
+      44
+    ],
+    "4.2 037": [
+      88
+    ],
+    "452 459": [
+      88
+    ],
+    "459 2019": [
+      88
+    ],
+    "487x 2804034454": [
+      59
+    ],
+    "49 69": [
+      8
+    ],
+    "49 international": [
+      2
+    ],
+    "50 15": [
+      12
+    ],
+    "51 2026": [
+      73
+    ],
+    "5208 international": [
+      80
+    ],
+    "55 326": [
+      11
+    ],
+    "55 62": [
+      79
+    ],
+    "58 883": [
+      95
+    ],
+    "592 607": [
+      26
+    ],
+    "5s": [
+      2,
+      16,
+      22,
+      26,
+      60,
+      62,
+      64,
+      72,
+      74,
+      78,
+      79,
+      80,
+      87
+    ],
+    "5s increase": [
+      79
+    ],
+    "68 81": [
+      60
+    ],
+    "8.586 issn": [
+      38
+    ],
+    "87 213": [
+      56
+    ],
+    "883 888": [
+      95
+    ],
+    "888 interdisciplinary": [
+      95
+    ],
+    "8d method": [
+      39
+    ],
+    "8d methodology": [
+      39
+    ],
+    "8d report": [
+      39
+    ],
+    "9000 2015": [
+      61
+    ],
+    "9001 2015": [
+      12,
+      49,
+      57,
+      58,
+      96
+    ],
+    "9001 construction": [
+      91
+    ],
+    "9001 effectiveness": [
+      51
+    ],
+    "9001 industry": [
+      41
+    ],
+    "9001 iso": [
+      54
+    ],
+    "9001 operational": [
+      51
+    ],
+    "9001 qms": [
+      52
+    ],
+    "9001 standard": [
+      56,
+      92
+    ],
+    "9001 variable": [
+      32
+    ],
+    "absenteeism": [
+      24
+    ],
+    "academic economic": [
+      21
+    ],
+    "access fully": [
+      80
+    ],
+    "adaptive technological": [
+      4
+    ],
+    "adasyn": [
+      33
+    ],
+    "added value": [
+      35
+    ],
+    "adoption footwear": [
+      4
+    ],
+    "advanced computer": [
+      43
+    ],
+    "advanced multidisciplinary": [
+      34
+    ],
+    "advantage implementation": [
+      91
+    ],
+    "affinity diagram": [
+      66
+    ],
+    "agree na": [
+      55
+    ],
+    "agree totally": [
+      55
+    ],
+    "ahp micmac": [
+      22
+    ],
+    "ai adoption barriers": [
+      43
+    ],
+    "ai machine": [
+      43
+    ],
+    "ai quality": [
+      29
+    ],
+    "ai solution": [
+      29
+    ],
+    "analysi quality": [
+      40
+    ],
+    "analytic model": [
+      34
+    ],
+    "analytic supplier": [
+      34
+    ],
+    "anomaly detection": [
+      34
+    ],
+    "apparel industry": [
+      19
+    ],
+    "apparel manufacturing": [
+      22
+    ],
+    "application kaizen": [
+      89
+    ],
+    "application lm": [
+      25
+    ],
+    "applied mathematic": [
+      67
+    ],
+    "appraisal perspective": [
+      48
+    ],
+    "apr 2026": [
+      87
+    ],
+    "april june": [
+      56
+    ],
+    "arepublisher com": [
+      58
+    ],
+    "arteaga sarmiento": [
+      9
+    ],
+    "article received": [
+      95
+    ],
+    "artificial intelligence": [
+      29,
+      37,
+      41,
+      43
+    ],
+    "artificial intelligence adoption": [
+      29
+    ],
+    "artificial intelligence in manufacturing": [
+      37,
+      43
+    ],
+    "artificial neural networks": [
+      70
+    ],
+    "assam": [
+      5
+    ],
+    "assembly error": [
+      40
+    ],
+    "assembly errors": [
+      40
+    ],
+    "assembly line": [
+      24
+    ],
+    "assembly line productivity": [
+      24
+    ],
+    "assembly manufacturing": [
+      49
+    ],
+    "attitudes": [
+      7,
+      17
+    ],
+    "audit carried": [
+      86
+    ],
+    "audit practice": [
+      85
+    ],
+    "automobile manufacturing": [
+      21
+    ],
+    "automotive component": [
+      45
+    ],
+    "automotive industry": [
+      76,
+      87,
+      89
+    ],
+    "automotive manufacturing": [
+      16,
+      24,
+      39,
+      43,
+      44,
+      88
+    ],
+    "automotive parts manufacturing": [
+      12,
+      32,
+      45
+    ],
+    "autonomou maintenance": [
+      74
+    ],
+    "autonomou preventive": [
+      74
+    ],
+    "autonomous maintenance": [
+      74
+    ],
+    "balzarova 2018": [
+      54
+    ],
+    "bangladesh": [
+      4
+    ],
+    "barrier associated": [
+      5
+    ],
+    "barrier expected": [
+      45
+    ],
+    "barrier totally": [
+      55
+    ],
+    "barriers to adoption": [
+      13
+    ],
+    "basic aspect": [
+      91
+    ],
+    "batch production": [
+      6
+    ],
+    "bda tool": [
+      3
+    ],
+    "benefits of quality management": [
+      56
+    ],
+    "berezhlivoe proizvodstvo": [
+      48
+    ],
+    "berrouiguet 2015": [
+      32
+    ],
+    "best option": [
+      62
+    ],
+    "better six": [
+      6
+    ],
+    "bhim singh": [
+      18
+    ],
+    "big data": [
+      31
+    ],
+    "big data analytics tools": [
+      3
+    ],
+    "bioinspired manufacturing": [
+      46
+    ],
+    "block printing": [
+      22
+    ],
+    "blockchain": [
+      34
+    ],
+    "blow hole": [
+      90
+    ],
+    "blowholes": [
+      90
+    ],
+    "br january": [
+      94
+    ],
+    "broken candy": [
+      30
+    ],
+    "bulan juli": [
+      16
+    ],
+    "business digital": [
+      64
+    ],
+    "business esmb": [
+      26
+    ],
+    "business incubators": [
+      94
+    ],
+    "business performance": [
+      32
+    ],
+    "business social": [
+      19
+    ],
+    "campoverde pillajo": [
+      72
+    ],
+    "candy defect": [
+      30
+    ],
+    "case organization": [
+      88
+    ],
+    "case set": [
+      44
+    ],
+    "casting defects": [
+      90
+    ],
+    "castka balzarova": [
+      54
+    ],
+    "certification": [
+      48
+    ],
+    "certification bodies": [
+      96
+    ],
+    "certified license": [
+      50
+    ],
+    "challenge implementing": [
+      17
+    ],
+    "check sheet": [
+      88
+    ],
+    "chi square": [
+      52
+    ],
+    "ci system": [
+      42
+    ],
+    "class imbalance": [
+      33,
+      37
+    ],
+    "cloud computing": [
+      31
+    ],
+    "cntd ru": [
+      48
+    ],
+    "cold box": [
+      90
+    ],
+    "comment barrier": [
+      55
+    ],
+    "common factor": [
+      42
+    ],
+    "competitive advantage": [
+      10,
+      30,
+      38,
+      57,
+      94
+    ],
+    "competitiveness": [
+      18,
+      19,
+      42
+    ],
+    "component sme": [
+      45
+    ],
+    "component suppliers": [
+      93
+    ],
+    "composite science": [
+      60
+    ],
+    "concrete structures": [
+      83
+    ],
+    "condition monitoring": [
+      61
+    ],
+    "conducted found": [
+      89
+    ],
+    "confectionery production": [
+      30
+    ],
+    "construction companies": [
+      91
+    ],
+    "construction company": [
+      91
+    ],
+    "construction firm": [
+      91
+    ],
+    "construction industry": [
+      91
+    ],
+    "construction project": [
+      91
+    ],
+    "continuous improvement": [
+      5,
+      6,
+      11,
+      19,
+      21,
+      38,
+      43,
+      47,
+      58,
+      77,
+      80,
+      85,
+      87,
+      89
+    ],
+    "continuous quality improvement": [
+      75,
+      88
+    ],
+    "control failure": [
+      81
+    ],
+    "control framework": [
+      70
+    ],
+    "control manufacturing": [
+      29,
+      31
+    ],
+    "control pdca": [
+      76
+    ],
+    "control qc": [
+      25
+    ],
+    "control spc": [
+      27
+    ],
+    "control step": [
+      21
+    ],
+    "convolutional neural networks": [
+      67
+    ],
+    "core quality": [
+      28
+    ],
+    "corporate reputation": [
+      57
+    ],
+    "corrective action": [
+      39
+    ],
+    "corrective actions": [
+      39,
+      85
+    ],
+    "cost control": [
+      51
+    ],
+    "cost reduction": [
+      15,
+      18,
+      20,
+      50,
+      89
+    ],
+    "cost-effectiveness": [
+      45
+    ],
+    "crease tear": [
+      77
+    ],
+    "creative open": [
+      51
+    ],
+    "critical defect": [
+      22
+    ],
+    "cross-national comparison": [
+      96
+    ],
+    "crossref google": [
+      14,
+      82
+    ],
+    "crossref scilit": [
+      7,
+      10
+    ],
+    "ctgan": [
+      33
+    ],
+    "cultural adaptation": [
+      89
+    ],
+    "culture company": [
+      89
+    ],
+    "culture human": [
+      7,
+      17
+    ],
+    "cundinamarca": [
+      9
+    ],
+    "current system": [
+      62
+    ],
+    "customer complaints": [
+      39
+    ],
+    "customer loyalty": [
+      38
+    ],
+    "customer orientation": [
+      11,
+      47,
+      56
+    ],
+    "customer requirements": [
+      54
+    ],
+    "customer satisfaction": [
+      11,
+      12,
+      18,
+      21,
+      32,
+      38,
+      40,
+      51,
+      52,
+      57,
+      92
+    ],
+    "customer value": [
+      35
+    ],
+    "cv engineering": [
+      12
+    ],
+    "cylinder block": [
+      90
+    ],
+    "data analytic": [
+      3
+    ],
+    "data cloud": [
+      31
+    ],
+    "data quality": [
+      37
+    ],
+    "data science": [
+      70
+    ],
+    "data science adoption": [
+      70
+    ],
+    "davo roll": [
+      30
+    ],
+    "december 2021": [
+      66
+    ],
+    "decision-making": [
+      41
+    ],
+    "deep generative": [
+      33
+    ],
+    "deep learning": [
+      36
+    ],
+    "defect analysis": [
+      30,
+      88
+    ],
+    "defect causes": [
+      66
+    ],
+    "defect concept": [
+      47
+    ],
+    "defect detection": [
+      37,
+      67
+    ],
+    "defect manufacturing": [
+      37,
+      61
+    ],
+    "defect painted": [
+      66
+    ],
+    "defect practice": [
+      47
+    ],
+    "defect prioritization": [
+      40
+    ],
+    "defect rate": [
+      16
+    ],
+    "defect rate reduction": [
+      75
+    ],
+    "defect reduction": [
+      6,
+      14,
+      23,
+      26,
+      38,
+      83,
+      90
+    ],
+    "defect root cause analysis": [
+      77
+    ],
+    "defect selected": [
+      23
+    ],
+    "defective products": [
+      24
+    ],
+    "defective rate": [
+      75
+    ],
+    "defense industry enterprises": [
+      48
+    ],
+    "degree industrial": [
+      92
+    ],
+    "delay processe": [
+      50
+    ],
+    "delivery delay prediction": [
+      34
+    ],
+    "delivery time reduction": [
+      89
+    ],
+    "demand forecasting": [
+      34
+    ],
+    "dematel": [
+      4
+    ],
+    "department cundinamarca": [
+      9
+    ],
+    "departmental collaboration": [
+      4
+    ],
+    "dependability": [
+      61
+    ],
+    "detection strategy": [
+      37
+    ],
+    "developing countries": [
+      2,
+      13,
+      32,
+      73
+    ],
+    "developing country": [
+      32
+    ],
+    "developing validating": [
+      92
+    ],
+    "diagram pareto": [
+      40
+    ],
+    "digital governance": [
+      43
+    ],
+    "digital quality management": [
+      31
+    ],
+    "digital sabda": [
+      64
+    ],
+    "digital twin": [
+      34
+    ],
+    "disagree agree": [
+      55
+    ],
+    "disagree disagree": [
+      55
+    ],
+    "discrete event simulation": [
+      62
+    ],
+    "distribution company": [
+      58
+    ],
+    "dmaic": [
+      43,
+      44,
+      50,
+      72,
+      77
+    ],
+    "doc cntd": [
+      48
+    ],
+    "driving factor": [
+      54
+    ],
+    "dx org": [
+      93
+    ],
+    "dyna 87": [
+      56
+    ],
+    "e.2024 25.1": [
+      76
+    ],
+    "earth future": [
+      70
+    ],
+    "eastasouth management": [
+      26
+    ],
+    "economic law": [
+      58
+    ],
+    "edu ly": [
+      83
+    ],
+    "education 2018": [
+      11
+    ],
+    "education 2021": [
+      95
+    ],
+    "education and training": [
+      27
+    ],
+    "education institute": [
+      79
+    ],
+    "education training": [
+      27
+    ],
+    "efficiency msme": [
+      51
+    ],
+    "egyptian manufacturing": [
+      28
+    ],
+    "electronics manufacturing": [
+      75
+    ],
+    "emerging markets": [
+      4,
+      7
+    ],
+    "employee awareness": [
+      53
+    ],
+    "employee commitment": [
+      17
+    ],
+    "employee engagement": [
+      2,
+      54
+    ],
+    "employee mindset": [
+      89
+    ],
+    "employee participation": [
+      11,
+      38,
+      47
+    ],
+    "employee resistance": [
+      85
+    ],
+    "employee training": [
+      5,
+      46,
+      48,
+      57,
+      59,
+      64,
+      66
+    ],
+    "employee worker": [
+      78
+    ],
+    "enabled technology": [
+      10
+    ],
+    "engine cover": [
+      66
+    ],
+    "engineering frontiersin": [
+      24
+    ],
+    "engineering management": [
+      53
+    ],
+    "engineering manufacturing": [
+      12
+    ],
+    "enterprise competitiveness": [
+      54
+    ],
+    "enterprise improve": [
+      5
+    ],
+    "enterprise resource": [
+      41
+    ],
+    "enterprise resource planning": [
+      41,
+      43
+    ],
+    "entrepreneurship sustainability": [
+      85
+    ],
+    "environmental impact": [
+      46
+    ],
+    "environmental impact reduction": [
+      46
+    ],
+    "environmental management systems": [
+      54
+    ],
+    "equipment breakdown": [
+      24
+    ],
+    "equipment calibration": [
+      75
+    ],
+    "equipment maintenance": [
+      16,
+      53
+    ],
+    "equipment management": [
+      75
+    ],
+    "error material": [
+      40
+    ],
+    "esmb 02": [
+      26
+    ],
+    "ethiopian manufacturing": [
+      42
+    ],
+    "ethiopian manufacturing sector": [
+      42
+    ],
+    "etl data integration": [
+      70
+    ],
+    "examine quality": [
+      28
+    ],
+    "expected performance": [
+      45
+    ],
+    "expert experience": [
+      45
+    ],
+    "external audit": [
+      54
+    ],
+    "external consultants": [
+      96
+    ],
+    "extremely important": [
+      23
+    ],
+    "fact appraisal": [
+      48
+    ],
+    "factor 7.538": [
+      6,
+      87
+    ],
+    "factor benefit": [
+      54
+    ],
+    "factory layout": [
+      62
+    ],
+    "failure cost": [
+      15
+    ],
+    "failure costs": [
+      15
+    ],
+    "failure mode": [
+      81
+    ],
+    "failure mode and effects analysis": [
+      66,
+      81
+    ],
+    "fault prediction": [
+      34,
+      44,
+      70
+    ],
+    "fear of job loss": [
+      41
+    ],
+    "feature importance": [
+      33
+    ],
+    "feng 2007": [
+      32
+    ],
+    "fernando sierra": [
+      82
+    ],
+    "fi.25940732 e.2024": [
+      76
+    ],
+    "financial resource": [
+      20
+    ],
+    "financial resources": [
+      20
+    ],
+    "firm performance": [
+      32
+    ],
+    "firm size": [
+      8
+    ],
+    "first floor": [
+      62
+    ],
+    "fischer exact": [
+      52
+    ],
+    "fishbone diagram": [
+      30,
+      40,
+      66
+    ],
+    "five manufacturing": [
+      54
+    ],
+    "flexible manufacturing systems": [
+      1
+    ],
+    "fmech.2026 1896770": [
+      24
+    ],
+    "fmtec.2022 947474": [
+      61
+    ],
+    "focused management": [
+      82
+    ],
+    "food industry": [
+      25
+    ],
+    "food packaging": [
+      23
+    ],
+    "food processing": [
+      26
+    ],
+    "food quality management": [
+      25
+    ],
+    "footwear manufacturing": [
+      4
+    ],
+    "forging": [
+      39
+    ],
+    "forging process": [
+      39
+    ],
+    "fourth industrial": [
+      13
+    ],
+    "fourth industrial revolution": [
+      13
+    ],
+    "framework iq4.0": [
+      44
+    ],
+    "framework tanzanian": [
+      13
+    ],
+    "freight forwarder": [
+      57
+    ],
+    "frontier manufacturing": [
+      61
+    ],
+    "frontier mechanical": [
+      24
+    ],
+    "frontier sustainability": [
+      72
+    ],
+    "frontiersin org": [
+      72
+    ],
+    "frsus.2026 1798379": [
+      72
+    ],
+    "furniture industry": [
+      7,
+      17,
+      64
+    ],
+    "future september": [
+      70
+    ],
+    "gap analysi": [
+      12,
+      58
+    ],
+    "gap analysis": [
+      12,
+      58
+    ],
+    "gas distribution": [
+      58
+    ],
+    "gas distribution company": [
+      58
+    ],
+    "gauteng": [
+      52
+    ],
+    "gauteng province": [
+      52
+    ],
+    "gearbox manufacturing": [
+      39
+    ],
+    "gemba kaizen": [
+      89
+    ],
+    "generating value": [
+      35
+    ],
+    "generative model": [
+      33
+    ],
+    "give better": [
+      6
+    ],
+    "glass factories": [
+      23
+    ],
+    "glass factory": [
+      23
+    ],
+    "glass packaging": [
+      23
+    ],
+    "global 8d": [
+      39
+    ],
+    "global competitiveness": [
+      46
+    ],
+    "global market access": [
+      91
+    ],
+    "gonzale ijem": [
+      14
+    ],
+    "gonzale ijre": [
+      73
+    ],
+    "google scholar": [
+      7,
+      10,
+      14
+    ],
+    "gosavi 10.3389": [
+      24
+    ],
+    "govender international": [
+      19
+    ],
+    "government funding": [
+      94
+    ],
+    "government regulation": [
+      54
+    ],
+    "green manufacturing": [
+      26
+    ],
+    "harness manufacturing": [
+      15
+    ],
+    "higher education": [
+      79
+    ],
+    "higher education institutions": [
+      79
+    ],
+    "hirendra singh": [
+      18
+    ],
+    "histograms": [
+      88
+    ],
+    "history of auditing": [
+      86
+    ],
+    "hot rolling mill": [
+      70
+    ],
+    "http dx": [
+      93
+    ],
+    "http jssidoi": [
+      85
+    ],
+    "http org": [
+      1,
+      53,
+      96
+    ],
+    "human attitude": [
+      17
+    ],
+    "human earth": [
+      70
+    ],
+    "human resource": [
+      27
+    ],
+    "human resource availability": [
+      27
+    ],
+    "human resource factors": [
+      42
+    ],
+    "human resource management": [
+      82
+    ],
+    "human-ai interaction": [
+      29
+    ],
+    "idef0 modeling": [
+      44
+    ],
+    "ieria invest": [
+      76
+    ],
+    "ijacsa international": [
+      43
+    ],
+    "ijem 12": [
+      14
+    ],
+    "ijm http": [
+      94
+    ],
+    "ijmems.2019 4.2": [
+      88
+    ],
+    "ijmp jor": [
+      94
+    ],
+    "ijre 13": [
+      73
+    ],
+    "ijsrem volume": [
+      38
+    ],
+    "ijsrm right": [
+      78
+    ],
+    "imai 1997": [
+      89
+    ],
+    "impact factor": [
+      6,
+      87
+    ],
+    "implementation 5s": [
+      78,
+      79
+    ],
+    "implementation barriers": [
+      2,
+      6,
+      8,
+      18,
+      29,
+      32,
+      42,
+      45,
+      55,
+      56,
+      95
+    ],
+    "implementation framework": [
+      8
+    ],
+    "implementation guideline": [
+      41
+    ],
+    "implementation iso": [
+      57,
+      91
+    ],
+    "implementation lean": [
+      17
+    ],
+    "implementation lm": [
+      17
+    ],
+    "implementation motivation": [
+      42
+    ],
+    "implementation operator": [
+      82
+    ],
+    "implementation problems": [
+      48
+    ],
+    "implementation qms": [
+      59
+    ],
+    "implementation tqm": [
+      5
+    ],
+    "improve quality": [
+      27
+    ],
+    "improve service": [
+      57
+    ],
+    "improvement action": [
+      77
+    ],
+    "improvement initiative": [
+      22
+    ],
+    "improvement opportunity": [
+      21
+    ],
+    "improvement staff": [
+      47
+    ],
+    "increase arrangement": [
+      79
+    ],
+    "india": [
+      51
+    ],
+    "indian manufacturing": [
+      3,
+      46,
+      87
+    ],
+    "indian msme": [
+      22
+    ],
+    "indian sme": [
+      46
+    ],
+    "indian smes": [
+      6
+    ],
+    "indonesia": [
+      32,
+      54
+    ],
+    "industrial application": [
+      37
+    ],
+    "industrial implementation": [
+      37
+    ],
+    "industrial revolution": [
+      13
+    ],
+    "industry 4.0": [
+      10,
+      33,
+      35,
+      41,
+      43,
+      61,
+      67
+    ],
+    "industry tanzania": [
+      13
+    ],
+    "influencing implementation": [
+      59
+    ],
+    "information factors": [
+      42
+    ],
+    "information resource": [
+      96
+    ],
+    "ingen ieria": [
+      76
+    ],
+    "innovation study": [
+      16
+    ],
+    "inspection form": [
+      75
+    ],
+    "inspection process": [
+      75
+    ],
+    "instrument validation": [
+      92
+    ],
+    "int sci": [
+      78
+    ],
+    "integrated ci": [
+      42
+    ],
+    "integrating iso": [
+      41
+    ],
+    "integration six": [
+      46
+    ],
+    "intelligent quality": [
+      31
+    ],
+    "inter departmental": [
+      4
+    ],
+    "inter-departmental collaboration": [
+      4
+    ],
+    "interdepartmental communication": [
+      55
+    ],
+    "interlining manufacturing": [
+      77
+    ],
+    "internal transport": [
+      73
+    ],
+    "international standards": [
+      86
+    ],
+    "internet of things": [
+      41
+    ],
+    "internet plus": [
+      31
+    ],
+    "interpretive structural modeling": [
+      3
+    ],
+    "intuitionistic fuzzy": [
+      4
+    ],
+    "investigation driver": [
+      42
+    ],
+    "iosrjournal org": [
+      59
+    ],
+    "irjmet com": [
+      80
+    ],
+    "iron steel": [
+      83
+    ],
+    "ishikawa diagram": [
+      40
+    ],
+    "iso 14001": [
+      54
+    ],
+    "iso 19011": [
+      86
+    ],
+    "iso 704": [
+      61
+    ],
+    "iso 9000": [
+      61,
+      93
+    ],
+    "iso 9001": [
+      12,
+      32,
+      41,
+      49,
+      51,
+      52,
+      54,
+      55,
+      56,
+      57,
+      58,
+      91,
+      92,
+      93,
+      96
+    ],
+    "iso 9001 certification": [
+      8
+    ],
+    "iso 9001:2008": [
+      94
+    ],
+    "iso 9001:2015": [
+      12,
+      32,
+      49,
+      57,
+      58,
+      59,
+      92,
+      95,
+      96
+    ],
+    "iso certification": [
+      54
+    ],
+    "issn 1213": [
+      66
+    ],
+    "issn 1311": [
+      67
+    ],
+    "issn 1553": [
+      11
+    ],
+    "issn 2220": [
+      50
+    ],
+    "issn 2226": [
+      21
+    ],
+    "issn 2236": [
+      94
+    ],
+    "issn 2345": [
+      85
+    ],
+    "issn 2962": [
+      64
+    ],
+    "issue 2024": [
+      60
+    ],
+    "issue iv": [
+      87
+    ],
+    "issue watch": [
+      40
+    ],
+    "iv apr": [
+      87
+    ],
+    "jacket core": [
+      90
+    ],
+    "january 2026": [
+      26
+    ],
+    "january march": [
+      94
+    ],
+    "jescae com": [
+      1
+    ],
+    "job satisfaction": [
+      91
+    ],
+    "jor br": [
+      94
+    ],
+    "journal academic": [
+      21
+    ],
+    "journal arepublisher": [
+      58
+    ],
+    "journal composite": [
+      60
+    ],
+    "journal creative": [
+      51
+    ],
+    "journal june": [
+      91
+    ],
+    "journal lean": [
+      2
+    ],
+    "journal mathematical": [
+      88
+    ],
+    "journal modernization": [
+      80
+    ],
+    "jssidoi org": [
+      85
+    ],
+    "jul 2021": [
+      78
+    ],
+    "july 2023": [
+      30
+    ],
+    "just-in-time": [
+      2,
+      42
+    ],
+    "just-in-time production": [
+      79
+    ],
+    "k-means clustering": [
+      44
+    ],
+    "kaizen": [
+      2,
+      15,
+      22,
+      26,
+      43,
+      87,
+      88,
+      89
+    ],
+    "kaizen activity": [
+      89
+    ],
+    "kaizen adoption": [
+      87
+    ],
+    "kaizen culture": [
+      89
+    ],
+    "kaizen event": [
+      87
+    ],
+    "kaizen lean": [
+      15
+    ],
+    "kanban": [
+      73,
+      87
+    ],
+    "knalpot mobil": [
+      16
+    ],
+    "knowledge": [
+      7
+    ],
+    "knowledge management": [
+      49,
+      96
+    ],
+    "knowledge management framework": [
+      49
+    ],
+    "knowledge management implementation": [
+      49
+    ],
+    "komponen knalpot": [
+      16
+    ],
+    "koz owska": [
+      86
+    ],
+    "kwazulu natal": [
+      19
+    ],
+    "kwazulu-natal": [
+      19
+    ],
+    "l4.0 csf": [
+      10
+    ],
+    "l4.0 implementation": [
+      10
+    ],
+    "lack adaptive": [
+      4
+    ],
+    "larger enterprise": [
+      8
+    ],
+    "latent failures": [
+      33
+    ],
+    "layout planning": [
+      73
+    ],
+    "lead time reduction": [
+      60
+    ],
+    "leadership": [
+      1,
+      56
+    ],
+    "leadership and commitment": [
+      58
+    ],
+    "leadership commitment": [
+      2,
+      11
+    ],
+    "lean 4": [
+      10
+    ],
+    "lean adoption": [
+      8,
+      19
+    ],
+    "lean company": [
+      7
+    ],
+    "lean deployment": [
+      1
+    ],
+    "lean green": [
+      26
+    ],
+    "lean implementation": [
+      2,
+      8,
+      10,
+      20
+    ],
+    "lean implementation barriers": [
+      7,
+      20
+    ],
+    "lean implementation challenges": [
+      1,
+      17
+    ],
+    "lean manufacturing": [
+      1,
+      7,
+      8,
+      9,
+      14,
+      15,
+      17,
+      18,
+      19,
+      20,
+      25,
+      26,
+      48,
+      60,
+      64,
+      73,
+      74,
+      78,
+      79,
+      87,
+      88
+    ],
+    "lean maturity": [
+      2
+    ],
+    "lean methodology": [
+      8
+    ],
+    "lean production": [
+      20
+    ],
+    "lean readiness": [
+      1
+    ],
+    "lean six": [
+      2,
+      72
+    ],
+    "lean six sigma": [
+      2,
+      22,
+      42,
+      43,
+      45,
+      50,
+      72
+    ],
+    "lean tools": [
+      45,
+      48
+    ],
+    "lean tools implementation": [
+      25
+    ],
+    "level implementation": [
+      93
+    ],
+    "limitation six": [
+      36
+    ],
+    "line productivity": [
+      24
+    ],
+    "lizarraga iso": [
+      92
+    ],
+    "lm food": [
+      25
+    ],
+    "lm implementation": [
+      7
+    ],
+    "lm op": [
+      25
+    ],
+    "lm practice": [
+      17
+    ],
+    "logistics industry": [
+      57
+    ],
+    "machine availability": [
+      14
+    ],
+    "machine learning": [
+      43,
+      44
+    ],
+    "maintenance tpm": [
+      53
+    ],
+    "making quality": [
+      25
+    ],
+    "malaysian smes": [
+      17
+    ],
+    "management commitment": [
+      70,
+      93
+    ],
+    "management customer": [
+      47
+    ],
+    "management http": [
+      53,
+      93
+    ],
+    "management ijsrem": [
+      38
+    ],
+    "management manufacturing": [
+      31
+    ],
+    "management model": [
+      82
+    ],
+    "management practice": [
+      28
+    ],
+    "management practices": [
+      10
+    ],
+    "management quality": [
+      20
+    ],
+    "management review": [
+      58
+    ],
+    "management support": [
+      27
+    ],
+    "management system": [
+      49,
+      86
+    ],
+    "management system auditing": [
+      86
+    ],
+    "management system certification": [
+      86
+    ],
+    "management tqm": [
+      5
+    ],
+    "mangement study": [
+      1
+    ],
+    "manual assembly": [
+      49
+    ],
+    "manual production process": [
+      64
+    ],
+    "manufacture sector": [
+      95
+    ],
+    "manufactured product": [
+      23
+    ],
+    "manufacturing companies": [
+      5,
+      6,
+      12,
+      38,
+      41,
+      51,
+      54,
+      80,
+      85,
+      92
+    ],
+    "manufacturing defect": [
+      23
+    ],
+    "manufacturing defects": [
+      16,
+      23
+    ],
+    "manufacturing enterprise": [
+      31
+    ],
+    "manufacturing execution system": [
+      43
+    ],
+    "manufacturing firm": [
+      28
+    ],
+    "manufacturing industry": [
+      2,
+      11,
+      13,
+      28,
+      32,
+      42,
+      47,
+      53,
+      56,
+      78,
+      95
+    ],
+    "manufacturing innovation": [
+      36
+    ],
+    "manufacturing lead time reduction": [
+      72
+    ],
+    "manufacturing medium": [
+      5
+    ],
+    "manufacturing msme": [
+      51
+    ],
+    "manufacturing non": [
+      20
+    ],
+    "manufacturing operation": [
+      49
+    ],
+    "manufacturing operations": [
+      35
+    ],
+    "manufacturing policy": [
+      3
+    ],
+    "manufacturing practice": [
+      18
+    ],
+    "manufacturing process monitoring": [
+      67
+    ],
+    "manufacturing productivity": [
+      78
+    ],
+    "manufacturing quality control": [
+      31
+    ],
+    "manufacturing quality management": [
+      29
+    ],
+    "manufacturing sector": [
+      27
+    ],
+    "manufacturing sme": [
+      1,
+      29
+    ],
+    "manufacturing smes": [
+      1,
+      8,
+      29
+    ],
+    "manufacturing supply chains": [
+      50
+    ],
+    "manufacturing volume": [
+      60
+    ],
+    "market share": [
+      32
+    ],
+    "material waste reduction": [
+      91
+    ],
+    "mathematic volume": [
+      67
+    ],
+    "mathematical engineering": [
+      88
+    ],
+    "matrix diagram": [
+      66
+    ],
+    "mean time": [
+      74
+    ],
+    "mean time between failures": [
+      14
+    ],
+    "mean time to repair": [
+      14
+    ],
+    "mediating effect": [
+      25
+    ],
+    "medium enterprise": [
+      5,
+      20
+    ],
+    "medium sized": [
+      20,
+      35
+    ],
+    "medium-sized enterprises": [
+      5
+    ],
+    "menerapkan smm": [
+      12
+    ],
+    "meningkatkan mutu": [
+      12
+    ],
+    "metal rolling": [
+      70
+    ],
+    "metalworking": [
+      74
+    ],
+    "metalworking industry": [
+      72
+    ],
+    "metalworking sector": [
+      74
+    ],
+    "metalworking sme": [
+      73
+    ],
+    "metrology": [
+      61
+    ],
+    "mexican automotive": [
+      76
+    ],
+    "mexican automotive industry": [
+      76
+    ],
+    "mexican manufacturing": [
+      92
+    ],
+    "mexico": [
+      56
+    ],
+    "micmac analysi": [
+      22
+    ],
+    "micro, small and medium enterprises": [
+      22,
+      51
+    ],
+    "military-industrial complex": [
+      48
+    ],
+    "minimizing rework": [
+      34
+    ],
+    "ml technique": [
+      44
+    ],
+    "mode effect": [
+      81
+    ],
+    "modernization engineering": [
+      80
+    ],
+    "moroccan organizations": [
+      55
+    ],
+    "motivation barrier": [
+      42
+    ],
+    "multi-criteria decision making": [
+      4
+    ],
+    "multidisciplinary study": [
+      34
+    ],
+    "mutu iso": [
+      57
+    ],
+    "national gas": [
+      58
+    ],
+    "naveh marcu": [
+      93
+    ],
+    "neural network": [
+      43
+    ],
+    "new era": [
+      36
+    ],
+    "nigeria": [
+      1
+    ],
+    "non destructive": [
+      61
+    ],
+    "non lean": [
+      7
+    ],
+    "non manufacturing": [
+      20
+    ],
+    "non-destructive inspection": [
+      61
+    ],
+    "non-manufacturing industries": [
+      20
+    ],
+    "nonconformity": [
+      58
+    ],
+    "nonconformity management": [
+      39
+    ],
+    "nonlinear process dynamics": [
+      36
+    ],
+    "nsuem 2022": [
+      48
+    ],
+    "num 2025": [
+      77
+    ],
+    "occupational safety": [
+      80
+    ],
+    "october 10.21070": [
+      16
+    ],
+    "online quality": [
+      70
+    ],
+    "online quality control": [
+      70
+    ],
+    "online system": [
+      50
+    ],
+    "open engineering": [
+      51
+    ],
+    "operating point": [
+      33
+    ],
+    "operational business": [
+      32
+    ],
+    "operational efficiency": [
+      19,
+      38,
+      51,
+      52,
+      57
+    ],
+    "operational excellence": [
+      38
+    ],
+    "operational factors": [
+      42
+    ],
+    "operational performance": [
+      2,
+      25,
+      32,
+      46
+    ],
+    "operator focused": [
+      82
+    ],
+    "operator involvement": [
+      82
+    ],
+    "operator training": [
+      16,
+      75
+    ],
+    "opportunity management": [
+      86
+    ],
+    "order construct": [
+      7
+    ],
+    "org 10.1108": [
+      1
+    ],
+    "org 10.22201": [
+      76
+    ],
+    "org 10.33889": [
+      88
+    ],
+    "org 10.3926": [
+      53,
+      93,
+      96
+    ],
+    "org 10.9770": [
+      85
+    ],
+    "organizational bureaucracy": [
+      55
+    ],
+    "organizational context": [
+      58
+    ],
+    "organizational culture": [
+      1,
+      7,
+      17,
+      59,
+      89,
+      93
+    ],
+    "organizational knowledge": [
+      49
+    ],
+    "organizational knowledge management": [
+      49
+    ],
+    "organizational performance": [
+      47
+    ],
+    "outcome implementing": [
+      45
+    ],
+    "output customer": [
+      50
+    ],
+    "overall equipment": [
+      53
+    ],
+    "overall equipment effectiveness": [
+      43,
+      53,
+      87
+    ],
+    "overall rejection": [
+      90
+    ],
+    "packaging defect": [
+      30
+    ],
+    "packaging defects": [
+      30
+    ],
+    "paint thickness": [
+      66
+    ],
+    "painted surface": [
+      66
+    ],
+    "painting machine": [
+      74
+    ],
+    "painting sandblasting": [
+      74
+    ],
+    "pareto analysi": [
+      15
+    ],
+    "pareto analysis": [
+      15,
+      39
+    ],
+    "pareto diagram": [
+      40,
+      88
+    ],
+    "party audit": [
+      86
+    ],
+    "passenger car": [
+      24
+    ],
+    "passenger car manufacturing": [
+      24
+    ],
+    "pavlovic sjm": [
+      8
+    ],
+    "pdca cycle": [
+      39,
+      41,
+      60,
+      75,
+      76,
+      77
+    ],
+    "pengendalian kualita": [
+      16
+    ],
+    "per cent": [
+      52
+    ],
+    "performance business": [
+      32
+    ],
+    "performance egyptian": [
+      28
+    ],
+    "performance evaluation": [
+      58
+    ],
+    "performance food": [
+      25
+    ],
+    "permanent corrective": [
+      39
+    ],
+    "permutation importance": [
+      33
+    ],
+    "perspective 2022": [
+      48
+    ],
+    "pharmaceutical industry": [
+      87
+    ],
+    "phased implementation": [
+      53
+    ],
+    "php belacoss": [
+      58
+    ],
+    "pillajo 10.3389": [
+      72
+    ],
+    "pilot case": [
+      29
+    ],
+    "pilot case studies": [
+      29
+    ],
+    "pilot run": [
+      53
+    ],
+    "piyush tripathi": [
+      18
+    ],
+    "plan-do-check-act cycle": [
+      8
+    ],
+    "planned maintenance": [
+      14
+    ],
+    "plant layout optimization": [
+      73
+    ],
+    "plastic manufacturing": [
+      14
+    ],
+    "plastic product": [
+      14
+    ],
+    "plasticizing machine": [
+      72
+    ],
+    "pls sem": [
+      10
+    ],
+    "poka yoke": [
+      14
+    ],
+    "poka-yoke": [
+      14,
+      72,
+      87
+    ],
+    "portugal": [
+      96
+    ],
+    "post quality": [
+      33
+    ],
+    "post test": [
+      82
+    ],
+    "pouring temperature": [
+      90
+    ],
+    "practitioner awareness": [
+      13
+    ],
+    "pre test": [
+      82
+    ],
+    "precision manufacturing": [
+      40
+    ],
+    "predictive analytic": [
+      34
+    ],
+    "predictive analytics": [
+      34
+    ],
+    "predictive maintenance": [
+      43
+    ],
+    "predictive model": [
+      34
+    ],
+    "predictive process": [
+      70
+    ],
+    "predictive process control": [
+      70
+    ],
+    "predictive quality control": [
+      33
+    ],
+    "preventive maintenance": [
+      74
+    ],
+    "principal component analysis": [
+      44
+    ],
+    "printed version": [
+      67
+    ],
+    "private partnership": [
+      3
+    ],
+    "problem challenge": [
+      18
+    ],
+    "problem responsible": [
+      15
+    ],
+    "process capability index": [
+      76
+    ],
+    "process control": [
+      27,
+      70
+    ],
+    "process delays": [
+      50
+    ],
+    "process improvement": [
+      22,
+      47,
+      50,
+      77
+    ],
+    "process monitoring": [
+      36
+    ],
+    "process optimization": [
+      43
+    ],
+    "process parameter optimization": [
+      44
+    ],
+    "process performance index": [
+      76
+    ],
+    "process sigma": [
+      77
+    ],
+    "process stability": [
+      83
+    ],
+    "process standardization": [
+      51,
+      60,
+      85
+    ],
+    "process variation": [
+      50,
+      76
+    ],
+    "process waste reduction": [
+      72
+    ],
+    "product audit": [
+      85
+    ],
+    "product diversification": [
+      8
+    ],
+    "product glass": [
+      23
+    ],
+    "product lifecycle management": [
+      43
+    ],
+    "product produced": [
+      6
+    ],
+    "product quality": [
+      11,
+      14,
+      32,
+      38,
+      47,
+      64
+    ],
+    "product quality improvement": [
+      75,
+      94
+    ],
+    "product returns": [
+      12
+    ],
+    "production capacity": [
+      72
+    ],
+    "production cost reduction": [
+      26
+    ],
+    "production efficiency": [
+      14,
+      20,
+      64,
+      72,
+      73,
+      87
+    ],
+    "production ijm": [
+      94
+    ],
+    "production layout": [
+      64
+    ],
+    "production line": [
+      60
+    ],
+    "production line performance": [
+      60
+    ],
+    "production management": [
+      82
+    ],
+    "production operation": [
+      35
+    ],
+    "production performance": [
+      80
+    ],
+    "production process": [
+      23,
+      35
+    ],
+    "production process analysis": [
+      23
+    ],
+    "production process improvement": [
+      62,
+      85,
+      90
+    ],
+    "production process stability": [
+      81
+    ],
+    "production quality": [
+      27,
+      34
+    ],
+    "production system": [
+      9
+    ],
+    "production system improvement": [
+      9
+    ],
+    "production waste": [
+      30
+    ],
+    "production wooden": [
+      64
+    ],
+    "productive maintenance": [
+      53
+    ],
+    "productivity": [
+      6,
+      32,
+      38,
+      87,
+      89
+    ],
+    "productivity barrier": [
+      24
+    ],
+    "productivity improvement": [
+      10,
+      18,
+      62,
+      74,
+      79,
+      82
+    ],
+    "professional guidelines": [
+      29
+    ],
+    "professional literature": [
+      35
+    ],
+    "project acquisition": [
+      91
+    ],
+    "project selection": [
+      46
+    ],
+    "proposed iq4.0": [
+      44
+    ],
+    "prose produksi": [
+      16
+    ],
+    "psychology education": [
+      11
+    ],
+    "pt agp": [
+      89
+    ],
+    "pt emkl": [
+      57
+    ],
+    "pt slamet": [
+      30
+    ],
+    "public sector organizations": [
+      59
+    ],
+    "public-private partnerships": [
+      3
+    ],
+    "publisher link": [
+      14,
+      73,
+      82
+    ],
+    "qc part": [
+      25
+    ],
+    "qms implementation": [
+      59
+    ],
+    "qms sme": [
+      52
+    ],
+    "quality 4.0": [
+      3,
+      4,
+      13,
+      29,
+      36,
+      43,
+      44
+    ],
+    "quality assurance": [
+      12
+    ],
+    "quality audit": [
+      85
+    ],
+    "quality certification": [
+      12,
+      55
+    ],
+    "quality control": [
+      16,
+      21,
+      23,
+      24,
+      25,
+      27,
+      29,
+      36,
+      40,
+      46,
+      64,
+      66,
+      67,
+      81
+    ],
+    "quality control planning": [
+      30
+    ],
+    "quality control procedures": [
+      21
+    ],
+    "quality control system": [
+      3
+    ],
+    "quality control tools": [
+      88
+    ],
+    "quality data": [
+      31
+    ],
+    "quality gate": [
+      33
+    ],
+    "quality gates": [
+      33
+    ],
+    "quality improvement": [
+      1,
+      6,
+      12,
+      39,
+      44,
+      45,
+      66,
+      76,
+      77,
+      80,
+      83,
+      89,
+      90
+    ],
+    "quality infrastructure": [
+      28
+    ],
+    "quality management": [
+      19,
+      35,
+      37,
+      61,
+      75
+    ],
+    "quality management implementation": [
+      55,
+      91,
+      93
+    ],
+    "quality management methods": [
+      13
+    ],
+    "quality management practices": [
+      22,
+      28
+    ],
+    "quality management principles": [
+      92
+    ],
+    "quality management standards": [
+      3
+    ],
+    "quality management systems": [
+      8,
+      12,
+      32,
+      41,
+      44,
+      48,
+      49,
+      51,
+      52,
+      54,
+      56,
+      57,
+      58,
+      59,
+      86,
+      91,
+      92,
+      94,
+      95,
+      96
+    ],
+    "quality management tools": [
+      66
+    ],
+    "quality management training": [
+      55
+    ],
+    "quality manual": [
+      12
+    ],
+    "quality monitoring": [
+      31
+    ],
+    "quality objectives": [
+      12
+    ],
+    "quality performance": [
+      27,
+      28
+    ],
+    "quality practice": [
+      28
+    ],
+    "quality principles": [
+      56
+    ],
+    "quality records": [
+      12
+    ],
+    "quality standards": [
+      21
+    ],
+    "quality system": [
+      25
+    ],
+    "quality systems": [
+      25
+    ],
+    "quality tool": [
+      66
+    ],
+    "questionnaire development": [
+      92
+    ],
+    "radio frequency identification": [
+      41
+    ],
+    "rajkot": [
+      45
+    ],
+    "random forest": [
+      70
+    ],
+    "rate of profit": [
+      32
+    ],
+    "rating 8.586": [
+      38
+    ],
+    "real-time defect detection": [
+      67
+    ],
+    "recurrent neural networks": [
+      67
+    ],
+    "regulatory compliance": [
+      54
+    ],
+    "res multidisciplinary": [
+      78
+    ],
+    "resampling": [
+      33
+    ],
+    "resampling strategy": [
+      33
+    ],
+    "resistance change": [
+      47
+    ],
+    "resistance to change": [
+      11,
+      38,
+      47,
+      55,
+      87
+    ],
+    "resource availability": [
+      59
+    ],
+    "resource constrained": [
+      22
+    ],
+    "resource constraints": [
+      5
+    ],
+    "resource factors": [
+      42
+    ],
+    "resource planning": [
+      41
+    ],
+    "resources": [
+      7
+    ],
+    "respondent agreed": [
+      59
+    ],
+    "review 16": [
+      9
+    ],
+    "review issn": [
+      50
+    ],
+    "review meta": [
+      27
+    ],
+    "reviewed open": [
+      80
+    ],
+    "revista dyna": [
+      56
+    ],
+    "rework cost": [
+      15
+    ],
+    "rework costs": [
+      15
+    ],
+    "rework reduction": [
+      34
+    ],
+    "risk analysi": [
+      86
+    ],
+    "risk analysis": [
+      86
+    ],
+    "risk management": [
+      86
+    ],
+    "risk opportunity": [
+      86
+    ],
+    "risk priority number": [
+      81
+    ],
+    "risk-based thinking": [
+      96
+    ],
+    "romania": [
+      96
+    ],
+    "root cause": [
+      15,
+      39,
+      40
+    ],
+    "root cause analysis": [
+      15,
+      16,
+      30,
+      34,
+      39,
+      40,
+      88
+    ],
+    "russian defense industry": [
+      48
+    ],
+    "sabda journal": [
+      64
+    ],
+    "sales growth": [
+      32
+    ],
+    "sanchez lizarraga": [
+      92
+    ],
+    "sand moisture": [
+      90
+    ],
+    "scale industry": [
+      18
+    ],
+    "scheduling": [
+      43
+    ],
+    "scholar crossref": [
+      7,
+      10
+    ],
+    "scholar publisher": [
+      14,
+      73,
+      82
+    ],
+    "sci res": [
+      78
+    ],
+    "science 14": [
+      19
+    ],
+    "science 2026": [
+      21
+    ],
+    "science 452": [
+      88
+    ],
+    "science mangement": [
+      1
+    ],
+    "science manufacturing": [
+      60
+    ],
+    "science peer": [
+      80
+    ],
+    "seci model": [
+      49
+    ],
+    "second order": [
+      7
+    ],
+    "sector methodology": [
+      2
+    ],
+    "sector mexico": [
+      56
+    ],
+    "sector pakistan": [
+      95
+    ],
+    "selected product": [
+      23
+    ],
+    "self inspection": [
+      75
+    ],
+    "semi supervised": [
+      37
+    ],
+    "semi-supervised learning": [
+      37
+    ],
+    "senior management": [
+      17
+    ],
+    "senior management support": [
+      17
+    ],
+    "sensor internet": [
+      41
+    ],
+    "september 2022": [
+      70
+    ],
+    "sequence improvement": [
+      22
+    ],
+    "serbian sme": [
+      8
+    ],
+    "service enterprises": [
+      5
+    ],
+    "service manufacturing": [
+      5
+    ],
+    "service quality": [
+      57
+    ],
+    "set automotive": [
+      44
+    ],
+    "setup time": [
+      14,
+      74
+    ],
+    "setup time reduction": [
+      14,
+      74
+    ],
+    "sga activity": [
+      89
+    ],
+    "shap": [
+      33
+    ],
+    "sigma automotive": [
+      45
+    ],
+    "sigma bioinspired": [
+      46
+    ],
+    "sigma dmaic": [
+      77
+    ],
+    "sigma level": [
+      16,
+      77,
+      90
+    ],
+    "sistem manajemen": [
+      57
+    ],
+    "six sigma": [
+      6,
+      27,
+      36,
+      44,
+      46,
+      50,
+      72,
+      77,
+      90
+    ],
+    "six sigma dmaic": [
+      16,
+      90
+    ],
+    "six sigma tools": [
+      45
+    ],
+    "sized enterprise": [
+      35
+    ],
+    "sj impact": [
+      6,
+      87
+    ],
+    "sjif rating": [
+      38
+    ],
+    "sjm 21": [
+      8
+    ],
+    "skilled labor shortage": [
+      1,
+      20
+    ],
+    "slamet langgeng": [
+      30
+    ],
+    "small and medium-sized enterprises": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      9,
+      10,
+      14,
+      17,
+      18,
+      19,
+      20,
+      26,
+      35,
+      42,
+      45,
+      46,
+      52,
+      53,
+      60,
+      64,
+      74,
+      75
+    ],
+    "small batch": [
+      6
+    ],
+    "small business": [
+      80
+    ],
+    "small medium": [
+      20
+    ],
+    "small-batch production": [
+      6
+    ],
+    "smart manufacturing": [
+      36,
+      67
+    ],
+    "smart sensor": [
+      41
+    ],
+    "smart sensors": [
+      41
+    ],
+    "smart wristband": [
+      75
+    ],
+    "sme department": [
+      9
+    ],
+    "sme gauteng": [
+      52
+    ],
+    "sme nigeria": [
+      1
+    ],
+    "sme performance": [
+      1,
+      52
+    ],
+    "sme sustainability": [
+      52
+    ],
+    "sme type": [
+      2
+    ],
+    "sme uttar": [
+      18
+    ],
+    "smed": [
+      14,
+      74,
+      87
+    ],
+    "smm berdasarkan": [
+      12
+    ],
+    "smote tomek": [
+      33
+    ],
+    "smote-tomek": [
+      33
+    ],
+    "socio technical": [
+      22
+    ],
+    "socio-technical systems": [
+      22
+    ],
+    "sofa leg": [
+      64
+    ],
+    "soft candy": [
+      30
+    ],
+    "sousa 10.3389": [
+      61
+    ],
+    "south africa": [
+      19,
+      52
+    ],
+    "space use": [
+      62
+    ],
+    "spc manufacturing": [
+      27
+    ],
+    "sqc technique": [
+      83
+    ],
+    "square fischer": [
+      52
+    ],
+    "stacking ensemble": [
+      33
+    ],
+    "staff involvement": [
+      47
+    ],
+    "standard developing": [
+      92
+    ],
+    "standard operating procedures": [
+      16,
+      22,
+      57,
+      64
+    ],
+    "standard transition": [
+      96
+    ],
+    "standard work": [
+      60
+    ],
+    "standardization": [
+      48
+    ],
+    "started working": [
+      96
+    ],
+    "startupreneur business": [
+      64
+    ],
+    "statistical process": [
+      27
+    ],
+    "statistical process control": [
+      27,
+      60,
+      70,
+      76,
+      81
+    ],
+    "statistical quality": [
+      15
+    ],
+    "statistical quality control": [
+      15,
+      83
+    ],
+    "steel factory": [
+      83
+    ],
+    "steel industry": [
+      82
+    ],
+    "steel plate": [
+      67,
+      81
+    ],
+    "steel plate quality": [
+      81
+    ],
+    "steel reinforcing bars": [
+      83
+    ],
+    "steel structure": [
+      66
+    ],
+    "steel surface": [
+      67
+    ],
+    "storage area": [
+      62
+    ],
+    "storage process": [
+      62
+    ],
+    "storage system": [
+      62
+    ],
+    "storage systems": [
+      62
+    ],
+    "strategic factors": [
+      42
+    ],
+    "stream map": [
+      35
+    ],
+    "strongly disagreed": [
+      24
+    ],
+    "structural equation modeling": [
+      7
+    ],
+    "structural factors": [
+      42
+    ],
+    "study 2024": [
+      34
+    ],
+    "study 25": [
+      16
+    ],
+    "study vol.7": [
+      78
+    ],
+    "success factor": [
+      46
+    ],
+    "success factors": [
+      10,
+      45,
+      46,
+      56,
+      92
+    ],
+    "successful l4.0": [
+      10
+    ],
+    "suggestion system": [
+      89
+    ],
+    "suitable tool": [
+      45
+    ],
+    "supervised learning": [
+      37
+    ],
+    "supplier accuracy": [
+      34
+    ],
+    "supplier development": [
+      34
+    ],
+    "supplier evaluation": [
+      58
+    ],
+    "supplier involvement": [
+      11
+    ],
+    "supplier management": [
+      47
+    ],
+    "supplier performance": [
+      34
+    ],
+    "supplier quality management": [
+      93
+    ],
+    "supply chain": [
+      10
+    ],
+    "supply chain management": [
+      42
+    ],
+    "supply chain performance": [
+      51
+    ],
+    "supply chain planning": [
+      43
+    ],
+    "supply chain resilience": [
+      34
+    ],
+    "supply logistics": [
+      24
+    ],
+    "support vector machine": [
+      33
+    ],
+    "surface contamination": [
+      66
+    ],
+    "surface defect detection": [
+      67
+    ],
+    "surface defects": [
+      66
+    ],
+    "survey instrument": [
+      92
+    ],
+    "sustainability": [
+      4
+    ],
+    "sustainability emerging": [
+      4
+    ],
+    "sustainability performance": [
+      2
+    ],
+    "sustainable manufacturing": [
+      10,
+      46
+    ],
+    "sustainable production": [
+      26
+    ],
+    "svm rbf": [
+      33
+    ],
+    "swing arm": [
+      12
+    ],
+    "switzerland": [
+      96
+    ],
+    "system 10.9790": [
+      59
+    ],
+    "system audit": [
+      86
+    ],
+    "system textile": [
+      9
+    ],
+    "systematic layout": [
+      73
+    ],
+    "systematic layout planning": [
+      73
+    ],
+    "tacit knowledge": [
+      49
+    ],
+    "tanzania": [
+      13
+    ],
+    "tanzanian manufacturing": [
+      13
+    ],
+    "team discovered": [
+      39
+    ],
+    "technical system": [
+      22
+    ],
+    "technique paradigm": [
+      36
+    ],
+    "technique toward": [
+      44
+    ],
+    "technological factors": [
+      42
+    ],
+    "technological infrastructure": [
+      4
+    ],
+    "technology 2019": [
+      79
+    ],
+    "technology company": [
+      94
+    ],
+    "technology frontiersin": [
+      61
+    ],
+    "technology investment": [
+      13
+    ],
+    "technology issn": [
+      66
+    ],
+    "technology review": [
+      9
+    ],
+    "technology science": [
+      80
+    ],
+    "technology-based companies": [
+      94
+    ],
+    "technology-organization-environment framework": [
+      3
+    ],
+    "tempeh food": [
+      26
+    ],
+    "tempeh production": [
+      26
+    ],
+    "terminology standardization": [
+      61
+    ],
+    "textile industry": [
+      9,
+      77,
+      95
+    ],
+    "textile sme": [
+      9
+    ],
+    "timber industry": [
+      7
+    ],
+    "time painting": [
+      74
+    ],
+    "timekeeping accuracy": [
+      40
+    ],
+    "title country": [
+      2
+    ],
+    "toe framework": [
+      3
+    ],
+    "tool barrier": [
+      45
+    ],
+    "top management": [
+      5,
+      59
+    ],
+    "top management commitment": [
+      4,
+      55,
+      59,
+      95,
+      96
+    ],
+    "total productive": [
+      53
+    ],
+    "total productive maintenance": [
+      2,
+      14,
+      42,
+      53,
+      74
+    ],
+    "total quality": [
+      5,
+      28
+    ],
+    "total quality management": [
+      5,
+      11,
+      27,
+      28,
+      38,
+      42,
+      43,
+      47,
+      79,
+      85
+    ],
+    "total variance": [
+      20
+    ],
+    "totally agree": [
+      55
+    ],
+    "totally disagree": [
+      55
+    ],
+    "toyota production system": [
+      9
+    ],
+    "tpm implementation": [
+      53
+    ],
+    "tqm implementation": [
+      11
+    ],
+    "tqm implementation barriers": [
+      5
+    ],
+    "tqm zero": [
+      47
+    ],
+    "traditional manufacturing": [
+      31
+    ],
+    "transfer time": [
+      62
+    ],
+    "transition certification": [
+      96
+    ],
+    "transition framework": [
+      13
+    ],
+    "transition process": [
+      96
+    ],
+    "travel time": [
+      62
+    ],
+    "tripathi hirendra": [
+      18
+    ],
+    "tuje open": [
+      83
+    ],
+    "turkey": [
+      96
+    ],
+    "tvae": [
+      33
+    ],
+    "type sector": [
+      2
+    ],
+    "understanding challenge": [
+      3
+    ],
+    "unique practice": [
+      42
+    ],
+    "unit day": [
+      75
+    ],
+    "univariate spc": [
+      70
+    ],
+    "uttar pradesh": [
+      18
+    ],
+    "vadodara": [
+      45
+    ],
+    "vadodara rajkot": [
+      45
+    ],
+    "validating survey": [
+      92
+    ],
+    "value added": [
+      35
+    ],
+    "value stream": [
+      35
+    ],
+    "value stream mapping": [
+      2,
+      26,
+      35,
+      60,
+      72,
+      87
+    ],
+    "vestnik nsuem": [
+      48
+    ],
+    "vibration analysis": [
+      37
+    ],
+    "vii july": [
+      6
+    ],
+    "villamil sandoval": [
+      9
+    ],
+    "visual control": [
+      73
+    ],
+    "vol.7 issue.7": [
+      78
+    ],
+    "volume 09": [
+      38
+    ],
+    "volume 2020": [
+      92
+    ],
+    "volume 38": [
+      67
+    ],
+    "warehouse storage": [
+      62
+    ],
+    "waste elimination": [
+      1,
+      20,
+      50,
+      87,
+      90
+    ],
+    "waste reduction": [
+      10,
+      19,
+      26,
+      60,
+      62,
+      64,
+      79
+    ],
+    "watch manufacturing": [
+      40
+    ],
+    "watchmaking": [
+      40
+    ],
+    "water jacket": [
+      90
+    ],
+    "wavy edge": [
+      81
+    ],
+    "weekly output": [
+      60
+    ],
+    "welding equipment": [
+      75
+    ],
+    "wind farm operation and maintenance": [
+      93
+    ],
+    "wind power industry": [
+      93
+    ],
+    "wind turbine": [
+      93
+    ],
+    "wind turbine manufacturing": [
+      93
+    ],
+    "wire harness": [
+      15
+    ],
+    "women in manufacturing": [
+      2
+    ],
+    "wood and furniture industry": [
+      17
+    ],
+    "wood furniture": [
+      7,
+      17
+    ],
+    "wood furniture industry": [
+      64
+    ],
+    "wooden furniture": [
+      64
+    ],
+    "wooden sofa": [
+      64
+    ],
+    "work organization": [
+      78,
+      80
+    ],
+    "work-in-process reduction": [
+      60
+    ],
+    "worker enabled": [
+      10
+    ],
+    "wristband assembly": [
+      75
+    ],
+    "wrong size": [
+      39
+    ],
+    "wve defect": [
+      81
+    ],
+    "www ijmp": [
+      94
+    ],
+    "www iosrjournal": [
+      59
+    ],
+    "www irjmet": [
+      80
+    ],
+    "www jescae": [
+      1
+    ],
+    "www psychologyandeducation": [
+      11
+    ],
+    "x-bar and r control charts": [
+      76,
+      83
+    ],
+    "yahia berrouiguet": [
+      32
+    ],
+    "year title": [
+      2
+    ],
+    "zawierucha koz": [
+      86
+    ],
+    "zero defect": [
+      37,
+      47,
+      61
+    ],
+    "zero-defect manufacturing": [
+      37,
+      44,
+      61
+    ],
+    "zitron manufacturing": [
+      50
+    ],
+    "zliten iron": [
+      83
+    ]
+  },
+  "articulos": {
+    "1": {
+      "titulo": "Prospects and Challenges of Lean Manufacturing Deployment within Manufacturing SMEs in Nigeria: A Literature Review",
+      "anio": 2022,
+      "fase": "Planificar",
+      "temas": [
+        "Barreras y retos de implementación",
+        "Costos de calidad y desperdicio",
+        "Desempeño operacional",
+        "Kaizen / Mejora continua",
+        "Lean Six Sigma",
+        "Lean manufacturing",
+        "Liderazgo y cultura organizacional",
+        "PYMES",
+        "Proveedores y cadena de suministro",
+        "Six Sigma",
+        "Sostenibilidad",
+        "TQM / Calidad total"
+      ],
+      "palabras_clave": [
+        "lean manufacturing",
+        "small and medium-sized enterprises",
+        "manufacturing smes",
+        "nigeria",
+        "lean implementation challenges",
+        "waste elimination",
+        "quality improvement",
+        "flexible manufacturing systems",
+        "organizational culture",
+        "leadership",
+        "skilled labor shortage",
+        "sme performance",
+        "sme nigeria",
+        "http org",
+        "manufacturing sme",
+        "org 10.1108",
+        "lean readiness",
+        "www jescae",
+        "jescae com",
+        "science mangement",
+        "mangement study",
+        "lean deployment"
+      ]
+    },
+    "2": {
+      "titulo": "Lean strategy implementation in SME manufacturing in developing countries: a systematic literature review",
+      "anio": 2026,
+      "fase": "Planificar",
+      "temas": [
+        "Barreras y retos de implementación",
+        "Calidad 4.0 / Industria 4.0",
+        "Ciclo PHVA / PDCA",
+        "Control estadístico de procesos (SPC)",
+        "Costos de calidad y desperdicio",
+        "Desempeño operacional",
+        "Factores críticos de éxito",
+        "Kaizen / Mejora continua",
+        "Lean Six Sigma",
+        "Lean manufacturing",
+        "Liderazgo y cultura organizacional",
+        "PYMES",
+        "Proveedores y cadena de suministro",
+        "Sector alimentos",
+        "Sector automotriz",
+        "Sector madera y muebles",
+        "Sector metalmecánico / forja",
+        "Sector textil y confección",
+        "Sector vidrio",
+        "Six Sigma",
+        "Sostenibilidad",
+        "TPM / Mantenimiento",
+        "TQM / Calidad total"
+      ],
+      "palabras_clave": [
+        "manufacturing industry",
+        "small and medium-sized enterprises",
+        "developing countries",
+        "lean implementation",
+        "lean maturity",
+        "kaizen",
+        "5s",
+        "just-in-time",
+        "total productive maintenance",
+        "value stream mapping",
+        "lean six sigma",
+        "implementation barriers",
+        "employee engagement",
+        "leadership commitment",
+        "women in manufacturing",
+        "sustainability performance",
+        "operational performance",
+        "49 international",
+        "journal lean",
+        "lean six",
+        "year title",
+        "title country",
+        "sme type",
+        "type sector",
+        "sector methodology"
+      ]
+    },
+    "3": {
+      "titulo": "Investigating the barriers to Quality 4.0 adoption in the Indian manufacturing sector: insights and implications for industry and policy-making",
+      "anio": 2024,
+      "fase": "Planificar",
+      "temas": [
+        "Barreras y retos de implementación",
+        "Calidad 4.0 / Industria 4.0"
+      ],
+      "palabras_clave": [
+        "quality 4.0",
+        "indian manufacturing",
+        "big data analytics tools",
+        "quality management standards",
+        "technology-organization-environment framework",
+        "manufacturing policy",
+        "public-private partnerships",
+        "interpretive structural modeling",
+        "quality control system",
+        "4.0 indian",
+        "4.0 adoption",
+        "toe framework",
+        "4.0 standard",
+        "bda tool",
+        "private partnership",
+        "data analytic",
+        "understanding challenge"
+      ]
+    },
+    "4": {
+      "titulo": "An intuitionistic fuzzy approach to assessing the barriers to quality 4.0 adoption in the footwear manufacturing industry: Implications for sustainability in emerging economy",
+      "anio": 2025,
+      "fase": "Planificar",
+      "temas": [
+        "Barreras y retos de implementación",
+        "Calidad 4.0 / Industria 4.0",
+        "Costos de calidad y desperdicio",
+        "Liderazgo y cultura organizacional",
+        "Sector calzado",
+        "Sostenibilidad"
+      ],
+      "palabras_clave": [
+        "quality 4.0",
+        "footwear manufacturing",
+        "dematel",
+        "multi-criteria decision making",
+        "technological infrastructure",
+        "top management commitment",
+        "inter-departmental collaboration",
+        "sustainability",
+        "emerging markets",
+        "bangladesh",
+        "intuitionistic fuzzy",
+        "adoption footwear",
+        "sustainability emerging",
+        "lack adaptive",
+        "adaptive technological",
+        "inter departmental",
+        "departmental collaboration"
+      ]
+    },
+    "5": {
+      "titulo": "Barriers Associated with Total Quality Management Practices: A Comparative Study Between Service- and Manufacturing-based Medium Enterprises",
+      "anio": 2025,
+      "fase": "Planificar",
+      "temas": [
+        "Barreras y retos de implementación",
+        "Costos de calidad y desperdicio",
+        "Kaizen / Mejora continua",
+        "Liderazgo y cultura organizacional",
+        "TQM / Calidad total"
+      ],
+      "palabras_clave": [
+        "total quality management",
+        "tqm implementation barriers",
+        "medium-sized enterprises",
+        "service enterprises",
+        "manufacturing companies",
+        "continuous improvement",
+        "employee training",
+        "resource constraints",
+        "top management",
+        "assam",
+        "manufacturing medium",
+        "barrier associated",
+        "enterprise improve",
+        "service manufacturing",
+        "medium enterprise",
+        "implementation tqm",
+        "management tqm",
+        "total quality"
+      ]
+    },
+    "6": {
+      "titulo": "Barriers in Implementing Six Sigma in Small and Medium Manufacturing Enterprises",
+      "anio": 2022,
+      "fase": "Planificar",
+      "temas": [
+        "Barreras y retos de implementación",
+        "Desempeño operacional",
+        "Kaizen / Mejora continua",
+        "PYMES",
+        "Six Sigma"
+      ],
+      "palabras_clave": [
+        "six sigma",
+        "small and medium-sized enterprises",
+        "manufacturing companies",
+        "implementation barriers",
+        "quality improvement",
+        "defect reduction",
+        "productivity",
+        "continuous improvement",
+        "small-batch production",
+        "indian smes",
+        "impact factor",
+        "sj impact",
+        "factor 7.538",
+        "better six",
+        "give better",
+        "small batch",
+        "batch production",
+        "vii july",
+        "product produced"
+      ]
+    },
+    "7": {
+      "titulo": "An SEM Approach for the Barrier Analysis in Lean Implementation in Manufacturing Industries",
+      "anio": 2021,
+      "fase": "Planificar",
+      "temas": [
+        "Barreras y retos de implementación",
+        "Costos de calidad y desperdicio",
+        "Desempeño operacional",
+        "Lean Six Sigma",
+        "Lean manufacturing",
+        "Liderazgo y cultura organizacional",
+        "PYMES",
+        "Sector madera y muebles",
+        "Six Sigma",
+        "Sostenibilidad"
+      ],
+      "palabras_clave": [
+        "lean manufacturing",
+        "lean implementation barriers",
+        "timber industry",
+        "furniture industry",
+        "organizational culture",
+        "attitudes",
+        "knowledge",
+        "resources",
+        "small and medium-sized enterprises",
+        "emerging markets",
+        "structural equation modeling",
+        "non lean",
+        "lean company",
+        "order construct",
+        "second order",
+        "scholar crossref",
+        "crossref scilit",
+        "lm implementation",
+        "culture human",
+        "wood furniture",
+        "google scholar"
+      ]
+    },
+    "8": {
+      "titulo": "Advancing lean methodology adoption in Serbian manufacturing SMEs: Empirical insights and a strategic implementation framework",
+      "anio": 2026,
+      "fase": "Planificar",
+      "temas": [
+        "Barreras y retos de implementación",
+        "Ciclo PHVA / PDCA",
+        "Costos de calidad y desperdicio",
+        "Desempeño operacional",
+        "ISO 9001 / Sistema de gestión de calidad",
+        "Kaizen / Mejora continua",
+        "Lean manufacturing",
+        "Liderazgo y cultura organizacional",
+        "PYMES",
+        "Sostenibilidad"
+      ],
+      "palabras_clave": [
+        "lean manufacturing",
+        "lean adoption",
+        "small and medium-sized enterprises",
+        "manufacturing smes",
+        "implementation barriers",
+        "iso 9001 certification",
+        "quality management systems",
+        "firm size",
+        "product diversification",
+        "plan-do-check-act cycle",
+        "implementation framework",
+        "lean methodology",
+        "21 2026",
+        "49 69",
+        "pavlovic sjm",
+        "sjm 21",
+        "2026 49",
+        "lean implementation",
+        "larger enterprise",
+        "serbian sme"
+      ]
+    },
+    "9": {
+      "titulo": "A Model for the Implementation of Lean Manufacturing in Textile SMEs in the Department of Cundinamarca",
+      "anio": 2023,
+      "fase": "Planificar",
+      "temas": [
+        "Barreras y retos de implementación",
+        "Costos de calidad y desperdicio",
+        "Desempeño operacional",
+        "Kaizen / Mejora continua",
+        "Lean manufacturing",
+        "PYMES",
+        "Sector textil y confección",
+        "Six Sigma",
+        "Sostenibilidad",
+        "TPM / Mantenimiento"
+      ],
+      "palabras_clave": [
+        "lean manufacturing",
+        "textile industry",
+        "small and medium-sized enterprises",
+        "production system improvement",
+        "toyota production system",
+        "cundinamarca",
+        "textile sme",
+        "sme department",
+        "production system",
+        "department cundinamarca",
+        "villamil sandoval",
+        "arteaga sarmiento",
+        "technology review",
+        "system textile",
+        "review 16",
+        "16 2023"
+      ]
+    },
+    "10": {
+      "titulo": "Analyzing Critical Success Factors of Lean 4.0 Implementation in Small and Medium Enterprises for Sustainable Manufacturing Supply Chain for Industry 4.0 Using PLS-SEM",
+      "anio": 2023,
+      "fase": "Planificar",
+      "temas": [
+        "Barreras y retos de implementación",
+        "Calidad 4.0 / Industria 4.0",
+        "Costos de calidad y desperdicio",
+        "Desempeño operacional",
+        "Factores críticos de éxito",
+        "Kaizen / Mejora continua",
+        "Lean manufacturing",
+        "Liderazgo y cultura organizacional",
+        "PYMES",
+        "Proveedores y cadena de suministro",
+        "Sostenibilidad"
+      ],
+      "palabras_clave": [
+        "lean 4",
+        "success factors",
+        "small and medium-sized enterprises",
+        "industry 4.0",
+        "sustainable manufacturing",
+        "supply chain",
+        "lean implementation",
+        "management practices",
+        "productivity improvement",
+        "waste reduction",
+        "competitive advantage",
+        "l4.0 csf",
+        "scholar crossref",
+        "crossref scilit",
+        "enabled technology",
+        "l4.0 implementation",
+        "google scholar",
+        "pls sem",
+        "worker enabled",
+        "successful l4.0"
+      ]
+    },
+    "11": {
+      "titulo": "Factors determining total quality management in the manufacturing industries: An empirical study",
+      "anio": 2023,
+      "fase": "Planificar",
+      "temas": [
+        "Análisis de causa raíz (Pareto, Ishikawa, 8D)",
+        "Barreras y retos de implementación",
+        "Desempeño operacional",
+        "Factores críticos de éxito",
+        "Kaizen / Mejora continua",
+        "Liderazgo y cultura organizacional",
+        "Proveedores y cadena de suministro",
+        "TQM / Calidad total"
+      ],
+      "palabras_clave": [
+        "total quality management",
+        "tqm implementation",
+        "manufacturing industry",
+        "leadership commitment",
+        "employee participation",
+        "customer orientation",
+        "continuous improvement",
+        "supplier involvement",
+        "resistance to change",
+        "customer satisfaction",
+        "product quality",
+        "2018 55",
+        "55 326",
+        "326 335",
+        "335 issn",
+        "issn 1553",
+        "1553 6939",
+        "psychology education",
+        "education 2018",
+        "www psychologyandeducation"
+      ]
+    },
+    "12": {
+      "titulo": "Perancangan Sistem Manajemen Mutu (SMM) Berdasarkan International Organization for Standardization (ISO) 9001:2015 dan Hasil Gap Analysis pada CV HER-5 Engineering Manufacturing",
+      "anio": 2023,
+      "fase": "Planificar",
+      "temas": [
+        "ISO 9001 / Sistema de gestión de calidad",
+        "Sector automotriz"
+      ],
+      "palabras_clave": [
+        "quality management systems",
+        "iso 9001:2015",
+        "gap analysis",
+        "manufacturing companies",
+        "product returns",
+        "customer satisfaction",
+        "quality certification",
+        "automotive parts manufacturing",
+        "quality objectives",
+        "quality manual",
+        "quality records",
+        "quality assurance",
+        "quality improvement",
+        "cv engineering",
+        "9001 2015",
+        "engineering manufacturing",
+        "iso 9001",
+        "gap analysi",
+        "smm berdasarkan",
+        "swing arm",
+        "50 15",
+        "meningkatkan mutu",
+        "menerapkan smm"
+      ]
+    },
+    "13": {
+      "titulo": "Quality 4.0 transition framework for Tanzanian manufacturing industries",
+      "anio": 2022,
+      "fase": "Planificar",
+      "temas": [
+        "Barreras y retos de implementación",
+        "Calidad 4.0 / Industria 4.0",
+        "Costos de calidad y desperdicio",
+        "Kaizen / Mejora continua",
+        "TQM / Calidad total"
+      ],
+      "palabras_clave": [
+        "quality 4.0",
+        "transition framework",
+        "manufacturing industry",
+        "tanzania",
+        "practitioner awareness",
+        "barriers to adoption",
+        "fourth industrial revolution",
+        "quality management methods",
+        "technology investment",
+        "developing countries",
+        "tanzanian manufacturing",
+        "4.0 transition",
+        "framework tanzanian",
+        "4.0 modern",
+        "industry tanzania",
+        "fourth industrial",
+        "industrial revolution"
+      ]
+    },
+    "14": {
+      "titulo": "Addressing Operational Challenges in Plastic Manufacturing SMEs: A Lean-TPM Model for Improved Efficiency and Quality",
+      "anio": 2025,
+      "fase": "Hacer",
+      "temas": [
+        "Barreras y retos de implementación",
+        "Calidad 4.0 / Industria 4.0",
+        "Costos de calidad y desperdicio",
+        "Desempeño operacional",
+        "Kaizen / Mejora continua",
+        "Lean manufacturing",
+        "Liderazgo y cultura organizacional",
+        "PYMES",
+        "Sector alimentos",
+        "Sector plásticos",
+        "Sostenibilidad",
+        "TPM / Mantenimiento"
+      ],
+      "palabras_clave": [
+        "plastic manufacturing",
+        "small and medium-sized enterprises",
+        "lean manufacturing",
+        "total productive maintenance",
+        "smed",
+        "poka-yoke",
+        "machine availability",
+        "setup time reduction",
+        "mean time between failures",
+        "mean time to repair",
+        "defect reduction",
+        "production efficiency",
+        "product quality",
+        "scholar publisher",
+        "publisher link",
+        "crossref google",
+        "plastic product",
+        "google scholar",
+        "poka yoke",
+        "setup time",
+        "planned maintenance",
+        "gonzale ijem",
+        "ijem 12"
+      ]
+    },
+    "15": {
+      "titulo": "Application of Kaizen Lean approach to reduce rejections and failure cost at Shop floor of a wire harness manufacturing",
+      "anio": 2022,
+      "fase": "Hacer",
+      "temas": [
+        "Análisis de causa raíz (Pareto, Ishikawa, 8D)",
+        "Costos de calidad y desperdicio",
+        "Kaizen / Mejora continua",
+        "Lean manufacturing"
+      ],
+      "palabras_clave": [
+        "kaizen",
+        "lean manufacturing",
+        "rework costs",
+        "failure costs",
+        "root cause analysis",
+        "pareto analysis",
+        "statistical quality control",
+        "cost reduction",
+        "wire harness",
+        "harness manufacturing",
+        "problem responsible",
+        "failure cost",
+        "kaizen lean",
+        "rework cost",
+        "statistical quality",
+        "pareto analysi",
+        "root cause"
+      ]
+    },
+    "16": {
+      "titulo": "Overcoming Quality Control Challenges in Car Exhaust Manufacturing",
+      "anio": 2024,
+      "fase": "Hacer",
+      "temas": [
+        "Análisis de causa raíz (Pareto, Ishikawa, 8D)",
+        "Desempeño operacional",
+        "Sector automotriz",
+        "Six Sigma"
+      ],
+      "palabras_clave": [
+        "quality control",
+        "manufacturing defects",
+        "sigma level",
+        "six sigma dmaic",
+        "root cause analysis",
+        "defect rate",
+        "standard operating procedures",
+        "operator training",
+        "equipment maintenance",
+        "5s",
+        "automotive manufacturing",
+        "knalpot mobil",
+        "komponen knalpot",
+        "prose produksi",
+        "bulan juli",
+        "pengendalian kualita",
+        "innovation study",
+        "study 25",
+        "25 2024",
+        "2024 october",
+        "october 10.21070"
+      ]
+    },
+    "17": {
+      "titulo": "Challenges in the implementation of lean manufacturing in the wood and furniture industry",
+      "anio": 2021,
+      "fase": "Hacer",
+      "temas": [
+        "Lean manufacturing",
+        "Liderazgo y cultura organizacional",
+        "PYMES",
+        "Sector madera y muebles"
+      ],
+      "palabras_clave": [
+        "lean manufacturing",
+        "lean implementation challenges",
+        "wood and furniture industry",
+        "small and medium-sized enterprises",
+        "organizational culture",
+        "employee commitment",
+        "senior management support",
+        "attitudes",
+        "malaysian smes",
+        "wood furniture",
+        "furniture industry",
+        "culture human",
+        "human attitude",
+        "implementation lm",
+        "lm practice",
+        "challenge implementing",
+        "senior management",
+        "implementation lean"
+      ]
+    },
+    "18": {
+      "titulo": "An Empirical Study Of Lean Manufacturing Practices In Smes Of Uttar Pradesh",
+      "anio": 2023,
+      "fase": "Hacer",
+      "temas": [
+        "Barreras y retos de implementación",
+        "Costos de calidad y desperdicio",
+        "Desempeño operacional",
+        "Kaizen / Mejora continua",
+        "Lean manufacturing",
+        "PYMES"
+      ],
+      "palabras_clave": [
+        "lean manufacturing",
+        "small and medium-sized enterprises",
+        "implementation barriers",
+        "cost reduction",
+        "customer satisfaction",
+        "productivity improvement",
+        "competitiveness",
+        "uttar pradesh",
+        "sme uttar",
+        "problem challenge",
+        "manufacturing practice",
+        "scale industry",
+        "bhim singh",
+        "piyush tripathi",
+        "tripathi hirendra",
+        "hirendra singh"
+      ]
+    },
+    "19": {
+      "titulo": "A comparative analysis of lean manufacturing usage in Small and Medium Apparel Enterprises in KwaZulu-Natal, South Africa",
+      "anio": 2025,
+      "fase": "Hacer",
+      "temas": [
+        "Barreras y retos de implementación",
+        "Costos de calidad y desperdicio",
+        "Desempeño operacional",
+        "Kaizen / Mejora continua",
+        "Lean Six Sigma",
+        "Lean manufacturing",
+        "Liderazgo y cultura organizacional",
+        "PYMES",
+        "Proveedores y cadena de suministro",
+        "Sector automotriz",
+        "Sector madera y muebles",
+        "Sector textil y confección",
+        "Six Sigma",
+        "Sostenibilidad",
+        "TQM / Calidad total"
+      ],
+      "palabras_clave": [
+        "lean manufacturing",
+        "apparel industry",
+        "small and medium-sized enterprises",
+        "lean adoption",
+        "operational efficiency",
+        "quality management",
+        "competitiveness",
+        "waste reduction",
+        "continuous improvement",
+        "kwazulu-natal",
+        "14 2025",
+        "business social",
+        "2025 30",
+        "30 41",
+        "south africa",
+        "govender international",
+        "science 14",
+        "kwazulu natal"
+      ]
+    },
+    "20": {
+      "titulo": "Exploring Lean Production System Adoption in the Moroccan Manufacturing and Non-Manufacturing Industries: Awareness, Benefits and Barriers",
+      "anio": 2021,
+      "fase": "Hacer",
+      "temas": [
+        "Barreras y retos de implementación",
+        "Costos de calidad y desperdicio",
+        "Lean manufacturing",
+        "PYMES"
+      ],
+      "palabras_clave": [
+        "lean manufacturing",
+        "small and medium-sized enterprises",
+        "lean implementation barriers",
+        "waste elimination",
+        "cost reduction",
+        "production efficiency",
+        "management quality",
+        "financial resources",
+        "skilled labor shortage",
+        "non-manufacturing industries",
+        "non manufacturing",
+        "manufacturing non",
+        "total variance",
+        "lean production",
+        "financial resource",
+        "lean implementation",
+        "small medium",
+        "medium enterprise",
+        "medium sized"
+      ]
+    },
+    "21": {
+      "titulo": "Quality Control Issues and Improvement Opportunities for Automobile Manufacturing Company in Indonesia",
+      "anio": 2026,
+      "fase": "Hacer",
+      "temas": [
+        "Análisis de causa raíz (Pareto, Ishikawa, 8D)",
+        "Calidad 4.0 / Industria 4.0",
+        "Kaizen / Mejora continua",
+        "Sector automotriz"
+      ],
+      "palabras_clave": [
+        "quality control",
+        "automobile manufacturing",
+        "quality standards",
+        "quality control procedures",
+        "continuous improvement",
+        "customer satisfaction",
+        "control step",
+        "issn 2226",
+        "2226 3624",
+        "journal academic",
+        "academic economic",
+        "science 2026",
+        "3624 2026",
+        "improvement opportunity"
+      ]
+    },
+    "22": {
+      "titulo": "Enhancing performance of an apparel manufacturing process in MSME through integrated quality management practices: a hybrid AHP-MICMAC model",
+      "anio": 2026,
+      "fase": "Hacer",
+      "temas": [
+        "Análisis de causa raíz (Pareto, Ishikawa, 8D)",
+        "Costos de calidad y desperdicio",
+        "Kaizen / Mejora continua",
+        "Lean Six Sigma",
+        "Lean manufacturing",
+        "PYMES",
+        "Sector textil y confección",
+        "Six Sigma",
+        "Sostenibilidad"
+      ],
+      "palabras_clave": [
+        "apparel manufacturing",
+        "micro, small and medium enterprises",
+        "quality management practices",
+        "socio-technical systems",
+        "lean six sigma",
+        "block printing",
+        "5s",
+        "kaizen",
+        "standard operating procedures",
+        "process improvement",
+        "critical defect",
+        "ahp micmac",
+        "micmac analysi",
+        "sequence improvement",
+        "socio technical",
+        "technical system",
+        "indian msme",
+        "improvement initiative",
+        "resource constrained"
+      ]
+    },
+    "23": {
+      "titulo": "Limitation of Manufacturing Defects of the Selected Product in the Glass Mill",
+      "anio": 2021,
+      "fase": "Hacer",
+      "temas": [
+        "Sector alimentos",
+        "Sector vidrio"
+      ],
+      "palabras_clave": [
+        "manufacturing defects",
+        "glass packaging",
+        "glass factories",
+        "quality control",
+        "defect reduction",
+        "production process analysis",
+        "food packaging",
+        "product glass",
+        "glass factory",
+        "defect selected",
+        "selected product",
+        "manufacturing defect",
+        "extremely important",
+        "manufactured product",
+        "production process"
+      ]
+    },
+    "24": {
+      "titulo": "An empirical assessment of assembly line productivity constraints in automotive manufacturing systems using statistical analysis",
+      "anio": 2026,
+      "fase": "Hacer",
+      "temas": [
+        "Barreras y retos de implementación",
+        "Costos de calidad y desperdicio",
+        "Desempeño operacional",
+        "Inteligencia artificial / Machine learning",
+        "Lean Six Sigma",
+        "Lean manufacturing",
+        "Proveedores y cadena de suministro",
+        "Sector automotriz",
+        "Six Sigma",
+        "TPM / Mantenimiento"
+      ],
+      "palabras_clave": [
+        "assembly line productivity",
+        "passenger car manufacturing",
+        "automotive manufacturing",
+        "defective products",
+        "equipment breakdown",
+        "absenteeism",
+        "supply logistics",
+        "quality control",
+        "assembly line",
+        "productivity barrier",
+        "line productivity",
+        "passenger car",
+        "10.3389 fmech.2026",
+        "fmech.2026 1896770",
+        "frontier mechanical",
+        "engineering frontiersin",
+        "gosavi 10.3389",
+        "strongly disagreed"
+      ]
+    },
+    "25": {
+      "titulo": "Quality system as a mediating variable of the relationship between lean manufacturing and operational performance in the food industry",
+      "anio": 2023,
+      "fase": "Hacer",
+      "temas": [
+        "Desempeño operacional",
+        "Lean manufacturing",
+        "Sector alimentos"
+      ],
+      "palabras_clave": [
+        "lean manufacturing",
+        "quality systems",
+        "quality control",
+        "operational performance",
+        "food industry",
+        "mediating effect",
+        "lean tools implementation",
+        "food quality management",
+        "lm food",
+        "qc part",
+        "control qc",
+        "application lm",
+        "lm op",
+        "performance food",
+        "making quality",
+        "quality system"
+      ]
+    },
+    "26": {
+      "titulo": "Lean Manufacturing Development Model for Production Cost Reduction in Small and Medium Industries (SMEs) of Tempeh Food with a Green Manufacturing Approach",
+      "anio": 2026,
+      "fase": "Hacer",
+      "temas": [
+        "Análisis de causa raíz (Pareto, Ishikawa, 8D)",
+        "Costos de calidad y desperdicio",
+        "Kaizen / Mejora continua",
+        "Lean manufacturing",
+        "PYMES",
+        "Sector alimentos",
+        "Sector plásticos",
+        "Sostenibilidad"
+      ],
+      "palabras_clave": [
+        "lean manufacturing",
+        "green manufacturing",
+        "tempeh production",
+        "small and medium-sized enterprises",
+        "production cost reduction",
+        "waste reduction",
+        "value stream mapping",
+        "5s",
+        "kaizen",
+        "defect reduction",
+        "food processing",
+        "sustainable production",
+        "eastasouth management",
+        "2026 592",
+        "592 607",
+        "business esmb",
+        "esmb 02",
+        "02 january",
+        "tempeh food",
+        "lean green",
+        "january 2026"
+      ]
+    },
+    "27": {
+      "titulo": "Statistical Process Control (SPC) Implementation in Manufacturing Industry to Improve Quality Performance: A Prisma Systematic Literature Review and Meta Analysi",
+      "anio": 2023,
+      "fase": "Verificar",
+      "temas": [
+        "Control estadístico de procesos (SPC)",
+        "Six Sigma",
+        "TQM / Calidad total"
+      ],
+      "palabras_clave": [
+        "statistical process control",
+        "production quality",
+        "quality performance",
+        "six sigma",
+        "total quality management",
+        "quality control",
+        "human resource availability",
+        "management support",
+        "education and training",
+        "spc manufacturing",
+        "review meta",
+        "education training",
+        "statistical process",
+        "control spc",
+        "process control",
+        "human resource",
+        "manufacturing sector",
+        "improve quality"
+      ]
+    },
+    "28": {
+      "titulo": "Assessment of quality performance in the Egyptian manufacturing industry",
+      "anio": 2021,
+      "fase": "Verificar",
+      "temas": [
+        "Barreras y retos de implementación",
+        "TQM / Calidad total"
+      ],
+      "palabras_clave": [
+        "quality performance",
+        "quality management practices",
+        "total quality management",
+        "manufacturing industry",
+        "quality infrastructure",
+        "egyptian manufacturing",
+        "performance egyptian",
+        "examine quality",
+        "quality practice",
+        "core quality",
+        "manufacturing firm",
+        "management practice",
+        "total quality"
+      ]
+    },
+    "29": {
+      "titulo": "AI-Enabled Quality Control in Manufacturing: Evidence from an Empirical Sample of SMEs",
+      "anio": 2025,
+      "fase": "Verificar",
+      "temas": [
+        "Barreras y retos de implementación",
+        "Calidad 4.0 / Industria 4.0",
+        "Inteligencia artificial / Machine learning",
+        "PYMES"
+      ],
+      "palabras_clave": [
+        "artificial intelligence adoption",
+        "quality control",
+        "manufacturing smes",
+        "quality 4.0",
+        "human-ai interaction",
+        "implementation barriers",
+        "pilot case studies",
+        "professional guidelines",
+        "manufacturing quality management",
+        "pilot case",
+        "control manufacturing",
+        "ai quality",
+        "ai solution",
+        "artificial intelligence",
+        "manufacturing sme"
+      ]
+    },
+    "30": {
+      "titulo": "Quality control planning to minimize waste at a manufacturing company",
+      "anio": 2024,
+      "fase": "Verificar",
+      "temas": [
+        "Análisis de causa raíz (Pareto, Ishikawa, 8D)",
+        "Costos de calidad y desperdicio",
+        "Six Sigma"
+      ],
+      "palabras_clave": [
+        "quality control planning",
+        "production waste",
+        "confectionery production",
+        "defect analysis",
+        "packaging defects",
+        "root cause analysis",
+        "fishbone diagram",
+        "competitive advantage",
+        "broken candy",
+        "soft candy",
+        "pt slamet",
+        "slamet langgeng",
+        "july 2023",
+        "davo roll",
+        "packaging defect",
+        "candy defect",
+        "28 volume"
+      ]
+    },
+    "31": {
+      "titulo": "Quality control of manufacturing enterprises based on computer and big data technology",
+      "anio": 2024,
+      "fase": "Verificar",
+      "temas": [],
+      "palabras_clave": [
+        "manufacturing quality control",
+        "big data",
+        "cloud computing",
+        "digital quality management",
+        "internet plus",
+        "manufacturing enterprise",
+        "quality monitoring",
+        "data cloud",
+        "intelligent quality",
+        "traditional manufacturing",
+        "management manufacturing",
+        "control manufacturing",
+        "quality data"
+      ]
+    },
+    "32": {
+      "titulo": "Relationship between ISO 9001:2015 and operational and business performance of manufacturing industries in a developing country (Indonesia)",
+      "anio": 2021,
+      "fase": "Verificar",
+      "temas": [
+        "Barreras y retos de implementación",
+        "Desempeño operacional",
+        "ISO 9001 / Sistema de gestión de calidad",
+        "Kaizen / Mejora continua",
+        "Liderazgo y cultura organizacional",
+        "PYMES",
+        "Proveedores y cadena de suministro",
+        "Sector alimentos",
+        "Sector automotriz",
+        "Sostenibilidad",
+        "TQM / Calidad total"
+      ],
+      "palabras_clave": [
+        "iso 9001:2015",
+        "quality management systems",
+        "operational performance",
+        "firm performance",
+        "automotive parts manufacturing",
+        "manufacturing industry",
+        "developing countries",
+        "implementation barriers",
+        "productivity",
+        "customer satisfaction",
+        "product quality",
+        "sales growth",
+        "rate of profit",
+        "market share",
+        "indonesia",
+        "iso 9001",
+        "business performance",
+        "9001 variable",
+        "feng 2007",
+        "performance business",
+        "developing country",
+        "yahia berrouiguet",
+        "berrouiguet 2015",
+        "operational business"
+      ]
+    },
+    "33": {
+      "titulo": "Quality 4.0 Framework for Detecting Post-Quality-Gate Rare Failures in Automotive Manufacturing Under Extreme Class Imbalance",
+      "anio": 2026,
+      "fase": "Verificar",
+      "temas": [
+        "Análisis de causa raíz (Pareto, Ishikawa, 8D)",
+        "Calidad 4.0 / Industria 4.0",
+        "Control estadístico de procesos (SPC)",
+        "ISO 9001 / Sistema de gestión de calidad",
+        "Inteligencia artificial / Machine learning",
+        "Sector automotriz",
+        "Six Sigma",
+        "TQM / Calidad total"
+      ],
+      "palabras_clave": [
+        "class imbalance",
+        "quality gates",
+        "resampling",
+        "adasyn",
+        "smote-tomek",
+        "ctgan",
+        "tvae",
+        "stacking ensemble",
+        "support vector machine",
+        "latent failures",
+        "feature importance",
+        "shap",
+        "permutation importance",
+        "industry 4.0",
+        "predictive quality control",
+        "quality gate",
+        "operating point",
+        "smote tomek",
+        "post quality",
+        "resampling strategy",
+        "svm rbf",
+        "deep generative",
+        "generative model"
+      ]
+    },
+    "34": {
+      "titulo": "Predictive Analytics Models Improving Supplier Accuracy and Minimizing Rework in Manufacturing",
+      "anio": 2024,
+      "fase": "Verificar",
+      "temas": [
+        "Análisis de causa raíz (Pareto, Ishikawa, 8D)",
+        "Costos de calidad y desperdicio",
+        "Inteligencia artificial / Machine learning",
+        "Proveedores y cadena de suministro",
+        "Sector automotriz",
+        "Sostenibilidad"
+      ],
+      "palabras_clave": [
+        "predictive analytics",
+        "rework reduction",
+        "production quality",
+        "supplier performance",
+        "demand forecasting",
+        "anomaly detection",
+        "fault prediction",
+        "delivery delay prediction",
+        "supply chain resilience",
+        "root cause analysis",
+        "supplier development",
+        "digital twin",
+        "blockchain",
+        "predictive analytic",
+        "supplier accuracy",
+        "advanced multidisciplinary",
+        "multidisciplinary study",
+        "analytic model",
+        "predictive model",
+        "minimizing rework",
+        "analytic supplier",
+        "study 2024"
+      ]
+    },
+    "35": {
+      "titulo": "Influence of Quality on Manufacturing Processes in Enterprises from the Perspective of Generating Value Added For Customers",
+      "anio": 2021,
+      "fase": "Verificar",
+      "temas": [
+        "Calidad 4.0 / Industria 4.0",
+        "PYMES",
+        "Proveedores y cadena de suministro"
+      ],
+      "palabras_clave": [
+        "quality management",
+        "value added",
+        "value stream mapping",
+        "production process",
+        "small and medium-sized enterprises",
+        "industry 4.0",
+        "customer value",
+        "manufacturing operations",
+        "generating value",
+        "professional literature",
+        "stream map",
+        "value stream",
+        "added value",
+        "production operation",
+        "sized enterprise",
+        "medium sized"
+      ]
+    },
+    "36": {
+      "titulo": "The decay of Six Sigma and the rise of Quality 4.0 in manufacturing innovation",
+      "anio": 2023,
+      "fase": "Verificar",
+      "temas": [
+        "Calidad 4.0 / Industria 4.0",
+        "Inteligencia artificial / Machine learning",
+        "Six Sigma"
+      ],
+      "palabras_clave": [
+        "quality 4.0",
+        "six sigma",
+        "smart manufacturing",
+        "deep learning",
+        "manufacturing innovation",
+        "process monitoring",
+        "nonlinear process dynamics",
+        "technique paradigm",
+        "new era",
+        "limitation six",
+        "quality control"
+      ]
+    },
+    "37": {
+      "titulo": "Toward Zero Defect Manufacturing with the support of Artificial Intelligence—Insights from an industrial application",
+      "anio": 2023,
+      "fase": "Verificar",
+      "temas": [
+        "Cero defectos",
+        "Inteligencia artificial / Machine learning"
+      ],
+      "palabras_clave": [
+        "zero-defect manufacturing",
+        "artificial intelligence in manufacturing",
+        "defect detection",
+        "vibration analysis",
+        "semi-supervised learning",
+        "class imbalance",
+        "quality management",
+        "data quality",
+        "industrial implementation",
+        "detection strategy",
+        "defect manufacturing",
+        "semi supervised",
+        "supervised learning",
+        "zero defect",
+        "artificial intelligence",
+        "industrial application"
+      ]
+    },
+    "38": {
+      "titulo": "A Study on Significance of total Quality Management in Manufacturing Company",
+      "anio": 2025,
+      "fase": "Verificar",
+      "temas": [
+        "Desempeño operacional",
+        "Kaizen / Mejora continua",
+        "Liderazgo y cultura organizacional",
+        "Sostenibilidad",
+        "TQM / Calidad total"
+      ],
+      "palabras_clave": [
+        "total quality management",
+        "manufacturing companies",
+        "operational efficiency",
+        "product quality",
+        "customer satisfaction",
+        "continuous improvement",
+        "employee participation",
+        "defect reduction",
+        "productivity",
+        "customer loyalty",
+        "resistance to change",
+        "competitive advantage",
+        "operational excellence",
+        "management ijsrem",
+        "ijsrem volume",
+        "volume 09",
+        "09 issue",
+        "2025 sjif",
+        "sjif rating",
+        "rating 8.586",
+        "8.586 issn",
+        "2582 3930",
+        "3930 2025"
+      ]
+    },
+    "39": {
+      "titulo": "Quality Improvement of the Forging Process Using Pareto Analysis and 8D Methodology in Automotive Manufacturing: A Case Study",
+      "anio": 2023,
+      "fase": "Actuar",
+      "temas": [
+        "Análisis de causa raíz (Pareto, Ishikawa, 8D)",
+        "Ciclo PHVA / PDCA",
+        "Control estadístico de procesos (SPC)",
+        "Costos de calidad y desperdicio",
+        "ISO 9001 / Sistema de gestión de calidad",
+        "Kaizen / Mejora continua",
+        "Sector automotriz",
+        "Sector metalmecánico / forja"
+      ],
+      "palabras_clave": [
+        "forging",
+        "quality improvement",
+        "pareto analysis",
+        "gearbox manufacturing",
+        "nonconformity management",
+        "root cause analysis",
+        "corrective actions",
+        "customer complaints",
+        "pdca cycle",
+        "automotive manufacturing",
+        "8d report",
+        "8d methodology",
+        "global 8d",
+        "forging process",
+        "wrong size",
+        "permanent corrective",
+        "8d method",
+        "corrective action",
+        "team discovered",
+        "root cause"
+      ]
+    },
+    "40": {
+      "titulo": "Root Cause Analysis of Quality Issues in Watch Manufacturing Using Ishikawa and Pareto Diagrams",
+      "anio": 2024,
+      "fase": "Actuar",
+      "temas": [
+        "Análisis de causa raíz (Pareto, Ishikawa, 8D)",
+        "Sector relojería"
+      ],
+      "palabras_clave": [
+        "watchmaking",
+        "quality control",
+        "root cause analysis",
+        "fishbone diagram",
+        "pareto diagram",
+        "assembly errors",
+        "timekeeping accuracy",
+        "defect prioritization",
+        "customer satisfaction",
+        "precision manufacturing",
+        "assembly error",
+        "watch manufacturing",
+        "issue watch",
+        "error material",
+        "diagram pareto",
+        "ishikawa diagram",
+        "root cause",
+        "analysi quality"
+      ]
+    },
+    "41": {
+      "titulo": "Integrating ISO 9001 and Industry 4.0. An implementation guideline and PDCA model for manufacturing sector",
+      "anio": 2023,
+      "fase": "Actuar",
+      "temas": [
+        "Calidad 4.0 / Industria 4.0",
+        "Ciclo PHVA / PDCA",
+        "ISO 9001 / Sistema de gestión de calidad",
+        "Inteligencia artificial / Machine learning"
+      ],
+      "palabras_clave": [
+        "iso 9001",
+        "industry 4.0",
+        "quality management systems",
+        "pdca cycle",
+        "manufacturing companies",
+        "radio frequency identification",
+        "smart sensors",
+        "internet of things",
+        "enterprise resource planning",
+        "artificial intelligence",
+        "fear of job loss",
+        "decision-making",
+        "implementation guideline",
+        "9001 industry",
+        "smart sensor",
+        "sensor internet",
+        "4.0 technology",
+        "integrating iso",
+        "enterprise resource",
+        "resource planning"
+      ]
+    },
+    "42": {
+      "titulo": "Empirical investigation of drivers, motivations and barriers for implementation of integrated continuous improvement system: a case of Ethiopian manufacturing industries",
+      "anio": 2024,
+      "fase": "Actuar",
+      "temas": [
+        "Barreras y retos de implementación",
+        "Kaizen / Mejora continua",
+        "Lean Six Sigma",
+        "Lean manufacturing",
+        "PYMES",
+        "Proveedores y cadena de suministro",
+        "Six Sigma",
+        "TPM / Mantenimiento",
+        "TQM / Calidad total"
+      ],
+      "palabras_clave": [
+        "implementation barriers",
+        "implementation motivation",
+        "just-in-time",
+        "lean six sigma",
+        "supply chain management",
+        "total productive maintenance",
+        "total quality management",
+        "manufacturing industry",
+        "ethiopian manufacturing sector",
+        "competitiveness",
+        "human resource factors",
+        "strategic factors",
+        "operational factors",
+        "technological factors",
+        "structural factors",
+        "resource factors",
+        "information factors",
+        "small and medium-sized enterprises",
+        "unique practice",
+        "common factor",
+        "ethiopian manufacturing",
+        "ci system",
+        "motivation barrier",
+        "integrated ci",
+        "investigation driver"
+      ]
+    },
+    "43": {
+      "titulo": "Integrating Artificial Intelligence into Continuous Improvement for Automotive Manufacturing",
+      "anio": 2025,
+      "fase": "Actuar",
+      "temas": [
+        "Barreras y retos de implementación",
+        "Calidad 4.0 / Industria 4.0",
+        "Costos de calidad y desperdicio",
+        "Desempeño operacional",
+        "Inteligencia artificial / Machine learning",
+        "Kaizen / Mejora continua",
+        "Lean Six Sigma",
+        "Lean manufacturing",
+        "Proveedores y cadena de suministro",
+        "Sector automotriz",
+        "Six Sigma",
+        "Sostenibilidad",
+        "TQM / Calidad total"
+      ],
+      "palabras_clave": [
+        "artificial intelligence in manufacturing",
+        "continuous improvement",
+        "automotive manufacturing",
+        "industry 4.0",
+        "kaizen",
+        "lean six sigma",
+        "total quality management",
+        "predictive maintenance",
+        "process optimization",
+        "scheduling",
+        "supply chain planning",
+        "overall equipment effectiveness",
+        "manufacturing execution system",
+        "enterprise resource planning",
+        "product lifecycle management",
+        "digital governance",
+        "ai adoption barriers",
+        "quality 4.0",
+        "dmaic",
+        "machine learning",
+        "neural network",
+        "artificial intelligence",
+        "ai machine",
+        "ijacsa international",
+        "advanced computer"
+      ]
+    },
+    "44": {
+      "titulo": "Integrated quality 4.0 framework for quality improvement based on Six Sigma and machine learning techniques towards zero-defect manufacturing",
+      "anio": 2024,
+      "fase": "Actuar",
+      "temas": [
+        "Calidad 4.0 / Industria 4.0",
+        "Cero defectos",
+        "ISO 9001 / Sistema de gestión de calidad",
+        "Inteligencia artificial / Machine learning",
+        "Sector automotriz",
+        "Six Sigma"
+      ],
+      "palabras_clave": [
+        "quality 4.0",
+        "zero-defect manufacturing",
+        "quality improvement",
+        "six sigma",
+        "dmaic",
+        "machine learning",
+        "fault prediction",
+        "idef0 modeling",
+        "principal component analysis",
+        "k-means clustering",
+        "automotive manufacturing",
+        "process parameter optimization",
+        "quality management systems",
+        "4.0 framework",
+        "ml technique",
+        "technique toward",
+        "4.0 zero",
+        "framework iq4.0",
+        "case set",
+        "set automotive",
+        "proposed iq4.0"
+      ]
+    },
+    "45": {
+      "titulo": "Investigating scope of lean six sigma implementation in automotive manufacturers",
+      "anio": 2022,
+      "fase": "Actuar",
+      "temas": [
+        "Barreras y retos de implementación",
+        "Factores críticos de éxito",
+        "Lean Six Sigma",
+        "Lean manufacturing",
+        "PYMES",
+        "Sector automotriz",
+        "Six Sigma"
+      ],
+      "palabras_clave": [
+        "lean six sigma",
+        "automotive parts manufacturing",
+        "small and medium-sized enterprises",
+        "implementation barriers",
+        "success factors",
+        "lean tools",
+        "six sigma tools",
+        "quality improvement",
+        "cost-effectiveness",
+        "vadodara",
+        "rajkot",
+        "sigma automotive",
+        "component sme",
+        "vadodara rajkot",
+        "suitable tool",
+        "barrier expected",
+        "expert experience",
+        "tool barrier",
+        "automotive component",
+        "outcome implementing",
+        "expected performance"
+      ]
+    },
+    "46": {
+      "titulo": "Integration of Six Sigma in Bioinspired Manufacturing: Insights from Indian SMEs",
+      "anio": 2026,
+      "fase": "Actuar",
+      "temas": [
+        "Desempeño operacional",
+        "Factores críticos de éxito",
+        "PYMES",
+        "Six Sigma",
+        "Sostenibilidad"
+      ],
+      "palabras_clave": [
+        "six sigma",
+        "small and medium-sized enterprises",
+        "success factors",
+        "sustainable manufacturing",
+        "quality control",
+        "operational performance",
+        "environmental impact reduction",
+        "employee training",
+        "project selection",
+        "indian manufacturing",
+        "bioinspired manufacturing",
+        "sigma bioinspired",
+        "integration six",
+        "indian sme",
+        "global competitiveness",
+        "environmental impact",
+        "success factor"
+      ]
+    },
+    "47": {
+      "titulo": "A Critical Review of TQM and Zero-Defect Concept in Manufacturing Industries: A Qualitative Study",
+      "anio": 2021,
+      "fase": "Actuar",
+      "temas": [
+        "Cero defectos",
+        "Kaizen / Mejora continua",
+        "Proveedores y cadena de suministro",
+        "TQM / Calidad total"
+      ],
+      "palabras_clave": [
+        "total quality management",
+        "manufacturing industry",
+        "product quality",
+        "process improvement",
+        "employee participation",
+        "supplier management",
+        "customer orientation",
+        "organizational performance",
+        "resistance to change",
+        "continuous improvement",
+        "tqm zero",
+        "defect concept",
+        "zero defect",
+        "improvement staff",
+        "staff involvement",
+        "defect practice",
+        "management customer",
+        "resistance change"
+      ]
+    },
+    "48": {
+      "titulo": "Integrated lean manufacturing and quality management systems at Russian enterprises of the military-industrial complex",
+      "anio": 2022,
+      "fase": "Actuar",
+      "temas": [
+        "ISO 9001 / Sistema de gestión de calidad",
+        "Lean manufacturing",
+        "Sector militar / defensa"
+      ],
+      "palabras_clave": [
+        "lean manufacturing",
+        "quality management systems",
+        "military-industrial complex",
+        "defense industry enterprises",
+        "russian defense industry",
+        "implementation problems",
+        "employee training",
+        "standardization",
+        "certification",
+        "lean tools",
+        "03.05 2022",
+        "doc cntd",
+        "cntd ru",
+        "vestnik nsuem",
+        "nsuem 2022",
+        "berezhlivoe proizvodstvo",
+        "140 153",
+        "fact appraisal",
+        "appraisal perspective",
+        "perspective 2022"
+      ]
+    },
+    "49": {
+      "titulo": "SECI Model Combined with ISO 9001 2015 to Support Organizational KM for Manual Assembly Manufacturing Operations",
+      "anio": 2022,
+      "fase": "Actuar",
+      "temas": [
+        "Barreras y retos de implementación",
+        "Gestión del conocimiento",
+        "ISO 9001 / Sistema de gestión de calidad",
+        "Sostenibilidad"
+      ],
+      "palabras_clave": [
+        "organizational knowledge management",
+        "seci model",
+        "iso 9001:2015",
+        "tacit knowledge",
+        "quality management systems",
+        "knowledge management framework",
+        "knowledge management implementation",
+        "assembly manufacturing",
+        "manual assembly",
+        "organizational knowledge",
+        "knowledge management",
+        "manufacturing operation",
+        "9001 2015",
+        "iso 9001",
+        "management system"
+      ]
+    },
+    "50": {
+      "titulo": "Lean Six-Sigma Approach for Sub-Contract Licensing and its Process Improvement across the Manufacturing Supply Chain using GUT Priority Matrix",
+      "anio": 2023,
+      "fase": "Actuar",
+      "temas": [
+        "Análisis de causa raíz (Pareto, Ishikawa, 8D)",
+        "Costos de calidad y desperdicio",
+        "Desempeño operacional",
+        "Lean Six Sigma",
+        "Lean manufacturing",
+        "Proveedores y cadena de suministro",
+        "Six Sigma"
+      ],
+      "palabras_clave": [
+        "lean six sigma",
+        "dmaic",
+        "process improvement",
+        "manufacturing supply chains",
+        "process delays",
+        "waste elimination",
+        "process variation",
+        "cost reduction",
+        "delay processe",
+        "zitron manufacturing",
+        "online system",
+        "certified license",
+        "six sigma",
+        "output customer",
+        "review issn",
+        "issn 2220",
+        "2220 3796",
+        "3796 15"
+      ]
+    },
+    "51": {
+      "titulo": "Impact of ISO 9001 On Operational Efficiency in Msmes",
+      "anio": 2026,
+      "fase": "Planificar",
+      "temas": [
+        "Desempeño operacional",
+        "ISO 9001 / Sistema de gestión de calidad",
+        "Kaizen / Mejora continua",
+        "Liderazgo y cultura organizacional",
+        "PYMES",
+        "Proveedores y cadena de suministro",
+        "Sostenibilidad"
+      ],
+      "palabras_clave": [
+        "iso 9001",
+        "quality management systems",
+        "micro, small and medium enterprises",
+        "operational efficiency",
+        "process standardization",
+        "customer satisfaction",
+        "cost control",
+        "supply chain performance",
+        "manufacturing companies",
+        "india",
+        "efficiency msme",
+        "9001 effectiveness",
+        "9001 operational",
+        "journal creative",
+        "creative open",
+        "open engineering",
+        "manufacturing msme",
+        "2026 impact"
+      ]
+    },
+    "52": {
+      "titulo": "AN INVESTIGATION OF THE EFFECT OF THE ISO 9001 QUALITY MANAGEMENT SYSTEM ON SMALL AND MEDIUM ENTERPRISES IN GAUTENG, SOUTH AFRICA",
+      "anio": 2022,
+      "fase": "Planificar",
+      "temas": [
+        "Análisis de causa raíz (Pareto, Ishikawa, 8D)",
+        "Desempeño operacional",
+        "ISO 9001 / Sistema de gestión de calidad",
+        "Liderazgo y cultura organizacional",
+        "PYMES",
+        "Sostenibilidad",
+        "TQM / Calidad total"
+      ],
+      "palabras_clave": [
+        "iso 9001",
+        "quality management systems",
+        "small and medium-sized enterprises",
+        "sme sustainability",
+        "sme performance",
+        "gauteng",
+        "operational efficiency",
+        "customer satisfaction",
+        "per cent",
+        "sme gauteng",
+        "gauteng province",
+        "qms sme",
+        "9001 qms",
+        "fischer exact",
+        "south africa",
+        "chi square",
+        "square fischer"
+      ]
+    },
+    "53": {
+      "titulo": "Implementing total productive maintenance in a manufacturing small or medium-sized enterprise",
+      "anio": 2021,
+      "fase": "Hacer",
+      "temas": [
+        "Análisis de causa raíz (Pareto, Ishikawa, 8D)",
+        "Barreras y retos de implementación",
+        "Costos de calidad y desperdicio",
+        "Desempeño operacional",
+        "Kaizen / Mejora continua",
+        "Lean manufacturing",
+        "Liderazgo y cultura organizacional",
+        "PYMES",
+        "Proveedores y cadena de suministro",
+        "Sector automotriz",
+        "TPM / Mantenimiento"
+      ],
+      "palabras_clave": [
+        "total productive maintenance",
+        "small and medium-sized enterprises",
+        "manufacturing industry",
+        "phased implementation",
+        "overall equipment effectiveness",
+        "employee awareness",
+        "pilot run",
+        "equipment maintenance",
+        "10.3926 jiem.3286",
+        "productive maintenance",
+        "total productive",
+        "http org",
+        "org 10.3926",
+        "tpm implementation",
+        "management http",
+        "maintenance tpm",
+        "overall equipment",
+        "engineering management"
+      ]
+    },
+    "54": {
+      "titulo": "Exploration of Driving Factors and Benefits of ISO 9001 and ISO 14001 Certification in Five Manufacturing Companies in Indonesia",
+      "anio": 2025,
+      "fase": "Verificar",
+      "temas": [
+        "Barreras y retos de implementación",
+        "ISO 9001 / Sistema de gestión de calidad",
+        "Proveedores y cadena de suministro",
+        "Sostenibilidad"
+      ],
+      "palabras_clave": [
+        "iso 9001",
+        "iso 14001",
+        "quality management systems",
+        "environmental management systems",
+        "manufacturing companies",
+        "customer requirements",
+        "government regulation",
+        "employee engagement",
+        "external audit",
+        "regulatory compliance",
+        "enterprise competitiveness",
+        "indonesia",
+        "14001 certification",
+        "driving factor",
+        "iso certification",
+        "9001 iso",
+        "five manufacturing",
+        "factor benefit",
+        "castka balzarova",
+        "balzarova 2018"
+      ]
+    },
+    "55": {
+      "titulo": "Barriers to ISO 9001 implementation in Moroccan organizations: Empirical study",
+      "anio": 2018,
+      "fase": "Planificar",
+      "temas": [
+        "Barreras y retos de implementación",
+        "ISO 9001 / Sistema de gestión de calidad",
+        "Liderazgo y cultura organizacional",
+        "TQM / Calidad total"
+      ],
+      "palabras_clave": [
+        "iso 9001",
+        "quality management implementation",
+        "implementation barriers",
+        "quality certification",
+        "resistance to change",
+        "top management commitment",
+        "organizational bureaucracy",
+        "interdepartmental communication",
+        "quality management training",
+        "moroccan organizations",
+        "totally disagree",
+        "disagree agree",
+        "agree totally",
+        "totally agree",
+        "agree na",
+        "barrier totally",
+        "comment barrier",
+        "disagree disagree",
+        "10.3926 jiem.2412"
+      ]
+    },
+    "56": {
+      "titulo": "ISO 9001 Standard: exploratory analysis in the manufacturing sector in Mexico",
+      "anio": 2020,
+      "fase": "Planificar",
+      "temas": [
+        "Barreras y retos de implementación",
+        "Costos de calidad y desperdicio",
+        "Desempeño operacional",
+        "Factores críticos de éxito",
+        "ISO 9001 / Sistema de gestión de calidad",
+        "Kaizen / Mejora continua",
+        "Liderazgo y cultura organizacional",
+        "PYMES",
+        "Sector alimentos",
+        "Sector madera y muebles",
+        "Sector metalmecánico / forja",
+        "Sector textil y confección"
+      ],
+      "palabras_clave": [
+        "iso 9001",
+        "quality management systems",
+        "manufacturing industry",
+        "success factors",
+        "implementation barriers",
+        "benefits of quality management",
+        "leadership",
+        "customer orientation",
+        "quality principles",
+        "mexico",
+        "9001 standard",
+        "dyna 87",
+        "87 213",
+        "213 202",
+        "202 211",
+        "211 april",
+        "sector mexico",
+        "revista dyna",
+        "april june"
+      ]
+    },
+    "57": {
+      "titulo": "Analysis of the Implementation of ISO 9001: 2015 Quality Management System to Improve Service Quality (Case Study at Sea Shipload Expedition Company in Waingapu)",
+      "anio": 2025,
+      "fase": "Hacer",
+      "temas": [
+        "ISO 9001 / Sistema de gestión de calidad"
+      ],
+      "palabras_clave": [
+        "iso 9001:2015",
+        "quality management systems",
+        "service quality",
+        "customer satisfaction",
+        "operational efficiency",
+        "employee training",
+        "standard operating procedures",
+        "corporate reputation",
+        "logistics industry",
+        "competitive advantage",
+        "9001 2015",
+        "iso 9001",
+        "pt emkl",
+        "2015 quality",
+        "implementation iso",
+        "sistem manajemen",
+        "mutu iso",
+        "improve service",
+        "freight forwarder"
+      ]
+    },
+    "58": {
+      "titulo": "Analysis of the Implementation of the ISO 9001:2015 Quality Management System Using GAP Analysis(Case Study at a National Gas Distribution Company)",
+      "anio": 2025,
+      "fase": "Planificar",
+      "temas": [
+        "ISO 9001 / Sistema de gestión de calidad",
+        "Kaizen / Mejora continua",
+        "Liderazgo y cultura organizacional",
+        "Proveedores y cadena de suministro",
+        "TQM / Calidad total"
+      ],
+      "palabras_clave": [
+        "iso 9001:2015",
+        "quality management systems",
+        "gap analysis",
+        "gas distribution company",
+        "nonconformity",
+        "continuous improvement",
+        "management review",
+        "supplier evaluation",
+        "organizational context",
+        "leadership and commitment",
+        "performance evaluation",
+        "gas distribution",
+        "distribution company",
+        "national gas",
+        "9001 2015",
+        "iso 9001",
+        "journal arepublisher",
+        "arepublisher com",
+        "php belacoss",
+        "gap analysi",
+        "economic law"
+      ]
+    },
+    "59": {
+      "titulo": "Factors Influencing Implementation Of ISO 9001:2015 Quality Management Systems In The Public Sector (A Case Study Of Kenya School Of Government Mombasa)",
+      "anio": 2026,
+      "fase": "Hacer",
+      "temas": [
+        "ISO 9001 / Sistema de gestión de calidad",
+        "Liderazgo y cultura organizacional",
+        "TQM / Calidad total"
+      ],
+      "palabras_clave": [
+        "iso 9001:2015",
+        "quality management systems",
+        "qms implementation",
+        "public sector organizations",
+        "top management commitment",
+        "employee training",
+        "organizational culture",
+        "resource availability",
+        "implementation qms",
+        "influencing implementation",
+        "www iosrjournal",
+        "iosrjournal org",
+        "respondent agreed",
+        "10.9790 487x",
+        "487x 2804034454",
+        "2804034454 www",
+        "top management",
+        "system 10.9790"
+      ]
+    },
+    "60": {
+      "titulo": "Work Standardization in Lean Manufacturing for Improvement of Production Line Performance in SME",
+      "anio": 2024,
+      "fase": "Hacer",
+      "temas": [
+        "Análisis de causa raíz (Pareto, Ishikawa, 8D)",
+        "Ciclo PHVA / PDCA",
+        "Control estadístico de procesos (SPC)",
+        "Costos de calidad y desperdicio",
+        "Desempeño operacional",
+        "Lean manufacturing",
+        "PYMES"
+      ],
+      "palabras_clave": [
+        "process standardization",
+        "lean manufacturing",
+        "production line performance",
+        "small and medium-sized enterprises",
+        "5s",
+        "pdca cycle",
+        "statistical process control",
+        "value stream mapping",
+        "lead time reduction",
+        "work-in-process reduction",
+        "waste reduction",
+        "weekly output",
+        "production line",
+        "journal composite",
+        "composite science",
+        "science manufacturing",
+        "issue 2024",
+        "2024 68",
+        "68 81",
+        "standard work",
+        "manufacturing volume"
+      ]
+    },
+    "61": {
+      "titulo": "Zero-defect manufacturing terminology standardization: Definition, improvement, and harmonization",
+      "anio": 2022,
+      "fase": "Verificar",
+      "temas": [
+        "Calidad 4.0 / Industria 4.0",
+        "Cero defectos",
+        "Costos de calidad y desperdicio",
+        "ISO 9001 / Sistema de gestión de calidad",
+        "Six Sigma",
+        "Sostenibilidad"
+      ],
+      "palabras_clave": [
+        "zero-defect manufacturing",
+        "terminology standardization",
+        "quality management",
+        "industry 4.0",
+        "non-destructive inspection",
+        "condition monitoring",
+        "dependability",
+        "metrology",
+        "iso 704",
+        "defect manufacturing",
+        "zero defect",
+        "9000 2015",
+        "frontier manufacturing",
+        "10.3389 fmtec.2022",
+        "fmtec.2022 947474",
+        "technology frontiersin",
+        "sousa 10.3389",
+        "non destructive",
+        "iso 9000"
+      ]
+    },
+    "62": {
+      "titulo": "STORAGE AND PROCESS IMPROVEMENT IN MANUFACTURING SYSTEM",
+      "anio": 2024,
+      "fase": "Hacer",
+      "temas": [
+        "Costos de calidad y desperdicio",
+        "Desempeño operacional",
+        "Lean manufacturing",
+        "Sector metalmecánico / forja"
+      ],
+      "palabras_clave": [
+        "storage systems",
+        "factory layout",
+        "5s",
+        "waste reduction",
+        "productivity improvement",
+        "space use",
+        "discrete event simulation",
+        "production process improvement",
+        "travel time",
+        "storage process",
+        "storage system",
+        "warehouse storage",
+        "transfer time",
+        "storage area",
+        "first floor",
+        "current system",
+        "best option"
+      ]
+    },
+    "64": {
+      "titulo": "Strategy of Production Efficiency and Improving the Quality of Wooden Sofa Legs in the Manufacturing Industry",
+      "anio": 2025,
+      "fase": "Hacer",
+      "temas": [
+        "Barreras y retos de implementación",
+        "Costos de calidad y desperdicio",
+        "Desempeño operacional",
+        "Inteligencia artificial / Machine learning",
+        "Lean manufacturing",
+        "PYMES",
+        "Sector madera y muebles",
+        "Sostenibilidad"
+      ],
+      "palabras_clave": [
+        "wood furniture industry",
+        "production efficiency",
+        "product quality",
+        "lean manufacturing",
+        "5s",
+        "quality control",
+        "small and medium-sized enterprises",
+        "production layout",
+        "waste reduction",
+        "employee training",
+        "standard operating procedures",
+        "manual production process",
+        "sofa leg",
+        "wooden sofa",
+        "furniture industry",
+        "startupreneur business",
+        "business digital",
+        "digital sabda",
+        "sabda journal",
+        "issn 2962",
+        "wooden furniture",
+        "production wooden"
+      ]
+    },
+    "66": {
+      "titulo": "The use of quality tools to reduce surface defects of painted steel structures",
+      "anio": 2021,
+      "fase": "Verificar",
+      "temas": [
+        "Análisis de causa raíz (Pareto, Ishikawa, 8D)",
+        "Control estadístico de procesos (SPC)",
+        "Sector madera y muebles",
+        "TQM / Calidad total"
+      ],
+      "palabras_clave": [
+        "quality management tools",
+        "surface defects",
+        "engine cover",
+        "defect causes",
+        "paint thickness",
+        "surface contamination",
+        "employee training",
+        "quality improvement",
+        "quality control",
+        "fishbone diagram",
+        "failure mode and effects analysis",
+        "matrix diagram",
+        "affinity diagram",
+        "defect painted",
+        "quality tool",
+        "painted surface",
+        "steel structure",
+        "issn 1213",
+        "1213 2489",
+        "december 2021",
+        "2021 21",
+        "21 manufacturing",
+        "technology issn"
+      ]
+    },
+    "67": {
+      "titulo": "SMART RNN BASED SURFACE DEFECT DETECTION IN STEEL PLATES MANUFACTURING PLANTS",
+      "anio": 2025,
+      "fase": "Verificar",
+      "temas": [
+        "Calidad 4.0 / Industria 4.0",
+        "Inteligencia artificial / Machine learning",
+        "Sector metalmecánico / forja"
+      ],
+      "palabras_clave": [
+        "surface defect detection",
+        "steel plate",
+        "smart manufacturing",
+        "recurrent neural networks",
+        "convolutional neural networks",
+        "quality control",
+        "industry 4.0",
+        "real-time defect detection",
+        "manufacturing process monitoring",
+        "steel surface",
+        "defect detection",
+        "applied mathematic",
+        "mathematic volume",
+        "volume 38",
+        "38 2025",
+        "issn 1311",
+        "1311 1728",
+        "1728 printed",
+        "printed version"
+      ]
+    },
+    "70": {
+      "titulo": "Predictive Process Control Framework for Online Quality Control in a Hot Rolling Mill",
+      "anio": 2022,
+      "fase": "Verificar",
+      "temas": [
+        "Control estadístico de procesos (SPC)",
+        "Inteligencia artificial / Machine learning",
+        "Liderazgo y cultura organizacional",
+        "Sector madera y muebles",
+        "Sector metalmecánico / forja",
+        "Sostenibilidad"
+      ],
+      "palabras_clave": [
+        "predictive process control",
+        "online quality control",
+        "hot rolling mill",
+        "statistical process control",
+        "fault prediction",
+        "random forest",
+        "artificial neural networks",
+        "metal rolling",
+        "etl data integration",
+        "management commitment",
+        "data science adoption",
+        "predictive process",
+        "control framework",
+        "process control",
+        "univariate spc",
+        "data science",
+        "september 2022",
+        "human earth",
+        "earth future",
+        "future september",
+        "online quality"
+      ]
+    },
+    "72": {
+      "titulo": "Lean six sigma application for enhancing production efficiency in plasticizing machines manufacturing: a metalworking industry case study",
+      "anio": 2026,
+      "fase": "Actuar",
+      "temas": [
+        "Análisis de causa raíz (Pareto, Ishikawa, 8D)",
+        "Calidad 4.0 / Industria 4.0",
+        "Control estadístico de procesos (SPC)",
+        "Costos de calidad y desperdicio",
+        "Desempeño operacional",
+        "Inteligencia artificial / Machine learning",
+        "Kaizen / Mejora continua",
+        "Lean Six Sigma",
+        "Lean manufacturing",
+        "Liderazgo y cultura organizacional",
+        "PYMES",
+        "Sector alimentos",
+        "Sector metalmecánico / forja",
+        "Sector plásticos",
+        "Six Sigma",
+        "Sostenibilidad",
+        "TQM / Calidad total"
+      ],
+      "palabras_clave": [
+        "lean six sigma",
+        "production efficiency",
+        "manufacturing lead time reduction",
+        "metalworking industry",
+        "dmaic",
+        "value stream mapping",
+        "5s",
+        "poka-yoke",
+        "process waste reduction",
+        "production capacity",
+        "campoverde pillajo",
+        "10.3389 frsus.2026",
+        "frsus.2026 1798379",
+        "lean six",
+        "plasticizing machine",
+        "frontier sustainability",
+        "frontiersin org",
+        "pillajo 10.3389",
+        "1798379 frontier",
+        "six sigma"
+      ]
+    },
+    "73": {
+      "titulo": "A Lean-Based Integrated Production Model Combining Layout Optimization and Visual Control for Metalworking SMEs",
+      "anio": 2026,
+      "fase": "Hacer",
+      "temas": [
+        "Costos de calidad y desperdicio",
+        "Desempeño operacional",
+        "Kaizen / Mejora continua",
+        "Lean manufacturing",
+        "PYMES",
+        "Sector metalmecánico / forja",
+        "Sostenibilidad"
+      ],
+      "palabras_clave": [
+        "lean manufacturing",
+        "systematic layout planning",
+        "visual control",
+        "kanban",
+        "plant layout optimization",
+        "internal transport",
+        "production efficiency",
+        "developing countries",
+        "systematic layout",
+        "layout planning",
+        "metalworking sme",
+        "publisher link",
+        "scholar publisher",
+        "38 51",
+        "gonzale ijre",
+        "ijre 13",
+        "13 38",
+        "51 2026"
+      ]
+    },
+    "74": {
+      "titulo": "IMPROVING PRODUCTIVITY IN AN SME IN THE METALWORKING SECTOR THROUGH LEAN MANUFACTURING AND TPM TOOLS A CASE STUDY IN PERU",
+      "anio": 2024,
+      "fase": "Hacer",
+      "temas": [
+        "Análisis de causa raíz (Pareto, Ishikawa, 8D)",
+        "Costos de calidad y desperdicio",
+        "Desempeño operacional",
+        "Kaizen / Mejora continua",
+        "Lean manufacturing",
+        "PYMES",
+        "Sector metalmecánico / forja",
+        "Sostenibilidad",
+        "TPM / Mantenimiento"
+      ],
+      "palabras_clave": [
+        "lean manufacturing",
+        "total productive maintenance",
+        "small and medium-sized enterprises",
+        "metalworking",
+        "5s",
+        "smed",
+        "setup time reduction",
+        "preventive maintenance",
+        "autonomous maintenance",
+        "productivity improvement",
+        "setup time",
+        "metalworking sector",
+        "autonomou maintenance",
+        "mean time",
+        "autonomou preventive",
+        "time painting",
+        "painting machine",
+        "painting sandblasting"
+      ]
+    },
+    "75": {
+      "titulo": "The Application Practice of PDCA Cycle in Improving Product Quality",
+      "anio": 2025,
+      "fase": "Hacer",
+      "temas": [
+        "Análisis de causa raíz (Pareto, Ishikawa, 8D)",
+        "Ciclo PHVA / PDCA",
+        "Kaizen / Mejora continua",
+        "PYMES"
+      ],
+      "palabras_clave": [
+        "pdca cycle",
+        "product quality improvement",
+        "defect rate reduction",
+        "operator training",
+        "equipment calibration",
+        "small and medium-sized enterprises",
+        "electronics manufacturing",
+        "continuous quality improvement",
+        "quality management",
+        "self inspection",
+        "smart wristband",
+        "unit day",
+        "inspection process",
+        "equipment management",
+        "inspection form",
+        "wristband assembly",
+        "defective rate",
+        "welding equipment"
+      ]
+    },
+    "76": {
+      "titulo": "Statistical process control and PDCA for quality improvement in the mexican automotive industry",
+      "anio": 2024,
+      "fase": "Verificar",
+      "temas": [
+        "Ciclo PHVA / PDCA",
+        "Control estadístico de procesos (SPC)",
+        "Costos de calidad y desperdicio",
+        "Kaizen / Mejora continua",
+        "Proveedores y cadena de suministro",
+        "Sector automotriz"
+      ],
+      "palabras_clave": [
+        "statistical process control",
+        "pdca cycle",
+        "quality improvement",
+        "automotive industry",
+        "x-bar and r control charts",
+        "process capability index",
+        "process performance index",
+        "process variation",
+        "mexican automotive industry",
+        "mexican automotive",
+        "control pdca",
+        "org 10.22201",
+        "10.22201 fi.25940732",
+        "fi.25940732 e.2024",
+        "e.2024 25.1",
+        "25.1 002",
+        "ingen ieria",
+        "ieria invest"
+      ]
+    },
+    "77": {
+      "titulo": "Quality Improvement in Interlining Manufacturing Through the Six Sigma DMAIC Methodology: A Case Study",
+      "anio": 2026,
+      "fase": "Actuar",
+      "temas": [
+        "Análisis de causa raíz (Pareto, Ishikawa, 8D)",
+        "Ciclo PHVA / PDCA",
+        "Control estadístico de procesos (SPC)",
+        "Costos de calidad y desperdicio",
+        "Desempeño operacional",
+        "Kaizen / Mejora continua",
+        "Lean Six Sigma",
+        "Lean manufacturing",
+        "Sector textil y confección",
+        "Six Sigma"
+      ],
+      "palabras_clave": [
+        "six sigma",
+        "dmaic",
+        "textile industry",
+        "quality improvement",
+        "defect root cause analysis",
+        "sigma level",
+        "process improvement",
+        "pdca cycle",
+        "continuous improvement",
+        "12 num",
+        "num 2025",
+        "2025 pag",
+        "interlining manufacturing",
+        "sigma dmaic",
+        "improvement action",
+        "process sigma",
+        "crease tear"
+      ]
+    },
+    "78": {
+      "titulo": "Increasing Productivity Through Implementation of 5S Methodology In A Manufacturing Industry A Case Study",
+      "anio": 2021,
+      "fase": "Hacer",
+      "temas": [
+        "Costos de calidad y desperdicio",
+        "Desempeño operacional",
+        "Lean manufacturing"
+      ],
+      "palabras_clave": [
+        "5s",
+        "work organization",
+        "manufacturing productivity",
+        "lean manufacturing",
+        "manufacturing industry",
+        "implementation 5s",
+        "jul 2021",
+        "2021 ijsrm",
+        "ijsrm right",
+        "vol.7 issue.7",
+        "employee worker",
+        "int sci",
+        "sci res",
+        "res multidisciplinary",
+        "study vol.7"
+      ]
+    },
+    "79": {
+      "titulo": "IMPLEMENTATION OF LEAN MANUFACTURING TOOL 5S TO IMPROVE PRODUCTIVITY IN BTIRT CAMPUS",
+      "anio": 2019,
+      "fase": "Hacer",
+      "temas": [
+        "Costos de calidad y desperdicio",
+        "Desempeño operacional",
+        "Kaizen / Mejora continua",
+        "Lean manufacturing",
+        "Six Sigma",
+        "Sostenibilidad",
+        "TQM / Calidad total"
+      ],
+      "palabras_clave": [
+        "5s",
+        "lean manufacturing",
+        "productivity improvement",
+        "higher education institutions",
+        "waste reduction",
+        "total quality management",
+        "just-in-time production",
+        "implementation 5s",
+        "higher education",
+        "increase arrangement",
+        "education institute",
+        "5s increase",
+        "technology 2019",
+        "2019 issue",
+        "2455 2143",
+        "2143 page",
+        "55 62"
+      ]
+    },
+    "80": {
+      "titulo": "IMPLEMENTATION OF 5S IN A MANUFACTURING COMPANY",
+      "anio": 2023,
+      "fase": "Hacer",
+      "temas": [
+        "Desempeño operacional",
+        "Kaizen / Mejora continua"
+      ],
+      "palabras_clave": [
+        "5s",
+        "work organization",
+        "continuous improvement",
+        "manufacturing companies",
+        "small business",
+        "occupational safety",
+        "quality improvement",
+        "production performance",
+        "www irjmet",
+        "irjmet com",
+        "journal modernization",
+        "modernization engineering",
+        "technology science",
+        "2582 5208",
+        "5208 international",
+        "science peer",
+        "reviewed open",
+        "access fully"
+      ]
+    },
+    "81": {
+      "titulo": "Implementation of Statistical Process Control and Failure Mode and Effect Analysis for Quality Control of Steel Plate Products",
+      "anio": 2025,
+      "fase": "Verificar",
+      "temas": [
+        "Análisis de causa raíz (Pareto, Ishikawa, 8D)",
+        "Control estadístico de procesos (SPC)",
+        "Costos de calidad y desperdicio",
+        "Six Sigma"
+      ],
+      "palabras_clave": [
+        "statistical process control",
+        "failure mode and effects analysis",
+        "steel plate quality",
+        "risk priority number",
+        "production process stability",
+        "quality control",
+        "failure mode",
+        "steel plate",
+        "wavy edge",
+        "control failure",
+        "0.0323 0.0429",
+        "0.0429 0.0216",
+        "0.0125 0.0192",
+        "0.0192 0.0058",
+        "mode effect",
+        "wve defect"
+      ]
+    },
+    "82": {
+      "titulo": "Design and Implementation of a Management Model with a Focus on the Operator to Improve Productivity in the Steel Industry",
+      "anio": 2025,
+      "fase": "Hacer",
+      "temas": [
+        "Análisis de causa raíz (Pareto, Ishikawa, 8D)",
+        "Costos de calidad y desperdicio",
+        "Desempeño operacional",
+        "Kaizen / Mejora continua",
+        "Lean manufacturing",
+        "Liderazgo y cultura organizacional",
+        "PYMES",
+        "Sector automotriz",
+        "Six Sigma",
+        "Sostenibilidad",
+        "TPM / Mantenimiento"
+      ],
+      "palabras_clave": [
+        "management model",
+        "operator involvement",
+        "productivity improvement",
+        "steel industry",
+        "human resource management",
+        "production management",
+        "post test",
+        "operator focused",
+        "focused management",
+        "pre test",
+        "publisher link",
+        "scholar publisher",
+        "crossref google",
+        "implementation operator",
+        "fernando sierra",
+        "11 64"
+      ]
+    },
+    "83": {
+      "titulo": "Application of Statistical Quality Control Tools for Analyzing and Improving Rebar Manufacturing Processes: A Case Study of Zliten Iron and Steel Factory",
+      "anio": 2025,
+      "fase": "Verificar",
+      "temas": [
+        "Control estadístico de procesos (SPC)",
+        "Costos de calidad y desperdicio",
+        "Sostenibilidad"
+      ],
+      "palabras_clave": [
+        "statistical quality control",
+        "steel reinforcing bars",
+        "x-bar and r control charts",
+        "process stability",
+        "quality improvement",
+        "concrete structures",
+        "defect reduction",
+        "13.9 14.0",
+        "zliten iron",
+        "iron steel",
+        "14.0 14.1",
+        "edu ly",
+        "steel factory",
+        "13.8 13.9",
+        "14.1 14.0",
+        "sqc technique",
+        "tuje open"
+      ]
+    },
+    "85": {
+      "titulo": "Quality audits as tools for improving production processes in manufacturing enterprises",
+      "anio": 2026,
+      "fase": "Verificar",
+      "temas": [
+        "Barreras y retos de implementación",
+        "ISO 9001 / Sistema de gestión de calidad",
+        "Kaizen / Mejora continua",
+        "Sostenibilidad",
+        "TQM / Calidad total"
+      ],
+      "palabras_clave": [
+        "quality audit",
+        "manufacturing companies",
+        "production process improvement",
+        "total quality management",
+        "product audit",
+        "corrective actions",
+        "process standardization",
+        "employee resistance",
+        "continuous improvement",
+        "audit practice",
+        "entrepreneurship sustainability",
+        "http jssidoi",
+        "jssidoi org",
+        "org 10.9770",
+        "10.9770 h8339354777",
+        "issn 2345",
+        "2345 0282"
+      ]
+    },
+    "86": {
+      "titulo": "Quality management system audit and risk management",
+      "anio": 2024,
+      "fase": "Verificar",
+      "temas": [
+        "Ciclo PHVA / PDCA",
+        "ISO 9001 / Sistema de gestión de calidad"
+      ],
+      "palabras_clave": [
+        "quality management systems",
+        "management system auditing",
+        "risk analysis",
+        "risk management",
+        "history of auditing",
+        "management system certification",
+        "international standards",
+        "risk opportunity",
+        "management system",
+        "opportunity management",
+        "system audit",
+        "zawierucha koz",
+        "koz owska",
+        "party audit",
+        "iso 19011",
+        "risk analysi",
+        "audit carried"
+      ]
+    },
+    "87": {
+      "titulo": "Improving Production Efficiency Using Kaizen Techniques: A Study on Continuous Improvement Practices in Indian Manufacturing Industries",
+      "anio": 2026,
+      "fase": "Actuar",
+      "temas": [
+        "Análisis de causa raíz (Pareto, Ishikawa, 8D)",
+        "Barreras y retos de implementación",
+        "Costos de calidad y desperdicio",
+        "Desempeño operacional",
+        "Kaizen / Mejora continua",
+        "Lean manufacturing",
+        "Liderazgo y cultura organizacional",
+        "PYMES",
+        "Sector automotriz",
+        "Sostenibilidad"
+      ],
+      "palabras_clave": [
+        "kaizen",
+        "continuous improvement",
+        "production efficiency",
+        "lean manufacturing",
+        "5s",
+        "value stream mapping",
+        "smed",
+        "poka-yoke",
+        "kanban",
+        "waste elimination",
+        "indian manufacturing",
+        "automotive industry",
+        "pharmaceutical industry",
+        "resistance to change",
+        "overall equipment effectiveness",
+        "productivity",
+        "impact factor",
+        "sj impact",
+        "factor 7.538",
+        "kaizen adoption",
+        "issue iv",
+        "iv apr",
+        "apr 2026",
+        "2026 available",
+        "kaizen event"
+      ]
+    },
+    "88": {
+      "titulo": "Kaizen a Tool for Continuous Quality Improvement in Indian Manufacturing Organization",
+      "anio": 2019,
+      "fase": "Actuar",
+      "temas": [
+        "Análisis de causa raíz (Pareto, Ishikawa, 8D)",
+        "Ciclo PHVA / PDCA",
+        "Kaizen / Mejora continua",
+        "Lean manufacturing",
+        "PYMES",
+        "Sector automotriz",
+        "Sector plásticos"
+      ],
+      "palabras_clave": [
+        "kaizen",
+        "continuous quality improvement",
+        "automotive manufacturing",
+        "defect analysis",
+        "root cause analysis",
+        "quality control tools",
+        "pareto diagram",
+        "check sheet",
+        "histograms",
+        "lean manufacturing",
+        "mathematical engineering",
+        "journal mathematical",
+        "case organization",
+        "science 452",
+        "452 459",
+        "459 2019",
+        "org 10.33889",
+        "10.33889 ijmems.2019",
+        "ijmems.2019 4.2",
+        "4.2 037"
+      ]
+    },
+    "89": {
+      "titulo": "Continuous Improvement Through Kaizen In An Automotive Industry",
+      "anio": 2020,
+      "fase": "Actuar",
+      "temas": [
+        "Ciclo PHVA / PDCA",
+        "Costos de calidad y desperdicio",
+        "Desempeño operacional",
+        "Kaizen / Mejora continua",
+        "Liderazgo y cultura organizacional",
+        "Proveedores y cadena de suministro",
+        "Sector automotriz",
+        "TPM / Mantenimiento"
+      ],
+      "palabras_clave": [
+        "kaizen",
+        "continuous improvement",
+        "automotive industry",
+        "gemba kaizen",
+        "organizational culture",
+        "employee mindset",
+        "productivity",
+        "cultural adaptation",
+        "cost reduction",
+        "delivery time reduction",
+        "quality improvement",
+        "kaizen culture",
+        "pt agp",
+        "conducted found",
+        "application kaizen",
+        "imai 1997",
+        "sga activity",
+        "kaizen activity",
+        "culture company",
+        "suggestion system"
+      ]
+    },
+    "90": {
+      "titulo": "Reduction of rejection of cylinder blocks in a casting unit: A six sigma DMAIC perspective",
+      "anio": 2019,
+      "fase": "Actuar",
+      "temas": [
+        "Análisis de causa raíz (Pareto, Ishikawa, 8D)",
+        "Costos de calidad y desperdicio",
+        "Lean manufacturing",
+        "Six Sigma"
+      ],
+      "palabras_clave": [
+        "casting defects",
+        "blowholes",
+        "defect reduction",
+        "six sigma dmaic",
+        "waste elimination",
+        "quality improvement",
+        "production process improvement",
+        "water jacket",
+        "blow hole",
+        "cylinder block",
+        "jacket core",
+        "pouring temperature",
+        "six sigma",
+        "overall rejection",
+        "sand moisture",
+        "cold box",
+        "sigma level"
+      ]
+    },
+    "91": {
+      "titulo": "Implementation, Advantages and Management of ISO 9001 in the Construction Industry",
+      "anio": 2020,
+      "fase": "Hacer",
+      "temas": [
+        "Costos de calidad y desperdicio",
+        "ISO 9001 / Sistema de gestión de calidad",
+        "Proveedores y cadena de suministro",
+        "TQM / Calidad total"
+      ],
+      "palabras_clave": [
+        "iso 9001",
+        "quality management systems",
+        "construction industry",
+        "construction companies",
+        "quality management implementation",
+        "job satisfaction",
+        "project acquisition",
+        "material waste reduction",
+        "global market access",
+        "9001 construction",
+        "construction project",
+        "construction firm",
+        "advantage implementation",
+        "implementation iso",
+        "journal june",
+        "construction company",
+        "basic aspect"
+      ]
+    },
+    "92": {
+      "titulo": "ISO 9001 Standard: Developing and Validating a Survey Instrument",
+      "anio": 2020,
+      "fase": "Planificar",
+      "temas": [
+        "Factores críticos de éxito",
+        "ISO 9001 / Sistema de gestión de calidad",
+        "Kaizen / Mejora continua",
+        "Lean Six Sigma",
+        "Lean manufacturing",
+        "Liderazgo y cultura organizacional",
+        "PYMES",
+        "Proveedores y cadena de suministro",
+        "Sector alimentos",
+        "Six Sigma",
+        "TQM / Calidad total"
+      ],
+      "palabras_clave": [
+        "iso 9001",
+        "quality management systems",
+        "success factors",
+        "questionnaire development",
+        "instrument validation",
+        "manufacturing companies",
+        "iso 9001:2015",
+        "quality management principles",
+        "customer satisfaction",
+        "mexican manufacturing",
+        "survey instrument",
+        "9001 standard",
+        "validating survey",
+        "developing validating",
+        "standard developing",
+        "volume 2020",
+        "lizarraga iso",
+        "degree industrial",
+        "sanchez lizarraga"
+      ]
+    },
+    "93": {
+      "titulo": "ISO 9001 aspects related to performance and their level of implementation",
+      "anio": 2016,
+      "fase": "Planificar",
+      "temas": [
+        "Desempeño operacional",
+        "ISO 9001 / Sistema de gestión de calidad",
+        "Kaizen / Mejora continua",
+        "Liderazgo y cultura organizacional",
+        "Proveedores y cadena de suministro",
+        "TQM / Calidad total"
+      ],
+      "palabras_clave": [
+        "iso 9001",
+        "quality management implementation",
+        "supplier quality management",
+        "wind turbine manufacturing",
+        "wind power industry",
+        "management commitment",
+        "organizational culture",
+        "component suppliers",
+        "wind farm operation and maintenance",
+        "10.3926 jiem.2072",
+        "org 10.3926",
+        "wind turbine",
+        "management http",
+        "level implementation",
+        "naveh marcu",
+        "http dx",
+        "dx org",
+        "iso 9000"
+      ]
+    },
+    "94": {
+      "titulo": "REASONS FOR TECHNOLOGY-BASED COMPANIES CONTEMPLATED BY THE FIRST COMPANY PROGRAM TO SEEK ISO 9001:2008 CERTIFICATION",
+      "anio": 2016,
+      "fase": "Planificar",
+      "temas": [
+        "ISO 9001 / Sistema de gestión de calidad"
+      ],
+      "palabras_clave": [
+        "iso 9001:2008",
+        "quality management systems",
+        "technology-based companies",
+        "business incubators",
+        "competitive advantage",
+        "product quality improvement",
+        "government funding",
+        "technology company",
+        "production ijm",
+        "ijm http",
+        "www ijmp",
+        "ijmp jor",
+        "jor br",
+        "br january",
+        "january march",
+        "issn 2236",
+        "2236 269x"
+      ]
+    },
+    "95": {
+      "titulo": "Factors Affecting Implementation of ISO 9001:2015 in Manufacturing Sector",
+      "anio": 2021,
+      "fase": "Planificar",
+      "temas": [
+        "Barreras y retos de implementación",
+        "ISO 9001 / Sistema de gestión de calidad",
+        "Liderazgo y cultura organizacional",
+        "Sector textil y confección"
+      ],
+      "palabras_clave": [
+        "iso 9001:2015",
+        "quality management systems",
+        "implementation barriers",
+        "top management commitment",
+        "manufacturing industry",
+        "2020 article",
+        "manufacture sector",
+        "textile industry",
+        "sector pakistan",
+        "education 2021",
+        "2021 58",
+        "58 883",
+        "883 888",
+        "888 interdisciplinary",
+        "article received"
+      ]
+    },
+    "96": {
+      "titulo": "ISO 9001:2015 adoption: A multi-country empirical research",
+      "anio": 2019,
+      "fase": "Planificar",
+      "temas": [
+        "Barreras y retos de implementación",
+        "Desempeño operacional",
+        "Gestión del conocimiento",
+        "ISO 9001 / Sistema de gestión de calidad",
+        "Liderazgo y cultura organizacional",
+        "PYMES",
+        "TQM / Calidad total"
+      ],
+      "palabras_clave": [
+        "iso 9001:2015",
+        "quality management systems",
+        "standard transition",
+        "risk-based thinking",
+        "certification bodies",
+        "top management commitment",
+        "knowledge management",
+        "cross-national comparison",
+        "portugal",
+        "romania",
+        "switzerland",
+        "turkey",
+        "external consultants",
+        "9001 2015",
+        "iso 9001",
+        "transition process",
+        "2015 transition",
+        "10.3926 jiem.2745",
+        "transition certification",
+        "information resource",
+        "org 10.3926",
+        "started working",
+        "http org"
+      ]
+    }
+  }
+}

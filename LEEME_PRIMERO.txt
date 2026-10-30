@@ -1,0 +1,75 @@
+=====================================================================
+  SIGMA - Asistente de gestion de calidad (ciclo PHVA)
+  Guia de instalacion para Windows 10 / 11
+=====================================================================
+
+Si bajaste esto de GitHub, primero copia .env.example como .env y pon tu clave
+de Groq (gratis en https://console.groq.com/keys) en GROQ_API_KEY=.
+Solo necesitas internet.
+
+
+---------------------------------------------------------------------
+ PASO 1 - Descomprimir
+---------------------------------------------------------------------
+Clic derecho sobre el .zip > "Extraer todo..." > Extraer.
+(No lo ejecutes desde adentro del zip sin extraerlo.)
+
+
+---------------------------------------------------------------------
+ PASO 2 - Instalar (solo la primera vez)
+---------------------------------------------------------------------
+Doble clic en:   INSTALAR.bat
+
+  - Si no tienes Python, lo instala solo (Python 3.12, con winget).
+  - Crea un entorno en la carpeta .venv e instala lo necesario.
+  - Al terminar abre Sigma en el navegador.
+
+Si Windows muestra "Windows protegio su PC": clic en "Mas informacion"
+y luego en "Ejecutar de todas formas".
+
+Si prefieres instalar Python a mano, abre PowerShell y escribe:
+
+    winget install -e --id Python.Python.3.12
+
+(o descargalo de https://www.python.org/downloads/ marcando la casilla
+"Add python.exe to PATH") y despues haz doble clic en INSTALAR.bat.
+
+
+---------------------------------------------------------------------
+ PASO 3 - Usar Sigma (las siguientes veces)
+---------------------------------------------------------------------
+Doble clic en:   INICIAR.bat
+
+Se abre http://localhost:8000 en el navegador.
+Deja abierta la ventana negra mientras uses Sigma; cerrarla apaga la IA.
+
+
+---------------------------------------------------------------------
+ OPCIONAL - Compartir un link para que otros la usen
+---------------------------------------------------------------------
+Con INICIAR.bat abierto, doble clic en:   COMPARTIR_LINK.bat
+
+Busca la linea que termina en  .lhr.life  (ejemplo:
+https://abc123.lhr.life) y comparte ese link. Funciona mientras las dos
+ventanas sigan abiertas y el PC encendido; cambia cada vez que lo abres.
+
+
+---------------------------------------------------------------------
+ COMO SE USA
+---------------------------------------------------------------------
+ - Escoge el modo abajo:
+     Rapido     respuesta corta basada en los articulos
+     Profundo   analiza y razona a fondo
+     Consultor  cuentale el caso de una empresa y te da un plan PHVA
+ - "Fuentes en linea" agrega articulos academicos recientes.
+ - El anillo de arriba a la derecha muestra cuanto cupo gratis queda
+   (8.000 tokens por minuto). Si se llena, espera unos segundos.
+
+
+---------------------------------------------------------------------
+ PROBLEMAS COMUNES
+---------------------------------------------------------------------
+ * "winget no se reconoce":  instala Python desde python.org (Paso 2).
+ * "El puerto 8000 esta en uso":  ya hay otro Sigma abierto; cierralo.
+ * La pagina no carga:  espera 5 segundos y recarga (F5).
+ * "llego a su limite por minuto":  espera unos segundos y reintenta.

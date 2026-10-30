@@ -1,0 +1,598 @@
+{
+  "_descripcion": "Términos en español -> equivalentes en inglés. Sirve para buscar en los artículos (en inglés) aunque la pregunta llegue en español. Se puede ampliar libremente.",
+  "terminos": {
+    "calidad": [
+      "quality"
+    ],
+    "gestion de calidad": [
+      "quality management"
+    ],
+    "gestion de la calidad": [
+      "quality management"
+    ],
+    "gerencia de calidad": [
+      "quality management"
+    ],
+    "sistema de gestion de calidad": [
+      "quality management system",
+      "qms",
+      "iso 9001"
+    ],
+    "calidad total": [
+      "total quality management",
+      "tqm"
+    ],
+    "control de calidad": [
+      "quality control"
+    ],
+    "aseguramiento de la calidad": [
+      "quality assurance"
+    ],
+    "control estadistico": [
+      "statistical process control",
+      "spc"
+    ],
+    "control estadistico de procesos": [
+      "statistical process control",
+      "spc"
+    ],
+    "mejora continua": [
+      "continuous improvement",
+      "kaizen"
+    ],
+    "manufactura esbelta": [
+      "lean manufacturing",
+      "lean"
+    ],
+    "produccion esbelta": [
+      "lean production",
+      "lean"
+    ],
+    "esbelta": [
+      "lean"
+    ],
+    "seis sigma": [
+      "six sigma"
+    ],
+    "lean seis sigma": [
+      "lean six sigma"
+    ],
+    "mantenimiento productivo total": [
+      "total productive maintenance",
+      "tpm"
+    ],
+    "mantenimiento": [
+      "maintenance"
+    ],
+    "cero defectos": [
+      "zero defect",
+      "zero-defect manufacturing"
+    ],
+    "defectos": [
+      "defects",
+      "defect"
+    ],
+    "defecto": [
+      "defect"
+    ],
+    "rechazos": [
+      "rejections",
+      "rejection"
+    ],
+    "desperdicio": [
+      "waste"
+    ],
+    "desperdicios": [
+      "waste",
+      "muda"
+    ],
+    "reproceso": [
+      "rework"
+    ],
+    "retrabajo": [
+      "rework"
+    ],
+    "costos de calidad": [
+      "cost of quality",
+      "failure cost"
+    ],
+    "costo": [
+      "cost"
+    ],
+    "costos": [
+      "costs",
+      "cost"
+    ],
+    "productividad": [
+      "productivity"
+    ],
+    "eficiencia": [
+      "efficiency"
+    ],
+    "desempeno": [
+      "performance"
+    ],
+    "rendimiento": [
+      "performance"
+    ],
+    "desempeno operacional": [
+      "operational performance"
+    ],
+    "barreras": [
+      "barriers"
+    ],
+    "barrera": [
+      "barrier"
+    ],
+    "obstaculos": [
+      "barriers",
+      "challenges"
+    ],
+    "desafios": [
+      "challenges"
+    ],
+    "retos": [
+      "challenges"
+    ],
+    "factores criticos de exito": [
+      "critical success factors"
+    ],
+    "factores de exito": [
+      "success factors"
+    ],
+    "implementacion": [
+      "implementation",
+      "adoption"
+    ],
+    "implementar": [
+      "implement",
+      "implementation"
+    ],
+    "adopcion": [
+      "adoption"
+    ],
+    "pymes": [
+      "sme",
+      "smes",
+      "small and medium enterprises"
+    ],
+    "pyme": [
+      "sme",
+      "small and medium enterprises"
+    ],
+    "pequenas y medianas empresas": [
+      "small and medium enterprises",
+      "smes"
+    ],
+    "mipymes": [
+      "msme",
+      "msmes"
+    ],
+    "industria manufacturera": [
+      "manufacturing industry"
+    ],
+    "manufactura": [
+      "manufacturing"
+    ],
+    "fabricacion": [
+      "manufacturing"
+    ],
+    "industria 4.0": [
+      "industry 4.0"
+    ],
+    "calidad 4.0": [
+      "quality 4.0"
+    ],
+    "inteligencia artificial": [
+      "artificial intelligence",
+      "ai"
+    ],
+    "aprendizaje automatico": [
+      "machine learning"
+    ],
+    "analitica predictiva": [
+      "predictive analytics"
+    ],
+    "big data": [
+      "big data"
+    ],
+    "datos": [
+      "data"
+    ],
+    "causa raiz": [
+      "root cause",
+      "root cause analysis"
+    ],
+    "analisis de causa raiz": [
+      "root cause analysis"
+    ],
+    "diagrama de pareto": [
+      "pareto"
+    ],
+    "pareto": [
+      "pareto"
+    ],
+    "ishikawa": [
+      "ishikawa",
+      "fishbone"
+    ],
+    "espina de pescado": [
+      "fishbone",
+      "ishikawa"
+    ],
+    "8d": [
+      "8d"
+    ],
+    "ciclo phva": [
+      "pdca",
+      "plan do check act"
+    ],
+    "phva": [
+      "pdca"
+    ],
+    "ciclo deming": [
+      "pdca",
+      "deming"
+    ],
+    "planificar": [
+      "plan",
+      "planning"
+    ],
+    "planeacion": [
+      "planning"
+    ],
+    "hacer": [
+      "do",
+      "implementation"
+    ],
+    "verificar": [
+      "check",
+      "assessment",
+      "monitoring"
+    ],
+    "actuar": [
+      "act",
+      "improvement"
+    ],
+    "norma iso": [
+      "iso 9001"
+    ],
+    "iso": [
+      "iso 9001"
+    ],
+    "certificacion": [
+      "certification"
+    ],
+    "auditoria": [
+      "audit"
+    ],
+    "liderazgo": [
+      "leadership"
+    ],
+    "alta direccion": [
+      "top management",
+      "management commitment"
+    ],
+    "compromiso": [
+      "commitment"
+    ],
+    "empleados": [
+      "employees",
+      "workforce"
+    ],
+    "trabajadores": [
+      "workers",
+      "employees"
+    ],
+    "capacitacion": [
+      "training"
+    ],
+    "formacion": [
+      "training"
+    ],
+    "cultura": [
+      "culture"
+    ],
+    "cultura organizacional": [
+      "organizational culture"
+    ],
+    "gestion del conocimiento": [
+      "knowledge management"
+    ],
+    "proveedores": [
+      "suppliers",
+      "supplier"
+    ],
+    "cadena de suministro": [
+      "supply chain"
+    ],
+    "cliente": [
+      "customer"
+    ],
+    "clientes": [
+      "customers",
+      "customer"
+    ],
+    "satisfaccion del cliente": [
+      "customer satisfaction"
+    ],
+    "valor agregado": [
+      "value added"
+    ],
+    "sostenibilidad": [
+      "sustainability",
+      "sustainable"
+    ],
+    "sostenible": [
+      "sustainable"
+    ],
+    "manufactura verde": [
+      "green manufacturing"
+    ],
+    "medio ambiente": [
+      "environmental"
+    ],
+    "paises en desarrollo": [
+      "developing countries",
+      "emerging economy"
+    ],
+    "economias emergentes": [
+      "emerging economy"
+    ],
+    "automotriz": [
+      "automotive",
+      "automobile"
+    ],
+    "automoviles": [
+      "automotive",
+      "automobile",
+      "car"
+    ],
+    "textil": [
+      "textile",
+      "apparel"
+    ],
+    "confeccion": [
+      "apparel",
+      "garment"
+    ],
+    "alimentos": [
+      "food"
+    ],
+    "alimentaria": [
+      "food industry"
+    ],
+    "calzado": [
+      "footwear"
+    ],
+    "plastico": [
+      "plastic"
+    ],
+    "madera": [
+      "wood"
+    ],
+    "muebles": [
+      "furniture"
+    ],
+    "vidrio": [
+      "glass"
+    ],
+    "forja": [
+      "forging"
+    ],
+    "relojes": [
+      "watch"
+    ],
+    "ensamble": [
+      "assembly"
+    ],
+    "linea de ensamble": [
+      "assembly line"
+    ],
+    "arneses": [
+      "wire harness"
+    ],
+    "inspeccion": [
+      "inspection"
+    ],
+    "metodologia": [
+      "methodology",
+      "framework"
+    ],
+    "modelo": [
+      "model",
+      "framework"
+    ],
+    "marco": [
+      "framework"
+    ],
+    "estrategia": [
+      "strategy"
+    ],
+    "beneficios": [
+      "benefits"
+    ],
+    "ventajas": [
+      "benefits",
+      "advantages"
+    ],
+    "resultados": [
+      "results",
+      "findings"
+    ],
+    "hallazgos": [
+      "findings"
+    ],
+    "encuesta": [
+      "survey",
+      "questionnaire"
+    ],
+    "estudio de caso": [
+      "case study"
+    ],
+    "revision sistematica": [
+      "systematic literature review"
+    ],
+    "revision de literatura": [
+      "literature review"
+    ],
+    "herramientas": [
+      "tools"
+    ],
+    "herramientas lean": [
+      "lean tools",
+      "5s",
+      "value stream mapping",
+      "kanban"
+    ],
+    "mapa de flujo de valor": [
+      "value stream mapping",
+      "vsm"
+    ],
+    "justo a tiempo": [
+      "just-in-time",
+      "jit"
+    ],
+    "estandarizacion": [
+      "standardization",
+      "standard work"
+    ],
+    "indicadores": [
+      "indicators",
+      "kpi",
+      "metrics"
+    ],
+    "medicion": [
+      "measurement"
+    ],
+    "variabilidad": [
+      "variability",
+      "variation"
+    ],
+    "capacidad de proceso": [
+      "process capability"
+    ],
+    "fallas": [
+      "failures",
+      "failure"
+    ],
+    "falla": [
+      "failure"
+    ],
+    "riesgo": [
+      "risk"
+    ],
+    "riesgos": [
+      "risks",
+      "risk"
+    ],
+    "competitividad": [
+      "competitiveness"
+    ],
+    "innovacion": [
+      "innovation"
+    ],
+    "digitalizacion": [
+      "digitalization",
+      "digital transformation"
+    ],
+    "transformacion digital": [
+      "digital transformation"
+    ],
+    "barras metalicas": [
+      "steel bar",
+      "metal bar"
+    ],
+    "barras": [
+      "bar",
+      "steel bar"
+    ],
+    "acero": [
+      "steel"
+    ],
+    "varilla": [
+      "rebar",
+      "steel bar"
+    ],
+    "laminacion": [
+      "rolling mill",
+      "hot rolling"
+    ],
+    "laminado": [
+      "rolling"
+    ],
+    "trefilado": [
+      "wire drawing"
+    ],
+    "fundicion": [
+      "casting",
+      "foundry"
+    ],
+    "metalmecanica": [
+      "metalworking",
+      "metal manufacturing"
+    ],
+    "metalurgica": [
+      "metallurgical",
+      "steel industry"
+    ],
+    "certificarnos": [
+      "certification",
+      "iso 9001 certification"
+    ],
+    "certificar": [
+      "certification"
+    ],
+    "certificarse": [
+      "certification"
+    ],
+    "auditoria interna": [
+      "internal audit"
+    ],
+    "accion correctiva": [
+      "corrective action"
+    ],
+    "acciones correctivas": [
+      "corrective action"
+    ],
+    "no conformidad": [
+      "nonconformity"
+    ],
+    "no conformidades": [
+      "nonconformity"
+    ],
+    "procedimientos estandarizados": [
+      "standard operating procedures",
+      "sop"
+    ],
+    "trabajo estandar": [
+      "standard work"
+    ],
+    "instructivos": [
+      "work instructions",
+      "standard operating procedures"
+    ],
+    "estandarizar": [
+      "standardization",
+      "standardize"
+    ],
+    "trazabilidad": [
+      "traceability"
+    ],
+    "gestion documental": [
+      "document control",
+      "documented information"
+    ],
+    "revision por la direccion": [
+      "management review"
+    ],
+    "analisis de brechas": [
+      "gap analysis"
+    ],
+    "diagnostico": [
+      "diagnosis",
+      "gap analysis",
+      "assessment"
+    ]
+  }
+}

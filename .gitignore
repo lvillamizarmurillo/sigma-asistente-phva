@@ -1,0 +1,19 @@
+# Secretos: nunca subir claves
+.env
+.env.*
+!.env.example
+
+# Dependencias y archivos generados
+.venv/
+venv/
+__pycache__/
+*.pyc
+.vercel/
+*.zip
+
+# Configuración local de la herramienta
+.claude/
+
+# PDFs y textos completos descargados (tienen derechos de autor; se vuelven a obtener con scripts/descargar.py)
+documentos/
+*.pdf

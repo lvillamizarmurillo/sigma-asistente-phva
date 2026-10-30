@@ -1,0 +1,292 @@
+{
+  "1": {
+    "fase": "Planificar",
+    "barrera": "Las pymes manufactureras nigerianas presentaron productos de baja calidad y por debajo del estándar por falta de conocimiento técnico, asociada a la ausencia de despliegue de lean manufacturing.",
+    "conclusion": "La revisión de literatura identificó las perspectivas y los desafíos del despliegue de lean manufacturing en pymes manufactureras para mejorar su competitividad local y global."
+  },
+  "2": {
+    "fase": "Planificar",
+    "barrera": "Las pymes manufactureras de países en desarrollo presentaron ineficiencias por recursos limitados, escasez de habilidades y barreras institucionales al implementar Lean.",
+    "conclusion": "La revisión sistemática (PRISMA 2020) encontró que la evidencia sobre la aplicación sostenida de Lean en pymes de distintos contextos fue limitada."
+  },
+  "3": {
+    "fase": "Planificar",
+    "barrera": "El sector manufacturero indio encontró obstáculos para desplegar Calidad 4.0 al integrar tecnologías de Industria 4.0 en sus sistemas de gestión de calidad.",
+    "conclusion": "El estudio examinó a fondo las barreras de adopción de Calidad 4.0 y aportó implicaciones para la industria y la academia."
+  },
+  "4": {
+    "fase": "Planificar",
+    "barrera": "La industria del calzado presentó desperdicio excesivo de materia prima, reprocesos y control de calidad inadecuado, y la adopción de Calidad 4.0 estuvo limitada por diversas barreras.",
+    "conclusion": "Mediante un enfoque difuso intuicionista se evaluaron las barreras de adopción de Calidad 4.0, con implicaciones para la sostenibilidad y la competitividad del sector."
+  },
+  "5": {
+    "fase": "Planificar",
+    "barrera": "La implementación efectiva de la gestión de calidad total (TQM) en empresas medianas de servicios y de manufactura estuvo limitada por varias barreras.",
+    "conclusion": "El estudio comparó las barreras de la TQM entre empresas medianas de servicios y de manufactura."
+  },
+  "6": {
+    "fase": "Planificar",
+    "barrera": "Existió la percepción de que Six Sigma solo era viable para grandes empresas por su capacidad financiera, lo que limitó su adopción en pymes manufactureras.",
+    "conclusion": "El artículo identificó las barreras de implementación de Six Sigma en pymes y señaló que también podía aplicarse allí con buenos resultados.",
+    "problema_tabla2": "En las pymes se cree que Six Sigma solo es viable para grandes empresas por su capacidad financiera, lo que limita su adopción.",
+    "solucion": "Reconocer que Six Sigma también puede aplicarse en pymes con buenos resultados y superar las barreras de implementación identificadas. Un agente conversacional podría ofrecer orientación accesible sobre su uso."
+  },
+  "7": {
+    "fase": "Planificar",
+    "barrera": "La adopción de lean manufacturing en la industria de madera y muebles de economías emergentes fue poco prometedora por la existencia de barreras.",
+    "conclusion": "El modelo de ecuaciones estructurales aplicado a 131 empresas reveló relaciones sinérgicas entre las barreras de implementación de lean."
+  },
+  "8": {
+    "fase": "Planificar",
+    "barrera": "Las pymes manufactureras serbias tuvieron dificultades para implementar Lean por falta de recursos e inercia organizacional.",
+    "conclusion": "La encuesta a 54 empresas manufactureras permitió analizar el nivel de aplicación de Lean y proponer un marco estratégico de implementación.",
+    "problema_tabla2": "Las pymes manufactureras carecen de recursos y presentan inercia organizacional para implementar Lean.",
+    "solucion": "Analizar el nivel de aplicación de Lean y seguir un marco estratégico de implementación. Un agente conversacional podría ofrecer ese marco como consulta inmediata para el personal."
+  },
+  "9": {
+    "fase": "Planificar",
+    "barrera": "Las pymes textiles de Cundinamarca (Colombia) enfrentaron dificultades para aplicar la filosofía Lean en sus sistemas productivos.",
+    "conclusion": "Se construyó un modelo de Lean Manufacturing adaptado a las pymes textiles a partir de la caracterización de 31 empresas, con impacto positivo para el sector.",
+    "problema_tabla2": "Las pymes textiles tienen dificultades para aplicar la filosofía Lean en sus sistemas productivos.",
+    "solucion": "Construir un modelo de Lean Manufacturing adaptado a las pymes, a partir de la caracterización de las empresas y con una estructura metodológica. Un agente conversacional podría guiar paso a paso al personal en la aplicación de ese modelo."
+  },
+  "10": {
+    "fase": "Planificar",
+    "barrera": "Las pymes necesitaron identificar los factores críticos de éxito para implementar Lean 4.0 de acuerdo con las exigencias de la Industria 4.0.",
+    "conclusion": "Un panel de expertos de pymes seleccionó 22 factores críticos de éxito de Lean 4.0 y los modeló para guiar implementaciones exitosas.",
+    "problema_tabla2": "Las pymes no tienen claro qué factores son críticos para que Lean 4.0 tenga éxito.",
+    "solucion": "Usar los 22 factores críticos de éxito seleccionados por un panel de expertos como guía de implementación. Un agente conversacional podría presentarlos como lista de verificación para el equipo."
+  },
+  "11": {
+    "fase": "Planificar",
+    "barrera": "La implementación de la TQM en la industria manufacturera estuvo condicionada por factores como el compromiso del liderazgo.",
+    "conclusion": "La revisión de literatura identificó los factores críticos que influyeron en la implementación de la TQM en manufactura."
+  },
+  "12": {
+    "fase": "Planificar",
+    "barrera": "La empresa debía mejorar continuamente la calidad y la competitividad para satisfacer al cliente, y requirió diseñar un sistema de gestión de calidad (SGC) conforme a ISO 9001:2015.",
+    "conclusion": "Se diseñó un SGC con base en ISO 9001:2015 y en los resultados de un análisis de brechas."
+  },
+  "13": {
+    "fase": "Planificar",
+    "barrera": "La industria manufacturera tanzana debía evaluar su conocimiento y su preparación para la transición hacia Calidad 4.0.",
+    "conclusion": "A partir de encuestas a profesionales se desarrolló un marco de transición a Calidad 4.0 para la manufactura tanzana.",
+    "problema_tabla2": "La manufactura no evalúa su conocimiento ni su preparación para pasar a Calidad 4.0.",
+    "solucion": "Evaluar el conocimiento y la preparación del personal mediante encuestas y adoptar un marco de transición a Calidad 4.0. Un agente conversacional podría apoyar la capacitación durante esa transición."
+  },
+  "14": {
+    "fase": "Hacer",
+    "barrera": "Las pymes del sector plástico presentaron baja disponibilidad de máquinas, tiempos de alistamiento prolongados y altas tasas de defectos.",
+    "conclusion": "Se propuso un modelo Lean-TPM para mejorar la eficiencia y la calidad, que redujo la brecha entre teoría y práctica y pudo replicarse en otras pymes.",
+    "problema_tabla2": "Las pymes del sector plástico tienen baja disponibilidad de máquinas, tiempos de alistamiento prolongados y altas tasas de defectos.",
+    "solucion": "Aplicar un modelo Lean-TPM que mejora la eficiencia y la calidad y que puede replicarse en otras pymes. Un agente conversacional podría apoyar la consulta de las acciones de mantenimiento y alistamiento."
+  },
+  "15": {
+    "fase": "Hacer",
+    "barrera": "Una planta de arneses de cables presentó rechazos y costos de falla por el problema de liberación del seguro de la banda.",
+    "conclusion": "El enfoque kaizen y el control estadístico permitieron hallar la causa raíz y generaron un ahorro de 535,20 USD anuales, además de otros beneficios.",
+    "problema_tabla2": "Una planta de arneses de cables presenta rechazos y costos de falla por el problema de liberación del seguro de la banda.",
+    "solucion": "Aplicar kaizen y control estadístico para hallar la causa raíz, lo que generó un ahorro de 535,20 USD anuales. Un agente conversacional podría guiar al personal en el uso de estas herramientas."
+  },
+  "16": {
+    "fase": "Hacer",
+    "barrera": "Un fabricante de componentes de escape presentó 3,18 % de piezas defectuosas (de 184.708 producidas en seis meses), lo que afectó su productividad y competitividad.",
+    "conclusion": "El nivel sigma fue 4 y se recomendó implementar procedimientos estandarizados (SOP), capacitación, mantenimiento y 5S para reducir defectos.",
+    "problema_tabla2": "Un fabricante de componentes de escape presenta 3,18 % de piezas defectuosas, lo que afecta su productividad y su competitividad.",
+    "solucion": "Implementar procedimientos estandarizados (SOP), capacitación, mantenimiento y 5S para reducir defectos. Un agente conversacional podría entregar los SOP al operario en el momento en que los necesita."
+  },
+  "17": {
+    "fase": "Hacer",
+    "barrera": "La implementación de lean manufacturing en la industria de madera y muebles enfrentó desafíos de despliegue.",
+    "conclusion": "El estudio analizó las relaciones entre tres desafíos y propuso actividades para superarlos."
+  },
+  "18": {
+    "fase": "Hacer",
+    "barrera": "Se examinó el nivel de conocimiento de las pymes de Uttar Pradesh sobre las prácticas Lean y los desafíos que enfrentaron al implementarlas.",
+    "conclusion": "El estudio destacó las mejoras que podían lograrse con Lean y su aporte a la eficiencia y la competitividad de las pymes."
+  },
+  "19": {
+    "fase": "Hacer",
+    "barrera": "En las pymes de confección sudafricanas, las empresas más pequeñas presentaron falta de apoyo gerencial, recursos limitados y vacíos de conocimiento al aplicar Lean.",
+    "conclusion": "El análisis comparativo ofreció recomendaciones para fomentar la adopción de Lean, reducir desperdicios y sostener la mejora continua."
+  },
+  "20": {
+    "fase": "Hacer",
+    "barrera": "Las pymes marroquíes tuvieron dificultades para implementar la producción lean, principalmente por mala gestión y por falta de recursos financieros, seguimiento y mano de obra calificada.",
+    "conclusion": "El análisis de componentes principales mostró que la mala gestión explicó 63,6 % de la varianza, y la falta de recursos, seguimiento y personal calificado, 7,7 %."
+  },
+  "21": {
+    "fase": "Hacer",
+    "barrera": "Una empresa automotriz indonesia presentó problemas de control de calidad, ya que no existía un sistema único adecuado para todos los entornos de manufactura.",
+    "conclusion": "Los entrevistados sugirieron enfocar la mejora de la calidad en la tecnología digital, y se destacó la importancia de la mejora continua.",
+    "problema_tabla2": "Una empresa automotriz tiene problemas de control de calidad, porque no existe un sistema único adecuado para todos los entornos de manufactura.",
+    "solucion": "Enfocar la mejora de la calidad en la tecnología digital y sostener la mejora continua, como sugirieron los entrevistados. Un agente conversacional es una herramienta digital que encaja en esa línea."
+  },
+  "22": {
+    "fase": "Hacer",
+    "barrera": "Las mipymes de confección presentaron defectos críticos de fabricación cuyas causas raíz debían identificarse y priorizarse.",
+    "conclusion": "Se integraron prácticas de gestión de calidad con decisión multicriterio; la mejora sostenible exigió combinar herramientas técnicas con mecanismos sociales (capacitación, participación y comunicación visual)."
+  },
+  "23": {
+    "fase": "Hacer",
+    "barrera": "Una vidriera presentó defectos de fabricación en envases de vidrio que afectaron la calidad exigida por los compradores.",
+    "conclusion": "Se identificaron los defectos, sus causas y efectos, y se propuso una nueva organización del trabajo en el área de control de calidad."
+  },
+  "24": {
+    "fase": "Hacer",
+    "barrera": "Las líneas de ensamble automotriz presentaron restricciones de productividad asociadas a máquinas, fuerza laboral, flujo de materiales y control de calidad.",
+    "conclusion": "El estudio empírico, basado en cuestionarios, mostró estas limitaciones y advirtió que los resultados debían generalizarse con cautela."
+  },
+  "25": {
+    "fase": "Hacer",
+    "barrera": "La implementación de lean en la industria alimentaria falló por la aplicación superpuesta de herramientas y por la confusión sobre dónde ubicar el sistema de calidad o el control de calidad.",
+    "conclusion": "Incluir el control de calidad dentro del sistema de calidad medió de forma óptima la relación entre lean y el desempeño operativo.",
+    "problema_tabla2": "En la industria alimentaria, la aplicación superpuesta de herramientas lean y la confusión sobre dónde ubicar el control de calidad hacen fallar la implementación.",
+    "solucion": "Incluir el control de calidad dentro del sistema de calidad, lo que medió de forma óptima la relación entre lean y el desempeño operativo. Un agente conversacional podría centralizar la consulta de procedimientos en un solo punto."
+  },
+  "26": {
+    "fase": "Hacer",
+    "barrera": "Las pymes productoras de tempe presentaron altos costos de producción por desperdicios y baja eficiencia de los procesos.",
+    "conclusion": "El modelo Lean-Green redujo el defecto de 4,7 % a 1,5 % y el tiempo total de procesamiento de 2.605 a 1.332 minutos."
+  },
+  "27": {
+    "fase": "Verificar",
+    "barrera": "La producción debía mantener una variación aceptable respecto al índice de calidad, y el éxito del control estadístico de procesos (SPC) dependió de factores organizacionales.",
+    "conclusion": "La revisión PRISMA indicó que el SPC tuvo éxito cuando la gerencia, la capacitación, la cultura y el recurso humano estaban preparados.",
+    "problema_tabla2": "El control estadístico de procesos (SPC) solo tiene éxito si la organización está preparada para implementarlo.",
+    "solucion": "Asegurar el compromiso de la gerencia, la capacitación, la cultura y el recurso humano antes de implementar SPC. Un agente conversacional podría apoyar la capacitación del personal."
+  },
+  "28": {
+    "fase": "Verificar",
+    "barrera": "El sector manufacturero egipcio contaba con poca evidencia sobre sus prácticas y su desempeño de calidad, y sobre los habilitadores y barreras de la TQM.",
+    "conclusion": "La encuesta a 193 profesionales evaluó el desempeño de calidad con el marco de Flynn y mostró el estado de las iniciativas TQM, sus habilitadores y barreras."
+  },
+  "29": {
+    "fase": "Verificar",
+    "barrera": "Las pymes enfrentaron desafíos al adoptar inteligencia artificial en el control de calidad.",
+    "conclusion": "Los pilotos permitieron analizar la interacción humano-IA y los beneficios logrados, y derivar guías prácticas para las pymes.",
+    "problema_tabla2": "Las pymes enfrentan desafíos al adoptar inteligencia artificial en el control de calidad.",
+    "solucion": "Realizar pilotos que analicen la interacción humano-IA y derivar guías prácticas para las pymes. Este estudio aporta evidencia directa para el diseño del agente conversacional."
+  },
+  "30": {
+    "fase": "Verificar",
+    "barrera": "Una empresa de dulces presentó tres tipos de defectos (caramelo blando, caramelo roto y defectos de empaque), con 53,89 % de caramelo roto.",
+    "conclusion": "Los resultados indicaron la necesidad de una planeación de control de calidad más intensa; el diagrama de pescado sirvió de referencia para el plan."
+  },
+  "31": {
+    "fase": "Verificar",
+    "barrera": "La manufactura tradicional enfrentó el impacto del big data y la necesidad de métodos innovadores de gestión de calidad.",
+    "conclusion": "El estudio exploró un esquema de optimización digital e inteligente de la gestión de calidad y aportó experiencia para otras empresas."
+  },
+  "32": {
+    "fase": "Verificar",
+    "barrera": "La implementación de ISO 9001 en la manufactura de países en desarrollo, como la automotriz de Indonesia, estaba poco investigada.",
+    "conclusion": "Se examinó la relación entre ISO 9001:2015 y el desempeño de las empresas, destacando elegir las estrategias correctas y asignar recursos suficientes."
+  },
+  "33": {
+    "fase": "Verificar",
+    "barrera": "En la manufactura de frenos automotrices, defectos raros (1,20 % de 25.756 registros) pasaron los controles de calidad establecidos.",
+    "conclusion": "El marco de Calidad 4.0 alcanzó un ROC-AUC de 0,975 y aportó capacidad predictiva a los sistemas de control de calidad existentes.",
+    "problema_tabla2": "En la manufactura de frenos automotrices, defectos raros (1,20 % de 25.756 registros) pasan los controles de calidad establecidos.",
+    "solucion": "Implementar un marco de Calidad 4.0 con capacidad predictiva (ROC-AUC de 0,975) sobre los controles existentes. Un agente conversacional podría presentar las alertas del modelo en lenguaje sencillo."
+  },
+  "34": {
+    "fase": "Verificar",
+    "barrera": "La complejidad de las cadenas de suministro manufactureras intensificó la demanda de un desempeño confiable de los proveedores y de menos reprocesos.",
+    "conclusion": "Se concluyó que los fabricantes debían invertir en infraestructura de datos, capacidad de modelado y ecosistemas colaborativos de proveedores para minimizar reprocesos."
+  },
+  "35": {
+    "fase": "Verificar",
+    "barrera": "Las pymes enfrentaron el reto de sobrevivir en contextos de crisis y de determinar cuánto aportaba la calidad al valor agregado del proceso productivo.",
+    "conclusion": "Se planteó el mapa de flujo de valor de calidad para analizar en qué operaciones la calidad generaba más valor agregado."
+  },
+  "36": {
+    "fase": "Verificar",
+    "barrera": "Las técnicas estándar de control de calidad no pudieron manejar la complejidad, el alto volumen de datos y los comportamientos no gaussianos de la manufactura inteligente.",
+    "conclusion": "El estudio discutió las limitaciones de Six Sigma y mostró un caso en que un algoritmo de aprendizaje automático detectó un patrón que el monitoreo tradicional no detectó.",
+    "problema_tabla2": "Las técnicas estándar de control de calidad no pueden manejar la complejidad ni el alto volumen de datos de la manufactura inteligente.",
+    "solucion": "Complementar Six Sigma con aprendizaje automático, que detectó un patrón que el monitoreo tradicional no detectó. Un agente conversacional podría ser la interfaz para consultar esos hallazgos."
+  },
+  "37": {
+    "fase": "Verificar",
+    "barrera": "Faltó investigación aplicada en plantas industriales sobre manufactura de cero defectos apoyada en inteligencia artificial.",
+    "conclusion": "Los métodos de calidad tradicionales e innovadores se complementaron, y se resaltó la importancia de iniciar rápido los proyectos de ciencia de datos para asegurar la calidad de los datos."
+  },
+  "38": {
+    "fase": "Verificar",
+    "barrera": "La adopción de la TQM en empresas manufactureras enfrentó resistencia al cambio y la necesidad de capacitación y liderazgo adecuados.",
+    "conclusion": "El estudio concluyó que integrar la TQM era vital para alcanzar la excelencia operativa y el crecimiento a largo plazo.",
+    "problema_tabla2": "La adopción de la TQM en empresas manufactureras enfrenta resistencia al cambio y necesidad de capacitación y liderazgo adecuados.",
+    "solucion": "Integrar la TQM con capacitación y liderazgo adecuados, lo que se consideró vital para la excelencia operativa y el crecimiento a largo plazo. Un agente conversacional podría facilitar la capacitación continua."
+  },
+  "39": {
+    "fase": "Actuar",
+    "barrera": "Una empresa de forjados presentó no conformidades que exigían eliminar las fallas y evitar su recurrencia.",
+    "conclusion": "Con Pareto y 8D se identificó la causa raíz y se planificó e implementó una acción correctiva permanente, lo que redujo la probabilidad de recurrencia y aumentó la satisfacción del cliente.",
+    "problema_tabla2": "Una empresa de forjados presenta no conformidades que exigen eliminar las fallas y evitar su recurrencia.",
+    "solucion": "Usar Pareto y 8D para identificar la causa raíz y aplicar una acción correctiva permanente. Un agente conversacional podría guiar paso a paso el desarrollo del 8D."
+  },
+  "40": {
+    "fase": "Actuar",
+    "barrera": "La relojería presentó imprecisiones horarias y otros defectos que afectaron la satisfacción del cliente.",
+    "conclusion": "Ishikawa y Pareto permitieron identificar, categorizar y priorizar las causas raíz, con un enfoque aplicable a otras industrias de precisión.",
+    "problema_tabla2": "Una relojería presenta imprecisiones horarias y otros defectos que afectan la satisfacción del cliente.",
+    "solucion": "Usar Ishikawa y Pareto para identificar, categorizar y priorizar las causas raíz. Un agente conversacional podría ayudar a construir esos diagramas con el personal."
+  },
+  "41": {
+    "fase": "Actuar",
+    "barrera": "Faltaba una guía para integrar los requisitos de ISO 9001 con las tecnologías de Industria 4.0 en las empresas manufactureras.",
+    "conclusion": "Con 25 expertos se desarrolló una guía basada en el ciclo PHVA de ISO 9001, como primera integración tentativa entre ISO 9001 e Industria 4.0.",
+    "problema_tabla2": "Falta una guía para integrar los requisitos de ISO 9001 con las tecnologías de Industria 4.0 en las empresas manufactureras.",
+    "solucion": "Seguir la guía basada en el ciclo PHVA de ISO 9001 desarrollada con 25 expertos. Un agente conversacional podría usar esa guía como base de conocimiento."
+  },
+  "42": {
+    "fase": "Actuar",
+    "barrera": "Escasearon los estudios empíricos que abordaran de forma integral las prácticas de un sistema de mejora continua, con sus impulsores y barreras.",
+    "conclusion": "El estudio investigó empíricamente los impulsores, las motivaciones y las barreras de un sistema integrado de mejora continua."
+  },
+  "43": {
+    "fase": "Actuar",
+    "barrera": "Las metodologías de mejora continua (Kaizen, Lean Six Sigma, TQM) enfrentaron la integración de IA en la manufactura automotriz, con brechas en costos de implementación, tiempo de retorno y medición del desempeño.",
+    "conclusion": "La revisión señaló factores como la preparación de datos, la gobernanza digital y la colaboración interfuncional, y mostró que la IA transformó la mejora continua de reactiva a proactiva.",
+    "problema_tabla2": "La integración de IA en la mejora continua (Kaizen, Lean Six Sigma, TQM) presenta brechas en costos de implementación, tiempo de retorno y medición del desempeño.",
+    "solucion": "Atender la preparación de datos, la gobernanza digital y la colaboración interfuncional, factores con los que la IA llevó la mejora continua de reactiva a proactiva."
+  },
+  "44": {
+    "fase": "Actuar",
+    "barrera": "La mejora de la calidad hacia cero defectos requirió un marco integrado de Calidad 4.0.",
+    "conclusion": "El marco IQ4.0F, basado en Six Sigma y aprendizaje automático, aportó a los gerentes de calidad una metodología sistemática de resolución de problemas."
+  },
+  "45": {
+    "fase": "Actuar",
+    "barrera": "Las pymes de autopartes de India atravesaron una época difícil por la recesión del sector automotriz, el cambio hacia el vehículo eléctrico y las regulaciones ambientales.",
+    "conclusion": "La encuesta a 90 expertos permitió derivar herramientas, barreras y resultados esperados de implementar Lean Six Sigma en pymes automotrices."
+  },
+  "46": {
+    "fase": "Actuar",
+    "barrera": "Las pymes manufactureras indias tuvieron dificultades con el control de calidad, el cumplimiento ambiental y la competitividad global.",
+    "conclusion": "El estudio investigó cómo integrar principios de diseño bioinspirado en el marco de Six Sigma para lograr objetivos de calidad y sostenibilidad."
+  },
+  "47": {
+    "fase": "Actuar",
+    "barrera": "La TQM y el concepto de cero defectos enfrentaron resistencia al cambio, poca participación del personal, integración deficiente de proveedores y dificultad para sostener la mejora continua.",
+    "conclusion": "El estudio concluyó que superar estos problemas era clave para aprovechar plenamente la TQM y el cero defectos."
+  },
+  "48": {
+    "fase": "Actuar",
+    "barrera": "Las empresas rusas del complejo militar-industrial presentaron problemas al implementar lean manufacturing y sistemas de gestión de calidad.",
+    "conclusion": "Se identificaron los problemas de implementación y se analizaron la capacitación del personal, la estandarización y la certificación."
+  },
+  "49": {
+    "fase": "Actuar",
+    "barrera": "Las operaciones de ensamble manual dependían del conocimiento tácito de los individuos y requerían gestión del conocimiento.",
+    "conclusion": "Integrar la gestión del conocimiento en el SGC (SECI + ISO 9001) superó limitaciones comunes y se confirmó en un caso de una empresa aeronáutica.",
+    "problema_tabla2": "Las operaciones de ensamble manual dependen del conocimiento tácito de las personas.",
+    "solucion": "Integrar la gestión del conocimiento (SECI) en el sistema de gestión de calidad ISO 9001, lo que se confirmó en un caso aeronáutico. Un agente conversacional podría capturar ese conocimiento y devolverlo como respuestas."
+  },
+  "50": {
+    "fase": "Actuar",
+    "barrera": "La empresa ZITRON presentó retrasos en sus procesos de manufactura.",
+    "conclusion": "La aplicación de DMAIC permitió resolver el problema mediante la mejora del proceso."
+  }
+}

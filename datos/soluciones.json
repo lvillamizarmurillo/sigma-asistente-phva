@@ -1,0 +1,230 @@
+{
+  "_descripcion": "Catálogo de soluciones prácticas por problema típico de la gerencia de calidad en manufactura, organizado por fase PHVA. 'articulos' apunta a los artículos (1-50 base, 51+ complementarios) que respaldan cada solución. El contenido de herramientas, ISO 9001 y sectores es conocimiento general de referencia y la IA debe presentarlo como tal.",
+  "problemas": [
+    {
+      "id": "estandarizacion",
+      "nombre": "Falta de estandarización de procesos",
+      "sintomas": ["estandarizacion", "estandarizar", "estandar", "procedimiento", "procedimientos", "cada operario lo hace distinto", "variacion entre turnos", "instructivo", "instructivos", "sop", "trabajo estandar", "no hay procesos definidos", "desorden", "metodo de trabajo"],
+      "causas_tipicas": ["Procedimientos inexistentes, desactualizados o que nadie consulta", "Conocimiento concentrado en operarios veteranos (conocimiento tácito)", "Rotación de personal y capacitación informal", "Diferencias de método entre turnos y máquinas", "Falta de seguimiento de la dirección"],
+      "fases": {
+        "Planificar": ["Mapear los procesos críticos (diagrama de flujo / SIPOC) y elegir 2-3 piloto según impacto en defectos o reclamos", "Levantar el método actual con los operarios de cada turno y detectar diferencias (observación en gemba)", "Definir parámetros críticos de proceso y de producto (qué controlar, con qué tolerancia)", "Fijar metas medibles: % de cumplimiento del estándar, reducción de defectos, tiempo de alistamiento"],
+        "Hacer": ["Redactar instructivos de trabajo cortos y visuales (fotos, pasos numerados, puntos clave y razón)", "Aplicar 5S en las estaciones para que el estándar sea fácil de seguir", "Capacitar con el método TWI (Training Within Industry): mostrar, hacer, verificar", "Instalar ayudas visuales y poka-yokes en los puntos donde más se falla", "Controlar documentos: versión, aprobación, ubicación en el puesto"],
+        "Verificar": ["Auditorías de proceso escalonadas (supervisor diario, jefe semanal) con lista de chequeo", "Medir variación entre turnos y operarios (gráficos de control, Cpk)", "Matriz de habilidades: quién está certificado en cada estándar"],
+        "Actuar": ["Actualizar el estándar cada vez que una mejora funciona (el estándar es la base del kaizen)", "Tratar desviaciones repetidas con análisis de causa raíz (5 porqués, Ishikawa)", "Extender el estándar de los pilotos al resto de procesos"]
+      },
+      "herramientas": ["Trabajo estándar", "Instructivos / SOP", "5S", "TWI", "Gestión visual", "Poka-yoke", "Matriz de habilidades", "Auditoría de proceso"],
+      "indicadores": ["% de procesos críticos con estándar vigente", "% de cumplimiento en auditorías de proceso", "Defectos por turno / por operario", "Cpk de las características críticas", "Tiempo de alistamiento (SMED)"],
+      "iso9001": ["4.4", "7.2", "7.5", "8.1", "8.5.1"],
+      "articulos": [16, 9, 48, 49, 22, 14, 26]
+    },
+    {
+      "id": "certificacion_iso9001",
+      "nombre": "Implementar y certificar ISO 9001",
+      "sintomas": ["iso 9001", "iso", "certificacion", "certificarnos", "certificar", "sistema de gestion de calidad", "sgc", "auditoria externa", "norma", "ente certificador", "icontec", "bureau veritas", "sgs"],
+      "causas_tipicas": ["Ver la norma como papeleo y no como herramienta de gestión", "Falta de compromiso y tiempo de la dirección", "Documentar de más (manuales que nadie usa) o de menos", "Desconocer el estado actual frente a los requisitos"],
+      "fases": {
+        "Planificar": ["Diagnóstico o análisis de brechas (gap analysis) frente a los requisitos 4 a 10", "Definir contexto, partes interesadas, alcance del SGC y mapa de procesos", "Política y objetivos de calidad medibles; matriz de riesgos y oportunidades", "Plan de implementación con responsables y cronograma (típicamente 6-12 meses en una pyme)"],
+        "Hacer": ["Documentar solo lo necesario: procesos, instructivos críticos, registros obligatorios", "Control de información documentada (versiones, aprobación, acceso)", "Capacitar y tomar conciencia en todos los niveles", "Controlar proveedores, producción, producto no conforme y trazabilidad"],
+        "Verificar": ["Indicadores por proceso y satisfacción del cliente", "Auditoría interna completa con auditores formados", "Revisión por la dirección con entradas y salidas definidas"],
+        "Actuar": ["Acciones correctivas con análisis de causa raíz para cada no conformidad", "Pre-auditoría opcional y auditoría de certificación (etapa 1 documental, etapa 2 en sitio)", "Mantener el ciclo: auditorías de seguimiento anuales y recertificación cada 3 años"]
+      },
+      "herramientas": ["Análisis de brechas", "Mapa de procesos", "Matriz de riesgos", "Auditoría interna", "Revisión por la dirección", "Acciones correctivas", "Ciclo PHVA"],
+      "indicadores": ["% de cumplimiento del diagnóstico de brechas", "No conformidades abiertas / cerradas a tiempo", "Satisfacción del cliente", "Cumplimiento de objetivos de calidad", "Reclamos por cada 1.000 unidades"],
+      "iso9001": ["4", "5", "6", "7", "8", "9", "10"],
+      "articulos": [12, 32, 41, 49, 48, 11]
+    },
+    {
+      "id": "defectos",
+      "nombre": "Defectos, rechazos y reprocesos",
+      "sintomas": ["defecto", "defectos", "rechazo", "rechazos", "reproceso", "reprocesos", "retrabajo", "no conforme", "producto no conforme", "scrap", "chatarra", "piezas malas", "devoluciones", "fallas de calidad"],
+      "causas_tipicas": ["Variación no controlada de materia prima, máquina o método", "Inspección al final en lugar de control en el proceso", "Ausencia de análisis de causa raíz", "Mantenimiento deficiente"],
+      "fases": {
+        "Planificar": ["Estratificar defectos con Pareto (tipo, máquina, turno, producto)", "Elegir el defecto vital y definir el problema con datos (qué, dónde, cuándo, cuánto)"],
+        "Hacer": ["Analizar causas con Ishikawa (6M) y 5 porqués; validar con datos", "Implementar contramedidas: SOP, poka-yoke, ajuste de parámetros, mantenimiento"],
+        "Verificar": ["Comparar antes/después (tasa de defectos, nivel sigma, costo de no calidad)", "Gráficos de control para confirmar estabilidad"],
+        "Actuar": ["Estandarizar la solución y documentarla (8D o A3)", "Replicar en productos o líneas similares"]
+      },
+      "herramientas": ["Pareto", "Ishikawa", "5 porqués", "8D", "A3", "DMAIC", "Poka-yoke", "SPC"],
+      "indicadores": ["% de defectos / PPM", "Costo de no calidad", "Nivel sigma", "Primera pasada (FPY)"],
+      "iso9001": ["8.5.1", "8.7", "10.2"],
+      "articulos": [39, 40, 16, 15, 30, 22, 23, 26, 50]
+    },
+    {
+      "id": "variabilidad",
+      "nombre": "Variabilidad del proceso y falta de control estadístico",
+      "sintomas": ["variabilidad", "variacion", "dimensiones", "tolerancia", "fuera de especificacion", "medidas", "control estadistico", "spc", "cpk", "capacidad de proceso", "inestable", "graficos de control"],
+      "causas_tipicas": ["Parámetros de máquina no fijados", "Instrumentos de medición sin calibrar (MSA)", "Materia prima variable"],
+      "fases": {
+        "Planificar": ["Definir características críticas y plan de control", "Asegurar el sistema de medición (calibración, R&R)"],
+        "Hacer": ["Implementar gráficos de control (X-R, p) en las características críticas", "Capacitar a operarios para leer y reaccionar a las señales"],
+        "Verificar": ["Calcular Cp/Cpk periódicamente", "Revisar reglas de fuera de control y su respuesta"],
+        "Actuar": ["Plan de reacción estandarizado ante fuera de control", "Reducir variación con DOE / Six Sigma"]
+      },
+      "herramientas": ["SPC", "Cp/Cpk", "MSA / R&R", "Plan de control", "DOE", "Six Sigma"],
+      "indicadores": ["Cpk ≥ 1,33 en características críticas", "% de puntos fuera de control", "Calibraciones al día"],
+      "iso9001": ["7.1.5", "8.5.1", "9.1"],
+      "articulos": [27, 36, 33, 37, 44, 16]
+    },
+    {
+      "id": "cultura",
+      "nombre": "Resistencia al cambio, liderazgo y cultura de calidad",
+      "sintomas": ["resistencia", "cambio", "cultura", "liderazgo", "compromiso", "gerencia", "direccion", "motivacion", "participacion", "no quieren", "personal"],
+      "causas_tipicas": ["La dirección delega la calidad y no la lidera", "No se comunican el porqué ni los beneficios", "Sin reconocimiento ni participación de los operarios"],
+      "fases": {
+        "Planificar": ["Compromiso visible de la dirección: política, recursos y tiempo", "Plan de comunicación del cambio"],
+        "Hacer": ["Equipos de mejora con operarios (círculos de calidad, kaizen)", "Capacitación continua y gestión visual de resultados"],
+        "Verificar": ["Encuestas de clima y participación; ideas implementadas"],
+        "Actuar": ["Reconocer logros y escalar lo que funciona"]
+      },
+      "herramientas": ["TQM", "Kaizen", "Círculos de calidad", "Gestión visual", "Reconocimiento"],
+      "indicadores": ["Ideas de mejora por persona/año", "Horas de capacitación", "Participación en equipos"],
+      "iso9001": ["5.1", "7.3", "7.4"],
+      "articulos": [38, 11, 47, 5, 28, 19, 20]
+    },
+    {
+      "id": "recursos_pyme",
+      "nombre": "Pocos recursos de una pyme para implementar mejoras",
+      "sintomas": ["pyme", "pymes", "pequena empresa", "recursos", "presupuesto", "costoso", "costo", "dinero", "pocos empleados", "inversion"],
+      "causas_tipicas": ["Se cree que Lean/Six Sigma/ISO son solo para grandes empresas", "Sin personal dedicado a calidad"],
+      "fases": {
+        "Planificar": ["Priorizar mejoras de bajo costo y alto impacto (quick wins)", "Hoja de ruta por etapas en lugar de todo a la vez"],
+        "Hacer": ["Pilotos pequeños (una línea) con herramientas simples: 5S, estándares, Pareto"],
+        "Verificar": ["Medir ahorro y retorno de cada piloto"],
+        "Actuar": ["Reinvertir ahorros en la siguiente etapa"]
+      },
+      "herramientas": ["Quick wins", "Pilotos", "5S", "Lean básico", "Six Sigma en pymes"],
+      "indicadores": ["Ahorro por proyecto", "Retorno de la inversión", "Tiempo de implementación"],
+      "iso9001": ["6.1", "7.1"],
+      "articulos": [6, 8, 2, 1, 18, 19, 14]
+    },
+    {
+      "id": "mantenimiento",
+      "nombre": "Paradas de máquina y mantenimiento deficiente",
+      "sintomas": ["mantenimiento", "paradas", "averias", "maquina", "maquinas", "disponibilidad", "oee", "alistamiento", "cambio de referencia", "tpm"],
+      "causas_tipicas": ["Mantenimiento solo correctivo", "Alistamientos largos sin estándar"],
+      "fases": {
+        "Planificar": ["Medir OEE e identificar las 6 grandes pérdidas"],
+        "Hacer": ["Mantenimiento autónomo (limpieza, inspección, lubricación) y preventivo", "SMED para reducir alistamientos"],
+        "Verificar": ["Seguimiento de OEE, MTBF y MTTR"],
+        "Actuar": ["Estandarizar rutinas de TPM y mejorar equipos críticos"]
+      },
+      "herramientas": ["TPM", "OEE", "SMED", "Mantenimiento autónomo"],
+      "indicadores": ["OEE", "MTBF", "MTTR", "Tiempo de alistamiento"],
+      "iso9001": ["7.1.3", "8.5.1"],
+      "articulos": [14, 24, 16]
+    },
+    {
+      "id": "proveedores",
+      "nombre": "Calidad de materia prima y proveedores",
+      "sintomas": ["proveedor", "proveedores", "materia prima", "material", "palanquilla", "acero", "lote", "colada", "compras", "insumos"],
+      "causas_tipicas": ["Sin criterios de selección y evaluación de proveedores", "Inspección de recepción débil", "Sin trazabilidad de lote o colada"],
+      "fases": {
+        "Planificar": ["Definir requisitos de compra y criterios de evaluación"],
+        "Hacer": ["Inspección de recepción y certificados de calidad por lote", "Trazabilidad de lote/colada hasta el producto final"],
+        "Verificar": ["Evaluación periódica de proveedores (calidad, entrega)"],
+        "Actuar": ["Desarrollo de proveedores y acciones correctivas conjuntas"]
+      },
+      "herramientas": ["Evaluación de proveedores", "Inspección de recepción", "Trazabilidad", "Analítica predictiva"],
+      "indicadores": ["% de lotes rechazados", "Calificación de proveedores", "Entregas a tiempo"],
+      "iso9001": ["8.4", "8.5.2"],
+      "articulos": [34, 47]
+    },
+    {
+      "id": "conocimiento",
+      "nombre": "Conocimiento tácito y capacitación",
+      "sintomas": ["conocimiento", "capacitacion", "entrenamiento", "experiencia", "operarios nuevos", "rotacion", "aprendizaje", "habilidades", "competencia"],
+      "causas_tipicas": ["El saber está en la cabeza de pocas personas", "Inducción informal"],
+      "fases": {
+        "Planificar": ["Identificar conocimiento crítico por proceso"],
+        "Hacer": ["Capturarlo en estándares, lecciones aprendidas y videos (modelo SECI)", "Capacitación TWI y matriz de habilidades"],
+        "Verificar": ["Evaluar competencia en el puesto"],
+        "Actuar": ["Actualizar la base de conocimiento con cada mejora; un agente conversacional puede servirlo al operario"]
+      },
+      "herramientas": ["SECI", "TWI", "Matriz de habilidades", "Lecciones aprendidas", "Agente conversacional"],
+      "indicadores": ["% de personal certificado por puesto", "Errores de personal nuevo"],
+      "iso9001": ["7.1.6", "7.2", "7.3"],
+      "articulos": [49, 13, 29, 22]
+    },
+    {
+      "id": "calidad40",
+      "nombre": "Datos, digitalización y Calidad 4.0",
+      "sintomas": ["datos", "digital", "digitalizacion", "industria 4.0", "calidad 4.0", "inteligencia artificial", "ia", "sensores", "software", "big data", "automatizar", "machine learning"],
+      "causas_tipicas": ["Registros en papel o dispersos", "Falta de preparación de personas y datos"],
+      "fases": {
+        "Planificar": ["Evaluar madurez digital y preparación del personal", "Elegir un caso de uso con datos disponibles"],
+        "Hacer": ["Digitalizar registros de calidad; piloto de analítica o IA"],
+        "Verificar": ["Medir precisión del modelo y adopción por el personal"],
+        "Actuar": ["Escalar e integrar con el SGC (ISO 9001 + Industria 4.0)"]
+      },
+      "herramientas": ["Calidad 4.0", "Analítica predictiva", "IA / ML", "Big data", "Agente conversacional"],
+      "indicadores": ["% de registros digitales", "Defectos detectados antes del cliente"],
+      "iso9001": ["7.1.6", "9.1"],
+      "articulos": [3, 4, 13, 29, 31, 33, 36, 37, 41, 43, 44, 10]
+    },
+    {
+      "id": "reclamos",
+      "nombre": "Reclamos de clientes y no conformidades recurrentes",
+      "sintomas": ["reclamo", "reclamos", "queja", "quejas", "cliente", "clientes", "satisfaccion", "no conformidad", "no conformidades", "recurrente", "se repite"],
+      "causas_tipicas": ["Se corrige el síntoma, no la causa", "Sin seguimiento de eficacia de las acciones"],
+      "fases": {
+        "Planificar": ["Registrar y clasificar reclamos; Pareto por causa"],
+        "Hacer": ["Equipo 8D por reclamo crítico; contención inmediata"],
+        "Verificar": ["Verificar eficacia de la acción correctiva tras 1-3 meses"],
+        "Actuar": ["Lecciones aprendidas y prevención en productos similares"]
+      },
+      "herramientas": ["8D", "Pareto", "Ishikawa", "Acciones correctivas", "Voz del cliente"],
+      "indicadores": ["Reclamos por mes", "% de acciones eficaces", "Satisfacción del cliente"],
+      "iso9001": ["8.2.1", "9.1.2", "10.2"],
+      "articulos": [39, 40, 35, 47]
+    },
+    {
+      "id": "desperdicio",
+      "nombre": "Desperdicios, costos altos y baja productividad",
+      "sintomas": ["desperdicio", "desperdicios", "costos", "productividad", "eficiencia", "tiempos", "demoras", "retrasos", "inventario", "lean", "valor agregado"],
+      "causas_tipicas": ["Los 8 desperdicios Lean sin identificar", "Flujo desbalanceado"],
+      "fases": {
+        "Planificar": ["Mapa de flujo de valor (VSM) del estado actual y futuro"],
+        "Hacer": ["Eliminar desperdicios: 5S, flujo, kanban, SMED"],
+        "Verificar": ["Tiempo de ciclo, lead time, costo por unidad"],
+        "Actuar": ["Kaizen continuo y estandarización del nuevo flujo"]
+      },
+      "herramientas": ["VSM", "5S", "Kanban", "SMED", "Lean-Green", "Kaizen"],
+      "indicadores": ["Lead time", "Costo por unidad", "Productividad por hora-hombre"],
+      "iso9001": ["8.1", "10.3"],
+      "articulos": [26, 35, 50, 1, 17, 7]
+    }
+  ],
+  "iso9001": {
+    "clausulas": [
+      {"num": "4", "titulo": "Contexto de la organización", "fase": "Planificar", "pide": "Entender el contexto y las partes interesadas, definir el alcance del SGC y sus procesos (4.4).", "evidencias": ["Análisis DOFA/PESTEL", "Matriz de partes interesadas", "Alcance documentado", "Mapa de procesos y caracterizaciones"]},
+      {"num": "5", "titulo": "Liderazgo", "fase": "Planificar", "pide": "Compromiso de la alta dirección, política de calidad, roles y responsabilidades.", "evidencias": ["Política de calidad", "Organigrama y perfiles", "Actas de compromiso"]},
+      {"num": "6", "titulo": "Planificación", "fase": "Planificar", "pide": "Riesgos y oportunidades, objetivos de calidad medibles y planificación de cambios.", "evidencias": ["Matriz de riesgos", "Objetivos e indicadores", "Plan de acción"]},
+      {"num": "7", "titulo": "Apoyo", "fase": "Hacer", "pide": "Recursos, infraestructura, ambiente, equipos de medición (7.1.5), conocimiento (7.1.6), competencia (7.2), toma de conciencia, comunicación e información documentada (7.5).", "evidencias": ["Plan de capacitación y matriz de competencias", "Hoja de vida y calibración de equipos", "Listado maestro de documentos"]},
+      {"num": "8", "titulo": "Operación", "fase": "Hacer", "pide": "Planificación y control operacional, requisitos del cliente, diseño (si aplica), control de proveedores (8.4), producción controlada (8.5.1), trazabilidad (8.5.2), liberación (8.6) y producto no conforme (8.7).", "evidencias": ["Instructivos y planes de control", "Evaluación de proveedores", "Registros de inspección y trazabilidad", "Registro de producto no conforme"]},
+      {"num": "9", "titulo": "Evaluación del desempeño", "fase": "Verificar", "pide": "Seguimiento y medición, satisfacción del cliente, auditoría interna (9.2) y revisión por la dirección (9.3).", "evidencias": ["Tablero de indicadores", "Encuestas de satisfacción", "Programa e informes de auditoría", "Acta de revisión por la dirección"]},
+      {"num": "10", "titulo": "Mejora", "fase": "Actuar", "pide": "No conformidades y acciones correctivas (10.2) y mejora continua (10.3).", "evidencias": ["Registro de acciones correctivas con causa raíz", "Proyectos de mejora"]}
+    ],
+    "ruta_certificacion": [
+      "1. Compromiso de la dirección y equipo líder (mes 1)",
+      "2. Diagnóstico de brechas frente a ISO 9001:2015 (mes 1)",
+      "3. Contexto, alcance, mapa de procesos, política y objetivos (meses 1-2)",
+      "4. Riesgos, documentación necesaria y estandarización de procesos críticos (meses 2-5)",
+      "5. Capacitación y puesta en marcha; generar registros al menos 2-3 meses (meses 4-7)",
+      "6. Auditoría interna completa y acciones correctivas (meses 7-8)",
+      "7. Revisión por la dirección (mes 8)",
+      "8. Selección del ente certificador acreditado; auditoría etapa 1 (documental) y etapa 2 (en sitio) (meses 9-10)",
+      "9. Seguimiento anual y recertificación cada 3 años"
+    ]
+  },
+  "sectores": [
+    {
+      "id": "metalmecanica",
+      "nombre": "Metalmecánica: barras, perfiles, trefilado y laminado",
+      "sintomas": ["barra", "barras", "metalica", "metalicas", "acero", "varilla", "varillas", "corrugada", "laminado", "laminacion", "trefilado", "trefilacion", "perfil", "perfiles", "forja", "metal", "metalmecanica", "fundicion", "palanquilla", "alambre"],
+      "defectos_tipicos": ["Desviación dimensional (diámetro, ovalidad, longitud)", "Falta de rectitud / torceduras", "Grietas, traslapes y costuras superficiales", "Propiedades mecánicas fuera de norma (fluencia, tracción, alargamiento, dureza)", "Corrugado o resaltes mal formados en varilla", "Oxidación / cascarilla excesiva", "Marcación y trazabilidad de colada deficiente"],
+      "controles_clave": ["Plan de control por característica (diámetro, longitud, rectitud, peso por metro)", "Ensayos mecánicos por lote/colada (tracción, doblado)", "Trazabilidad colada → lote → despacho", "Calibración de calibradores, micrómetros y máquina universal", "SPC en diámetro y temperatura de laminación", "Instructivos de alistamiento de rodillos y cambio de referencia"],
+      "normas_referencia": ["ISO 9001:2015 (sistema de gestión)", "NTC 2289 / ASTM A706 y ASTM A615 (barras corrugadas para refuerzo de concreto)", "ASTM A6 / A29 (requisitos generales de barras y perfiles)", "ISO 6892-1 (ensayo de tracción en metales)", "ISO/IEC 17025 (si se acredita el laboratorio de ensayos)"],
+      "articulos": [39, 48, 16, 23]
+    }
+  ]
+}

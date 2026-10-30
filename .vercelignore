@@ -1,0 +1,5 @@
+documentos/
+scripts/
+datos/metadatos.json
+*.xlsx
+.env
