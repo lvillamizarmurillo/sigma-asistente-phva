@@ -295,7 +295,7 @@ async def chat(c: Consulta):
         if perfil:
             extra += f"PERFIL DE LA EMPRESA DEL USUARIO (de esta conversación): {json.dumps(perfil, ensure_ascii=False)}\n\n"
         if subpreguntas:
-            extra += "SUBPREGUNTAS A CUBRIR:\n- " + "\n- ".join(subpreguntas) + "\n\n"
+            extra += "PUNTOS QUE LA RESPUESTA DEBE TOCAR (intégralos con naturalidad, sin una sección aparte):\n- " + "\n- ".join(subpreguntas) + "\n\n"
         mensajes.append({"role": "user", "content": f"{contexto}\n\n{extra}PREGUNTA: {pregunta}"})
 
         texto, enviado, primero = "", 0, True
