@@ -361,6 +361,68 @@ textarea::placeholder{color:var(--tenue)}
 .credito:hover,.credito:focus{opacity:1;background:var(--bg);outline:0}
 .credito:hover span,.credito:focus span{max-width:280px;padding-left:9px;color:var(--txt)}
 @media (max-width:640px){.credito{bottom:auto;top:58px;right:8px}}
+/* ---------- bloques visuales de las respuestas ---------- */
+.v{margin:.9em 0}
+.v-pasos{counter-reset:p;display:flex;flex-direction:column;gap:12px}
+.v-paso{counter-increment:p;position:relative;padding-left:44px;min-height:32px}
+.v-paso::before{content:counter(p);position:absolute;left:0;top:0;width:30px;height:30px;border-radius:10px;display:grid;place-items:center;font-size:13px;font-weight:800;color:#fff;background:var(--grad)}
+.v-paso:not(:last-child)::after{content:"";position:absolute;left:14px;top:34px;bottom:-12px;width:2px;background:var(--borde)}
+.v-paso b{display:block}.v-paso span{color:var(--sub);font-size:.93em}
+.v-fases{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media (max-width:640px){.v-fases{grid-template-columns:1fr}}
+.v-fase{padding:14px;border-radius:14px;background:var(--vidrio);border:1px solid var(--borde);border-top:3px solid var(--c)}
+.v-fase h5{margin:0 0 8px;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--c)}
+.v-fase div{margin-top:9px}.v-fase div:first-of-type{margin-top:0}.v-fase b{display:block;font-size:.95em}.v-fase span{color:var(--sub);font-size:.88em;line-height:1.45;display:block}
+.v-check{display:flex;flex-direction:column;gap:6px}
+.v-check label{display:flex;gap:10px;align-items:flex-start;padding:9px 12px;border-radius:11px;background:var(--vidrio);border:1px solid var(--borde);cursor:pointer;transition:.15s}
+.v-check input{accent-color:var(--a1);width:16px;height:16px;margin-top:3px;flex:none}
+.v-check input:checked+span{opacity:.5;text-decoration:line-through}
+.v-crono{position:relative;display:flex;flex-direction:column;gap:14px;padding-left:22px}
+.v-crono::before{content:"";position:absolute;left:5px;top:6px;bottom:6px;width:2px;background:var(--grad)}
+.v-hito{position:relative}
+.v-hito::before{content:"";position:absolute;left:-22px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--bg);border:3px solid var(--a2)}
+.v-hito small{display:block;color:var(--a2);font-weight:700;font-size:.78em;letter-spacing:.03em;text-transform:uppercase}
+.v-hito b{display:block}.v-hito span{color:var(--sub);font-size:.93em}
+.v-metricas{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px}
+.v-metrica{padding:13px 14px;border-radius:14px;background:var(--vidrio);border:1px solid var(--borde)}
+.v-metrica strong{display:block;font-size:1.2em;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.v-metrica b{display:block;font-size:.92em;margin-top:2px}.v-metrica span{color:var(--sub);font-size:.84em;line-height:1.4;display:block;margin-top:3px}
+
+/* ---------- uso en una sola línea ---------- */
+.uso-linea{display:inline-flex;align-items:center;gap:8px;height:30px;padding:0 10px;border-radius:99px;font-size:12px;color:var(--sub);background:var(--vidrio);border:1px solid var(--borde);white-space:nowrap}
+.uso-linea i{display:block;width:70px;height:6px;border-radius:99px;background:var(--borde);overflow:hidden}
+.uso-linea u{display:block;height:100%;width:0;border-radius:99px;text-decoration:none;background:var(--nivel,#10b981);transition:width .5s,background .3s}
+.uso-linea b{color:var(--txt);font-weight:700;min-width:30px;text-align:right}
+
+/* ---------- documento adjunto ---------- */
+.adjuntar{color:var(--sub)}.adjuntar:hover{background:var(--vidrio2);color:var(--txt)}
+.doc-chip{display:none;align-items:center;gap:7px;max-width:260px;padding:7px 12px;border-radius:12px;font-size:12.5px;font-weight:600;color:var(--txt);background:color-mix(in srgb,var(--a1) 18%,transparent);border:1px solid color-mix(in srgb,var(--a1) 45%,transparent)}
+.doc-chip.on{display:inline-flex}.doc-chip span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.docp{position:fixed;top:0;right:0;bottom:0;z-index:6;width:min(430px,100%);display:flex;flex-direction:column;background:var(--bg);border-left:1px solid var(--borde);transform:translateX(100%);transition:transform .3s cubic-bezier(.2,.8,.2,1)}
+.docp.abierto{transform:none}
+.app{transition:margin-right .3s}
+@media (min-width:1100px){body.con-doc .app{margin-right:430px}}
+.docp-cab{padding:16px 18px 12px;border-bottom:1px solid var(--borde)}
+.docp-fila{display:flex;align-items:center;gap:8px}
+.docp-fila h2{flex:1;min-width:0;margin:0;font-size:15.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.docp-avance{display:flex;align-items:center;gap:10px;margin-top:12px;font-size:12px;color:var(--sub)}
+.docp-avance i{flex:1;height:7px;border-radius:99px;background:var(--borde);overflow:hidden}
+.docp-avance u{display:block;height:100%;width:0;background:var(--grad);text-decoration:none;transition:width .4s}
+.docp-tabs{display:flex;gap:6px;margin-top:12px}
+.docp-tabs button{padding:5px 12px;border-radius:9px;font-size:12.5px;font-weight:600;color:var(--sub)}
+.docp-tabs button.on{background:var(--vidrio2);color:var(--txt)}
+.docp-cuerpo{flex:1;overflow-y:auto;padding:12px 18px 20px}
+.dpaso{display:flex;gap:10px;padding:11px 12px;margin-bottom:8px;border-radius:12px;border:1px solid var(--borde);background:var(--vidrio);transition:.15s}
+.dpaso.activo{border-color:var(--a2);box-shadow:0 0 0 2px color-mix(in srgb,var(--a2) 25%,transparent)}
+.dpaso input{accent-color:var(--a1);width:17px;height:17px;margin-top:2px;flex:none}
+.dpaso.hecho .dtxt{opacity:.5;text-decoration:line-through}
+.dtxt{flex:1;min-width:0;font-size:13.5px;line-height:1.45;cursor:pointer}
+.dguia{display:none;margin-top:8px;padding:5px 11px;border-radius:9px;font-size:12px;font-weight:600;color:#fff;background:var(--grad)}
+.dpaso.activo .dguia{display:inline-block}
+#docTexto{font-size:13.5px}
+.soltar{position:fixed;inset:0;z-index:40;display:none;place-items:center;font-size:20px;font-weight:700;color:#fff;background:rgba(5,8,25,.8);border:3px dashed var(--a2)}
+.soltar.on{display:grid}
+@media (max-width:640px){.uso-linea i{width:38px}.uso-linea .per{display:none}.doc-chip{max-width:150px}}
 </style>
 </head>
 <body>
@@ -389,7 +451,7 @@ textarea::placeholder{color:var(--tenue)}
   <header>
     <div class="marca"><div class="av" id="avCab" data-estado="reposo"></div><div>Sigma<small>Asistente de calidad · ciclo PHVA</small></div></div>
     <div class="esp"></div>
-    <button class="icono medidor" id="btnUso" title="Uso del modelo y límites"><svg viewBox="0 0 36 36"><circle class="fondo" cx="18" cy="18" r="15"/><circle class="arco" cx="18" cy="18" r="15"/></svg><b id="usoPct"></b></button>
+    <button class="uso-linea" id="btnUso" title="Uso del modelo. Toca para cambiar entre ahora y hoy."><span class="per" id="usoPer">Ahora</span><i><u id="usoBarra"></u></i><b id="usoPct">0%</b></button>
     <button class="icono" id="btnTema" title="Cambiar color"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r="1.3"/><circle cx="17.5" cy="10.5" r="1.3"/><circle cx="8.5" cy="7.5" r="1.3"/><circle cx="6.5" cy="12.5" r="1.3"/><path d="M12 2a10 10 0 0 0 0 20c.9 0 1.7-.8 1.7-1.7 0-.4-.2-.8-.4-1.1-.3-.3-.4-.7-.4-1.1 0-.9.8-1.7 1.7-1.7h2A5.6 5.6 0 0 0 22 11c0-5-4.5-9-10-9z"/></svg></button>
     <button class="icono" id="btnArticulos" title="Biblioteca de artículos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></button>
     <button class="icono" id="btnNuevo" title="Nueva conversación"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg></button>
@@ -406,10 +468,13 @@ textarea::placeholder{color:var(--tenue)}
         <button type="button" class="modo" data-modo="consultor"><span class="ico">🧭</span>Consultor</button>
       </div>
       <button type="button" class="interruptor" id="btnWeb" title="Buscar también fuentes académicas recientes en línea (OpenAlex)"><i></i>🌐 <b>Fuentes en línea</b></button>
+      <button type="button" class="doc-chip" id="docChip" title="Abrir el documento"><span id="docChipNombre"></span></button>
       <div class="ayuda-modo" id="ayudaModo"></div>
     </div>
     <form id="form" autocomplete="off">
       <textarea id="entrada" rows="1" maxlength="3000" placeholder="Pregúntale a Sigma o cuéntale el caso de tu empresa…"></textarea>
+      <button type="button" class="btn-r adjuntar" id="btnAdjuntar" title="Adjuntar Excel, Word o Markdown"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5 12.5 20a5.5 5.5 0 0 1-7.8-7.8l9-9a3.7 3.7 0 0 1 5.2 5.2l-9 9a1.8 1.8 0 0 1-2.6-2.6l8.3-8.3"/></svg></button>
+      <input type="file" id="archivo" accept=".xlsx,.xlsm,.docx,.md,.markdown,.txt,.csv" hidden>
       <button type="button" class="btn-r mic" id="btnMic" title="Dictar por voz" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0 0 14 0M12 17v5"/></svg></button>
       <button class="btn-r enviar" id="btnEnviar" title="Enviar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
     </form>
@@ -417,9 +482,17 @@ textarea::placeholder{color:var(--tenue)}
 </div>
 
 <div class="credito" tabindex="0"><span>Hecho por Juan David Pachon Valero</span><i>i</i></div>
-<div class="uso" id="uso"></div>
 <div class="temas" id="temas"><h3>Color de Sigma</h3><div class="muestras" id="muestras"></div></div>
 <div class="velo" id="velo"></div>
+<div class="soltar" id="soltar">Suelta aquí tu Excel, Word o Markdown</div>
+<aside class="docp" id="docp">
+  <div class="docp-cab">
+    <div class="docp-fila"><h2 id="docNombre"></h2><button class="icono" id="docQuitar" title="Quitar documento">🗑</button><button class="icono" id="docCerrar" title="Ocultar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg></button></div>
+    <div class="docp-avance"><i><u id="docBarra"></u></i><span id="docPct">0%</span></div>
+    <div class="docp-tabs"><button class="on" data-t="pasos">Paso a paso</button><button data-t="texto">Documento</button></div>
+  </div>
+  <div class="docp-cuerpo"><div id="docPasos"></div><div id="docTexto" class="md" hidden></div></div>
+</aside>
 <aside class="panel" id="panel">
   <div class="panel-cab">
     <div><h2 id="tituloBiblio">Biblioteca</h2><button class="icono" id="btnCerrar" title="Cerrar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg></button></div>
@@ -460,9 +533,9 @@ const FASE_TXT = {
 };
 
 let historial = [], articulos = [], ocupado = false, hablandoBtn = null;
-let modoActual = "rapido", webActiva = false, perfil = null;
+let modoActual = "rapido", webActiva = false, perfil = null, formatos = [], documento = null;
 const AYUDA = {
-  rapido: "Respuesta corta basada en los artículos.",
+  rapido: "Respuesta directa basada en los artículos.",
   profundo: "Analiza tu pregunta, busca con varias consultas y razona a fondo.",
   consultor: "Diagnóstico y plan de soluciones PHVA para tu empresa, con fuentes en línea.",
 };
@@ -493,7 +566,32 @@ function citas(html){
 const arreglarMd = md => md.replace(/(^|\n)[ \t]*\*\*[ \t]*(#{1,4})[ \t]*([^*\n]+?)[ \t]*\*\*[ \t]*(?=\n|$)/g, "$1$2 $3")
   .replace(/(^|\n)(#{1,4})[ \t]+#{1,4}[ \t]+/g, "$1$2 ")
   .replace(/([^\n])\n(#{1,4} )/g, "$1\n\n$2");
-const render = md => citas(DOMPurify.sanitize(marked.parse(arreglarMd(md))));
+const enLinea = t => DOMPurify.sanitize(marked.parseInline(t.trim()));
+const COLOR_FASE = f => Object.entries(FASES).find(([k]) => k.toLowerCase() === f.trim().toLowerCase());
+const CONSTRUCTORES = {
+  pasos: ls => `<div class="v v-pasos">${ls.map(([t, d]) => `<div class="v-paso"><b>${enLinea(t)}</b>${d ? `<span>${enLinea(d)}</span>` : ""}</div>`).join("")}</div>`,
+  fases: ls => {
+    const g = {}; ls.forEach(([f, t, d]) => { const k = COLOR_FASE(f)?.[0]; if (k) (g[k] ||= []).push([t, d]); });
+    return `<div class="v v-fases">${Object.keys(FASES).filter(k => g[k]).map(k => `<section class="v-fase" style="--c:${FASES[k]}"><h5>${k}</h5>${g[k].map(([t, d]) => d ? `<div><b>${enLinea(t || "")}</b><span>${enLinea(d)}</span></div>` : `<div><span>${enLinea(t || "")}</span></div>`).join("")}</section>`).join("")}</div>`;
+  },
+  checklist: ls => `<div class="v v-check">${ls.map(([t]) => `<label><input type="checkbox"><span>${enLinea(t)}</span></label>`).join("")}</div>`,
+  cronograma: ls => `<div class="v v-crono">${ls.map(([w, t, d]) => `<div class="v-hito"><small>${enLinea(w)}</small><b>${enLinea(t || "")}</b>${d ? `<span>${enLinea(d)}</span>` : ""}</div>`).join("")}</div>`,
+  metricas: ls => `<div class="v v-metricas">${ls.map(([n, m, d]) => `<div class="v-metrica"><strong>${enLinea(m || "")}</strong><b>${enLinea(n)}</b>${d ? `<span>${enLinea(d)}</span>` : ""}</div>`).join("")}</div>`,
+};
+function renderBase(md){
+  const t = document.createElement("div");
+  t.innerHTML = DOMPurify.sanitize(marked.parse(arreglarMd(md)));
+  t.querySelectorAll("pre > code").forEach(cod => {
+    const tipo = [...cod.classList].find(k => k.startsWith("language-"))?.slice(9), hacer = CONSTRUCTORES[tipo];
+    if (!hacer) return;
+    const lineas = cod.textContent.split("\n").map(l => l.replace(/^\s*[-*•\d.)]*\s*/, "").trim()).filter(Boolean).map(l => l.split("|").map(x => x.trim()));
+    const caja = document.createElement("div"); caja.innerHTML = hacer(lineas);
+    cod.parentElement.replaceWith(caja.firstElementChild || caja);
+  });
+  return t.innerHTML;
+}
+const render = md => citas(renderBase(md));
+const sinMarcas = md => md.replace(/^```\w*\s*$/gm, "");
 const abajo = (forzar) => { if (forzar || scroll.scrollHeight - scroll.scrollTop - scroll.clientHeight < 160) scroll.scrollTop = scroll.scrollHeight; };
 
 /* ---------- modos ---------- */
@@ -521,7 +619,7 @@ $("#perfilBorrar").onclick = () => { perfil = null; pintarPerfil(); };
 /* ---------- bienvenida ---------- */
 const CASO_EJEMPLO = "Mi empresa es de elaboración de barras metálicas. Últimamente hemos tenido problemas en los procesos de estandarización y nos gustaría certificarnos en ISO 9001.";
 function bienvenida(){
-  historial = []; perfil = null; pintarPerfil(); chat.innerHTML = "";
+  historial = []; perfil = null; formatos = []; pintarPerfil(); chat.innerHTML = "";
   const b = document.createElement("section"); b.className = "bienvenida";
   b.appendChild(avatar());
   const nb = articulos.filter(a => (a.origen || "base") === "base").length || 50, nc = articulos.length - nb;
@@ -573,7 +671,8 @@ async function preguntar(pregunta, modo = modoActual, opciones = {}){
   try {
     const hist = opciones.historial ?? historial;
     const r = await fetch("/api/chat", {method:"POST", headers:{"Content-Type":"application/json"},
-      body: JSON.stringify({pregunta, modo, web: webActiva, historial: hist.slice(-10), perfil})});
+      body: JSON.stringify({pregunta, modo, web: webActiva, historial: hist.slice(-10), perfil, formatos: formatos.slice(-4),
+        documento: documento ? {nombre: documento.nombre, texto: documento.texto, paso: opciones.paso || pasoActivoTexto()} : null})});
     if (!r.ok) throw new Error((await r.json().catch(() => ({}))).detail || `Error ${r.status}`);
     const lector = r.body.getReader(), dec = new TextDecoder(); let buf = "";
     while (true) {
@@ -587,7 +686,8 @@ async function preguntar(pregunta, modo = modoActual, opciones = {}){
         else if (ev.tipo === "texto") {
           if (!texto) { estado(av, "escribiendo"); md.classList.add("cursor"); pasos.classList.add("plegado"); }
           texto += ev.t; md.innerHTML = render(texto); abajo();
-        } else if (ev.tipo === "paso") paso(ev);
+        } else if (ev.tipo === "formato") { formatos.push(ev.f); formatos = formatos.slice(-6); }
+        else if (ev.tipo === "paso") paso(ev);
         else if (ev.tipo === "perfil") { perfil = ev.perfil; pintarPerfil(); }
         else if (ev.tipo === "sugerencias") sugerencias = ev.items;
         else if (ev.tipo === "fuentes") { fuentes = ev.fuentes; web = ev.web || []; }
@@ -628,7 +728,7 @@ function descargar(texto, pregunta, modo){
   const html = `<html><head><meta charset="utf-8"><title>Sigma</title><style>body{font-family:Calibri,Arial,sans-serif;font-size:11pt;line-height:1.45}
     table{border-collapse:collapse;width:100%}th,td{border:1px solid #999;padding:5px;vertical-align:top}th{background:#e8ebf7}h1{color:#3730a3;font-size:18pt}h2{color:#3730a3;font-size:14pt}</style></head>
     <body><h1>${modo === "consultor" ? "Plan de soluciones PHVA" : "Respuesta de Sigma"}</h1><p><b>Consulta:</b> ${esc(pregunta)}</p>
-    ${DOMPurify.sanitize(marked.parse(texto))}<hr><p style="color:#666;font-size:9pt">Generado por Sigma · Asistente de gestión de calidad · ${new Date().toLocaleDateString("es")}</p></body></html>`;
+    ${renderBase(texto)}<hr><p style="color:#666;font-size:9pt">Generado por Sigma · Asistente de gestión de calidad · ${new Date().toLocaleDateString("es")}</p></body></html>`;
   const a = document.createElement("a");
   a.href = URL.createObjectURL(new Blob(["\ufeff" + html], {type:"application/msword"}));
   a.download = (modo === "consultor" ? "Plan_PHVA_Sigma" : "Respuesta_Sigma") + ".doc"; a.click();
@@ -638,7 +738,7 @@ function descargar(texto, pregunta, modo){
 function acciones(col, av, texto, fuentes, web, modo, pregunta){
   const a = document.createElement("div"); a.className = "acciones";
   const bCopiar = boton(ICON.copiar, "Copiar"), bVoz = boton(ICON.voz, "Escuchar");
-  bCopiar.onclick = async () => { await navigator.clipboard.writeText(texto); bCopiar.innerHTML = ICON.ok + "Copiado"; setTimeout(() => bCopiar.innerHTML = ICON.copiar + "Copiar", 1600); };
+  bCopiar.onclick = async () => { await navigator.clipboard.writeText(sinMarcas(texto)); bCopiar.innerHTML = ICON.ok + "Copiado"; setTimeout(() => bCopiar.innerHTML = ICON.copiar + "Copiar", 1600); };
   bVoz.onclick = () => hablar(texto, av, bVoz);
   a.append(bCopiar);
   if ("speechSynthesis" in window) a.append(bVoz);
@@ -663,7 +763,7 @@ function elegirVoz(){
 }
 if ("speechSynthesis" in window) { elegirVoz(); speechSynthesis.onvoiceschanged = elegirVoz; }
 function limpiarParaVoz(md){
-  return md.replace(/\[(\d{1,2})\]/g, "").replace(/[#*_`>|]/g, "").replace(/\(([^)]*)\)/g, ", $1,").replace(/-{3,}/g, "").replace(/\n+/g, ". ");
+  return sinMarcas(md).replace(/\[(\d{1,2})\]/g, "").replace(/[#*_`>|]/g, "").replace(/\(([^)]*)\)/g, ", $1,").replace(/-{3,}/g, "").replace(/\n+/g, ". ");
 }
 function callar(){
   if (!("speechSynthesis" in window)) return;
@@ -725,7 +825,7 @@ function abrirPanel(){ $("#tituloBiblio").textContent = `Biblioteca · ${articul
 function cerrarPanel(){ $("#panel").classList.remove("abierto"); $("#velo").classList.remove("abierto"); }
 $("#btnArticulos").onclick = abrirPanel; $("#btnCerrar").onclick = cerrarPanel; $("#velo").onclick = cerrarPanel;
 $("#filtro").oninput = pintarLista;
-document.addEventListener("keydown", e => { if (e.key === "Escape") { cerrarPanel(); $("#temas").classList.remove("abierto"); $("#uso").classList.remove("abierto"); } });
+document.addEventListener("keydown", e => { if (e.key === "Escape") { cerrarPanel(); $("#temas").classList.remove("abierto"); } });
 
 /* ---------- temas ---------- */
 const TEMAS = {indigo:["Índigo","#6366f1","#22d3ee"], rojo:["Rojo","#ef4444","#fb923c"], verde:["Verde","#10b981","#a3e635"],
@@ -742,75 +842,112 @@ function pintarTemas(){
     pintarTemas();
   });
 }
-$("#btnTema").onclick = e => { e.stopPropagation(); $("#uso").classList.remove("abierto"); pintarTemas(); $("#temas").classList.toggle("abierto"); };
+$("#btnTema").onclick = e => { e.stopPropagation(); pintarTemas(); $("#temas").classList.toggle("abierto"); };
 document.addEventListener("click", e => { if (!e.target.closest("#temas")) $("#temas").classList.remove("abierto"); });
 
 try { const m = localStorage.getItem("sigma-modo"); if (m && AYUDA[m]) modoActual = m; } catch (e) {}
 requestAnimationFrame(() => ponerModo(modoActual));
 bienvenida();
-/* ---------- uso del modelo y límites ---------- */
-let usoDatos = null, usoT0 = 0;
-const nivel = f => f > .5 ? "#10b981" : f > .2 ? "#f59e0b" : "#ef4444";
-const miles = n => Number(n || 0).toLocaleString("es-CO");
+/* ---------- uso en una sola línea: de 0 a 100, ahora o hoy ---------- */
+let usoDatos = null, usoT0 = 0, usoVista = "ahora";
+const nivel = f => f < .5 ? "#10b981" : f < .8 ? "#f59e0b" : "#ef4444";
 function tiempo(seg){
   seg = Math.max(0, Math.round(seg));
   if (seg < 60) return `${seg} s`;
   const h = Math.floor(seg / 3600), m = Math.floor(seg % 3600 / 60);
-  return h ? `${h} h ${m} min` : `${m} min ${seg % 60} s`;
-}
-const corto = m => m.replace(/^openai\//, "").replace(/^claude-/, "Claude ");
-function vigente(m){   // lo que queda ahora, teniendo en cuenta el tiempo que pasó desde la última lectura
-  const t = (Date.now() - usoT0) / 1000, repone = (m.tpm_repone_en ?? 0) - t;
-  return {tpm: repone <= 0 ? m.tpm_limite : m.tpm_restante, tpmEn: repone, rpdEn: (m.rpd_repone_en ?? 0) - t};
-}
-function metrica(titulo, valor, limite, pie){
-  const f = limite ? Math.max(0, Math.min(1, valor / limite)) : 0;
-  return `<div class="metrica" style="--nivel:${nivel(f)}"><div class="fila-m"><span>${titulo}</span><b>${miles(valor)} / ${miles(limite)}</b></div>
-    <div class="barra"><i style="width:${(f * 100).toFixed(1)}%"></i></div>${pie ? `<small>${pie}</small>` : ""}</div>`;
+  return h ? `${h} h ${m} min` : `${m} min`;
 }
 function pintarUso(){
-  if (!usoDatos) return;
-  const principal = usoDatos.modelos[0] || {};
-  let f = 1;
-  if (usoDatos.proveedor === "groq" && principal.tpm_limite) f = vigente(principal).tpm / principal.tpm_limite;
-  const b = $("#btnUso"); b.style.setProperty("--nivel", nivel(f)); b.style.setProperty("--off", (94.25 * (1 - f)).toFixed(1));
-  $("#usoPct").textContent = usoDatos.proveedor === "groq" ? Math.round(f * 100) : "";
-  if (!$("#uso").classList.contains("abierto")) return;
-
-  let html;
-  if (usoDatos.proveedor === "groq") {
-    html = `<h3>Uso de Groq · plan gratis</h3><div class="sub">Cupo disponible ahora y cuándo se repone</div>`;
-    usoDatos.modelos.forEach((m, i) => {
-      const v = vigente(m);
-      html += `<div class="uso-modelo"><h4>${corto(m.modelo)} <span>${i ? "respaldo y análisis" : "principal"}</span></h4>`;
-      if (m.tpm_limite) {
-        html += metrica("Tokens por minuto", v.tpm, m.tpm_limite, v.tpmEn > 0 && v.tpm < m.tpm_limite ? `Se repone completo en ${tiempo(v.tpmEn)}` : "Cupo completo");
-        html += metrica("Consultas del día", m.rpd_restante, m.rpd_limite, m.rpd_restante < m.rpd_limite ? `Se repone completo en ${tiempo(v.rpdEn)}` : "Cupo completo");
-      }
-      html += metrica("Tokens usados hoy (≈ límite diario)", m.tokens_hoy, usoDatos.limite_tokens_dia, `${m.consultas_hoy} llamadas · contados por Sigma desde que se encendió`);
-      html += `</div>`;
-    });
-    html += `<div class="nota">Una pregunta en ⚡ Rápido gasta ≈ 3.000 tokens; ✦ Profundo y 🧭 Consultor, ≈ 5.000–8.000. Si no alcanza el cupo por minuto, Sigma espera unos segundos o usa el modelo de respaldo.</div>`;
-  } else if (usoDatos.proveedor === "claude") {
-    const total = usoDatos.modelos.reduce((a, m) => a + m.costo_hoy, 0);
-    html = `<h3>Uso de Claude</h3><div class="sub">Pago por uso · sin límite diario fijo</div>`;
-    usoDatos.modelos.forEach(m => {
-      html += `<div class="uso-modelo"><h4>${corto(m.modelo)} <span>${m.consultas_hoy} llamadas hoy</span></h4>
-        <div class="metrica"><div class="fila-m"><span>Tokens hoy</span><b>${miles(m.tokens_hoy)}</b></div><small>Costo estimado: US$ ${m.costo_hoy.toFixed(3)}</small></div></div>`;
-    });
-    html += `<div class="nota">Costo estimado hoy: <b>US$ ${total.toFixed(3)}</b>. El saldo real se ve en console.anthropic.com.</div>`;
-  } else html = `<h3>Sin modelo configurado</h3><div class="sub">Agrega una clave en el archivo .env</div>`;
-  $("#uso").innerHTML = html;
+  const b = $("#btnUso"), m = usoDatos?.modelos?.[0];
+  if (!m) return;
+  $("#usoPer").textContent = usoVista === "ahora" ? "Ahora" : "Hoy";
+  if (usoDatos.proveedor === "claude") {
+    b.querySelector("i").hidden = true;
+    const total = usoDatos.modelos.reduce((a, x) => a + x.costo_hoy, 0);
+    $("#usoPer").textContent = "Hoy"; $("#usoPct").textContent = `US$ ${total.toFixed(2)}`;
+    b.title = "Costo estimado de hoy"; return;
+  }
+  if (!m.tpm_limite) return;
+  const t = (Date.now() - usoT0) / 1000;
+  let usado, nota;
+  if (usoVista === "ahora") {
+    const queda = (m.tpm_repone_en ?? 0) - t;
+    usado = queda <= 0 ? 0 : 1 - m.tpm_restante / m.tpm_limite;
+    nota = usado > 0 ? `Se repone en ${tiempo(queda)}` : "Cupo por minuto completo";
+  } else {
+    usado = 1 - m.rpd_restante / m.rpd_limite;
+    nota = `${m.rpd_limite - m.rpd_restante} de ${m.rpd_limite} consultas de hoy · se repone en ${tiempo((m.rpd_repone_en ?? 0) - t)}`;
+  }
+  const pct = Math.round(Math.max(0, Math.min(1, usado)) * 100);
+  b.style.setProperty("--nivel", nivel(usado));
+  $("#usoBarra").style.width = pct + "%"; $("#usoPct").textContent = pct + "%";
+  b.title = nota + ". Toca para cambiar entre ahora y hoy.";
 }
 async function cargarUso(){
   try { usoDatos = await fetch("/api/uso").then(r => r.json()); usoT0 = Date.now(); pintarUso(); } catch (e) {}
 }
 function recibirUso(u){ usoDatos = u; usoT0 = Date.now(); pintarUso(); }
-$("#btnUso").onclick = e => { e.stopPropagation(); $("#temas").classList.remove("abierto"); $("#uso").classList.toggle("abierto"); pintarUso(); cargarUso(); };
-document.addEventListener("click", e => { if (!e.target.closest("#uso")) $("#uso").classList.remove("abierto"); });
+$("#btnUso").onclick = () => { usoVista = usoVista === "ahora" ? "hoy" : "ahora"; pintarUso(); };
 setInterval(pintarUso, 1000);
-setInterval(() => { if ($("#uso").classList.contains("abierto")) cargarUso(); }, 15000);
 cargarUso();
+
+/* ---------- documento adjunto: se lee, se muestra y se sigue paso a paso ---------- */
+function pasoActivoTexto(){ return documento?.pasos[documento.activo]?.t || ""; }
+function abrirDoc(){ $("#docp").classList.add("abierto"); document.body.classList.add("con-doc"); }
+function cerrarDoc(){ $("#docp").classList.remove("abierto"); document.body.classList.remove("con-doc"); }
+function pintarDoc(){
+  if (!documento) return;
+  const hechos = documento.pasos.filter(p => p.hecho).length, total = documento.pasos.length || 1, pct = Math.round(hechos / total * 100);
+  $("#docBarra").style.width = pct + "%"; $("#docPct").textContent = `${pct}% · ${hechos}/${documento.pasos.length}`;
+  const cont = $("#docPasos"); cont.innerHTML = "";
+  documento.pasos.forEach((p, i) => {
+    const d = document.createElement("div"); d.className = "dpaso" + (i === documento.activo ? " activo" : "") + (p.hecho ? " hecho" : "");
+    d.innerHTML = `<input type="checkbox" ${p.hecho ? "checked" : ""}><div style="flex:1;min-width:0"><div class="dtxt">${i + 1}. ${esc(p.t)}</div><button class="dguia">Guíame en este paso</button></div>`;
+    d.querySelector("input").onchange = e => {
+      p.hecho = e.target.checked;
+      if (p.hecho && i === documento.activo) { const sig = documento.pasos.findIndex(x => !x.hecho); if (sig >= 0) documento.activo = sig; }
+      pintarDoc();
+    };
+    d.querySelector(".dtxt").onclick = () => { documento.activo = i; pintarDoc(); };
+    d.querySelector(".dguia").onclick = () => { if (innerWidth < 1100) cerrarDoc(); preguntar(`Guíame en el paso ${i + 1} de mi documento: ${p.t}`, modoActual, {paso: p.t}); };
+    cont.appendChild(d);
+  });
+}
+async function subirArchivo(f){
+  if (!f) return;
+  if (f.size > 3e6) return avisoDoc("El archivo pesa más de 3 MB. Prueba con una versión más liviana.");
+  $("#docChip").classList.add("on"); $("#docChipNombre").textContent = "Leyendo " + f.name + "…";
+  try {
+    const b64 = await new Promise((ok, mal) => { const l = new FileReader(); l.onload = () => ok(String(l.result).split(",")[1] || ""); l.onerror = mal; l.readAsDataURL(f); });
+    const r = await fetch("/api/archivo", {method:"POST", headers:{"Content-Type":"application/json"}, body: JSON.stringify({nombre: f.name, contenido: b64})});
+    const d = await r.json();
+    if (!r.ok) throw new Error(d.detail || `Error ${r.status}`);
+    documento = {nombre: d.nombre, texto: d.texto, activo: 0, pasos: d.pasos.map(t => ({t, hecho: false}))};
+    $("#docNombre").textContent = d.nombre; $("#docChipNombre").textContent = "📄 " + d.nombre;
+    $("#docTexto").innerHTML = DOMPurify.sanitize(marked.parse(d.texto));
+    pintarDoc(); abrirDoc();
+    if (d.recortado) avisoDoc("El documento es muy largo: leí solo la primera parte.");
+  } catch (e) { $("#docChip").classList.remove("on"); documento = null; avisoDoc(e.message); }
+  $("#archivo").value = "";
+}
+function avisoDoc(t){
+  chat.querySelector(".bienvenida")?.remove();
+  const f = document.createElement("div"); f.className = "fila ia";
+  f.innerHTML = `<div class="ia-col"><div class="tarjeta"><div class="md"><p class="error">⚠ ${esc(t)}</p></div></div></div>`;
+  chat.appendChild(f); abajo(true);
+}
+$("#btnAdjuntar").onclick = () => $("#archivo").click();
+$("#archivo").onchange = e => subirArchivo(e.target.files[0]);
+$("#docChip").onclick = () => $("#docp").classList.contains("abierto") ? cerrarDoc() : abrirDoc();
+$("#docCerrar").onclick = cerrarDoc;
+$("#docQuitar").onclick = () => { documento = null; cerrarDoc(); $("#docChip").classList.remove("on"); };
+document.querySelectorAll(".docp-tabs button").forEach(b => b.onclick = () => {
+  document.querySelectorAll(".docp-tabs button").forEach(x => x.classList.toggle("on", x === b));
+  $("#docPasos").hidden = b.dataset.t !== "pasos"; $("#docTexto").hidden = b.dataset.t !== "texto";
+});
+addEventListener("dragover", e => { e.preventDefault(); $("#soltar").classList.add("on"); });
+addEventListener("dragleave", e => { if (!e.relatedTarget) $("#soltar").classList.remove("on"); });
+addEventListener("drop", e => { e.preventDefault(); $("#soltar").classList.remove("on"); subirArchivo(e.dataTransfer.files[0]); });
 
 fetch("/api/articulos").then(r => r.json()).then(a => { articulos = a; if (chat.querySelector(".bienvenida")) bienvenida(); });
 </script>

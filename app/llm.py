@@ -337,6 +337,9 @@ Interpreta el último mensaje del usuario DENTRO de la conversación y devuelve 
  "consulta_independiente": "el mensaje reescrito en español para entenderse solo, resolviendo 'eso', 'lo anterior', 'y en mi caso', etc.",
  "aclaraciones": ["solo si tipo=plan y falta información indispensable: 1 a 3 preguntas cortas"],
  "perfil": {"sector": "", "producto": "", "problemas": [], "objetivos": [], "tamano": ""},
+ "extension": "corta | media | larga",
+ "formato": "conversacion | lista | pasos | fases | checklist | cronograma | metricas | tabla | informe",
+ "formato_pedido": false,
  "fases": ["fases PHVA relacionadas"],
  "consultas_en": ["3 a 5 consultas académicas en inglés, CORTAS (3 a 6 palabras clave), distintas entre sí, p. ej. ISO 9001 implementation manufacturing SME"],
  "subpreguntas": ["2 a 4 subpreguntas en español que la respuesta debe cubrir"]
@@ -348,6 +351,9 @@ Cómo elegir "tipo":
 - fuera_de_tema: se entiende, pero no tiene que ver con calidad, manufactura, operaciones o gestión (recetas, fútbol, tareas de otras materias).
 - plan: pide ayuda, un plan o qué hacer en su empresa o proceso.
 - consulta: pregunta sobre un tema, concepto, artículo o herramienta. Un término del área también cuenta ("kaizen", "iso 9001"), igual que un mensaje con errores de ortografía o una continuación corta que se entiende con el contexto ("¿y eso cómo se mide?", "dame un ejemplo").
+
+"extension": mide cuánto pide de verdad. corta = dato puntual, definición o "en una frase" (1 a 3 frases); media = explicación normal; larga = plan, análisis o "explícame a fondo".
+"formato": la forma que mejor sirve a ESTE pedido. conversacion = texto corrido; lista = puntos sueltos; pasos = procedimiento ordenado; fases = organizado por Planificar, Hacer, Verificar, Actuar; checklist = lista para ir marcando; cronograma = actividades en el tiempo; metricas = indicadores y metas; tabla = solo si compara cosas o la piden; informe = secciones con subtítulos. "formato_pedido": true solo si el usuario pidió esa forma con palabras ("en un cuadro", "dame una lista").
 
 "aclaraciones": déjalo vacío salvo que sea tipo plan y, sin ese dato, el plan sería genérico (por ejemplo "ayúdame con mi empresa", sin decir qué fabrica ni qué problema tiene). Si ya dijo el sector o producto y el problema u objetivo, déjalo vacío. Déjalo vacío también si en la conversación ya respondió aclaraciones o dijo que no sabe o que siga.
 
