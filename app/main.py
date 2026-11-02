@@ -38,7 +38,7 @@ PRESUPUESTO = {
     "groq": {"rapido": (8000, 1500), "profundo": (10500, 5000), "consultor": (11000, 6000)},
 }
 
-SISTEMA_BASE = f"""Te llamas Sigma. Eres un consultor experto en gestión de calidad para la industria manufacturera.
+SISTEMA_BASE = f"""Te llamas Sigma y te creó Juan David Pachon Valero. Eres un consultor experto en gestión de calidad para la industria manufacturera, y conversas como una persona: con naturalidad, sin plantillas y sin rodeos.
 Tu base de conocimiento es:
 1) {N_BASE} artículos científicos (2021-2026) seleccionados por el equipo del proyecto para implementar el ciclo PHVA (Planificar-Hacer-Verificar-Actuar) con énfasis en la gerencia de calidad; de cada uno hay barrera, conclusión y, en muchos, la solución propuesta por el equipo.
 2) {N_COMPL} artículos complementarios de acceso abierto (ISO 9001, estandarización, metalmecánica, SPC, TPM…).
@@ -48,9 +48,11 @@ Tu base de conocimiento es:
 Reglas:
 - Responde SIEMPRE en español, aunque las fuentes estén en inglés. Traduce los términos técnicos y pon el original entre paréntesis la primera vez si ayuda.
 - Cita con el número entre corchetes: artículos [12], fuentes en línea [W2]. Usa solo números que aparezcan en el contexto. Lo que venga del catálogo márcalo como (guía práctica) y lo que salga de tu conocimiento general como (conocimiento general).
-- No inventes cifras, autores ni conclusiones. Si los datos de la empresa no alcanzan, haz supuestos explícitos y breves.
-- Piensa como consultor: conecta el problema del usuario con causas, soluciones concretas, herramientas, indicadores y la fase PHVA correspondiente.
-- Mantén el hilo de la conversación: usa el perfil de la empresa y lo ya dicho; no repitas lo mismo.
+- No inventes cifras, tolerancias, autores ni conclusiones. Si los datos de la empresa no alcanzan, haz supuestos explícitos y breves.
+- Responde exactamente lo que te preguntan y en proporción: a una pregunta simple, una respuesta simple; no la conviertas en un informe.
+- Sigue el hilo: entiende "eso", "lo anterior" o "en mi caso" según la conversación, usa el perfil de la empresa y no repitas lo ya dicho.
+- Cuando te pidan ayuda con un problema real, piensa como consultor: conecta causas, soluciones concretas, herramientas, indicadores y la fase PHVA.
+- Si varias fuentes se contradicen o la evidencia es débil (por ejemplo, un solo caso o solo el resumen), dilo en lugar de presentarlo como un hecho seguro.
 - Markdown ligero: títulos cortos (##), viñetas y negritas. Tablas solo cuando el modo lo pida o el usuario compare cosas, con máximo 5 columnas cortas.
 - Si la pregunta no tiene relación con calidad, manufactura u operaciones, dilo con amabilidad y redirige.
 - No termines con preguntas ni ofrecimientos ("¿quieres que...?"): las sugerencias van aparte.
@@ -60,7 +62,7 @@ AL FINAL de cada respuesta escribe SIEMPRE una línea con exactamente <<<SUGEREN
 MODOS = {
     "rapido": """
 MODO RÁPIDO:
-- Responde directo, en máximo ~180 palabras, con viñetas cortas.
+- Responde como en una conversación: directo, en máximo ~120 palabras, sin títulos ni tablas; viñetas cortas solo si ayudan.
 - Basa la respuesta en el contexto. Si falta información, dilo en una frase.""",
     "profundo": """
 MODO PROFUNDO:
@@ -84,6 +86,20 @@ Sé concreto y aplicable a la planta real del usuario; nada genérico.""",
 }
 
 MARCA = "<<<SUGERENCIAS>>>"
+NO_ENTIENDO = "No te entiendo, ¿podrías ser más claro?"
+SISTEMA_CHARLA = """Te llamas Sigma y te creó Juan David Pachon Valero. Eres un asistente de gestión de calidad para manufactura: respondes con artículos científicos, propones soluciones por fase PHVA y ayudas a planear mejoras e ISO 9001.
+Responde en español, con naturalidad y en 1 a 3 frases, sin títulos ni listas. No cites artículos.
+Si el tema no tiene que ver con calidad, manufactura u operaciones, dilo con amabilidad en una frase y comenta en qué sí puedes ayudar."""
+
+
+def parece_ruido(texto):
+    """Teclazos evidentes, sin gastar una llamada al modelo."""
+    palabras = re.findall(r"[a-záéíóúüñ]+", texto.lower())
+    if not palabras or sum(map(len, palabras)) < 2:
+        return True
+    return all(not re.search(r"[aeiouáéíóúü]", p) or re.search(r"[^aeiouáéíóúü]{5,}", p) for p in palabras)
+
+
 PALABRAS_LISTA = ("que articulos", "cuales articulos", "cuales son los articulos", "lista", "listar", "enumera",
                   "cuantos articulos", "que estudios", "cuales estudios")
 
@@ -98,7 +114,7 @@ class Mensaje(BaseModel):
 
 
 class Consulta(BaseModel):
-    pregunta: str = Field(min_length=2, max_length=3000)
+    pregunta: str = Field(min_length=1, max_length=3000)
     modo: str = "rapido"
     web: bool = False
     historial: list[Mensaje] = Field(default_factory=list, max_length=12)
@@ -191,25 +207,66 @@ async def chat(c: Consulta):
 
     async def eventos():
         perfil = c.perfil or {}
-        fase = buscador.detectar_fase(pregunta)
-        caso = " ".join([pregunta, json.dumps(perfil, ensure_ascii=False)])
+        if parece_ruido(pregunta):
+            yield linea({"tipo": "directo"})
+            yield linea({"tipo": "texto", "t": NO_ENTIENDO})
+            return
 
         if profundo:
             yield linea({"tipo": "paso", "id": "analisis", "t": "Analizando tu caso"})
-            plan = await llm.analizar(pregunta, perfil, hist_txt)
-            if plan.get("perfil"):
-                perfil = {k: v for k, v in plan["perfil"].items() if v and v not in ("?", "-", "desconocido", ["?"])}
+        plan = await llm.analizar(pregunta, perfil, hist_txt)
+        tipo = plan.get("tipo", "consulta")
+
+        if tipo == "sin_sentido":
+            yield linea({"tipo": "directo"})
+            yield linea({"tipo": "texto", "t": NO_ENTIENDO})
+            return
+
+        if isinstance(plan.get("perfil"), dict):
+            nuevo = {k: v for k, v in plan["perfil"].items() if v and v not in ("?", "-", "desconocido", ["?"])}
+            if nuevo:
+                perfil = nuevo
                 yield linea({"tipo": "perfil", "perfil": perfil})
-            consultas_en = [q for q in plan.get("consultas_en", []) if isinstance(q, str)][:5]
-            subpreguntas = [q for q in plan.get("subpreguntas", []) if isinstance(q, str)][:4]
-            caso = " ".join([pregunta, json.dumps(perfil, ensure_ascii=False), " ".join(subpreguntas)])
+
+        if tipo in ("conversacion", "fuera_de_tema"):
+            yield linea({"tipo": "directo"})
+            mensajes = [{"role": "system", "content": SISTEMA_CHARLA}]
+            for m in historial[-4:]:
+                mensajes.append({"role": "assistant" if m.rol == "ia" else "user", "content": m.texto[:800]})
+            mensajes.append({"role": "user", "content": pregunta})
+            try:
+                async for trozo in llm.transmitir(mensajes, esfuerzo="low", max_tokens=500):
+                    yield linea({"tipo": "texto", "t": trozo})
+            except Exception as e:
+                yield linea({"tipo": "error", "t": str(e)})
+            return
+
+        # Preguntar solo cuando pide ayuda o un plan, le falta algo indispensable y aún no se le preguntó
+        ya_pregunto = historial and historial[-1].rol == "ia" and "?" in historial[-1].texto[-300:] and len(historial[-1].texto) < 700
+        aclaraciones = [q for q in plan.get("aclaraciones", []) if isinstance(q, str) and q.strip()][:3]
+        if tipo == "plan" and aclaraciones and not ya_pregunto:
+            yield linea({"tipo": "directo"})
+            intro = "Para ayudarte bien necesito saber un poco más:\n\n"
+            yield linea({"tipo": "texto", "t": intro + "\n".join(f"- {q}" for q in aclaraciones)})
+            return
+
+        busqueda = plan.get("consulta_independiente") if isinstance(plan.get("consulta_independiente"), str) else ""
+        busqueda = busqueda.strip() or pregunta
+        fase = buscador.detectar_fase(busqueda)
+        consultas_en = [q for q in plan.get("consultas_en", []) if isinstance(q, str)][:5]
+        subpreguntas = [q for q in plan.get("subpreguntas", []) if isinstance(q, str)][:4]
+        caso = " ".join([busqueda, json.dumps(perfil, ensure_ascii=False) if tipo == "plan" or profundo else "", " ".join(subpreguntas)])
+        if profundo:
             yield linea({"tipo": "paso", "id": "analisis", "estado": "listo",
                          "t": "Caso analizado" + (f" · {perfil.get('sector')}" if perfil.get("sector") else "")})
-        else:
-            consultas_en, subpreguntas = [await llm.traducir_consulta(pregunta)], []
+        elif not consultas_en:
+            consultas_en = [await llm.traducir_consulta(busqueda)]
 
         expansion = " ".join(buscador.expandir(caso))
-        consultas = [" ".join([pregunta, consultas_en[0] if consultas_en else "", expansion])] + consultas_en[1:]
+        if profundo:
+            consultas = [" ".join([busqueda, consultas_en[0] if consultas_en else "", expansion])] + consultas_en[1:]
+        else:
+            consultas = [" ".join([busqueda, " ".join(consultas_en), expansion])]
         if profundo:
             yield linea({"tipo": "paso", "id": "busqueda", "t": f"Buscando en {len(buscador.articulos)} artículos"})
 
@@ -219,10 +276,10 @@ async def chat(c: Consulta):
             if profundo:
                 yield linea({"tipo": "paso", "id": "web", "t": "Consultando fuentes académicas en línea"})
             dois = {a["doi"] for a in buscador.articulos.values()}
-            web = await conocimiento.buscar_en_linea(consultas_en or [pregunta], por_consulta=2 if profundo else 3,
+            web = await conocimiento.buscar_en_linea(consultas_en or [busqueda], por_consulta=2 if profundo else 3,
                                                      maximo=5 if profundo else 3, excluir_dois=dois)
 
-        contexto, ids = armar_contexto(pregunta, consultas, fase, ctx_max, soluciones_txt, web, profundo)
+        contexto, ids = armar_contexto(busqueda, consultas, fase, ctx_max, soluciones_txt, web, profundo)
         if profundo:
             yield linea({"tipo": "paso", "id": "busqueda", "estado": "listo", "t": f"{len(ids)} artículos relevantes"})
             if c.web or modo == "consultor":

@@ -330,20 +330,32 @@ async def traducir_consulta(pregunta):
     return await completar_rapido(PROMPT_TRADUCTOR + pregunta, 120, timeout=6)
 
 
-PROMPT_ANALISIS = """Eres el planificador de un asistente de gestión de calidad en manufactura (ciclo PHVA).
-Analiza la consulta del usuario (y el perfil previo de su empresa si existe) y devuelve SOLO un JSON válido, sin texto extra:
+PROMPT_ANALISIS = """Eres el planificador de Sigma, un asistente de gestión de calidad en manufactura (ciclo PHVA).
+Interpreta el último mensaje del usuario DENTRO de la conversación y devuelve SOLO un JSON válido, sin texto extra:
 {
- "perfil": {"sector": "...", "producto": "...", "problemas": ["..."], "objetivos": ["..."], "tamano": "..."},
- "intencion": "explicar | comparar | plan_de_solucion | listar_articulos | otro",
- "fases": ["Planificar","Hacer","Verificar","Actuar"],
- "consultas_en": ["3 a 5 consultas académicas en inglés, CORTAS (3 a 6 palabras clave, sin relleno), distintas entre sí, p. ej. ISO 9001 implementation manufacturing SME"],
+ "tipo": "consulta | plan | conversacion | fuera_de_tema | sin_sentido",
+ "consulta_independiente": "el mensaje reescrito en español para entenderse solo, resolviendo 'eso', 'lo anterior', 'y en mi caso', etc.",
+ "aclaraciones": ["solo si tipo=plan y falta información indispensable: 1 a 3 preguntas cortas"],
+ "perfil": {"sector": "", "producto": "", "problemas": [], "objetivos": [], "tamano": ""},
+ "fases": ["fases PHVA relacionadas"],
+ "consultas_en": ["3 a 5 consultas académicas en inglés, CORTAS (3 a 6 palabras clave), distintas entre sí, p. ej. ISO 9001 implementation manufacturing SME"],
  "subpreguntas": ["2 a 4 subpreguntas en español que la respuesta debe cubrir"]
 }
-Conserva los datos del perfil previo y agrega lo nuevo. Usa "" o [] si algo no se sabe; no inventes datos de la empresa.
+
+Cómo elegir "tipo":
+- sin_sentido: texto al azar, teclazos o palabras sueltas sin relación que no se pueden interpretar ni con el contexto ("asdasd", "mesa azul correr", "qwerty"). Ante la duda real entre sin_sentido y consulta, usa sin_sentido solo si de verdad no se entiende qué quiere.
+- conversacion: saludos, gracias, "ok", "quién eres", "qué puedes hacer", comentarios breves.
+- fuera_de_tema: se entiende, pero no tiene que ver con calidad, manufactura, operaciones o gestión (recetas, fútbol, tareas de otras materias).
+- plan: pide ayuda, un plan o qué hacer en su empresa o proceso.
+- consulta: pregunta sobre un tema, concepto, artículo o herramienta. Un término del área también cuenta ("kaizen", "iso 9001"), igual que un mensaje con errores de ortografía o una continuación corta que se entiende con el contexto ("¿y eso cómo se mide?", "dame un ejemplo").
+
+"aclaraciones": déjalo vacío salvo que sea tipo plan y, sin ese dato, el plan sería genérico (por ejemplo "ayúdame con mi empresa", sin decir qué fabrica ni qué problema tiene). Si ya dijo el sector o producto y el problema u objetivo, déjalo vacío. Déjalo vacío también si en la conversación ya respondió aclaraciones o dijo que no sabe o que siga.
+
+Perfil: conserva los datos del perfil previo y agrega solo lo que el usuario dijo de SU empresa. No inventes datos; deja vacío lo que no se sepa. Con sin_sentido, conversacion o fuera_de_tema, consultas_en y subpreguntas van vacías.
 
 Perfil previo: {perfil}
 Conversación reciente: {historial}
-Consulta: {pregunta}"""
+Último mensaje: {pregunta}"""
 
 
 async def analizar(pregunta, perfil=None, historial=""):

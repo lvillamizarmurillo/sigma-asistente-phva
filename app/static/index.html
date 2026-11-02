@@ -353,6 +353,14 @@ textarea::placeholder{color:var(--tenue)}
   .fase-card span{display:none}
   .ayuda-modo{display:none}
 }
+
+/* ---------- crédito discreto: abajo a la derecha, se abre al pasar el mouse ---------- */
+.credito{position:fixed;right:10px;bottom:8px;z-index:4;display:flex;align-items:center;gap:7px;height:22px;padding:0 3px 0 3px;border-radius:99px;color:var(--tenue);font-size:12px;opacity:.55;transition:opacity .2s,background .2s}
+.credito i{width:16px;height:16px;border-radius:50%;display:grid;place-items:center;border:1px solid var(--tenue);font:600 10px/1 Georgia,serif}
+.credito span{max-width:0;overflow:hidden;white-space:nowrap;transition:max-width .3s ease,padding .3s ease}
+.credito:hover,.credito:focus{opacity:1;background:var(--bg);outline:0}
+.credito:hover span,.credito:focus span{max-width:280px;padding-left:9px;color:var(--txt)}
+@media (max-width:640px){.credito{bottom:auto;top:58px;right:8px}}
 </style>
 </head>
 <body>
@@ -408,6 +416,7 @@ textarea::placeholder{color:var(--tenue)}
   </div>
 </div>
 
+<div class="credito" tabindex="0"><span>Hecho por Juan David Pachon Valero</span><i>i</i></div>
 <div class="uso" id="uso"></div>
 <div class="temas" id="temas"><h3>Color de Sigma</h3><div class="muestras" id="muestras"></div></div>
 <div class="velo" id="velo"></div>
@@ -518,11 +527,11 @@ function bienvenida(){
   const nb = articulos.filter(a => (a.origen || "base") === "base").length || 50, nc = articulos.length - nb;
   b.insertAdjacentHTML("beforeend", `
     <h1>Hola, soy <span>Sigma</span></h1>
-    <p>Tu consultor de gestión de calidad para manufactura: respondo con ${nb} artículos del proyecto${nc > 0 ? ` y ${nc} complementarios` : ""}, propongo soluciones por fase PHVA y busco fuentes reales en línea.</p>
+    <p>Tu consultor de calidad para manufactura: respondo con ${nb + nc} artículos científicos y propongo soluciones por fase PHVA.</p>
     <div class="fases">${Object.entries(FASE_TXT).map(([f,[d]]) =>
       `<button class="fase-card" style="--c:${FASES[f]}" data-fase="${f}"><b><i></i>${f}</b><span>${d}</span></button>`).join("")}</div>
     <div class="chips">${azar(SUGERENCIAS_INICIO, 3).map(s => `<button class="chip">${esc(s)}</button>`).join("")}</div>
-    <button class="caso"><small>🧭 Prueba el modo consultor</small><span>“${CASO_EJEMPLO}”</span></button>`);
+    <button class="caso"><small>🧭 Ejemplo · toca para probar el modo Consultor</small><span>Empresa de ejemplo: “${CASO_EJEMPLO}”</span></button>`);
   chat.appendChild(b);
   b.querySelectorAll(".fase-card").forEach(c => c.onclick = () => preguntar(FASE_TXT[c.dataset.fase][1]));
   b.querySelectorAll(".chip").forEach(c => c.onclick = () => preguntar(c.textContent));
@@ -548,7 +557,7 @@ async function preguntar(pregunta, modo = modoActual, opciones = {}){
   const etiqueta = modo === "rapido" ? "" : `<div class="etq ${modo === "consultor" ? "consultor" : ""}">${NOMBRE_MODO[modo]}</div>`;
   col.innerHTML = `<div class="tarjeta ${modo !== "rapido" ? "profunda" : ""}">${etiqueta}
       <div class="pasos"></div>
-      <div class="md">${modo === "rapido" ? '<div class="pensando"><div class="puntos"><i></i><i></i><i></i></div><span class="brillo">Buscando en los artículos…</span></div>' : ""}</div></div>`;
+      <div class="md">${modo === "rapido" ? '<div class="pensando"><div class="puntos"><i></i><i></i><i></i></div><span class="brillo">Pensando…</span></div>' : ""}</div></div>`;
   fila.appendChild(col); chat.appendChild(fila);
   estado(av, "pensando"); abajo(true);
   const md = col.querySelector(".md"), pasos = col.querySelector(".pasos");
@@ -560,7 +569,7 @@ async function preguntar(pregunta, modo = modoActual, opciones = {}){
     el.querySelector("span").textContent = ev.t; abajo();
   }
 
-  let texto = "", fuentes = [], web = [], sugerencias = [], error = "";
+  let texto = "", fuentes = [], web = [], sugerencias = [], error = "", directo = false;
   try {
     const hist = opciones.historial ?? historial;
     const r = await fetch("/api/chat", {method:"POST", headers:{"Content-Type":"application/json"},
@@ -574,7 +583,8 @@ async function preguntar(pregunta, modo = modoActual, opciones = {}){
       for (const l of lineas) {
         if (!l.trim()) continue;
         const ev = JSON.parse(l);
-        if (ev.tipo === "texto") {
+        if (ev.tipo === "directo") { directo = true; pasos.remove(); col.querySelector(".etq")?.remove(); col.querySelector(".tarjeta").classList.remove("profunda"); md.innerHTML = ""; }
+        else if (ev.tipo === "texto") {
           if (!texto) { estado(av, "escribiendo"); md.classList.add("cursor"); pasos.classList.add("plegado"); }
           texto += ev.t; md.innerHTML = render(texto); abajo();
         } else if (ev.tipo === "paso") paso(ev);
@@ -590,11 +600,12 @@ async function preguntar(pregunta, modo = modoActual, opciones = {}){
   md.classList.remove("cursor");
   if (web.length) { webActual = webActual.filter(w => !web.some(x => x.etiqueta === w.etiqueta)).concat(web); md.innerHTML = render(texto); }
   if (error) md.innerHTML = (texto ? render(texto) : "") + `<p class="error">⚠ ${esc(error)}</p>`;
-  if (!pasos.children.length) pasos.remove();
+  if (pasos.isConnected && !pasos.children.length) pasos.remove();
   estado(av, "reposo");
 
   if (texto) {
     historial.push({rol:"usuario", texto:pregunta}, {rol:"ia", texto}); historial = historial.slice(-10);
+    if (directo) { ocupado = false; btnEnviar.disabled = false; abajo(); if (matchMedia("(pointer:fine)").matches) entrada.focus(); return; }
     acciones(col, av, texto, fuentes, web, modo, pregunta);
     const fila2 = document.createElement("div"); fila2.className = "chips";
     const histPrevio = historial.slice(-2);

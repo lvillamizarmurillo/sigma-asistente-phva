@@ -1,0 +1,32 @@
+PROCESO DE DESARROLLO DE SIGMA
+Capturas reales de cada etapa, en orden.
+
+01_programacion_main.png  -  Programacion: API y modos de respuesta (app/main.py)
+02_programacion_buscador.png  -  Programacion: Buscador BM25 sobre los articulos (app/buscador.py)
+03_programacion_soluciones.png  -  Programacion: Catalogo de soluciones PHVA (datos/soluciones.json)
+04_v1_primera_version.jpg  -  Primera version: pantalla de inicio
+05_v1_prueba_sin_clave.jpg  -  Prueba: sin clave del modelo muestra un error claro
+06_v1_lista_de_articulos.jpg  -  Primera version: lista de los 50 articulos
+07_fuentes_lens_verificacion.jpg  -  Busqueda de articulos: Lens pide verificacion humana
+08_fuentes_e3s_verificacion.jpg  -  Busqueda de articulos: revista con verificacion del dispositivo
+09_v2_rediseno_avatar.jpg  -  Rediseno con avatar y animaciones (nombre provisional: Kaizen)
+10_v2_primera_respuesta_citas.jpg  -  Primera respuesta real con citas a los articulos
+11_v2_sugerencias.jpg  -  Preguntas sugeridas por la IA
+12_error_modelo_respaldo.jpg  -  Error encontrado: el modelo de respaldo ya no existia en Groq
+13_v2_seguimiento.jpg  -  Respuesta organizada por fases PHVA
+14_v2_profundizar_corregido.jpg  -  Profundizar funcionando tras la correccion
+15_temas_selector.jpg  -  Selector de colores
+16_temas_rojo.jpg  -  Tema rojo
+17_temas_verde.jpg  -  Tema verde
+18_nombre_sigma.jpg  -  Cambio de nombre a Sigma
+19_v3_modos.jpg  -  Modos Rapido, Profundo y Consultor
+20_v3_pasos_consultor.jpg  -  Pasos de razonamiento del modo Consultor
+21_v3_plan_phva.jpg  -  Plan PHVA para el caso de barras metalicas
+22_v3_seguimiento_del_caso.jpg  -  Pregunta de seguimiento: recuerda el caso
+23_v3_sugerencias_del_caso.jpg  -  Sugerencias ajustadas al caso
+24_uso_panel_limites.png  -  Panel de uso y limites del modelo
+25_adaptacion_pantalla_pc.jpg  -  Adaptacion a pantallas de PC
+26_publicado_link_temporal.jpg  -  Primer link publico temporal
+27_final_inicio.png  -  Version final: inicio con el ejemplo marcado
+28_final_credito.png  -  Version final: credito al pasar el mouse
+29_final_no_entiendo.png  -  Version final: mensaje sin sentido
