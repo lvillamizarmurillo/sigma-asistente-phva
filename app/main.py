@@ -122,12 +122,16 @@ Semana 1 a 2 | Actividad principal | Qué se hace y qué se entrega [n]
 Nombre del indicador | Meta sugerida | Para qué sirve
 ```""",
 }
+FORMATOS["documento"] = """FORMA: documento listo para usar. Escribe SOLO el documento, sin frase de entrada ni despedida: empieza con un título (# Título), usa secciones (##), párrafos, listas y tablas si ayudan. Deja entre corchetes solo los datos de la empresa que no conozcas, como [Nombre de la empresa]. Puedes citar [n] al final de las secciones que se apoyen en artículos."""
+PIDE_DOCUMENTO = re.compile(r"\b(crea|crear|creame|genera|generar|generame|redacta|redactar|redactame|hazme|haz|elabora|elaborar|elaborame|escribe|escribeme|arma|armame|prepara|preparame)\b.{0,50}\b(documento|informe|procedimiento|instructivo|manual|politica|acta|reporte|word|formato)\b")
 VISUALES_PLAN = ["fases", "cronograma", "pasos", "checklist", "tabla", "informe"]
 PIDE_FORMATO = re.compile(r"\b(tabla|cuadro|lista|listado|checklist|cronograma|paso a paso|vi[ñn]etas|indicadores)\b", re.I)
 
 
 def elegir_forma(plan, tipo, modo, pregunta, recientes, hay_documento):
     """Forma y largo de esta respuesta: lo que se pidió manda; si no, varía para no repetir."""
+    if plan.get("formato") == "documento" or PIDE_DOCUMENTO.search(normalizar(pregunta)):
+        return "documento", "larga"
     extension = plan.get("extension") if plan.get("extension") in EXTENSIONES else "media"
     formato = plan.get("formato") if plan.get("formato") in FORMATOS else "lista"
     pedido = bool(plan.get("formato_pedido")) or bool(PIDE_FORMATO.search(pregunta))
@@ -384,6 +388,7 @@ async def chat(c: Consulta):
             extra += "PUNTOS QUE PUEDES TOCAR (intégralos con naturalidad, sin una sección aparte):\n- " + "\n- ".join(subpreguntas) + "\n\n"
         formato, extension = elegir_forma(plan, tipo, modo, pregunta, c.formatos, bool(doc))
         yield linea({"tipo": "formato", "f": formato})
+        limite_salida = max(out_max, 4000) if formato == "documento" else out_max
         bloque_doc = ""
         if doc:
             lim_doc = 14000 if llm.PROVEEDOR == "claude" else 3500
@@ -399,7 +404,7 @@ async def chat(c: Consulta):
             esfuerzo = {"rapido": "low", "profundo": "high", "consultor": "high"}[modo]
             if llm.PROVEEDOR == "groq" and profundo:
                 esfuerzo = "medium"   # en Groq el razonamiento sale del mismo cupo de tokens que la respuesta
-            async for trozo in llm.transmitir(mensajes, esfuerzo=esfuerzo, max_tokens=out_max):
+            async for trozo in llm.transmitir(mensajes, esfuerzo=esfuerzo, max_tokens=limite_salida):
                 if primero and profundo:
                     yield linea({"tipo": "paso", "id": "redaccion", "estado": "listo", "t": "Respuesta lista"})
                 primero = False
