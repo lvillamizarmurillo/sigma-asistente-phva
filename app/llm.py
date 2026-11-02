@@ -390,12 +390,12 @@ Cómo elegir "tipo":
 - plan: pide ayuda, un plan o qué hacer en su empresa o proceso.
 - consulta: pregunta sobre un tema, concepto, artículo o herramienta. Un término del área también cuenta ("kaizen", "iso 9001"), igual que un mensaje con errores de ortografía o una continuación corta que se entiende con el contexto ("¿y eso cómo se mide?", "dame un ejemplo").
 
-"extension": mide cuánto pide de verdad. corta = dato puntual, definición o "en una frase" (1 a 3 frases); media = explicación normal; larga = plan, análisis o "explícame a fondo".
+"extension": corta SOLO si el usuario pide brevedad con palabras ("en una frase", "resumido"); media = pregunta general; larga = plan, ayuda con su empresa, análisis o cuando ya se conoce bien su caso.
 "formato": la forma que mejor sirve a ESTE pedido. conversacion = texto corrido; lista = puntos sueltos; pasos = procedimiento ordenado; fases = organizado por Planificar, Hacer, Verificar, Actuar; checklist = lista para ir marcando; cronograma = actividades en el tiempo; metricas = indicadores y metas; tabla = solo si compara cosas o la piden; informe = secciones con subtítulos; documento = pide crear un entregable listo para usar (procedimiento, instructivo, informe, política, acta). "formato_pedido": true solo si el usuario pidió esa forma con palabras ("en un cuadro", "dame una lista").
 
-"aclaraciones": déjalo vacío salvo que sea tipo plan y, sin ese dato, el plan sería genérico (por ejemplo "ayúdame con mi empresa", sin decir qué fabrica ni qué problema tiene). Si ya dijo el sector o producto y el problema u objetivo, déjalo vacío. Déjalo vacío también si en la conversación ya respondió aclaraciones o dijo que no sabe o que siga.
+"aclaraciones": casi siempre vacío: es mejor responder con supuestos que preguntar. Úsalo solo si el mensaje es tipo plan, no dice de qué trata ni qué problema tiene (por ejemplo "ayúdame") y el perfil tampoco lo aclara: máximo 2 preguntas. Si hay un tema concreto ("plan de TPM", "reducir defectos"), déjalo vacío.
 
-Perfil: conserva los datos del perfil previo y agrega solo lo que el usuario dijo de SU empresa. No inventes datos; deja vacío lo que no se sepa. Con sin_sentido, conversacion o fuera_de_tema, consultas_en y subpreguntas van vacías.
+Perfil: conserva los datos del perfil previo y agrega solo lo que el usuario dijo expresamente de SU empresa. No deduzcas sector ni producto a partir del nombre de la empresa; deja vacío lo que no haya dicho. Con sin_sentido, conversacion o fuera_de_tema, consultas_en y subpreguntas van vacías.
 
 Perfil previo: {perfil}
 Conversación reciente: {historial}

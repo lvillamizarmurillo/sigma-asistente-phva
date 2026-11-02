@@ -443,6 +443,22 @@ textarea::placeholder{color:var(--tenue)}
 .doc-card:hover{border-color:var(--a2);transform:translateY(-1px)}
 .doc-card em{font-style:normal;font-size:24px}
 .doc-card b{display:block}.doc-card small{color:var(--sub)}
+/* ---------- datos obligatorios al iniciar ---------- */
+.modal-fondo{position:fixed;inset:0;z-index:30;display:none;place-items:center;padding:16px;background:rgba(3,5,18,.78);backdrop-filter:blur(8px)}
+.modal-fondo.on{display:grid}
+.modal{display:block;max-width:none;margin:0;width:min(460px,100%);padding:26px;border-radius:22px;background:var(--bg);border:1px solid var(--borde);box-shadow:var(--sombra);animation:entra .35s both}
+.modal .av{width:64px;height:64px;margin:0 auto 12px}
+.modal h2{margin:0 0 6px;font-size:21px;text-align:center}
+.modal>p{margin:0 0 18px;color:var(--sub);font-size:14px;line-height:1.5;text-align:center}
+.modal label{display:block;margin-bottom:12px;font-size:13px;font-weight:600}
+.modal input{display:block;width:100%;margin-top:5px;padding:11px 13px;border-radius:12px;border:1px solid var(--borde);background:var(--vidrio);color:var(--txt);font:inherit;font-weight:400;outline:0}
+.modal input:focus{border-color:var(--a1);box-shadow:0 0 0 3px color-mix(in srgb,var(--a1) 22%,transparent)}
+.modal input.mal{border-color:#ef4444}
+.modal small.err{display:none;margin-top:4px;color:#f87171;font-weight:500}
+.modal input.mal+small.err{display:block}
+.modal button[type=submit]{width:100%;margin-top:6px;padding:12px;border-radius:13px;color:#fff;font-weight:700;background:var(--grad)}
+.modal .nota{margin:12px 0 0;font-size:11.5px;color:var(--tenue);text-align:center}
+.perfil b{cursor:pointer}
 </style>
 </head>
 <body>
@@ -504,6 +520,18 @@ textarea::placeholder{color:var(--tenue)}
 <div class="credito" tabindex="0"><span>Hecho por Juan David Pachon Valero</span><i>i</i></div>
 <div class="temas" id="temas"><h3>Color de Sigma</h3><div class="muestras" id="muestras"></div></div>
 <div class="velo" id="velo"></div>
+<div class="modal-fondo on" id="modalDatos" role="dialog" aria-modal="true" aria-labelledby="modalTitulo">
+  <form class="modal" id="formDatos" novalidate autocomplete="on">
+    <div class="av" id="modalAv" data-estado="reposo"></div>
+    <h2 id="modalTitulo">Antes de empezar</h2>
+    <p>Para hacer un análisis mejor, conforme a tus necesidades, ingresa estos datos. Son obligatorios.</p>
+    <label>Nombre<input id="uNombre" name="name" autocomplete="name" maxlength="80" required><small class="err">Escribe tu nombre.</small></label>
+    <label>Cargo<input id="uCargo" name="organization-title" autocomplete="organization-title" maxlength="80" required placeholder="Ej.: Jefe de calidad"><small class="err">Escribe tu cargo.</small></label>
+    <label>Empresa<input id="uEmpresa" name="organization" autocomplete="organization" maxlength="80" required><small class="err">Escribe el nombre de tu empresa.</small></label>
+    <button type="submit">Empezar</button>
+    <p class="nota">Se envían al modelo de IA para personalizar las respuestas y este navegador los recuerda para la próxima vez. No se guardan en el servidor.</p>
+  </form>
+</div>
 <div class="soltar" id="soltar">Suelta aquí tu Excel, Word o Markdown</div>
 <aside class="vistap" id="vistap">
   <div class="vistap-cab"><h2 id="vistaTitulo">Vista previa</h2>
@@ -559,7 +587,7 @@ const FASE_TXT = {
 };
 
 let historial = [], articulos = [], ocupado = false, hablandoBtn = null;
-let modoActual = "rapido", webActiva = false, perfil = null, formatos = [], documento = null;
+let modoActual = "rapido", webActiva = false, perfil = null, formatos = [], documento = null, usuario = null;
 const AYUDA = {
   rapido: "Respuesta directa basada en los artículos.",
   profundo: "Analiza tu pregunta, busca con varias consultas y razona a fondo.",
@@ -636,11 +664,13 @@ addEventListener("resize", () => ponerModo(modoActual));
 /* ---------- perfil del caso (solo vive en esta pestaña) ---------- */
 function pintarPerfil(){
   const p = perfil || {};
-  const datos = [p.sector || p.producto, ...(p.problemas || []), ...(p.objetivos || [])].filter(Boolean);
+  const datos = [usuario && `${usuario.nombre} · ${usuario.cargo}`, p.empresa || usuario?.empresa, p.producto || p.sector, ...(p.problemas || []), ...(p.objetivos || [])].filter(Boolean);
   $("#perfil").classList.toggle("on", datos.length > 0);
   $("#perfilDatos").textContent = datos.join(" · ");
 }
 $("#perfilBorrar").onclick = () => { perfil = null; pintarPerfil(); };
+document.querySelector("#perfil b").onclick = () => abrirDatos();
+document.querySelector("#perfil b").title = "Cambiar tus datos";
 
 /* ---------- bienvenida ---------- */
 const CASO_EJEMPLO = "Mi empresa es de elaboración de barras metálicas. Últimamente hemos tenido problemas en los procesos de estandarización y nos gustaría certificarnos en ISO 9001.";
@@ -650,8 +680,8 @@ function bienvenida(){
   b.appendChild(avatar());
   const nb = articulos.filter(a => (a.origen || "base") === "base").length || 50, nc = articulos.length - nb;
   b.insertAdjacentHTML("beforeend", `
-    <h1>Hola, soy <span>Sigma</span></h1>
-    <p>Tu consultor de calidad para manufactura: respondo con ${nb + nc} artículos científicos y propongo soluciones por fase PHVA.</p>
+    <h1>Hola${usuario ? ", " + esc(usuario.nombre.split(" ")[0]) : ""}, soy <span>Sigma</span></h1>
+    <p>Tu consultor de calidad para manufactura: respondo con ${nb + nc} artículos científicos y propongo soluciones por fase PHVA${usuario ? " para " + esc(usuario.empresa) : ""}.</p>
     <div class="fases">${Object.entries(FASE_TXT).map(([f,[d]]) =>
       `<button class="fase-card" style="--c:${FASES[f]}" data-fase="${f}"><b><i></i>${f}</b><span>${d}</span></button>`).join("")}</div>
     <div class="chips">${azar(SUGERENCIAS_INICIO, 3).map(s => `<button class="chip">${esc(s)}</button>`).join("")}</div>
@@ -666,6 +696,7 @@ function bienvenida(){
 async function preguntar(pregunta, modo = modoActual, opciones = {}){
   pregunta = pregunta.trim();
   if (ocupado || !pregunta) return;
+  if (!usuario) return abrirDatos();
   callar();
   chat.querySelector(".bienvenida")?.remove();
   chat.querySelectorAll(".ia-col .chips").forEach(c => c.remove());   // las sugerencias viejas se van
@@ -700,7 +731,7 @@ async function preguntar(pregunta, modo = modoActual, opciones = {}){
     do {
     espera = 0;
     const r = await fetch("/api/chat", {method:"POST", headers:{"Content-Type":"application/json"},
-      body: JSON.stringify({pregunta, modo, web: webActiva, historial: hist.slice(-10), perfil, formatos: formatos.slice(-4),
+      body: JSON.stringify({pregunta, modo, web: webActiva, historial: hist.slice(-10), perfil, usuario, formatos: formatos.slice(-4),
         documento: documento ? {nombre: documento.nombre, texto: documento.texto, paso: opciones.paso || pasoActivoTexto()} : null})});
     if (!r.ok) throw new Error((await r.json().catch(() => ({}))).detail || `Error ${r.status}`);
     const lector = r.body.getReader(), dec = new TextDecoder(); let buf = "";
@@ -931,6 +962,32 @@ document.addEventListener("click", e => { if (!e.target.closest("#temas")) $("#t
 try { const m = localStorage.getItem("sigma-modo"); if (m && AYUDA[m]) modoActual = m; } catch (e) {}
 requestAnimationFrame(() => ponerModo(modoActual));
 bienvenida();
+/* ---------- datos obligatorios: nombre, cargo y empresa ---------- */
+function abrirDatos(){
+  let g = null; try { g = JSON.parse(localStorage.getItem("sigma-usuario") || "null"); } catch (e) {}
+  const u = usuario || g || {};
+  $("#uNombre").value = u.nombre || ""; $("#uCargo").value = u.cargo || ""; $("#uEmpresa").value = u.empresa || "";
+  $("#modalDatos").classList.add("on");
+  setTimeout(() => [$("#uNombre"), $("#uCargo"), $("#uEmpresa")].find(i => !i.value)?.focus() || $("#uNombre").focus(), 60);
+}
+$("#formDatos").onsubmit = e => {
+  e.preventDefault();
+  const campos = [$("#uNombre"), $("#uCargo"), $("#uEmpresa")];
+  let bien = true;
+  campos.forEach(i => { i.value = i.value.replace(/\s+/g, " ").trim(); const ok = i.value.length >= 2; i.classList.toggle("mal", !ok); if (!ok && bien) { i.focus(); bien = false; } });
+  if (!bien) return;
+  const antes = usuario;
+  usuario = {nombre: campos[0].value, cargo: campos[1].value, empresa: campos[2].value};
+  try { localStorage.setItem("sigma-usuario", JSON.stringify(usuario)); } catch (err) {}
+  $("#modalDatos").classList.remove("on");
+  pintarPerfil();
+  if (!antes || chat.querySelector(".bienvenida")) bienvenida();
+  if (matchMedia("(pointer:fine)").matches) entrada.focus();
+};
+[$("#uNombre"), $("#uCargo"), $("#uEmpresa")].forEach(i => i.addEventListener("input", () => i.classList.remove("mal")));
+$("#modalAv").replaceWith(Object.assign(avatar(), {id: "modalAv"}));
+abrirDatos();
+
 /* ---------- uso en una sola línea: de 0 a 100, ahora o hoy ---------- */
 let usoDatos = null, usoT0 = 0, usoVista = "hoy";
 const nivel = f => f < .5 ? "#10b981" : f < .8 ? "#f59e0b" : "#ef4444";
