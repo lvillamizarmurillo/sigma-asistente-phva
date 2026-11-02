@@ -14,6 +14,7 @@ Local:  python -m uvicorn app.main:app --reload
 import json
 import re
 from pathlib import Path
+from urllib.parse import parse_qsl, urlencode
 
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse, StreamingResponse
@@ -30,6 +31,27 @@ N_BASE = sum(1 for a in INDICE["articulos"] if a.get("origen", "base") == "base"
 N_COMPL = len(INDICE["articulos"]) - N_BASE
 
 app = FastAPI(title="Sigma - Asistente PHVA de gestión de calidad")
+
+
+class RutaOriginal:
+    """vercel.json manda todo a /api/index?_ruta=...: aquí se restaura la ruta original."""
+
+    def __init__(self, siguiente):
+        self.siguiente = siguiente
+
+    async def __call__(self, scope, receive, send):
+        if scope["type"] == "http":
+            query = parse_qsl(scope.get("query_string", b"").decode(), keep_blank_values=True)
+            ruta = next((v for k, v in query if k == "_ruta"), None)
+            if ruta is not None or scope["path"] == "/api/index":
+                scope = dict(scope)
+                scope["path"] = "/" + (ruta or "").lstrip("/")
+                scope["raw_path"] = scope["path"].encode()
+                scope["query_string"] = urlencode([(k, v) for k, v in query if k != "_ruta"]).encode()
+        await self.siguiente(scope, receive, send)
+
+
+app.add_middleware(RutaOriginal)
 
 # Presupuesto de contexto (caracteres) y de salida (tokens) según proveedor y modo.
 # Groq gratis tiene ~8.000 tokens/minuto, por eso va más ajustado.
