@@ -327,6 +327,8 @@ async def chat(c: Consulta):
             try:
                 async for trozo in llm.transmitir(mensajes, esfuerzo="low", max_tokens=500):
                     yield linea({"tipo": "texto", "t": trozo})
+            except llm.EsperaCupo as e:
+                yield linea({"tipo": "espera", "s": e.segundos})
             except Exception as e:
                 yield linea({"tipo": "error", "t": str(e)})
             return
@@ -414,6 +416,9 @@ async def chat(c: Consulta):
                 if len(visible) > enviado:
                     yield linea({"tipo": "texto", "t": visible[enviado:]})
                     enviado = len(visible)
+        except llm.EsperaCupo as e:
+            yield linea({"tipo": "espera", "s": e.segundos})
+            return
         except Exception as e:
             yield linea({"tipo": "error", "t": str(e)})
             return

@@ -11,10 +11,11 @@ Variables (ver .env.example):
   GROQ_API_KEY / LLM_API_KEY, LLM_BASE_URL, LLM_MODELO, LLM_MODELO_RESPALDO, LLM_MODELO_TRADUCTOR
 """
 import json
+import math
 import os
 import re
 import time
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 
 import httpx
@@ -103,6 +104,21 @@ def _registrar_cabeceras(modelo, h):
     )
 
 
+def _registrar_claude(modelo, h):
+    """Claude informa el límite por minuto y cuándo se repone (fecha ISO)."""
+    if "anthropic-ratelimit-tokens-limit" not in h:
+        return
+    try:
+        repone = datetime.fromisoformat(h.get("anthropic-ratelimit-tokens-reset", "").replace("Z", "+00:00")).timestamp()
+    except ValueError:
+        repone = time.time()
+    _modelo_uso(modelo).update(
+        tpm_limite=int(h.get("anthropic-ratelimit-tokens-limit", 0)),
+        tpm_restante=int(h.get("anthropic-ratelimit-tokens-remaining", 0)),
+        tpm_repone=repone, actualizado=time.time(),
+    )
+
+
 def _sumar(modelo, tokens, costo=0.0):
     u = _modelo_uso(modelo)
     u["tokens_hoy"] += int(tokens or 0)
@@ -135,10 +151,10 @@ def estado_uso():
                 tpm_limite=u["tpm_limite"],
                 tpm_restante=u["tpm_limite"] if ahora >= u["tpm_repone"] else u["tpm_restante"],
                 tpm_repone_en=max(0, round(u["tpm_repone"] - ahora, 1)),
-                rpd_limite=u["rpd_limite"], rpd_restante=u["rpd_restante"],
-                rpd_repone_en=max(0, round(u["rpd_repone"] - ahora)),
                 hace=round(ahora - u["actualizado"]),
             )
+        if "rpd_limite" in u:
+            d.update(rpd_limite=u["rpd_limite"], rpd_restante=u["rpd_restante"], rpd_repone_en=max(0, round(u["rpd_repone"] - ahora)))
         salida.append(d)
     return {"proveedor": PROVEEDOR, "limite_tokens_dia": LIMITE_TOKENS_DIA if PROVEEDOR == "groq" else None, "modelos": salida}
 
@@ -161,6 +177,27 @@ async def sondear_limites():
 
 class ErrorLLM(Exception):
     pass
+
+
+class EsperaCupo(Exception):
+    """Se llenó el cupo por minuto: hay que esperar estos segundos y reintentar."""
+
+    def __init__(self, segundos):
+        super().__init__(f"Esperar {segundos} s")
+        self.segundos = segundos
+
+
+ESPERA_MAXIMA = 90   # más que esto ya no es el cupo por minuto
+
+
+def _espera_429(cabeceras, detalle=""):
+    valor = cabeceras.get("retry-after")
+    try:
+        return max(1, math.ceil(float(valor)))
+    except (TypeError, ValueError):
+        pass
+    m = re.search(r"try again in ([\dhms.]+)", detalle)
+    return max(1, math.ceil(_segundos(m.group(1)) or 20)) if m else 20
 
 
 def _sin_clave():
@@ -188,14 +225,18 @@ async def _claude_stream(mensajes, esfuerzo, max_tokens):
             betas=_BETAS,
             fallbacks="default",
         ) as stream:
+            try:
+                _registrar_claude(CLAUDE_MODELO, stream.response.headers)
+            except AttributeError:
+                pass
             async for texto in stream.text_stream:
                 yield texto
             final = await stream.get_final_message()
             _sumar_claude(CLAUDE_MODELO, final.usage)
             if final.stop_reason == "refusal":
                 yield "\n\n_No puedo responder esa solicitud._"
-    except anthropic.RateLimitError:
-        raise ErrorLLM("Hay muchas consultas en este momento. Intenta de nuevo en unos segundos.")
+    except anthropic.RateLimitError as e:
+        raise EsperaCupo(min(_espera_429(e.response.headers), ESPERA_MAXIMA))
     except anthropic.AuthenticationError:
         raise ErrorLLM("La clave de Claude (ANTHROPIC_API_KEY) no es válida.")
     except anthropic.APIStatusError as e:
@@ -233,31 +274,26 @@ def _cabeceras():
 
 
 async def _groq_stream(mensajes, esfuerzo, max_tokens):
-    """Groq gratis limita a ~8.000 tokens/minuto: si el modelo grande pide esperar unos segundos,
-    se espera y se reintenta; si no, se pasa al modelo de respaldo. Un modelo que no escribe nada
-    también cede el turno al siguiente."""
-    import asyncio
-
-    ultimo_error = ""
-    intentos = [MODELO_GROQ, MODELO_GROQ, MODELO_RESPALDO]
-    esperado = False
-    for i, modelo in enumerate(intentos):
-        if i == 1 and not esperado:
-            continue
+    """Si se llenó el cupo por minuto, avisa cuánto esperar (el navegador cuenta y reintenta).
+    Una espera larga significa que se acabó el cupo del día: entonces prueba el modelo de respaldo."""
+    ultima_espera = None
+    for modelo in [MODELO_GROQ, MODELO_RESPALDO]:
         produjo, fin, uso_final = False, None, None
         async with httpx.AsyncClient(timeout=httpx.Timeout(150, connect=10)) as c:
             async with c.stream("POST", f"{BASE_URL}/chat/completions", headers=_cabeceras(),
                                 json=_cuerpo(modelo, mensajes, max_tokens, esfuerzo, True)) as r:
                 _registrar_cabeceras(modelo, r.headers)
                 if r.status_code != 200:
-                    ultimo_error = f"{r.status_code}: {(await r.aread()).decode(errors='ignore')[:200]}"
-                    espera = float(r.headers.get("retry-after", "99") or 99)
-                    if r.status_code == 429 and i == 0 and espera <= 20:
-                        esperado = True
-                        await asyncio.sleep(espera + 0.5)
-                    if r.status_code in (413, 429, 500, 502, 503):
+                    detalle = (await r.aread()).decode(errors="ignore")[:200]
+                    if r.status_code == 429:
+                        espera = _espera_429(r.headers, detalle)
+                        if espera <= ESPERA_MAXIMA:
+                            raise EsperaCupo(espera)
+                        ultima_espera = espera
                         continue
-                    raise ErrorLLM(ultimo_error)
+                    if r.status_code in (413, 500, 502, 503):
+                        continue
+                    raise ErrorLLM(f"{r.status_code}: {detalle}")
                 async for linea in r.aiter_lines():
                     if not linea.startswith("data: "):
                         continue
@@ -281,9 +317,11 @@ async def _groq_stream(mensajes, esfuerzo, max_tokens):
             _sumar(modelo, uso_final.get("total_tokens"))
         if produjo:
             if fin == "length":
-                yield "\n\n_(La respuesta se cortó por el límite del modelo gratuito; pide «continúa» para seguir.)_"
+                yield "\n\n_(La respuesta se cortó por el límite del modelo; pide «continúa» para seguir.)_"
             return
-    raise ErrorLLM("El modelo gratuito llegó a su límite por minuto. Espera unos segundos y vuelve a intentar.")
+    if ultima_espera:
+        raise ErrorLLM("Se acabó el cupo de hoy del modelo. Vuelve a intentar más tarde.")
+    raise ErrorLLM("El modelo no respondió. Intenta de nuevo en unos segundos.")
 
 
 # =============================== API pública ==================================

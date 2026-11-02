@@ -471,7 +471,7 @@ textarea::placeholder{color:var(--tenue)}
   <header>
     <div class="marca"><div class="av" id="avCab" data-estado="reposo"></div><div>Sigma<small>Asistente de calidad · ciclo PHVA</small></div></div>
     <div class="esp"></div>
-    <button class="uso-linea" id="btnUso" title="Uso del modelo. Toca para cambiar entre ahora y hoy."><span class="per" id="usoPer">Ahora</span><i><u id="usoBarra"></u></i><b id="usoPct">0%</b></button>
+    <button class="uso-linea" id="btnUso" title="Uso de hoy. Toca para ver el cupo por minuto."><span class="per" id="usoPer">Hoy</span><i><u id="usoBarra"></u></i><b id="usoPct">0%</b></button>
     <button class="icono" id="btnTema" title="Cambiar color"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r="1.3"/><circle cx="17.5" cy="10.5" r="1.3"/><circle cx="8.5" cy="7.5" r="1.3"/><circle cx="6.5" cy="12.5" r="1.3"/><path d="M12 2a10 10 0 0 0 0 20c.9 0 1.7-.8 1.7-1.7 0-.4-.2-.8-.4-1.1-.3-.3-.4-.7-.4-1.1 0-.9.8-1.7 1.7-1.7h2A5.6 5.6 0 0 0 22 11c0-5-4.5-9-10-9z"/></svg></button>
     <button class="icono" id="btnArticulos" title="Biblioteca de artículos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></button>
     <button class="icono" id="btnNuevo" title="Nueva conversación"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg></button>
@@ -696,6 +696,9 @@ async function preguntar(pregunta, modo = modoActual, opciones = {}){
   let texto = "", fuentes = [], web = [], sugerencias = [], error = "", directo = false, esDocumento = false;
   try {
     const hist = opciones.historial ?? historial;
+    let espera = 0, intentos = 0;
+    do {
+    espera = 0;
     const r = await fetch("/api/chat", {method:"POST", headers:{"Content-Type":"application/json"},
       body: JSON.stringify({pregunta, modo, web: webActiva, historial: hist.slice(-10), perfil, formatos: formatos.slice(-4),
         documento: documento ? {nombre: documento.nombre, texto: documento.texto, paso: opciones.paso || pasoActivoTexto()} : null})});
@@ -724,9 +727,17 @@ async function preguntar(pregunta, modo = modoActual, opciones = {}){
         else if (ev.tipo === "sugerencias") sugerencias = ev.items;
         else if (ev.tipo === "fuentes") { fuentes = ev.fuentes; web = ev.web || []; }
         else if (ev.tipo === "uso") recibirUso(ev.uso);
+        else if (ev.tipo === "espera") espera = ev.s;
         else if (ev.tipo === "error") throw new Error(ev.t);
       }
     }
+    if (espera) {
+      await cuentaAtras(espera, md);
+      md.innerHTML = '<div class="pensando"><div class="puntos"><i></i><i></i><i></i></div><span class="brillo">Procesando tu pregunta…</span></div>';
+      cargarUso();
+    }
+    } while (espera && ++intentos < 5);
+    if (espera) throw new Error("El modelo sigue ocupado. Intenta de nuevo en un momento.");
   } catch (e) { error = e.message; }
 
   md.classList.remove("cursor");
@@ -755,6 +766,15 @@ async function preguntar(pregunta, modo = modoActual, opciones = {}){
   }
   ocupado = false; btnEnviar.disabled = false; abajo();
   if (matchMedia("(pointer:fine)").matches) entrada.focus();
+}
+
+function cuentaAtras(segundos, md){
+  return new Promise(listo => {
+    let queda = segundos;
+    const pintar = () => { md.innerHTML = `<div class="pensando"><div class="puntos"><i></i><i></i><i></i></div><span>Se llenó el cupo por minuto. Espera <b>${queda} s</b> y proceso tu pregunta automáticamente.</span></div>`; abajo(); };
+    pintar();
+    const t = setInterval(() => { queda--; if (queda <= 0) { clearInterval(t); listo(); } else pintar(); }, 1000);
+  });
 }
 
 function tituloDe(md, modo){
@@ -912,7 +932,7 @@ try { const m = localStorage.getItem("sigma-modo"); if (m && AYUDA[m]) modoActua
 requestAnimationFrame(() => ponerModo(modoActual));
 bienvenida();
 /* ---------- uso en una sola línea: de 0 a 100, ahora o hoy ---------- */
-let usoDatos = null, usoT0 = 0, usoVista = "ahora";
+let usoDatos = null, usoT0 = 0, usoVista = "hoy";
 const nivel = f => f < .5 ? "#10b981" : f < .8 ? "#f59e0b" : "#ef4444";
 function tiempo(seg){
   seg = Math.max(0, Math.round(seg));
@@ -921,30 +941,30 @@ function tiempo(seg){
   return h ? `${h} h ${m} min` : `${m} min`;
 }
 function pintarUso(){
-  const b = $("#btnUso"), m = usoDatos?.modelos?.[0];
+  const b = $("#btnUso"), m = usoDatos?.modelos?.[0], barra = b.querySelector("i");
   if (!m) return;
-  $("#usoPer").textContent = usoVista === "ahora" ? "Ahora" : "Hoy";
-  if (usoDatos.proveedor === "claude") {
-    b.querySelector("i").hidden = true;
-    const total = usoDatos.modelos.reduce((a, x) => a + x.costo_hoy, 0);
-    $("#usoPer").textContent = "Hoy"; $("#usoPct").textContent = `US$ ${total.toFixed(2)}`;
-    b.title = "Costo estimado de hoy"; return;
-  }
-  if (!m.tpm_limite) return;
   const t = (Date.now() - usoT0) / 1000;
-  let usado, nota;
-  if (usoVista === "ahora") {
+  $("#usoPer").textContent = usoVista === "ahora" ? "Minuto" : "Hoy";
+  if (usoVista === "hoy" && usoDatos.proveedor === "claude") {   // Claude se paga por uso: hoy se mide en dólares
+    barra.hidden = true;
+    const total = usoDatos.modelos.reduce((a, x) => a + x.costo_hoy, 0);
+    $("#usoPct").textContent = `US$ ${total.toFixed(2)}`;
+    b.title = "Costo estimado de hoy. Toca para ver el cupo por minuto."; return;
+  }
+  barra.hidden = false;
+  let usado = 0, nota = "Sin datos todavía";
+  if (usoVista === "ahora" && m.tpm_limite) {
     const queda = (m.tpm_repone_en ?? 0) - t;
     usado = queda <= 0 ? 0 : 1 - m.tpm_restante / m.tpm_limite;
     nota = usado > 0 ? `Se repone en ${tiempo(queda)}` : "Cupo por minuto completo";
-  } else {
+  } else if (usoVista === "hoy" && m.rpd_limite) {
     usado = 1 - m.rpd_restante / m.rpd_limite;
     nota = `${m.rpd_limite - m.rpd_restante} de ${m.rpd_limite} consultas de hoy · se repone en ${tiempo((m.rpd_repone_en ?? 0) - t)}`;
   }
   const pct = Math.round(Math.max(0, Math.min(1, usado)) * 100);
   b.style.setProperty("--nivel", nivel(usado));
   $("#usoBarra").style.width = pct + "%"; $("#usoPct").textContent = pct + "%";
-  b.title = nota + ". Toca para cambiar entre ahora y hoy.";
+  b.title = nota + (usoVista === "hoy" ? ". Toca para ver el cupo por minuto." : ". Toca para ver el uso de hoy.");
 }
 async function cargarUso(){
   try { usoDatos = await fetch("/api/uso").then(r => r.json()); usoT0 = Date.now(); pintarUso(); } catch (e) {}
